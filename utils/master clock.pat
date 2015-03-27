@@ -3,7 +3,7 @@ PATCHTYPE=9
 VERSION=71
 FNAM=D:\hollyhock\patches\utils\master clock.pat
 ORIGINDEVICE=
-NBPG=3
+NBPG=5
 OFFSETX=-1149
 OFFSETY=420
 UID=30672283
@@ -16,21 +16,37 @@ ID1=6
 L1=1665
 T1=-232
 ID2=21
-L2=1799
-T2=-183
+L2=1862
+T2=-232
+QIDX3=0
+ID3=6
+L3=1828
+T3=-191
+ID4=21
+L4=1960
+T4=-153
 C0=0000000001000000
 CSRCNAME0=STEPS
 CTARGNAME0=STEPS
-C1=0000010001000100
+C1=0000020001000100
 CSRCNAME1=CLOCKS
 CTARGNAME1=TICKS
-C2=0000020001000200
+C2=0000030001000200
 CSRCNAME2=DIVIDERS
 CTARGNAME2=DIVIDERS
 C3=0100040002000000
 CSRCNAME3=TICK
 CTARGNAME3=OUT
-NBCO=4
+C4=0000010003000000
+CSRCNAME4=TEMPO
+CTARGNAME4=TEMPO
+C5=0100050003000100
+CSRCNAME5=DIVIDER
+CTARGNAME5=DIVIDER
+C6=0300020004000000
+CSRCNAME6=NOTE LENGTH (MS)
+CTARGNAME6=OUT
+NBCO=7
 
 [PA-PASE]
 name=master clock
@@ -86,6 +102,7 @@ name=syncer
 nb polyphony=1
 can be randomized=1
 saved in preset=0
+Vdata=120
 Vfader=32
 INDEXvisible=0
 Vmouse dwn=0
@@ -252,9 +269,9 @@ PATCHTYPE=9
 VERSION=71
 FNAM=D:\apc midi\syncer.pat
 ORIGINDEVICE=
-NBPG=23
-OFFSETX=206
-OFFSETY=-412
+NBPG=24
+OFFSETX=-192
+OFFSETY=-432
 UID=77384897
 ID0=167
 L0=1080
@@ -329,6 +346,9 @@ T21=673
 ID22=103
 L22=-429
 T22=634
+ID23=21
+L23=1082
+T23=1018
 C0=0A00020000000000
 CSRCNAME0=OUT
 CTARGNAME0=STEPS
@@ -446,7 +466,10 @@ CTARGNAME37=VAL 6
 C38=1400020015000000
 CSRCNAME38=OUT
 CTARGNAME38=OUT
-NBCO=39
+C39=0200130017000000
+CSRCNAME39=TEMPO
+CTARGNAME39=OUT
+NBCO=40
 
 [PA-0-PASE]
 name=syncer
@@ -514,14 +537,14 @@ UID=88994806
 Vcyc len=16
 Vbar len=4
 Von=1
-Vcycle ppq=51.6110305786133
+Vcycle ppq=0.592108845710754
 Tbar list=4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4
 Vactive=1
 COLLAPS=1
 
 [PA-0-4]
 UID=88994815
-VA=51.6110305786133
+VA=0.592108845710754
 VB=1
 
 [PA-0-5]
@@ -534,7 +557,7 @@ name=Empty SubPatch
 nb polyphony=7
 can be randomized=1
 saved in preset=1
-Vdata=13
+Vdata=5
 Vswitch=0
 INDEXvisible=0
 Vmouse dwn=0
@@ -812,28 +835,28 @@ auto resize=1
 
 [PA-0-6-0]
 UID=88994841
-Vin=154.833099365234
-Vout=154
+Vin=1.77632653713226
+Vout=1
 
 [PA-0-6-1]
 UID=88994850
-Vin=10
-Vout=11
+Vin=1
+Vout=2
 
 [PA-0-6-2]
 UID=88994863
-Vin=11
+Vin=2
 VOut=0
 
 [PA-0-6-3]
 UID=88994868
-Vin=11
-Vout=11
+Vin=2
+Vout=2
 
 [PA-0-6-4]
 UID=88994877
 once in poly=0
-Vdata=11
+Vdata=2
 Tcaption=step
 INDEXprec=0
 
@@ -843,9 +866,9 @@ Vout=16
 
 [PA-0-6-6]
 UID=88994887
-VA=154
+VA=1
 VB=16
-Vout=10
+Vout=1
 
 [PA-0-6-7]
 UID=88994896
@@ -943,13 +966,13 @@ UID=26194153
 
 [PA-0-6-8]
 UID=88994905
-VA=12.9027576446533
+VA=0.148027211427689
 VB=12
 
 [PA-0-6-9]
 UID=88994913
 once in poly=1
-Vdata=12.9027576446533
+Vdata=0.148027211427689
 Tcaption=ppq
 INDEXprec=5
 
@@ -1150,28 +1173,28 @@ auto resize=1
 
 [PA-0-6-CLONES-2-0]
 UID=88994927
-Vin=103.222061157227
-Vout=103
+Vin=1.18421769142151
+Vout=1
 
 [PA-0-6-CLONES-2-1]
 UID=88994936
-Vin=7
-Vout=8
+Vin=1
+Vout=2
 
 [PA-0-6-CLONES-2-2]
 UID=88994945
-Vin=8
+Vin=2
 VOut=0
 
 [PA-0-6-CLONES-2-3]
 UID=88994950
-Vin=8
-Vout=8
+Vin=2
+Vout=2
 
 [PA-0-6-CLONES-2-4]
 UID=88994955
 once in poly=0
-Vdata=8
+Vdata=2
 Tcaption=step
 INDEXprec=0
 
@@ -1181,9 +1204,9 @@ Vout=16
 
 [PA-0-6-CLONES-2-6]
 UID=88994965
-VA=103
+VA=1
 VB=16
-Vout=7
+Vout=1
 
 [PA-0-6-CLONES-2-7]
 UID=88994970
@@ -1281,13 +1304,13 @@ UID=26195099
 
 [PA-0-6-CLONES-2-8]
 UID=88994979
-VA=12.9027576446533
+VA=0.148027211427689
 VB=8
 
 [PA-0-6-CLONES-2-9]
 UID=88994984
 once in poly=1
-Vdata=12.9027576446533
+Vdata=0.148027211427689
 Tcaption=ppq
 INDEXprec=5
 
@@ -1488,28 +1511,28 @@ auto resize=1
 
 [PA-0-6-CLONES-3-0]
 UID=88995001
-Vin=77.4165496826172
-Vout=77
+Vin=0.896870791912079
+Vout=0
 
 [PA-0-6-CLONES-3-1]
 UID=88995006
-Vin=13
-Vout=14
+Vin=0
+Vout=1
 
 [PA-0-6-CLONES-3-2]
 UID=88995015
-Vin=14
+Vin=1
 VOut=0
 
 [PA-0-6-CLONES-3-3]
 UID=88995020
-Vin=14
-Vout=14
+Vin=1
+Vout=1
 
 [PA-0-6-CLONES-3-4]
 UID=88995025
 once in poly=0
-Vdata=14
+Vdata=1
 Tcaption=step
 INDEXprec=0
 
@@ -1519,9 +1542,9 @@ Vout=16
 
 [PA-0-6-CLONES-3-6]
 UID=88995039
-VA=77
+VA=0
 VB=16
-Vout=13
+Vout=0
 
 [PA-0-6-CLONES-3-7]
 UID=88995048
@@ -1619,13 +1642,13 @@ UID=26196050
 
 [PA-0-6-CLONES-3-8]
 UID=88995053
-VA=12.9027576446533
+VA=0.14947846531868
 VB=6
 
 [PA-0-6-CLONES-3-9]
 UID=88995062
 once in poly=1
-Vdata=12.9027576446533
+Vdata=0.14947846531868
 Tcaption=ppq
 INDEXprec=5
 
@@ -1826,28 +1849,28 @@ auto resize=1
 
 [PA-0-6-CLONES-4-0]
 UID=88995072
-Vin=12.9027576446533
-Vout=12
+Vin=0.14947846531868
+Vout=0
 
 [PA-0-6-CLONES-4-1]
 UID=88995084
-Vin=12
-Vout=13
+Vin=0
+Vout=1
 
 [PA-0-6-CLONES-4-2]
 UID=88995089
-Vin=13
+Vin=1
 VOut=0
 
 [PA-0-6-CLONES-4-3]
 UID=88995094
-Vin=13
-Vout=13
+Vin=1
+Vout=1
 
 [PA-0-6-CLONES-4-4]
 UID=88995103
 once in poly=0
-Vdata=13
+Vdata=1
 Tcaption=step
 INDEXprec=0
 
@@ -1857,9 +1880,9 @@ Vout=16
 
 [PA-0-6-CLONES-4-6]
 UID=88995113
-VA=12
+VA=0
 VB=16
-Vout=12
+Vout=0
 
 [PA-0-6-CLONES-4-7]
 UID=88995122
@@ -1957,13 +1980,13 @@ UID=26197020
 
 [PA-0-6-CLONES-4-8]
 UID=88995127
-VA=12.9027576446533
+VA=0.14947846531868
 VB=1
 
 [PA-0-6-CLONES-4-9]
 UID=88995136
 once in poly=1
-Vdata=12.9027576446533
+Vdata=0.14947846531868
 Tcaption=ppq
 INDEXprec=5
 
@@ -2164,28 +2187,28 @@ auto resize=1
 
 [PA-0-6-CLONES-5-0]
 UID=88995150
-Vin=206.444122314453
-Vout=206
+Vin=2.41487526893616
+Vout=2
 
 [PA-0-6-CLONES-5-1]
 UID=88995159
-Vin=14
-Vout=15
+Vin=2
+Vout=3
 
 [PA-0-6-CLONES-5-2]
 UID=88995164
-Vin=15
+Vin=3
 VOut=0
 
 [PA-0-6-CLONES-5-3]
 UID=88995172
-Vin=15
-Vout=15
+Vin=3
+Vout=3
 
 [PA-0-6-CLONES-5-4]
 UID=88995177
 once in poly=0
-Vdata=15
+Vdata=3
 Tcaption=step
 INDEXprec=0
 
@@ -2195,9 +2218,9 @@ Vout=16
 
 [PA-0-6-CLONES-5-6]
 UID=88995191
-VA=206
+VA=2
 VB=16
-Vout=14
+Vout=2
 
 [PA-0-6-CLONES-5-7]
 UID=88995196
@@ -2295,13 +2318,13 @@ UID=26198014
 
 [PA-0-6-CLONES-5-8]
 UID=88995201
-VA=12.9027576446533
+VA=0.15092970430851
 VB=16
 
 [PA-0-6-CLONES-5-9]
 UID=88995210
 once in poly=1
-Vdata=12.9027576446533
+Vdata=0.15092970430851
 Tcaption=ppq
 INDEXprec=5
 
@@ -2502,28 +2525,28 @@ auto resize=1
 
 [PA-0-6-CLONES-6-0]
 UID=88995224
-Vin=309.666198730469
-Vout=309
+Vin=3.62231302261353
+Vout=3
 
 [PA-0-6-CLONES-6-1]
 UID=88995229
-Vin=5
-Vout=6
+Vin=3
+Vout=4
 
 [PA-0-6-CLONES-6-2]
 UID=88995238
-Vin=6
+Vin=4
 VOut=0
 
 [PA-0-6-CLONES-6-3]
 UID=88995243
-Vin=6
-Vout=6
+Vin=4
+Vout=4
 
 [PA-0-6-CLONES-6-4]
 UID=88995248
 once in poly=0
-Vdata=6
+Vdata=4
 Tcaption=step
 INDEXprec=0
 
@@ -2533,9 +2556,9 @@ Vout=16
 
 [PA-0-6-CLONES-6-6]
 UID=88995258
-VA=309
+VA=3
 VB=16
-Vout=5
+Vout=3
 
 [PA-0-6-CLONES-6-7]
 UID=88995266
@@ -2633,13 +2656,13 @@ UID=26199011
 
 [PA-0-6-CLONES-6-8]
 UID=88995275
-VA=12.9042091369629
+VA=0.15092970430851
 VB=24
 
 [PA-0-6-CLONES-6-9]
 UID=88995280
 once in poly=1
-Vdata=12.9042091369629
+Vdata=0.15092970430851
 Tcaption=ppq
 INDEXprec=5
 
@@ -2840,28 +2863,28 @@ auto resize=1
 
 [PA-0-6-CLONES-7-0]
 UID=88995294
-Vin=412.934692382812
-Vout=412
+Vin=4.82975053787231
+Vout=4
 
 [PA-0-6-CLONES-7-1]
 UID=88995303
-Vin=12
-Vout=13
+Vin=4
+Vout=5
 
 [PA-0-6-CLONES-7-2]
 UID=88995308
-Vin=13
+Vin=5
 VOut=0
 
 [PA-0-6-CLONES-7-3]
 UID=88995313
-Vin=13
-Vout=13
+Vin=5
+Vout=5
 
 [PA-0-6-CLONES-7-4]
 UID=88995322
 once in poly=0
-Vdata=13
+Vdata=5
 Tcaption=step
 INDEXprec=0
 
@@ -2871,9 +2894,9 @@ Vout=16
 
 [PA-0-6-CLONES-7-6]
 UID=88995332
-VA=412
+VA=4
 VB=16
-Vout=12
+Vout=4
 
 [PA-0-6-CLONES-7-7]
 UID=88995337
@@ -2971,13 +2994,13 @@ UID=26200013
 
 [PA-0-6-CLONES-7-8]
 UID=88995342
-VA=12.9042091369629
+VA=0.15092970430851
 VB=32
 
 [PA-0-6-CLONES-7-9]
 UID=88995350
 once in poly=1
-Vdata=12.9042091369629
+Vdata=0.15092970430851
 Tcaption=ppq
 INDEXprec=5
 
@@ -3055,7 +3078,7 @@ osc mode=0
 
 [PA-0-7]
 UID=88995364
-VA=51.6168365478516
+VA=0.603718817234039
 VB=0.25
 
 [PA-0-8]
@@ -3169,7 +3192,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00003041000000410000604100005041000070410000C04000005041
+TABV=00000040000000400000803F0000803F00004040000080400000A040
 TABL=7
 
 [PA-0-10ARRAYSE]
@@ -3241,7 +3264,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00003041000000410000604100005041000070410000C04000005041
+TABV=00000040000000400000803F0000803F00004040000080400000A040
 TABL=7
 
 [PA-0-11]
@@ -4421,6 +4444,13 @@ INDEXprec=1
 UID=88995466
 Vout=0
 
+[PA-0-23]
+UID=53713036
+once in poly=0
+Vdata=120
+Tcaption=tempo
+INDEXprec=1
+
 [PA-0-CPSE]
 enabled=1
 on top=0
@@ -4494,13 +4524,13 @@ can be randomized=0
 saved in preset=0
 TABdataV=00004041000000410000C0400000803F000080410000C04100000042
 TABdataL=7
-Vdata=0
+Vdata=16
 Vswitch=0
 INDEXvisible=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.899999976158142
-Vmouse y=0.915773332118988
+Vmouse x=1
+Vmouse y=0.77999997138977
 NBCLONES=1
 
 [PA-1switchSE]
@@ -4653,9 +4683,9 @@ PATCHTYPE=9
 VERSION=71
 FNAM=D:\hollyhock\32\Temp\patch.tmp
 ORIGINDEVICE=
-NBPG=43
-OFFSETX=-549
-OFFSETY=101
+NBPG=45
+OFFSETX=-703
+OFFSETY=-151
 UID=3993288
 ID0=21
 L0=1692
@@ -4673,8 +4703,8 @@ ID4=9
 L4=1098
 T4=587
 ID5=9
-L5=1098
-T5=736
+L5=1099
+T5=735
 ID6=9
 L6=1098
 T6=436
@@ -4794,6 +4824,12 @@ T41=241
 ID42=166
 L42=1197
 T42=149
+ID43=314
+L43=1388
+T43=617
+ID44=21
+L44=1689
+T44=616
 C0=0D00110000000000
 CSRCNAME0=OUT 1
 CTARGNAME0=OUT
@@ -5052,7 +5088,31 @@ CTARGNAME84=STRING 1
 C85=1600010027000100
 CSRCNAME85=OUT
 CTARGNAME85=STRING 2
-NBCO=86
+C86=020001002B000000
+CSRCNAME86=1/12
+CTARGNAME86=IN
+C87=080001002B000000
+CSRCNAME87=1/8
+CTARGNAME87=IN
+C88=060001002B000000
+CSRCNAME88=1/6
+CTARGNAME88=IN
+C89=070001002B000000
+CSRCNAME89=1/1
+CTARGNAME89=IN
+C90=040001002B000000
+CSRCNAME90=1/16
+CTARGNAME90=IN
+C91=090001002B000000
+CSRCNAME91=1/24
+CTARGNAME91=IN
+C92=050001002B000000
+CSRCNAME92=1/32
+CTARGNAME92=IN
+C93=2B0001002C000000
+CSRCNAME93=OUT
+CTARGNAME93=OUT
+NBCO=94
 
 [PA-1-PASE]
 name=page clock
@@ -5106,7 +5166,7 @@ auto resize=1
 [PA-1-0]
 UID=8840346
 once in poly=1
-Vdata=8
+Vdata=3
 Tcaption=step
 INDEXprec=0
 
@@ -5134,8 +5194,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.9200000166893
-Vmouse y=0.333333343267441
+Vmouse x=0.800000011920929
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 
@@ -5301,7 +5361,7 @@ select by=2
 
 [PA-1-3CTRL]
 UID=28963164
-VISIBLE=1
+VISIBLE=0
 MINIMIZED=0
 
 [PA-1-4]
@@ -5310,7 +5370,7 @@ saved in preset=1
 can be randomized=0
 once in poly=1
 INDEXvisible=4
-Vswitch=0
+Vswitch=16
 Tcaption=1/16
 COLcolor=4287365138
 TOFF caption=1/16
@@ -5321,8 +5381,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.600000023841858
-Vmouse y=0.333333343267441
+Vmouse x=0.759999990463257
+Vmouse y=1
 Vallow drop=0
 COLLAPS=1
 
@@ -5418,8 +5478,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.9200000166893
-Vmouse y=0.300000011920929
+Vmouse x=0
+Vmouse y=0.899999976158142
 Vallow drop=0
 COLLAPS=1
 
@@ -5515,8 +5575,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.620000004768372
-Vmouse y=0.0666666701436043
+Vmouse x=0.46000000834465
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 
@@ -5612,8 +5672,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.340000003576279
-Vmouse y=1
+Vmouse x=1
+Vmouse y=0.233333334326744
 Vallow drop=0
 COLLAPS=1
 
@@ -5698,7 +5758,7 @@ saved in preset=1
 can be randomized=0
 once in poly=1
 INDEXvisible=4
-Vswitch=8
+Vswitch=0
 Tcaption=1/8
 COLcolor=4287365138
 TOFF caption=1/8
@@ -5709,8 +5769,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.100000001490116
-Vmouse y=1
+Vmouse x=0.0199999995529652
+Vmouse y=0.233333334326744
 Vallow drop=0
 COLLAPS=1
 
@@ -5806,8 +5866,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.899999976158142
-Vmouse y=0.333333343267441
+Vmouse x=0
+Vmouse y=0.899999976158142
 Vallow drop=0
 COLLAPS=1
 
@@ -5989,7 +6049,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00003041000000410000604100005041000070410000C04000005041
+TABV=00000040000000400000803F0000803F00004040000080400000A040
 TABL=7
 
 [PA-1-10ARRAYSE]
@@ -6061,7 +6121,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00003041000000410000604100005041000070410000C04000005041
+TABV=00000040000000400000803F0000803F00004040000080400000A040
 TABL=7
 
 [PA-1-11]
@@ -6345,7 +6405,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=0
 MAX=1
-TABV=000000000000803F0000000000000000000000000000000000000000
+TABV=000000000000000000000000000000000000803F0000000000000000
 TABL=7
 
 [PA-1-12ARRAYSE]
@@ -6417,20 +6477,20 @@ VISIBLE=0
 MINIMIZED=0
 MIN=0
 MAX=1
-TABV=000000000000803F0000000000000000000000000000000000000000
+TABV=000000000000000000000000000000000000803F0000000000000000
 TABL=7
 
 [PA-1-13]
 UID=8840476
 saved in preset=1
 INDEXvisible=0
-Vin 1=11
-Vin 2=8
-Vin 3=14
-Vin 4=13
-Vin 5=15
-Vin 6=6
-Vin 7=13
+Vin 1=2
+Vin 2=2
+Vin 3=1
+Vin 4=1
+Vin 5=3
+Vin 6=4
+Vin 7=5
 Vin 8=0
 Vin 9=0
 Vin 10=0
@@ -6440,7 +6500,7 @@ Vin 13=0
 Vin 14=0
 Vin 15=0
 Vin 16=0
-Vout 1=8
+Vout 1=3
 Vout 2=0
 Vout 3=0
 Vout 4=0
@@ -6495,9 +6555,9 @@ Vcell draw val=1
 Vlast click cell=-1
 Vlast click col=-1
 Vlast click row=-1
-TABcells valV=000000000000803F0000000000000000000000000000000000000000
+TABcells valV=000000000000000000000000000000000000803F0000000000000000
 TABcells valL=7
-TABcells outV=000000000000803F0000000000000000000000000000000000000000
+TABcells outV=000000000000000000000000000000000000803F0000000000000000
 TABcells outL=7
 Vmouse dwn=0
 Vdbl click=0
@@ -6505,7 +6565,7 @@ Vmouse x=0.432291656732559
 Vmouse y=0
 Vallow drop=0
 COLLAPS=1
-CHUNK=4D4432300100000007000000000000000000803F000000000000000000000000000000000000000000000000
+CHUNK=4D4432300100000007000000000000000000000000000000000000000000803F000000000000000000000000
 
 [PA-1-13cells valSE]
 UID=29032912
@@ -6675,7 +6735,7 @@ Vin 3=0
 Vin 4=0
 Vin 5=0
 Vin 6=0
-Vin 7=1
+Vin 7=0
 Vin 8=0
 Vin 9=0
 Vin 10=0
@@ -6740,9 +6800,9 @@ Vcell draw val=1
 Vlast click cell=-1
 Vlast click col=-1
 Vlast click row=-1
-TABcells valV=000000000000803F0000000000000000000000000000000000000000
+TABcells valV=000000000000000000000000000000000000803F0000000000000000
 TABcells valL=7
-TABcells outV=000000000000803F0000000000000000000000000000000000000000
+TABcells outV=000000000000000000000000000000000000803F0000000000000000
 TABcells outL=7
 Vmouse dwn=0
 Vdbl click=0
@@ -6750,7 +6810,7 @@ Vmouse x=0
 Vmouse y=0
 Vallow drop=0
 COLLAPS=1
-CHUNK=4D4432300100000007000000000000000000803F000000000000000000000000000000000000000000000000
+CHUNK=4D4432300100000007000000000000000000000000000000000000000000803F000000000000000000000000
 
 [PA-1-14cells valSE]
 UID=29053832
@@ -7132,9 +7192,9 @@ COLLAPS=2
 
 [PA-1-24]
 UID=8840571
-VA=8
+VA=0
 VB=8
-Vout=1
+Vout=0
 
 [PA-1-25]
 UID=8840579
@@ -7150,9 +7210,9 @@ Vout=0
 
 [PA-1-27]
 UID=8840593
-VA=0
+VA=16
 VB=16
-Vout=0
+Vout=1
 
 [PA-1-28]
 UID=8840598
@@ -7398,10 +7458,22 @@ INDEXprec=1
 [PA-1-42]
 UID=49993446
 once in poly=0
-TABdataV=00003041000000410000604100005041000070410000C04000006041
+TABdataV=00000040000000400000803F0000803F00004040000080400000A040
 TABdataL=7
 Tcaption=steps
 INDEXprec=1
+
+[PA-1-43]
+UID=27297875
+Vin=16
+Vout=16
+
+[PA-1-44]
+UID=52337262
+once in poly=0
+Vdata=16
+Tcaption=divider
+INDEXprec=0
 
 [PA-1-CPSE]
 enabled=1
@@ -7473,6 +7545,325 @@ UID=227279
 once in poly=0
 Vdata=0
 Tcaption=tick
+INDEXprec=1
+
+[PA-3]
+UID=71508736
+name=BPM to ms
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=125
+INDEXvisible=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.699999988079071
+NBCLONES=1
+
+[PA-3mouse dwnSE]
+UID=71509202
+
+[PA-3dbl clickSE]
+UID=71509251
+
+[PA-3mouse xSE]
+UID=71509301
+
+[PA-3mouse ySE]
+UID=71509346
+
+[PA-3CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=110
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+name=BPM to ms
+saved in preset=1
+
+[PA-3CTRL]
+UID=71416126
+VISIBLE=0
+MINIMIZED=0
+
+[PA-3CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-3-]
+PATCHTYPE=9
+VERSION=71
+FNAM=D:\hollyhock\patches\utils\BPM to ms.pat
+ORIGINDEVICE=
+NBPG=8
+OFFSETX=-134
+OFFSETY=48
+UID=75453003
+ID0=37
+L0=667
+T0=167
+ID1=29
+L1=545
+T1=154
+ID2=37
+L2=801
+T2=445
+ID3=38
+L3=881
+T3=471
+ID4=29
+L4=791
+T4=506
+ID5=20
+L5=536
+T5=104
+ID6=20
+L6=555
+T6=434
+ID7=21
+L7=963
+T7=494
+C0=0100000000000100
+CSRCNAME0=OUT
+CTARGNAME0=B
+C1=0500000000000000
+CSRCNAME1=IN
+CTARGNAME1=A
+C2=0000020002000000
+CSRCNAME2=OUT
+CTARGNAME2=A
+C3=0600000002000100
+CSRCNAME3=IN
+CTARGNAME3=B
+C4=0200020003000000
+CSRCNAME4=OUT
+CTARGNAME4=A
+C5=0400000003000100
+CSRCNAME5=OUT
+CTARGNAME5=B
+C6=0300020007000000
+CSRCNAME6=OUT
+CTARGNAME6=OUT
+NBCO=7
+
+[PA-3-PASE]
+name=BPM to ms
+saved in preset=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=110
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+
+[PA-3-0]
+UID=64315361
+VA=120
+VB=60
+Vout=2
+
+[PA-3-1]
+UID=64326254
+Vout=60
+
+[PA-3-2]
+UID=64335220
+VA=2
+VB=16
+Vout=0.125
+
+[PA-3-3]
+UID=64335491
+VA=0.125
+VB=1000
+
+[PA-3-4]
+UID=64335682
+Vout=1000
+
+[PA-3-5]
+UID=97406974
+once in poly=0
+Vdata=120
+Tcaption=tempo
+INDEXprec=1
+
+[PA-3-6]
+UID=79027711
+once in poly=0
+Vdata=16
+Tcaption=divider
+INDEXprec=1
+
+[PA-3-7]
+UID=67702475
+once in poly=0
+Vdata=125
+Tcaption=note length (ms)
+INDEXprec=1
+
+[PA-3-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=110
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+name=BPM to ms
+saved in preset=1
+
+[PA-3-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-4]
+UID=73177465
+once in poly=0
+Vdata=125
+Tcaption=note length (ms)
 INDEXprec=1
 
 [PA-CPSE]

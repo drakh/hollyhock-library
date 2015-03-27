@@ -1,27 +1,27 @@
 [PA-]
 PATCHTYPE=0
 VERSION=71
-FNAM=D:\hollyhock\patches\neuRON.pat
+FNAM=D:\hollyhock\patches\sequencers\neuRON.pat
 ORIGINDEVICE=
-NBPG=23
-OFFSETX=828
-OFFSETY=101
+NBPG=24
+OFFSETX=390
+OFFSETY=-103
 UID=58508919
 ID0=363
 L0=-326
 T0=222
 ID1=103
-L1=-621
-T1=189
+L1=-522
+T1=235
 ID2=29
-L2=-209
-T2=469
+L2=-147
+T2=122
 ID3=29
-L3=-211
-T3=434
+L3=-155
+T3=75
 ID4=9
-L4=-404
-T4=172
+L4=-491
+T4=193
 QIDX5=0
 ID5=6
 L5=-10
@@ -75,11 +75,14 @@ L20=394
 T20=563
 QIDX21=0
 ID21=6
-L21=-630
-T21=79
+L21=-798
+T21=228
 ID22=264
 L22=-615
 T22=38
+ID23=80
+L23=258
+T23=545
 C0=0100000000000300
 CSRCNAME0=OUT
 CTARGNAME0=RESET TO MIN
@@ -161,31 +164,37 @@ CTARGNAME25=IN
 C26=070002000A000000
 CSRCNAME26=OUT
 CTARGNAME26=IN
-C27=0500140014000000
-CSRCNAME27=MIDI 1 1
+C27=1700010014000000
+CSRCNAME27=OUT
 CTARGNAME27=MIDI 1
-C28=0500150014000000
-CSRCNAME28=MIDI 1 2
-CTARGNAME28=MIDI 1
-C29=0500160014000000
-CSRCNAME29=MIDI 1 3
-CTARGNAME29=MIDI 1
-C30=0500170014000000
-CSRCNAME30=MIDI 1 4
-CTARGNAME30=MIDI 1
-C31=0500180014000000
-CSRCNAME31=MIDI 1 5
-CTARGNAME31=MIDI 1
-C32=0500190014000000
-CSRCNAME32=MIDI 1 6
-CTARGNAME32=MIDI 1
-C33=05001A0014000000
-CSRCNAME33=MIDI 1 7
-CTARGNAME33=MIDI 1
-C34=05001B0014000000
-CSRCNAME34=MIDI 1 8
-CTARGNAME34=MIDI 1
-NBCO=35
+C28=1500010017000400
+CSRCNAME28=NOTE LENGTH (MS)
+CTARGNAME28=LENGTH
+C29=0500140017000000
+CSRCNAME29=MIDI 1 1
+CTARGNAME29=IN
+C30=0500150017000000
+CSRCNAME30=MIDI 1 2
+CTARGNAME30=IN
+C31=0500160017000000
+CSRCNAME31=MIDI 1 3
+CTARGNAME31=IN
+C32=0500170017000000
+CSRCNAME32=MIDI 1 4
+CTARGNAME32=IN
+C33=0500180017000000
+CSRCNAME33=MIDI 1 5
+CTARGNAME33=IN
+C34=0500190017000000
+CSRCNAME34=MIDI 1 6
+CTARGNAME34=IN
+C35=05001A0017000000
+CSRCNAME35=MIDI 1 7
+CTARGNAME35=IN
+C36=05001B0017000000
+CSRCNAME36=MIDI 1 8
+CTARGNAME36=IN
+NBCO=37
 
 [PA-PASE]
 name=neuRON
@@ -234,7 +243,7 @@ auto resize=1
 [PA-0]
 UID=96286959
 no limit=1
-Vvalue=11201
+Vvalue=8007
 Vmin=0
 Vmax=15
 Vincrement value=1
@@ -266,8 +275,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.714285731315613
-Vmouse y=1
+Vmouse x=0
+Vmouse y=0.214285716414452
 Vallow drop=0
 
 [PA-4switchSE]
@@ -351,7 +360,7 @@ nb polyphony=8
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -601,7 +610,7 @@ auto resize=1
 [PA-5-0]
 UID=47228694
 no limit=0
-Vvalue=7
+Vvalue=10
 Vmin=1
 Vmax=32
 Vincrement value=1
@@ -628,8 +637,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.344387769699097
-Vmouse y=1
+Vmouse x=0.33928570151329
+Vmouse y=0.508771955966949
 Vallow drop=0
 COLLAPS=1
 
@@ -718,7 +727,7 @@ name=Empty SubPatch
 nb polyphony=1
 can be randomized=1
 saved in preset=1
-Vdata=68459
+Vdata=77279
 Vswitch=0
 Vfader=64
 INDEXvisible=0
@@ -762,6 +771,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -827,6 +837,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -1026,19 +1037,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -1050,7 +1061,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -1062,22 +1073,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -1175,46 +1186,46 @@ UID=56869458
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=28
 Vlast click col=28
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
-TABcells outV=0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F
+TABcells outV=0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F
 TABcells outL=32
+Vcursor pos=10
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
-Vcell 3=0
+Vcell 3=1
 Vcell 4=1
 Vcell 5=1
 Vcell 6=1
 Vcell 7=1
 Vcell 8=1
-Vcell 9=0
+Vcell 9=1
 Vcell 10=0
 Vcell 11=1
 Vcell 12=0
 Vcell 13=1
 Vcell 14=0
 Vcell 15=0
-Vcell 16=0
-Vmatrix size=32
-Vlast click cell=28
-Vcursor pos=7
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
+Vcell 16=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.1484375
-Vmouse y=0.0500000007450581
+Vmouse x=0.598437488079071
+Vmouse y=0.649999976158142
 Vallow drop=0
 COLLAPS=1
-CHUNK=4D58323020000000010000000000803F0000803F000000000000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F00000000
+CHUNK=4D58323020000000010000000000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F00000000
 
 [PA-5-4-0num of colsSE]
 UID=56870627
@@ -1222,14 +1233,14 @@ UID=56870627
 [PA-5-4-0num of rowsSE]
 UID=56871142
 
+[PA-5-4-0random coverageSE]
+UID=56891118
+
 [PA-5-4-0cells outSE]
 UID=56876886
 
 [PA-5-4-0cursor posSE]
 UID=56889289
-
-[PA-5-4-0random coverageSE]
-UID=56891118
 
 [PA-5-4-0mouse dwnSE]
 UID=56891628
@@ -1368,7 +1379,7 @@ toolbar size=16
 
 [PA-5-4-1]
 UID=74447700
-Vin=7
+Vin=10
 VOut=0
 
 [PA-5-4-2]
@@ -1437,6 +1448,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -1480,7 +1492,7 @@ UID=56906937
 [PA-5-4-5]
 UID=74453719
 no limit=1
-Vvalue=68459
+Vvalue=77279
 Vmin=0
 Vmax=15
 Vincrement value=1
@@ -1488,7 +1500,7 @@ Vincrement value=1
 [PA-5-4-6]
 UID=42188562
 once in poly=0
-Vdata=7
+Vdata=10
 Tcaption=cursor
 INDEXprec=0
 
@@ -1509,7 +1521,7 @@ INDEXprec=1
 [PA-5-4-9]
 UID=31184100
 once in poly=0
-Vdata=68459
+Vdata=77279
 Tcaption=counter
 INDEXprec=0
 
@@ -1565,6 +1577,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -1617,6 +1630,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -1862,6 +1876,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -1907,8 +1922,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0408163256943226
-Vmouse y=0.879310369491577
+Vmouse x=0
+Vmouse y=0.75862067937851
 Vauto reset=0
 Vallow drop=0
 
@@ -1948,6 +1963,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -2164,17 +2180,23 @@ UID=56947674
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=25
 Vlast click col=25
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=000000000000803F000000000000803F0000803F000000000000803F0000803F0000803F00000000000000000000803F000000000000803F0000803F0000803F000000000000000000000000000000000000803F0000803F0000803F000000000000803F00000000000000000000803F0000000000000000000000000000803F
 TABcells outL=32
+Vcursor pos=10
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -2191,16 +2213,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=25
-Vcursor pos=7
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.223437502980232
-Vmouse y=0.37442621588707
+Vmouse x=0.631250023841858
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D5832302000000001000000000000000000803F000000000000803F0000803F000000000000803F0000803F0000803F00000000000000000000803F000000000000803F0000803F0000803F000000000000000000000000000000000000803F0000803F0000803F000000000000803F00000000000000000000803F0000000000000000000000000000803F00000000
@@ -2211,14 +2227,14 @@ UID=56948847
 [PA-5-4-11num of rowsSE]
 UID=56949353
 
+[PA-5-4-11random coverageSE]
+UID=56969392
+
 [PA-5-4-11cells outSE]
 UID=56955153
 
 [PA-5-4-11cursor posSE]
 UID=56967556
-
-[PA-5-4-11random coverageSE]
-UID=56969392
 
 [PA-5-4-11mouse dwnSE]
 UID=56969903
@@ -2358,14 +2374,14 @@ toolbar size=16
 [PA-5-4-12]
 UID=98822460
 Vindex=0
-Vvalue=1
+Vvalue=0
 
 [PA-5-4-13]
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=44
-Vcode2=127
+Vcode1=0
+Vcode2=64
 
 [PA-5-4-14]
 UID=96267186
@@ -2374,12 +2390,12 @@ once in poly=1
 [PA-5-4-15]
 UID=50371168
 VA=64
-VB=63
-Vout=127
+VB=0
+Vout=64
 
 [PA-5-4-16]
 UID=5170088
-VA=1
+VA=0
 VB=63
 
 [PA-5-4-17]
@@ -2394,7 +2410,7 @@ Vout=127
 
 [PA-5-4-19]
 UID=34992997
-Vout=44
+Vout=0
 
 [PA-5-4-20]
 UID=64836084
@@ -2406,7 +2422,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=44
+Vfader=0
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -2417,8 +2433,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.625
-Vmouse y=0
+Vmouse x=0
+Vmouse y=0.5
 Vauto reset=0
 Vallow drop=0
 
@@ -2459,6 +2475,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -2519,8 +2536,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.308333337306976
-Vmouse y=0.0333333350718021
+Vmouse x=1
+Vmouse y=0.233333334326744
 Vauto reset=0
 Vallow drop=0
 
@@ -2561,6 +2578,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -2621,8 +2639,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.783333361148834
-Vmouse y=0.100000001490116
+Vmouse x=0.425000011920929
+Vmouse y=0.966666638851166
 Vauto reset=0
 Vallow drop=0
 
@@ -2663,6 +2681,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -2774,7 +2793,7 @@ osc mode=0
 [PA-5-5]
 UID=59173389
 once in poly=0
-Vdata=68459
+Vdata=77279
 Tcaption=counter
 INDEXprec=0
 
@@ -2800,7 +2819,7 @@ INDEXprec=1
 [PA-5-9]
 UID=24058050
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -2812,7 +2831,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -3001,7 +3020,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=3
 Vswitch=0
@@ -3048,6 +3067,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -3112,6 +3132,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -3401,7 +3422,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
+Vmouse x=0.272727280855179
 Vmouse y=1
 Vauto reset=0
 Vallow drop=0
@@ -3443,6 +3464,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -3487,19 +3509,19 @@ UID=57041158
 
 [PA-5-10-0-1]
 UID=28800076
-VA=11201
+VA=8007
 VB=3
-Vout=2
+Vout=0
 
 [PA-5-10-0-2]
 UID=28800089
-Vin=2
-Vout=0
+Vin=0
+Vout=1
 
 [PA-5-10-0-3]
 UID=28800094
 VA=0
-VB=0
+VB=1
 Vout=0
 Vblock=0
 
@@ -3507,7 +3529,7 @@ Vblock=0
 UID=28800099
 Vin=0
 Vout=0
-Vpass=1
+Vpass=0
 
 [PA-5-10-0-5]
 UID=57046663
@@ -3515,7 +3537,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vswitch=1
+Vswitch=0
 Tcaption=pass
 COLcolor=33
 VON value=1
@@ -3525,8 +3547,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.333333343267441
+Vmouse x=0.111111111938953
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-10-0-5switchSE]
@@ -3563,6 +3585,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -3719,7 +3742,7 @@ INDEXprec=1
 [PA-5-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -3736,7 +3759,7 @@ Vvalue=0
 [PA-5-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11201
+Vvalue=8007
 
 [PA-5-10-0-14]
 UID=28800176
@@ -3996,8 +4019,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0113636367022991
-Vmouse y=0.189655169844627
+Vmouse x=0.920454561710358
+Vmouse y=0.74137932062149
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -4038,6 +4061,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -4082,7 +4106,7 @@ UID=57084834
 
 [PA-5-10-0-CLONES-2-1]
 UID=28800076
-VA=68459
+VA=77279
 VB=1
 Vout=0
 
@@ -4120,7 +4144,7 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0555555559694767
+Vmouse x=0.611111104488373
 Vmouse y=1
 Vallow drop=0
 
@@ -4158,6 +4182,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -4314,7 +4339,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -4331,7 +4356,7 @@ Vvalue=0
 [PA-5-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68459
+Vvalue=77279
 
 [PA-5-10-0-CLONES-2-14]
 UID=28800176
@@ -4591,8 +4616,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0113636367022991
-Vmouse y=0.74137932062149
+Vmouse x=0.465909093618393
+Vmouse y=0.46551725268364
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -4633,6 +4658,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -4677,7 +4703,7 @@ UID=57129627
 
 [PA-5-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=1
 Vout=0
 
@@ -4715,8 +4741,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.137746170163155
-Vmouse y=0
+Vmouse x=1
+Vmouse y=0.555555582046509
 Vallow drop=0
 
 [PA-5-10-0-CLONES-3-5switchSE]
@@ -4753,6 +4779,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -4909,7 +4936,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -4926,7 +4953,7 @@ Vvalue=0
 [PA-5-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-10-0-CLONES-3-14]
 UID=28800176
@@ -5186,8 +5213,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.75862067937851
+Vmouse x=0.25
+Vmouse y=0.965517222881317
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -5228,6 +5255,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -5272,13 +5300,13 @@ UID=57174258
 
 [PA-5-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=10
-Vout=1
+Vout=2
 
 [PA-5-10-0-CLONES-4-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-10-0-CLONES-4-3]
@@ -5310,8 +5338,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.624318480491638
+Vmouse x=1
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-10-0-CLONES-4-5switchSE]
@@ -5348,6 +5376,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -5504,7 +5533,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -5521,7 +5550,7 @@ Vvalue=0
 [PA-5-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-10-0-CLONES-4-14]
 UID=28800176
@@ -5781,8 +5810,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.375
-Vmouse y=0.0862068980932236
+Vmouse x=0.125
+Vmouse y=0.0172413792461157
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -5823,6 +5852,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -5867,13 +5897,13 @@ UID=57218948
 
 [PA-5-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-10-0-CLONES-5-3]
@@ -5943,6 +5973,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -6099,7 +6130,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -6116,7 +6147,7 @@ Vvalue=0
 [PA-5-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-10-0-CLONES-5-14]
 UID=28800176
@@ -6418,6 +6449,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -6538,6 +6570,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -6694,7 +6727,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -6971,8 +7004,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0113636367022991
-Vmouse y=0.706896543502808
+Vmouse x=1
+Vmouse y=0.448275864124298
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -7013,6 +7046,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -7133,6 +7167,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -7289,7 +7324,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -7566,8 +7601,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.579545438289642
-Vmouse y=0.0689655169844627
+Vmouse x=0.193181812763214
+Vmouse y=0.0172413792461157
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -7608,6 +7643,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -7728,6 +7764,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -7884,7 +7921,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -8203,6 +8240,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -8323,6 +8361,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -8479,7 +8518,7 @@ INDEXprec=1
 [PA-5-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -8595,7 +8634,7 @@ INDEXprec=1
 [PA-5-10-3]
 UID=5340735
 once in poly=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -9004,7 +9043,7 @@ auto resize=1
 [PA-5-CLONES-2-0]
 UID=47228694
 no limit=0
-Vvalue=25
+Vvalue=16
 Vmin=1
 Vmax=32
 Vincrement value=1
@@ -9031,8 +9070,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.450892865657806
-Vmouse y=0.631578922271729
+Vmouse x=0.459183663129807
+Vmouse y=0.543859660625458
 Vallow drop=0
 COLLAPS=1
 
@@ -9121,7 +9160,7 @@ name=Empty SubPatch
 nb polyphony=1
 can be randomized=1
 saved in preset=1
-Vdata=20589
+Vdata=20808
 Vswitch=0
 Vfader=64
 INDEXvisible=0
@@ -9165,6 +9204,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -9230,6 +9270,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -9429,19 +9470,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -9453,7 +9494,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -9465,22 +9506,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -9578,17 +9619,23 @@ UID=57447496
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=6
 Vlast click col=6
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
-TABcells outV=0000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000
+TABcells outV=0000803F0000803F000000000000803F0000803F0000803F0000803F0000000000000000000000000000000000000000000000000000803F0000803F0000803F000000000000803F0000803F000000000000803F0000803F0000000000000000000000000000803F0000803F0000000000000000000000000000000000000000
 TABcells outL=32
+Vcursor pos=16
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=0
 Vcell 2=0
 Vcell 3=0
@@ -9605,19 +9652,13 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=1
-Vmatrix size=32
-Vlast click cell=6
-Vcursor pos=25
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.381249994039536
-Vmouse y=0.5
+Vmouse x=0.821874976158142
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
-CHUNK=4D58323020000000010000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000803F0000000000000000000000000000000000000000000000000000000000000000
+CHUNK=4D58323020000000010000000000803F0000803F000000000000803F0000803F0000803F0000803F0000000000000000000000000000000000000000000000000000803F0000803F0000803F000000000000803F0000803F000000000000803F0000803F0000000000000000000000000000803F0000803F000000000000000000000000000000000000000000000000
 
 [PA-5-CLONES-2-4-0num of colsSE]
 UID=57448800
@@ -9625,14 +9666,14 @@ UID=57448800
 [PA-5-CLONES-2-4-0num of rowsSE]
 UID=57449353
 
+[PA-5-CLONES-2-4-0random coverageSE]
+UID=57472073
+
 [PA-5-CLONES-2-4-0cells outSE]
 UID=57455919
 
 [PA-5-CLONES-2-4-0cursor posSE]
 UID=57470000
-
-[PA-5-CLONES-2-4-0random coverageSE]
-UID=57472073
 
 [PA-5-CLONES-2-4-0mouse dwnSE]
 UID=57472630
@@ -9771,7 +9812,7 @@ toolbar size=16
 
 [PA-5-CLONES-2-4-1]
 UID=74447700
-Vin=25
+Vin=16
 VOut=0
 
 [PA-5-CLONES-2-4-2]
@@ -9803,7 +9844,7 @@ Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
 Vmouse x=0.100000001490116
-Vmouse y=0.649999976158142
+Vmouse y=0.800000011920929
 Vallow drop=0
 
 [PA-5-CLONES-2-4-4switchSE]
@@ -9840,6 +9881,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -9883,7 +9925,7 @@ UID=57489680
 [PA-5-CLONES-2-4-5]
 UID=74453719
 no limit=1
-Vvalue=20589
+Vvalue=20808
 Vmin=0
 Vmax=15
 Vincrement value=1
@@ -9891,7 +9933,7 @@ Vincrement value=1
 [PA-5-CLONES-2-4-6]
 UID=42188562
 once in poly=0
-Vdata=25
+Vdata=16
 Tcaption=cursor
 INDEXprec=0
 
@@ -9912,7 +9954,7 @@ INDEXprec=1
 [PA-5-CLONES-2-4-9]
 UID=31184100
 once in poly=0
-Vdata=20589
+Vdata=20808
 Tcaption=counter
 INDEXprec=0
 
@@ -9968,6 +10010,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -10020,6 +10063,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -10224,7 +10268,7 @@ VON value=1
 Vnull evt if OFF=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
+Vmouse x=0.0500000007450581
 Vmouse y=0.5
 Vallow drop=0
 
@@ -10265,6 +10309,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -10310,8 +10355,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.122448980808258
-Vmouse y=0.982758641242981
+Vmouse x=0.0306122452020645
+Vmouse y=0.46551725268364
 Vauto reset=0
 Vallow drop=0
 
@@ -10351,6 +10396,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -10567,17 +10613,23 @@ UID=57535469
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=23
 Vlast click col=23
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
-TABcells outV=0000000000000000000000000000803F0000803F000000000000803F00000000000000000000000000000000000000000000803F000000000000000000000000000000000000803F0000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000803F00000000
+TABcells outV=0000803F000000000000803F0000803F00000000000000000000803F00000000000000000000803F00000000000000000000803F0000803F000000000000803F000000000000803F0000803F0000803F00000000000000000000803F0000803F0000803F00000000000000000000803F000000000000803F0000803F00000000
 TABcells outL=32
+Vcursor pos=16
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -10594,19 +10646,13 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=23
-Vcursor pos=25
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.425000011920929
-Vmouse y=0.0936065539717674
+Vmouse x=0.0078125
+Vmouse y=0.748852431774139
 Vallow drop=0
 COLLAPS=1
-CHUNK=4D58323020000000010000000000000000000000000000000000803F0000803F000000000000803F00000000000000000000000000000000000000000000803F000000000000000000000000000000000000803F0000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000803F0000000000000000
+CHUNK=4D58323020000000010000000000803F000000000000803F0000803F00000000000000000000803F00000000000000000000803F00000000000000000000803F0000803F000000000000803F000000000000803F0000803F0000803F00000000000000000000803F0000803F0000803F00000000000000000000803F000000000000803F0000803F0000000000000000
 
 [PA-5-CLONES-2-4-11num of colsSE]
 UID=57536781
@@ -10614,14 +10660,14 @@ UID=57536781
 [PA-5-CLONES-2-4-11num of rowsSE]
 UID=57537335
 
+[PA-5-CLONES-2-4-11random coverageSE]
+UID=57560133
+
 [PA-5-CLONES-2-4-11cells outSE]
 UID=57543979
 
 [PA-5-CLONES-2-4-11cursor posSE]
 UID=57558083
-
-[PA-5-CLONES-2-4-11random coverageSE]
-UID=57560133
 
 [PA-5-CLONES-2-4-11mouse dwnSE]
 UID=57560679
@@ -10767,7 +10813,7 @@ Vvalue=1
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=46
+Vcode1=1
 Vcode2=127
 
 [PA-5-CLONES-2-4-14]
@@ -10797,7 +10843,7 @@ Vout=127
 
 [PA-5-CLONES-2-4-19]
 UID=34992997
-Vout=46
+Vout=1
 
 [PA-5-CLONES-2-4-20]
 UID=64836084
@@ -10809,7 +10855,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=46
+Vfader=1
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -10820,8 +10866,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.025000000372529
-Vmouse y=0.966666638851166
+Vmouse x=0
+Vmouse y=0.466666668653488
 Vauto reset=0
 Vallow drop=0
 
@@ -10862,6 +10908,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -10922,8 +10969,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.433333337306976
-Vmouse y=0.0333333350718021
+Vmouse x=0.283333331346512
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 
@@ -10964,6 +11011,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -11024,8 +11072,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.125
-Vmouse y=0.0333333350718021
+Vmouse x=0.991666674613953
+Vmouse y=0.266666680574417
 Vauto reset=0
 Vallow drop=0
 
@@ -11066,6 +11114,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -11177,7 +11226,7 @@ osc mode=0
 [PA-5-CLONES-2-5]
 UID=59173389
 once in poly=0
-Vdata=20589
+Vdata=20808
 Tcaption=counter
 INDEXprec=0
 
@@ -11203,7 +11252,7 @@ INDEXprec=1
 [PA-5-CLONES-2-9]
 UID=24058050
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -11215,7 +11264,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -11404,7 +11453,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=14
 Vswitch=0
@@ -11451,6 +11500,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -11515,6 +11565,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -11805,7 +11856,7 @@ Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
 Vmouse x=0
-Vmouse y=0
+Vmouse y=0.810344815254211
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -11846,6 +11897,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -11890,13 +11942,13 @@ UID=57636843
 
 [PA-5-CLONES-2-10-0-1]
 UID=28800076
-VA=11201
+VA=8007
 VB=14
-Vout=1
+Vout=13
 
 [PA-5-CLONES-2-10-0-2]
 UID=28800089
-Vin=1
+Vin=13
 Vout=0
 
 [PA-5-CLONES-2-10-0-3]
@@ -11928,8 +11980,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=1
+Vmouse x=0.444444447755814
+Vmouse y=0.222222223877907
 Vallow drop=0
 
 [PA-5-CLONES-2-10-0-5switchSE]
@@ -11966,6 +12018,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -12122,7 +12175,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -12139,7 +12192,7 @@ Vvalue=0
 [PA-5-CLONES-2-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11201
+Vvalue=8007
 
 [PA-5-CLONES-2-10-0-14]
 UID=28800176
@@ -12441,6 +12494,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -12485,7 +12539,7 @@ UID=57680736
 
 [PA-5-CLONES-2-10-0-CLONES-2-1]
 UID=28800076
-VA=68459
+VA=77279
 VB=9
 Vout=5
 
@@ -12505,7 +12559,7 @@ Vblock=0
 UID=28800099
 Vin=0
 Vout=0
-Vpass=1
+Vpass=0
 
 [PA-5-CLONES-2-10-0-CLONES-2-5]
 UID=57686260
@@ -12513,7 +12567,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vswitch=1
+Vswitch=0
 Tcaption=pass
 COLcolor=33
 VON value=1
@@ -12523,8 +12577,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.722222208976746
-Vmouse y=0.444444447755814
+Vmouse x=0
+Vmouse y=0.222222223877907
 Vallow drop=0
 
 [PA-5-CLONES-2-10-0-CLONES-2-5switchSE]
@@ -12561,6 +12615,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -12717,7 +12772,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -12734,7 +12789,7 @@ Vvalue=0
 [PA-5-CLONES-2-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68459
+Vvalue=77279
 
 [PA-5-CLONES-2-10-0-CLONES-2-14]
 UID=28800176
@@ -12994,8 +13049,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.620689630508423
+Vmouse x=0.602272748947144
+Vmouse y=0.982758641242981
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -13036,6 +13091,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -13080,7 +13136,7 @@ UID=57724660
 
 [PA-5-CLONES-2-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=3
 Vout=0
 
@@ -13156,6 +13212,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -13312,7 +13369,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -13329,7 +13386,7 @@ Vvalue=0
 [PA-5-CLONES-2-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-2-10-0-CLONES-3-14]
 UID=28800176
@@ -13589,8 +13646,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.443181812763214
-Vmouse y=0.982758641242981
+Vmouse x=0.0681818202137947
+Vmouse y=0.206896558403969
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -13631,6 +13688,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -13675,13 +13733,13 @@ UID=57769133
 
 [PA-5-CLONES-2-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=8
-Vout=5
+Vout=4
 
 [PA-5-CLONES-2-10-0-CLONES-4-2]
 UID=28800089
-Vin=5
+Vin=4
 Vout=0
 
 [PA-5-CLONES-2-10-0-CLONES-4-3]
@@ -13713,8 +13771,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.833333313465118
-Vmouse y=1
+Vmouse x=0.722222208976746
+Vmouse y=0.777777791023254
 Vallow drop=0
 
 [PA-5-CLONES-2-10-0-CLONES-4-5switchSE]
@@ -13751,6 +13809,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -13907,7 +13966,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -13924,7 +13983,7 @@ Vvalue=0
 [PA-5-CLONES-2-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-2-10-0-CLONES-4-14]
 UID=28800176
@@ -14226,6 +14285,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -14270,13 +14330,13 @@ UID=57813685
 
 [PA-5-CLONES-2-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-2-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-2-10-0-CLONES-5-3]
@@ -14346,6 +14406,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -14502,7 +14563,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -14519,7 +14580,7 @@ Vvalue=0
 [PA-5-CLONES-2-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-2-10-0-CLONES-5-14]
 UID=28800176
@@ -14821,6 +14882,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -14941,6 +15003,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -15097,7 +15160,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -15374,7 +15437,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0568181835114956
+Vmouse x=0.681818187236786
 Vmouse y=0
 Vauto reset=0
 Vallow drop=0
@@ -15416,6 +15479,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -15498,8 +15562,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.623005509376526
-Vmouse y=0.440427184104919
+Vmouse x=1
+Vmouse y=0.333333343267441
 Vallow drop=0
 
 [PA-5-CLONES-2-10-0-CLONES-7-5switchSE]
@@ -15536,6 +15600,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -15692,7 +15757,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -15969,8 +16034,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.327586203813553
+Vmouse x=0.965909063816071
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -16011,6 +16076,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -16093,8 +16159,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.5
-Vmouse y=0.0555555559694767
+Vmouse x=1
+Vmouse y=0.777777791023254
 Vallow drop=0
 
 [PA-5-CLONES-2-10-0-CLONES-8-5switchSE]
@@ -16131,6 +16197,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -16287,7 +16354,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -16564,8 +16631,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.529943287372589
-Vmouse y=0.982758641242981
+Vmouse x=0.0113636367022991
+Vmouse y=0.241379305720329
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -16606,6 +16673,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -16726,6 +16794,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -16882,7 +16951,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -16998,7 +17067,7 @@ INDEXprec=1
 [PA-5-CLONES-2-10-3]
 UID=5340735
 once in poly=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -17434,8 +17503,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.397959172725678
-Vmouse y=0.358974367380142
+Vmouse x=0.309948980808258
+Vmouse y=0.435897439718246
 Vallow drop=0
 COLLAPS=1
 
@@ -17524,7 +17593,7 @@ name=Empty SubPatch
 nb polyphony=1
 can be randomized=1
 saved in preset=1
-Vdata=38701
+Vdata=42212
 Vswitch=0
 Vfader=87
 INDEXvisible=0
@@ -17568,6 +17637,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -17633,6 +17703,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -17832,19 +17903,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -17856,7 +17927,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -17868,22 +17939,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -17981,17 +18052,23 @@ UID=58040299
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=5
 Vlast click col=5
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000803F0000803F000000000000803F0000803F0000803F0000803F0000000000000000000000000000000000000000000000000000803F0000803F0000803F000000000000803F0000803F000000000000803F0000803F0000000000000000000000000000803F0000803F0000000000000000000000000000000000000000
 TABcells outL=32
+Vcursor pos=25
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=1
@@ -18008,16 +18085,10 @@ Vcell 13=1
 Vcell 14=0
 Vcell 15=1
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=5
-Vcursor pos=25
-TABcursor outV=00000000
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.878125011920929
-Vmouse y=0.949999988079071
+Vmouse x=0.017187500372529
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000803F0000803F000000000000803F0000803F0000803F0000803F0000000000000000000000000000000000000000000000000000803F0000803F0000803F000000000000803F0000803F000000000000803F0000803F0000000000000000000000000000803F0000803F000000000000000000000000000000000000000000000000
@@ -18028,14 +18099,14 @@ UID=58041638
 [PA-5-CLONES-3-4-0num of rowsSE]
 UID=58042192
 
+[PA-5-CLONES-3-4-0random coverageSE]
+UID=58065882
+
 [PA-5-CLONES-3-4-0cells outSE]
 UID=58049057
 
 [PA-5-CLONES-3-4-0cursor posSE]
 UID=58063758
-
-[PA-5-CLONES-3-4-0random coverageSE]
-UID=58065882
 
 [PA-5-CLONES-3-4-0mouse dwnSE]
 UID=58066436
@@ -18205,8 +18276,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0239715576171875
-Vmouse y=0.100000001490116
+Vmouse x=0.949999988079071
+Vmouse y=0.75
 Vallow drop=0
 
 [PA-5-CLONES-3-4-4switchSE]
@@ -18243,6 +18314,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -18286,7 +18358,7 @@ UID=58083975
 [PA-5-CLONES-3-4-5]
 UID=74453719
 no limit=1
-Vvalue=38701
+Vvalue=42212
 Vmin=0
 Vmax=15
 Vincrement value=1
@@ -18315,7 +18387,7 @@ INDEXprec=1
 [PA-5-CLONES-3-4-9]
 UID=31184100
 once in poly=0
-Vdata=38701
+Vdata=42212
 Tcaption=counter
 INDEXprec=0
 
@@ -18371,6 +18443,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -18423,6 +18496,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -18627,8 +18701,8 @@ VON value=1
 Vnull evt if OFF=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.300000011920929
-Vmouse y=0
+Vmouse x=0
+Vmouse y=0.349999994039536
 Vallow drop=0
 
 [PA-5-CLONES-3-4-10-0buttonSE]
@@ -18668,6 +18742,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -18713,8 +18788,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.224489793181419
-Vmouse y=1
+Vmouse x=0.0102040814235806
+Vmouse y=0.310344815254211
 Vauto reset=0
 Vallow drop=0
 
@@ -18754,6 +18829,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -18970,17 +19046,23 @@ UID=58130254
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=8
 Vlast click col=8
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000803F000000000000803F0000803F00000000000000000000803F00000000000000000000803F00000000000000000000803F0000803F000000000000803F000000000000803F0000803F0000803F00000000000000000000803F0000803F0000803F00000000000000000000803F000000000000803F0000803F00000000
 TABcells outL=32
+Vcursor pos=25
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=1
 Vcell 3=1
@@ -18997,16 +19079,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=8
-Vcursor pos=25
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.561639308929443
+Vmouse x=0.0625
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000803F000000000000803F0000803F00000000000000000000803F00000000000000000000803F00000000000000000000803F0000803F000000000000803F000000000000803F0000803F0000803F00000000000000000000803F0000803F0000803F00000000000000000000803F000000000000803F0000803F0000000000000000
@@ -19017,14 +19093,14 @@ UID=58131569
 [PA-5-CLONES-3-4-11num of rowsSE]
 UID=58132111
 
+[PA-5-CLONES-3-4-11random coverageSE]
+UID=58155146
+
 [PA-5-CLONES-3-4-11cells outSE]
 UID=58138755
 
 [PA-5-CLONES-3-4-11cursor posSE]
 UID=58153073
-
-[PA-5-CLONES-3-4-11random coverageSE]
-UID=58155146
 
 [PA-5-CLONES-3-4-11mouse dwnSE]
 UID=58155684
@@ -19170,7 +19246,7 @@ Vvalue=1
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=36
+Vcode1=2
 Vcode2=127
 
 [PA-5-CLONES-3-4-14]
@@ -19200,7 +19276,7 @@ Vout=127
 
 [PA-5-CLONES-3-4-19]
 UID=34992997
-Vout=36
+Vout=2
 
 [PA-5-CLONES-3-4-20]
 UID=64836084
@@ -19212,7 +19288,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=36
+Vfader=2
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -19223,8 +19299,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.324999988079071
-Vmouse y=0
+Vmouse x=0.466666668653488
+Vmouse y=0.533333361148834
 Vauto reset=0
 Vallow drop=0
 
@@ -19265,6 +19341,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -19325,8 +19402,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.00833333376795053
-Vmouse y=0.366666674613953
+Vmouse x=0.383333325386047
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 
@@ -19367,6 +19444,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -19427,8 +19505,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.699999988079071
-Vmouse y=0.100000001490116
+Vmouse x=0.191666662693024
+Vmouse y=0.966666638851166
 Vauto reset=0
 Vallow drop=0
 
@@ -19469,6 +19547,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -19580,7 +19659,7 @@ osc mode=0
 [PA-5-CLONES-3-5]
 UID=59173389
 once in poly=0
-Vdata=38701
+Vdata=42212
 Tcaption=counter
 INDEXprec=0
 
@@ -19606,7 +19685,7 @@ INDEXprec=1
 [PA-5-CLONES-3-9]
 UID=24058050
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -19618,7 +19697,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -19807,7 +19886,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=9
 Vswitch=0
@@ -19854,6 +19933,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -19918,6 +19998,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -20207,8 +20288,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0.224137932062149
+Vmouse x=0.420454531908035
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -20249,6 +20330,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -20293,13 +20375,13 @@ UID=58234110
 
 [PA-5-CLONES-3-10-0-1]
 UID=28800076
-VA=11201
+VA=8007
 VB=9
-Vout=5
+Vout=6
 
 [PA-5-CLONES-3-10-0-2]
 UID=28800089
-Vin=5
+Vin=6
 Vout=0
 
 [PA-5-CLONES-3-10-0-3]
@@ -20331,8 +20413,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.444444447755814
-Vmouse y=1
+Vmouse x=0.611111104488373
+Vmouse y=0
 Vallow drop=0
 
 [PA-5-CLONES-3-10-0-5switchSE]
@@ -20369,6 +20451,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -20525,7 +20608,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -20542,7 +20625,7 @@ Vvalue=0
 [PA-5-CLONES-3-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11201
+Vvalue=8007
 
 [PA-5-CLONES-3-10-0-14]
 UID=28800176
@@ -20802,8 +20885,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.215909093618393
-Vmouse y=0.0517241396009922
+Vmouse x=0.5
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -20844,6 +20927,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -20888,7 +20972,7 @@ UID=58279440
 
 [PA-5-CLONES-3-10-0-CLONES-2-1]
 UID=28800076
-VA=68459
+VA=77279
 VB=7
 Vout=6
 
@@ -20926,8 +21010,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.5
-Vmouse y=0
+Vmouse x=1
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-CLONES-3-10-0-CLONES-2-5switchSE]
@@ -20964,6 +21048,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -21120,7 +21205,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -21137,7 +21222,7 @@ Vvalue=0
 [PA-5-CLONES-3-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68459
+Vvalue=77279
 
 [PA-5-CLONES-3-10-0-CLONES-2-14]
 UID=28800176
@@ -21397,8 +21482,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.875
-Vmouse y=0.948275864124298
+Vmouse x=0
+Vmouse y=0.551724135875702
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -21439,6 +21524,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -21483,7 +21569,7 @@ UID=58325290
 
 [PA-5-CLONES-3-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=1
 Vout=0
 
@@ -21522,7 +21608,7 @@ Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
 Vmouse x=0.0555555559694767
-Vmouse y=0.444444447755814
+Vmouse y=0.666666686534882
 Vallow drop=0
 
 [PA-5-CLONES-3-10-0-CLONES-3-5switchSE]
@@ -21559,6 +21645,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -21715,7 +21802,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -21732,7 +21819,7 @@ Vvalue=0
 [PA-5-CLONES-3-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-3-10-0-CLONES-3-14]
 UID=28800176
@@ -21992,8 +22079,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0795454531908035
-Vmouse y=0.793103456497192
+Vmouse x=1
+Vmouse y=0.982758641242981
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -22034,6 +22121,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -22078,13 +22166,13 @@ UID=58372523
 
 [PA-5-CLONES-3-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-3-10-0-CLONES-4-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-3-10-0-CLONES-4-3]
@@ -22154,6 +22242,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -22310,7 +22399,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -22327,7 +22416,7 @@ Vvalue=0
 [PA-5-CLONES-3-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-3-10-0-CLONES-4-14]
 UID=28800176
@@ -22587,8 +22676,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0113636367022991
-Vmouse y=0.137931033968925
+Vmouse x=1
+Vmouse y=0.965517222881317
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -22629,6 +22718,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -22673,13 +22763,13 @@ UID=58420280
 
 [PA-5-CLONES-3-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-3-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-3-10-0-CLONES-5-3]
@@ -22749,6 +22839,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -22905,7 +22996,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -22922,7 +23013,7 @@ Vvalue=0
 [PA-5-CLONES-3-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-3-10-0-CLONES-5-14]
 UID=28800176
@@ -23182,8 +23273,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.102272726595402
-Vmouse y=0.948275864124298
+Vmouse x=0.170454546809196
+Vmouse y=1
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -23224,6 +23315,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -23344,6 +23436,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -23500,7 +23593,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -23777,8 +23870,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.172413796186447
+Vmouse x=0.420454531908035
+Vmouse y=0.189655169844627
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -23819,6 +23912,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -23901,8 +23995,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0.453377723693848
+Vmouse x=0.111111111938953
+Vmouse y=0.888888895511627
 Vallow drop=0
 
 [PA-5-CLONES-3-10-0-CLONES-7-5switchSE]
@@ -23939,6 +24033,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -24095,7 +24190,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -24372,8 +24467,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.113636367022991
-Vmouse y=0.0172413792461157
+Vmouse x=0
+Vmouse y=0.137931033968925
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -24414,6 +24509,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -24534,6 +24630,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -24690,7 +24787,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -24967,8 +25064,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.761363625526428
-Vmouse y=1
+Vmouse x=0.897727251052856
+Vmouse y=0.379310339689255
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -25009,6 +25106,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -25091,8 +25189,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.777777791023254
+Vmouse x=0.16666667163372
+Vmouse y=0.277777791023254
 Vallow drop=0
 
 [PA-5-CLONES-3-10-0-CLONES-9-5switchSE]
@@ -25129,6 +25227,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -25285,7 +25384,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -25401,7 +25500,7 @@ INDEXprec=1
 [PA-5-CLONES-3-10-3]
 UID=5340735
 once in poly=0
-TABdataV=00042F4680B5854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -25810,7 +25909,7 @@ auto resize=1
 [PA-5-CLONES-4-0]
 UID=47228694
 no limit=0
-Vvalue=9
+Vvalue=10
 Vmin=1
 Vmax=32
 Vincrement value=1
@@ -25837,8 +25936,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.466836720705032
-Vmouse y=0.169491529464722
+Vmouse x=0.373086720705032
+Vmouse y=0.27118644118309
 Vallow drop=0
 COLLAPS=1
 
@@ -25927,7 +26026,7 @@ name=Empty SubPatch
 nb polyphony=1
 can be randomized=1
 saved in preset=1
-Vdata=19291
+Vdata=20099
 Vswitch=0
 Vfader=64
 INDEXvisible=0
@@ -25971,6 +26070,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -26036,6 +26136,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -26235,19 +26336,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -26259,7 +26360,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -26271,22 +26372,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -26384,17 +26485,23 @@ UID=58661226
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=30
 Vlast click col=30
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F
 TABcells outL=32
+Vcursor pos=10
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=1
 Vcell 3=1
@@ -26411,16 +26518,10 @@ Vcell 13=1
 Vcell 14=1
 Vcell 15=1
 Vcell 16=1
-Vmatrix size=32
-Vlast click cell=30
-Vcursor pos=9
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.868749976158142
-Vmouse y=0.200000002980232
+Vmouse x=0.00312500004656613
+Vmouse y=0.150000005960464
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F00000000
@@ -26431,14 +26532,14 @@ UID=58662593
 [PA-5-CLONES-4-4-0num of rowsSE]
 UID=58663143
 
+[PA-5-CLONES-4-4-0random coverageSE]
+UID=58687619
+
 [PA-5-CLONES-4-4-0cells outSE]
 UID=58670206
 
 [PA-5-CLONES-4-4-0cursor posSE]
 UID=58685431
-
-[PA-5-CLONES-4-4-0random coverageSE]
-UID=58687619
 
 [PA-5-CLONES-4-4-0mouse dwnSE]
 UID=58688169
@@ -26577,7 +26678,7 @@ toolbar size=16
 
 [PA-5-CLONES-4-4-1]
 UID=74447700
-Vin=9
+Vin=10
 VOut=0
 
 [PA-5-CLONES-4-4-2]
@@ -26608,8 +26709,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.949999988079071
-Vmouse y=0.800000011920929
+Vmouse x=0.850000023841858
+Vmouse y=0
 Vallow drop=0
 
 [PA-5-CLONES-4-4-4switchSE]
@@ -26646,6 +26747,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -26689,7 +26791,7 @@ UID=58706074
 [PA-5-CLONES-4-4-5]
 UID=74453719
 no limit=1
-Vvalue=19291
+Vvalue=20099
 Vmin=0
 Vmax=15
 Vincrement value=1
@@ -26697,7 +26799,7 @@ Vincrement value=1
 [PA-5-CLONES-4-4-6]
 UID=42188562
 once in poly=0
-Vdata=9
+Vdata=10
 Tcaption=cursor
 INDEXprec=0
 
@@ -26718,7 +26820,7 @@ INDEXprec=1
 [PA-5-CLONES-4-4-9]
 UID=31184100
 once in poly=0
-Vdata=19291
+Vdata=20099
 Tcaption=counter
 INDEXprec=0
 
@@ -26774,6 +26876,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -26826,6 +26929,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -27030,8 +27134,8 @@ VON value=1
 Vnull evt if OFF=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.699999988079071
-Vmouse y=0.949999988079071
+Vmouse x=0.349999994039536
+Vmouse y=0.0500000007450581
 Vallow drop=0
 
 [PA-5-CLONES-4-4-10-0buttonSE]
@@ -27071,6 +27175,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -27116,8 +27221,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.408163279294968
-Vmouse y=1
+Vmouse x=0.959183692932129
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 
@@ -27157,6 +27262,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -27373,17 +27479,23 @@ UID=58753356
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=25
 Vlast click col=25
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000803F000000000000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000000000000000000000000000803F0000803F0000803F000000000000803F0000803F0000803F0000803F000000000000803F000000000000803F0000000000000000000000000000000000000000
 TABcells outL=32
+Vcursor pos=10
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -27400,16 +27512,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=25
-Vcursor pos=9
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.940625011920929
-Vmouse y=0.0936065539717674
+Vmouse x=0.0718749985098839
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000803F000000000000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000000000000000000000000000803F0000803F0000803F000000000000803F0000803F0000803F0000803F000000000000803F000000000000803F000000000000000000000000000000000000000000000000
@@ -27420,14 +27526,14 @@ UID=58754794
 [PA-5-CLONES-4-4-11num of rowsSE]
 UID=58755359
 
+[PA-5-CLONES-4-4-11random coverageSE]
+UID=58780135
+
 [PA-5-CLONES-4-4-11cells outSE]
 UID=58762576
 
 [PA-5-CLONES-4-4-11cursor posSE]
 UID=58777928
-
-[PA-5-CLONES-4-4-11random coverageSE]
-UID=58780135
 
 [PA-5-CLONES-4-4-11mouse dwnSE]
 UID=58780705
@@ -27573,7 +27679,7 @@ Vvalue=1
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=37
+Vcode1=3
 Vcode2=127
 
 [PA-5-CLONES-4-4-14]
@@ -27603,7 +27709,7 @@ Vout=127
 
 [PA-5-CLONES-4-4-19]
 UID=34992997
-Vout=37
+Vout=3
 
 [PA-5-CLONES-4-4-20]
 UID=64836084
@@ -27615,7 +27721,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=37
+Vfader=3
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -27626,8 +27732,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.20833332836628
-Vmouse y=0.766666650772095
+Vmouse x=0.0666666701436043
+Vmouse y=0.266666680574417
 Vauto reset=0
 Vallow drop=0
 
@@ -27668,6 +27774,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -27728,8 +27835,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0.16666667163372
+Vmouse x=0.425000011920929
+Vmouse y=0.0666666701436043
 Vauto reset=0
 Vallow drop=0
 
@@ -27770,6 +27877,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -27830,8 +27938,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.108333334326744
-Vmouse y=0.0666666701436043
+Vmouse x=0.466666668653488
+Vmouse y=0.966666638851166
 Vauto reset=0
 Vallow drop=0
 
@@ -27872,6 +27980,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -27983,7 +28092,7 @@ osc mode=0
 [PA-5-CLONES-4-5]
 UID=59173389
 once in poly=0
-Vdata=19291
+Vdata=20099
 Tcaption=counter
 INDEXprec=0
 
@@ -28001,7 +28110,7 @@ once in poly=0
 [PA-5-CLONES-4-8]
 UID=87111740
 once in poly=1
-TABdataV=000000000000803F00000000000000000000000000000000000000000000000000000000
+TABdataV=000000000000000000000000000000000000000000000000000000000000000000000000
 TABdataL=9
 Tcaption=clocks
 INDEXprec=1
@@ -28009,7 +28118,7 @@ INDEXprec=1
 [PA-5-CLONES-4-9]
 UID=24058050
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -28021,7 +28130,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -28210,9 +28319,9 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
-Vfader=5
+Vfader=10
 Vswitch=0
 INDEXvisible=0
 Vmouse dwn=0
@@ -28257,6 +28366,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -28321,6 +28431,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -28599,7 +28710,7 @@ saved in preset=1
 can be randomized=1
 once in poly=1
 INDEXvisible=4
-Vfader=5
+Vfader=10
 Vmin=1
 Vmax=32
 Tcaption=knob 1
@@ -28610,8 +28721,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0227272734045982
-Vmouse y=0.724137902259827
+Vmouse x=0.761363625526428
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -28652,6 +28763,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -28696,13 +28808,13 @@ UID=58863820
 
 [PA-5-CLONES-4-10-0-1]
 UID=28800076
-VA=11202
-VB=5
-Vout=2
+VA=8007
+VB=10
+Vout=7
 
 [PA-5-CLONES-4-10-0-2]
 UID=28800089
-Vin=2
+Vin=7
 Vout=0
 
 [PA-5-CLONES-4-10-0-3]
@@ -28716,7 +28828,7 @@ Vblock=0
 UID=28800099
 Vin=0
 Vout=0
-Vpass=1
+Vpass=0
 
 [PA-5-CLONES-4-10-0-5]
 UID=58869936
@@ -28724,7 +28836,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vswitch=1
+Vswitch=0
 Tcaption=pass
 COLcolor=33
 VON value=1
@@ -28734,8 +28846,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.666666686534882
+Vmouse x=0.777777791023254
+Vmouse y=0
 Vallow drop=0
 
 [PA-5-CLONES-4-10-0-5switchSE]
@@ -28772,6 +28884,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -28928,7 +29041,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -28945,7 +29058,7 @@ Vvalue=0
 [PA-5-CLONES-4-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11202
+Vvalue=8007
 
 [PA-5-CLONES-4-10-0-14]
 UID=28800176
@@ -29205,8 +29318,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.193181812763214
-Vmouse y=1
+Vmouse x=0.965909063816071
+Vmouse y=0.103448279201984
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -29247,6 +29360,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -29291,13 +29405,13 @@ UID=58909777
 
 [PA-5-CLONES-4-10-0-CLONES-2-1]
 UID=28800076
-VA=68460
+VA=77279
 VB=11
-Vout=7
+Vout=4
 
 [PA-5-CLONES-4-10-0-CLONES-2-2]
 UID=28800089
-Vin=7
+Vin=4
 Vout=0
 
 [PA-5-CLONES-4-10-0-CLONES-2-3]
@@ -29311,7 +29425,7 @@ Vblock=0
 UID=28800099
 Vin=0
 Vout=0
-Vpass=1
+Vpass=0
 
 [PA-5-CLONES-4-10-0-CLONES-2-5]
 UID=58915771
@@ -29319,7 +29433,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vswitch=1
+Vswitch=0
 Tcaption=pass
 COLcolor=33
 VON value=1
@@ -29329,8 +29443,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.888888895511627
-Vmouse y=0.611111104488373
+Vmouse x=0.833333313465118
+Vmouse y=0.5
 Vallow drop=0
 
 [PA-5-CLONES-4-10-0-CLONES-2-5switchSE]
@@ -29367,6 +29481,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -29523,7 +29638,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -29540,7 +29655,7 @@ Vvalue=0
 [PA-5-CLONES-4-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68460
+Vvalue=77279
 
 [PA-5-CLONES-4-10-0-CLONES-2-14]
 UID=28800176
@@ -29800,8 +29915,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0113636367022991
-Vmouse y=0.482758611440659
+Vmouse x=0.420454531908035
+Vmouse y=0.103448279201984
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -29842,6 +29957,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -29886,19 +30002,19 @@ UID=58956694
 
 [PA-5-CLONES-4-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=4
-Vout=1
+Vout=0
 
 [PA-5-CLONES-4-10-0-CLONES-3-2]
 UID=28800089
-Vin=1
-Vout=0
+Vin=0
+Vout=1
 
 [PA-5-CLONES-4-10-0-CLONES-3-3]
 UID=28800094
 VA=0
-VB=0
+VB=1
 Vout=0
 Vblock=0
 
@@ -29924,8 +30040,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0
+Vmouse x=1
+Vmouse y=0.333333343267441
 Vallow drop=0
 
 [PA-5-CLONES-4-10-0-CLONES-3-5switchSE]
@@ -29962,6 +30078,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -30118,7 +30235,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -30135,7 +30252,7 @@ Vvalue=0
 [PA-5-CLONES-4-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-4-10-0-CLONES-3-14]
 UID=28800176
@@ -30395,8 +30512,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.943181812763214
-Vmouse y=0.74137932062149
+Vmouse x=0.772727251052856
+Vmouse y=0.982758641242981
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -30437,6 +30554,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -30481,7 +30599,7 @@ UID=59003890
 
 [PA-5-CLONES-4-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=1
 Vout=0
 
@@ -30557,6 +30675,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -30713,7 +30832,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -30730,7 +30849,7 @@ Vvalue=0
 [PA-5-CLONES-4-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-4-10-0-CLONES-4-14]
 UID=28800176
@@ -30990,8 +31109,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0795454531908035
-Vmouse y=0.965517222881317
+Vmouse x=0.977272748947144
+Vmouse y=1
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -31032,6 +31151,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -31076,13 +31196,13 @@ UID=59050286
 
 [PA-5-CLONES-4-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-4-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-4-10-0-CLONES-5-3]
@@ -31114,8 +31234,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.388888895511627
-Vmouse y=0.722222208976746
+Vmouse x=0.111111111938953
+Vmouse y=0
 Vallow drop=0
 
 [PA-5-CLONES-4-10-0-CLONES-5-5switchSE]
@@ -31152,6 +31272,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -31308,7 +31429,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -31325,7 +31446,7 @@ Vvalue=0
 [PA-5-CLONES-4-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-4-10-0-CLONES-5-14]
 UID=28800176
@@ -31585,8 +31706,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0
+Vmouse x=0.0113636367022991
+Vmouse y=0.982758641242981
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -31627,6 +31748,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -31747,6 +31869,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -31903,7 +32026,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -32180,8 +32303,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.920454561710358
-Vmouse y=0.724137902259827
+Vmouse x=0
+Vmouse y=0.637931048870087
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -32222,6 +32345,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -32304,8 +32428,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.918265640735626
-Vmouse y=0
+Vmouse x=0.16666667163372
+Vmouse y=0.722222208976746
 Vallow drop=0
 
 [PA-5-CLONES-4-10-0-CLONES-7-5switchSE]
@@ -32342,6 +32466,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -32498,7 +32623,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -32775,8 +32900,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.988636374473572
-Vmouse y=0.189655169844627
+Vmouse x=0.363636374473572
+Vmouse y=0.0172413792461157
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -32817,6 +32942,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -32937,6 +33063,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -33093,7 +33220,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -33370,8 +33497,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.397727280855179
-Vmouse y=1
+Vmouse x=0.818181812763214
+Vmouse y=0.310344815254211
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -33412,6 +33539,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -33532,6 +33660,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -33688,7 +33817,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -33804,7 +33933,7 @@ INDEXprec=1
 [PA-5-CLONES-4-10-3]
 UID=5340735
 once in poly=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -34240,8 +34369,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.456632643938065
-Vmouse y=0.236286923289299
+Vmouse x=0.359056115150452
+Vmouse y=0.130801692605019
 Vallow drop=0
 COLLAPS=1
 
@@ -34374,6 +34503,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -34439,6 +34569,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -34638,19 +34769,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -34662,7 +34793,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -34674,22 +34805,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -34787,17 +34918,23 @@ UID=59302845
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=31
 Vlast click col=31
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=00000000000000000000803F0000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 TABcells outL=32
+Vcursor pos=8
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=1
 Vcell 3=0
@@ -34814,16 +34951,10 @@ Vcell 13=1
 Vcell 14=1
 Vcell 15=1
 Vcell 16=1
-Vmatrix size=32
-Vlast click cell=31
-Vcursor pos=8
-TABcursor outV=00000000
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0656249970197678
-Vmouse y=0.899999976158142
+Vmouse x=0.4921875
+Vmouse y=0.949999988079071
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D583230200000000100000000000000000000000000803F0000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000000000000000803F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -34834,14 +34965,14 @@ UID=59304520
 [PA-5-CLONES-5-4-0num of rowsSE]
 UID=59305168
 
+[PA-5-CLONES-5-4-0random coverageSE]
+UID=59336047
+
 [PA-5-CLONES-5-4-0cells outSE]
 UID=59313869
 
 [PA-5-CLONES-5-4-0cursor posSE]
 UID=59333298
-
-[PA-5-CLONES-5-4-0random coverageSE]
-UID=59336047
 
 [PA-5-CLONES-5-4-0mouse dwnSE]
 UID=59336743
@@ -35011,8 +35142,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.449999988079071
-Vmouse y=0.349999994039536
+Vmouse x=0.550000011920929
+Vmouse y=0.949999988079071
 Vallow drop=0
 
 [PA-5-CLONES-5-4-4switchSE]
@@ -35049,6 +35180,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -35177,6 +35309,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -35229,6 +35362,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -35433,8 +35567,8 @@ VON value=1
 Vnull evt if OFF=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.100000001490116
+Vmouse x=0.400000005960464
+Vmouse y=0.800000011920929
 Vallow drop=0
 
 [PA-5-CLONES-5-4-10-0buttonSE]
@@ -35474,6 +35608,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -35519,8 +35654,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0
+Vmouse x=0.551020383834839
+Vmouse y=0.982758641242981
 Vauto reset=0
 Vallow drop=0
 
@@ -35560,6 +35695,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -35776,17 +35912,23 @@ UID=59421051
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=25
 Vlast click col=25
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=000000000000803F0000000000000000000000000000000000000000000000000000803F0000000000000000000000000000803F000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F000000000000803F00000000000000000000000000000000
 TABcells outL=32
+Vcursor pos=8
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -35803,16 +35945,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=25
-Vcursor pos=8
-TABcursor outV=00000000
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.456250011920929
-Vmouse y=0.748852431774139
+Vmouse x=0.501562476158142
+Vmouse y=0.842458963394165
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D5832302000000001000000000000000000803F0000000000000000000000000000000000000000000000000000803F0000000000000000000000000000803F000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F000000000000803F0000000000000000000000000000000000000000
@@ -35823,14 +35959,14 @@ UID=59422784
 [PA-5-CLONES-5-4-11num of rowsSE]
 UID=59423457
 
+[PA-5-CLONES-5-4-11random coverageSE]
+UID=59454931
+
 [PA-5-CLONES-5-4-11cells outSE]
 UID=59432564
 
 [PA-5-CLONES-5-4-11cursor posSE]
 UID=59452155
-
-[PA-5-CLONES-5-4-11random coverageSE]
-UID=59454931
 
 [PA-5-CLONES-5-4-11mouse dwnSE]
 UID=59455631
@@ -35976,7 +36112,7 @@ Vvalue=0
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=38
+Vcode1=4
 Vcode2=64
 
 [PA-5-CLONES-5-4-14]
@@ -36006,7 +36142,7 @@ Vout=127
 
 [PA-5-CLONES-5-4-19]
 UID=34992997
-Vout=38
+Vout=4
 
 [PA-5-CLONES-5-4-20]
 UID=64836084
@@ -36018,7 +36154,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=38
+Vfader=4
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -36029,8 +36165,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.16666667163372
-Vmouse y=0.966666638851166
+Vmouse x=0.916666686534882
+Vmouse y=0.0333333350718021
 Vauto reset=0
 Vallow drop=0
 
@@ -36071,6 +36207,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -36131,8 +36268,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.383333325386047
-Vmouse y=0.866666674613953
+Vmouse x=0.00833333376795053
+Vmouse y=0.300000011920929
 Vauto reset=0
 Vallow drop=0
 
@@ -36173,6 +36310,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -36233,8 +36371,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0166666675359011
-Vmouse y=0.933333337306976
+Vmouse x=0.691666662693024
+Vmouse y=0.966666638851166
 Vauto reset=0
 Vallow drop=0
 
@@ -36275,6 +36413,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -36412,7 +36551,7 @@ INDEXprec=1
 [PA-5-CLONES-5-9]
 UID=24058050
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -36424,7 +36563,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -36613,7 +36752,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=25
 Vswitch=0
@@ -36660,6 +36799,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -36724,6 +36864,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -37013,8 +37154,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0568181835114956
-Vmouse y=0.655172407627106
+Vmouse x=0.784090936183929
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -37055,6 +37196,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -37099,13 +37241,13 @@ UID=59562110
 
 [PA-5-CLONES-5-10-0-1]
 UID=28800076
-VA=11202
+VA=8007
 VB=25
-Vout=2
+Vout=7
 
 [PA-5-CLONES-5-10-0-2]
 UID=28800089
-Vin=2
+Vin=7
 Vout=0
 
 [PA-5-CLONES-5-10-0-3]
@@ -37137,8 +37279,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.777777791023254
-Vmouse y=0.444444447755814
+Vmouse x=0.16666667163372
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-CLONES-5-10-0-5switchSE]
@@ -37175,6 +37317,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -37331,7 +37474,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -37348,7 +37491,7 @@ Vvalue=0
 [PA-5-CLONES-5-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11202
+Vvalue=8007
 
 [PA-5-CLONES-5-10-0-14]
 UID=28800176
@@ -37608,8 +37751,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.375
-Vmouse y=0.241379305720329
+Vmouse x=0.556818187236786
+Vmouse y=0.0172413792461157
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -37650,6 +37793,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -37694,7 +37838,7 @@ UID=59621831
 
 [PA-5-CLONES-5-10-0-CLONES-2-1]
 UID=28800076
-VA=68460
+VA=77279
 VB=1
 Vout=0
 
@@ -37732,8 +37876,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.919564008712769
-Vmouse y=0.971373975276947
+Vmouse x=1
+Vmouse y=0.444444447755814
 Vallow drop=0
 
 [PA-5-CLONES-5-10-0-CLONES-2-5switchSE]
@@ -37770,6 +37914,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -37926,7 +38071,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -37943,7 +38088,7 @@ Vvalue=0
 [PA-5-CLONES-5-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68460
+Vvalue=77279
 
 [PA-5-CLONES-5-10-0-CLONES-2-14]
 UID=28800176
@@ -38203,8 +38348,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0227272734045982
-Vmouse y=0.431034475564957
+Vmouse x=0.136363640427589
+Vmouse y=1
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -38245,6 +38390,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -38289,7 +38435,7 @@ UID=59681474
 
 [PA-5-CLONES-5-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=3
 Vout=0
 
@@ -38327,8 +38473,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.16666667163372
-Vmouse y=0.555555582046509
+Vmouse x=0.0555555559694767
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-CLONES-5-10-0-CLONES-3-5switchSE]
@@ -38365,6 +38511,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -38521,7 +38668,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -38538,7 +38685,7 @@ Vvalue=0
 [PA-5-CLONES-5-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-5-10-0-CLONES-3-14]
 UID=28800176
@@ -38798,8 +38945,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0227272734045982
-Vmouse y=0.241379305720329
+Vmouse x=0.954545438289642
+Vmouse y=0.327586203813553
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -38840,6 +38987,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -38884,13 +39032,13 @@ UID=59740658
 
 [PA-5-CLONES-5-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-5-10-0-CLONES-4-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-5-10-0-CLONES-4-3]
@@ -38960,6 +39108,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -39116,7 +39265,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -39133,7 +39282,7 @@ Vvalue=0
 [PA-5-CLONES-5-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-5-10-0-CLONES-4-14]
 UID=28800176
@@ -39393,8 +39542,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.988636374473572
-Vmouse y=0.724137902259827
+Vmouse x=0.0340909101068974
+Vmouse y=0.310344815254211
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -39435,6 +39584,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -39479,13 +39629,13 @@ UID=59798990
 
 [PA-5-CLONES-5-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-5-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-5-10-0-CLONES-5-3]
@@ -39555,6 +39705,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -39711,7 +39862,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -39728,7 +39879,7 @@ Vvalue=0
 [PA-5-CLONES-5-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-5-10-0-CLONES-5-14]
 UID=28800176
@@ -39988,8 +40139,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.954545438289642
-Vmouse y=0.206896558403969
+Vmouse x=0.704545438289642
+Vmouse y=0.275862067937851
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -40030,6 +40181,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -40112,8 +40264,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.111111111938953
-Vmouse y=1
+Vmouse x=0.333333343267441
+Vmouse y=0.555555582046509
 Vallow drop=0
 
 [PA-5-CLONES-5-10-0-CLONES-6-5switchSE]
@@ -40150,6 +40302,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -40306,7 +40459,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -40583,8 +40736,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.363636374473572
-Vmouse y=0.0172413792461157
+Vmouse x=0.954545438289642
+Vmouse y=0.5
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -40625,6 +40778,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -40707,8 +40861,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.611111104488373
-Vmouse y=0.0555555559694767
+Vmouse x=0.833333313465118
+Vmouse y=0.16666667163372
 Vallow drop=0
 
 [PA-5-CLONES-5-10-0-CLONES-7-5switchSE]
@@ -40745,6 +40899,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -40901,7 +41056,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -41178,8 +41333,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.988636374473572
-Vmouse y=1
+Vmouse x=0.977272748947144
+Vmouse y=0.706896543502808
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -41220,6 +41375,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -41302,8 +41458,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0352783203125
-Vmouse y=0.611111104488373
+Vmouse x=1
+Vmouse y=0.777777791023254
 Vallow drop=0
 
 [PA-5-CLONES-5-10-0-CLONES-8-5switchSE]
@@ -41340,6 +41496,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -41496,7 +41653,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -41773,8 +41930,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.948275864124298
+Vmouse x=0.886363625526428
+Vmouse y=0.706896543502808
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -41815,6 +41972,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -41935,6 +42093,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -42091,7 +42250,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -42207,7 +42366,7 @@ INDEXprec=1
 [PA-5-CLONES-5-10-3]
 UID=5340735
 once in poly=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0038FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -42643,8 +42802,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.354992985725403
-Vmouse y=0.0976430997252464
+Vmouse x=0.347331255674362
+Vmouse y=0.191919192671776
 Vallow drop=0
 COLLAPS=1
 
@@ -42777,6 +42936,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -42842,6 +43002,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -43041,19 +43202,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -43065,7 +43226,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -43077,22 +43238,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -43190,17 +43351,23 @@ UID=60119162
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=29
 Vlast click col=29
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000803F0000803F00000000000000000000803F0000803F000000000000803F000000000000803F000000000000803F000000000000803F000000000000803F0000803F000000000000803F00000000000000000000803F0000000000000000000000000000803F00000000000000000000803F00000000000000000000803F
 TABcells outL=32
+Vcursor pos=5
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=1
 Vcell 3=0
@@ -43217,16 +43384,10 @@ Vcell 13=1
 Vcell 14=0
 Vcell 15=1
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=29
-Vcursor pos=5
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.349999994039536
-Vmouse y=0.899999976158142
+Vmouse x=0.5703125
+Vmouse y=0.949999988079071
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000803F0000803F00000000000000000000803F0000803F000000000000803F000000000000803F000000000000803F000000000000803F000000000000803F0000803F000000000000803F00000000000000000000803F0000000000000000000000000000803F00000000000000000000803F00000000000000000000803F00000000
@@ -43237,14 +43398,14 @@ UID=60120959
 [PA-5-CLONES-6-4-0num of rowsSE]
 UID=60121667
 
+[PA-5-CLONES-6-4-0random coverageSE]
+UID=60155040
+
 [PA-5-CLONES-6-4-0cells outSE]
 UID=60131291
 
 [PA-5-CLONES-6-4-0cursor posSE]
 UID=60152110
-
-[PA-5-CLONES-6-4-0random coverageSE]
-UID=60155040
 
 [PA-5-CLONES-6-4-0mouse dwnSE]
 UID=60155759
@@ -43414,8 +43575,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.202789932489395
-Vmouse y=0.607219696044922
+Vmouse x=0.0500000007450581
+Vmouse y=0.200000002980232
 Vallow drop=0
 
 [PA-5-CLONES-6-4-4switchSE]
@@ -43452,6 +43613,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -43580,6 +43742,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -43632,6 +43795,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -43877,6 +44041,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -43922,8 +44087,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.448979586362839
-Vmouse y=0
+Vmouse x=0.183673471212387
+Vmouse y=0.724137902259827
 Vauto reset=0
 Vallow drop=0
 
@@ -43963,6 +44128,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -44179,17 +44345,23 @@ UID=60242562
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=25
 Vlast click col=25
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000000000000000000000000000803F000000000000803F0000803F0000803F0000803F00000000000000000000803F0000803F000000000000803F000000000000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000000000000000000000000000803F
 TABcells outL=32
+Vcursor pos=5
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -44206,16 +44378,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=25
-Vcursor pos=5
-TABcursor outV=00000000
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.670312523841858
-Vmouse y=0.280819654464722
+Vmouse x=0.589062511920929
+Vmouse y=0.561639308929443
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000000000000000000000000000803F000000000000803F0000803F0000803F0000803F00000000000000000000803F0000803F000000000000803F000000000000803F0000803F0000803F0000803F0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000000000000000000000000000803F00000000
@@ -44226,14 +44392,14 @@ UID=60244336
 [PA-5-CLONES-6-4-11num of rowsSE]
 UID=60245008
 
+[PA-5-CLONES-6-4-11random coverageSE]
+UID=60277457
+
 [PA-5-CLONES-6-4-11cells outSE]
 UID=60254391
 
 [PA-5-CLONES-6-4-11cursor posSE]
 UID=60274571
-
-[PA-5-CLONES-6-4-11random coverageSE]
-UID=60277457
 
 [PA-5-CLONES-6-4-11mouse dwnSE]
 UID=60278145
@@ -44379,7 +44545,7 @@ Vvalue=0
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=39
+Vcode1=5
 Vcode2=64
 
 [PA-5-CLONES-6-4-14]
@@ -44409,7 +44575,7 @@ Vout=127
 
 [PA-5-CLONES-6-4-19]
 UID=34992997
-Vout=39
+Vout=5
 
 [PA-5-CLONES-6-4-20]
 UID=64836084
@@ -44421,7 +44587,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=39
+Vfader=5
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -44432,8 +44598,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.108333334326744
-Vmouse y=0.899999976158142
+Vmouse x=0.333333343267441
+Vmouse y=0.966666638851166
 Vauto reset=0
 Vallow drop=0
 
@@ -44474,6 +44640,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -44534,8 +44701,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.375
-Vmouse y=0.966666638851166
+Vmouse x=0.025000000372529
+Vmouse y=0.400000005960464
 Vauto reset=0
 Vallow drop=0
 
@@ -44576,6 +44743,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -44636,8 +44804,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.633333325386047
+Vmouse x=1
+Vmouse y=0.666666686534882
 Vauto reset=0
 Vallow drop=0
 
@@ -44678,6 +44846,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -44815,7 +44984,7 @@ INDEXprec=1
 [PA-5-CLONES-6-9]
 UID=24058050
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -44827,7 +44996,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -45016,7 +45185,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=16
 Vswitch=0
@@ -45063,6 +45232,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -45127,6 +45297,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -45416,8 +45587,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.988636374473572
-Vmouse y=1
+Vmouse x=0.613636374473572
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -45458,6 +45629,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -45502,13 +45674,13 @@ UID=60387379
 
 [PA-5-CLONES-6-10-0-1]
 UID=28800076
-VA=11202
+VA=8008
 VB=16
-Vout=2
+Vout=8
 
 [PA-5-CLONES-6-10-0-2]
 UID=28800089
-Vin=2
+Vin=8
 Vout=0
 
 [PA-5-CLONES-6-10-0-3]
@@ -45540,8 +45712,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.50645923614502
-Vmouse y=0.000122202764032409
+Vmouse x=0.611111104488373
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-CLONES-6-10-0-5switchSE]
@@ -45578,6 +45750,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -45734,7 +45907,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -45751,7 +45924,7 @@ Vvalue=0
 [PA-5-CLONES-6-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11202
+Vvalue=8008
 
 [PA-5-CLONES-6-10-0-14]
 UID=28800176
@@ -46011,7 +46184,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.454545468091965
+Vmouse x=0.272727280855179
 Vmouse y=0
 Vauto reset=0
 Vallow drop=0
@@ -46053,6 +46226,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -46097,7 +46271,7 @@ UID=60449090
 
 [PA-5-CLONES-6-10-0-CLONES-2-1]
 UID=28800076
-VA=68460
+VA=77279
 VB=1
 Vout=0
 
@@ -46135,8 +46309,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.525882482528687
-Vmouse y=0.000122202764032409
+Vmouse x=0.16666667163372
+Vmouse y=0.722222208976746
 Vallow drop=0
 
 [PA-5-CLONES-6-10-0-CLONES-2-5switchSE]
@@ -46173,6 +46347,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -46329,7 +46504,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -46346,7 +46521,7 @@ Vvalue=0
 [PA-5-CLONES-6-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68460
+Vvalue=77279
 
 [PA-5-CLONES-6-10-0-CLONES-2-14]
 UID=28800176
@@ -46606,8 +46781,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.159090906381607
-Vmouse y=0.327586203813553
+Vmouse x=0
+Vmouse y=0.431034475564957
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -46648,6 +46823,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -46692,19 +46868,19 @@ UID=60509573
 
 [PA-5-CLONES-6-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=8
-Vout=5
+Vout=0
 
 [PA-5-CLONES-6-10-0-CLONES-3-2]
 UID=28800089
-Vin=5
-Vout=0
+Vin=0
+Vout=1
 
 [PA-5-CLONES-6-10-0-CLONES-3-3]
 UID=28800094
 VA=0
-VB=0
+VB=1
 Vout=0
 Vblock=0
 
@@ -46768,6 +46944,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -46924,7 +47101,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -46941,7 +47118,7 @@ Vvalue=0
 [PA-5-CLONES-6-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-6-10-0-CLONES-3-14]
 UID=28800176
@@ -47201,8 +47378,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.215909093618393
-Vmouse y=0.896551728248596
+Vmouse x=0.954545438289642
+Vmouse y=0.534482777118683
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -47243,6 +47420,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -47287,13 +47465,13 @@ UID=60570179
 
 [PA-5-CLONES-6-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=6
-Vout=1
+Vout=2
 
 [PA-5-CLONES-6-10-0-CLONES-4-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-6-10-0-CLONES-4-3]
@@ -47325,8 +47503,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.56472897529602
-Vmouse y=0.295382380485535
+Vmouse x=0.722222208976746
+Vmouse y=0
 Vallow drop=0
 
 [PA-5-CLONES-6-10-0-CLONES-4-5switchSE]
@@ -47363,6 +47541,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -47519,7 +47698,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -47536,7 +47715,7 @@ Vvalue=0
 [PA-5-CLONES-6-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-6-10-0-CLONES-4-14]
 UID=28800176
@@ -47796,8 +47975,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.352272719144821
-Vmouse y=0.0344827584922314
+Vmouse x=0.0454545468091965
+Vmouse y=0.448275864124298
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -47838,6 +48017,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -47882,13 +48062,13 @@ UID=60630405
 
 [PA-5-CLONES-6-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-6-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-6-10-0-CLONES-5-3]
@@ -47958,6 +48138,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -48114,7 +48295,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -48131,7 +48312,7 @@ Vvalue=0
 [PA-5-CLONES-6-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-6-10-0-CLONES-5-14]
 UID=28800176
@@ -48433,6 +48614,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -48553,6 +48735,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -48709,7 +48892,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -49028,6 +49211,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -49148,6 +49332,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -49304,7 +49489,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -49623,6 +49808,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -49743,6 +49929,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -49899,7 +50086,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -50218,6 +50405,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -50338,6 +50526,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -50494,7 +50683,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -50610,7 +50799,7 @@ INDEXprec=1
 [PA-5-CLONES-6-10-3]
 UID=5340735
 once in poly=0
-TABdataV=00082F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -51046,8 +51235,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.472576409578323
-Vmouse y=0.0812324956059456
+Vmouse x=0.444515198469162
+Vmouse y=0.140056028962135
 Vallow drop=0
 COLLAPS=1
 
@@ -51180,6 +51369,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -51245,6 +51435,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -51444,19 +51635,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -51468,7 +51659,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -51480,22 +51671,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -51593,17 +51784,23 @@ UID=60901509
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=30
 Vlast click col=30
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000803F0000803F000000000000803F00000000000000000000803F0000000000000000000000000000803F0000803F000000000000803F0000803F000000000000803F000000000000803F0000000000000000
 TABcells outL=32
+Vcursor pos=3
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=1
@@ -51620,16 +51817,10 @@ Vcell 13=1
 Vcell 14=1
 Vcell 15=0
 Vcell 16=1
-Vmatrix size=32
-Vlast click cell=30
-Vcursor pos=3
-TABcursor outV=00000000
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.215625002980232
-Vmouse y=0.850000023841858
+Vmouse x=0.737500011920929
+Vmouse y=0.5
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000803F0000803F000000000000803F00000000000000000000803F0000000000000000000000000000803F0000803F000000000000803F0000803F000000000000803F000000000000803F000000000000000000000000
@@ -51640,14 +51831,14 @@ UID=60902975
 [PA-5-CLONES-7-4-0num of rowsSE]
 UID=60903532
 
+[PA-5-CLONES-7-4-0random coverageSE]
+UID=60930902
+
 [PA-5-CLONES-7-4-0cells outSE]
 UID=60911368
 
 [PA-5-CLONES-7-4-0cursor posSE]
 UID=60928497
-
-[PA-5-CLONES-7-4-0random coverageSE]
-UID=60930902
 
 [PA-5-CLONES-7-4-0mouse dwnSE]
 UID=60931471
@@ -51817,7 +52008,7 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.400000005960464
+Vmouse x=0.800000011920929
 Vmouse y=0.899999976158142
 Vallow drop=0
 
@@ -51855,6 +52046,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -51983,6 +52175,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -52035,6 +52228,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -52280,6 +52474,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -52325,8 +52520,8 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.591836750507355
-Vmouse y=0
+Vmouse x=0.438775509595871
+Vmouse y=0.0172413792461157
 Vauto reset=0
 Vallow drop=0
 
@@ -52366,6 +52561,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -52582,17 +52778,23 @@ UID=61003444
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=25
 Vlast click col=25
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=00000000000000000000803F0000803F00000000000000000000803F000000000000803F00000000000000000000803F0000803F0000803F000000000000803F000000000000000000000000000000000000803F0000803F0000803F0000803F0000803F0000803F00000000000000000000803F0000803F000000000000803F
 TABcells outL=32
+Vcursor pos=3
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -52609,16 +52811,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=25
-Vcursor pos=3
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.00156250002328306
-Vmouse y=0.842458963394165
+Vmouse x=0.606249988079071
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D583230200000000100000000000000000000000000803F0000803F00000000000000000000803F000000000000803F00000000000000000000803F0000803F0000803F000000000000803F000000000000000000000000000000000000803F0000803F0000803F0000803F0000803F0000803F00000000000000000000803F0000803F000000000000803F00000000
@@ -52629,14 +52825,14 @@ UID=61004866
 [PA-5-CLONES-7-4-11num of rowsSE]
 UID=61005404
 
+[PA-5-CLONES-7-4-11random coverageSE]
+UID=61031897
+
 [PA-5-CLONES-7-4-11cells outSE]
 UID=61013027
 
 [PA-5-CLONES-7-4-11cursor posSE]
 UID=61029512
-
-[PA-5-CLONES-7-4-11random coverageSE]
-UID=61031897
 
 [PA-5-CLONES-7-4-11mouse dwnSE]
 UID=61032462
@@ -52782,7 +52978,7 @@ Vvalue=1
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=51
+Vcode1=6
 Vcode2=64
 
 [PA-5-CLONES-7-4-14]
@@ -52812,7 +53008,7 @@ Vout=64
 
 [PA-5-CLONES-7-4-19]
 UID=34992997
-Vout=51
+Vout=6
 
 [PA-5-CLONES-7-4-20]
 UID=64836084
@@ -52824,7 +53020,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=51
+Vfader=6
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -52835,8 +53031,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0333333350718021
-Vmouse y=0.0333333350718021
+Vmouse x=0.0166666675359011
+Vmouse y=0.5
 Vauto reset=0
 Vallow drop=0
 
@@ -52877,6 +53073,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -52937,8 +53134,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.691666662693024
-Vmouse y=0.466666668653488
+Vmouse x=0.0916666686534882
+Vmouse y=0.966666638851166
 Vauto reset=0
 Vallow drop=0
 
@@ -52979,6 +53176,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -53081,6 +53279,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -53218,7 +53417,7 @@ INDEXprec=1
 [PA-5-CLONES-7-9]
 UID=24058050
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -53230,7 +53429,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -53419,7 +53618,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=18
 Vswitch=0
@@ -53466,6 +53665,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -53530,6 +53730,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -53819,8 +54020,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0795454531908035
-Vmouse y=0.637931048870087
+Vmouse x=0.386363625526428
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -53861,6 +54062,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -53905,13 +54107,13 @@ UID=61121028
 
 [PA-5-CLONES-7-10-0-1]
 UID=28800076
-VA=11203
+VA=8008
 VB=18
-Vout=7
+Vout=16
 
 [PA-5-CLONES-7-10-0-2]
 UID=28800089
-Vin=7
+Vin=16
 Vout=0
 
 [PA-5-CLONES-7-10-0-3]
@@ -53943,8 +54145,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.277777791023254
+Vmouse x=0.388888895511627
+Vmouse y=0
 Vallow drop=0
 
 [PA-5-CLONES-7-10-0-5switchSE]
@@ -53981,6 +54183,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -54137,7 +54340,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -54154,7 +54357,7 @@ Vvalue=0
 [PA-5-CLONES-7-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11203
+Vvalue=8008
 
 [PA-5-CLONES-7-10-0-14]
 UID=28800176
@@ -54414,8 +54617,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.597282409667969
-Vmouse y=0.948275864124298
+Vmouse x=0
+Vmouse y=0.0172413792461157
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -54456,6 +54659,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -54500,7 +54704,7 @@ UID=61169946
 
 [PA-5-CLONES-7-10-0-CLONES-2-1]
 UID=28800076
-VA=68460
+VA=77279
 VB=1
 Vout=0
 
@@ -54538,8 +54742,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0.702011466026306
+Vmouse x=0
+Vmouse y=1
 Vallow drop=0
 
 [PA-5-CLONES-7-10-0-CLONES-2-5switchSE]
@@ -54576,6 +54780,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -54732,7 +54937,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -54749,7 +54954,7 @@ Vvalue=0
 [PA-5-CLONES-7-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68460
+Vvalue=77279
 
 [PA-5-CLONES-7-10-0-CLONES-2-14]
 UID=28800176
@@ -55051,6 +55256,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -55095,7 +55301,7 @@ UID=61217901
 
 [PA-5-CLONES-7-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=3
 Vout=0
 
@@ -55171,6 +55377,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -55327,7 +55534,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -55344,7 +55551,7 @@ Vvalue=0
 [PA-5-CLONES-7-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-7-10-0-CLONES-3-14]
 UID=28800176
@@ -55604,7 +55811,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.409090906381607
+Vmouse x=0.761363625526428
 Vmouse y=0
 Vauto reset=0
 Vallow drop=0
@@ -55646,6 +55853,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -55690,13 +55898,13 @@ UID=61266309
 
 [PA-5-CLONES-7-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-7-10-0-CLONES-4-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-7-10-0-CLONES-4-3]
@@ -55766,6 +55974,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -55922,7 +56131,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -55939,7 +56148,7 @@ Vvalue=0
 [PA-5-CLONES-7-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-7-10-0-CLONES-4-14]
 UID=28800176
@@ -56200,7 +56409,7 @@ Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
 Vmouse x=0
-Vmouse y=0.517241358757019
+Vmouse y=0.448275864124298
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -56241,6 +56450,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -56285,13 +56495,13 @@ UID=61314442
 
 [PA-5-CLONES-7-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=3
-Vout=1
+Vout=2
 
 [PA-5-CLONES-7-10-0-CLONES-5-2]
 UID=28800089
-Vin=1
+Vin=2
 Vout=0
 
 [PA-5-CLONES-7-10-0-CLONES-5-3]
@@ -56361,6 +56571,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -56517,7 +56728,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -56534,7 +56745,7 @@ Vvalue=0
 [PA-5-CLONES-7-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-7-10-0-CLONES-5-14]
 UID=28800176
@@ -56836,6 +57047,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -56956,6 +57168,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -57112,7 +57325,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -57431,6 +57644,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -57551,6 +57765,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -57707,7 +57922,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -58026,6 +58241,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -58146,6 +58362,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -58302,7 +58519,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -58579,8 +58796,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0290998984128237
-Vmouse y=0.0172413792461157
+Vmouse x=0.875
+Vmouse y=0.0344827584922314
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -58621,6 +58838,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -58741,6 +58959,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -58897,7 +59116,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -59013,7 +59232,7 @@ INDEXprec=1
 [PA-5-CLONES-7-10-3]
 UID=5340735
 once in poly=0
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -59449,8 +59668,8 @@ INDEXparent=5
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.447066247463226
-Vmouse y=0.0767386108636856
+Vmouse x=0.426658093929291
+Vmouse y=0.139088734984398
 Vallow drop=0
 COLLAPS=1
 
@@ -59583,6 +59802,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -59648,6 +59868,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -59847,19 +60068,19 @@ T22=528
 ID23=3
 L23=722
 T23=486
-C0=0600000000001E00
+C0=0600000000000F00
 CSRCNAME0=CURSOR
 CTARGNAME0=CURSOR POS
-C1=0700000000000100
+C1=0700000000000200
 CSRCNAME1=NUM OF COLS
 CTARGNAME1=NUM OF COLS
-C2=0800000000000200
+C2=0800000000000300
 CSRCNAME2=NUM OF ROWS
 CTARGNAME2=NUM OF ROWS
-C3=0A00000000000500
+C3=0A00000000000600
 CSRCNAME3=RANDOMIZE
 CTARGNAME3=RANDOMIZE
-C4=0A00010000002100
+C4=0A00010000000800
 CSRCNAME4=RANDOM COVERAGE
 CTARGNAME4=RANDOM COVERAGE
 C5=0600000001000000
@@ -59871,7 +60092,7 @@ CTARGNAME6=A
 C7=0300020002000100
 CSRCNAME7=VALUE
 CTARGNAME7=B
-C8=00001F0003000000
+C8=0000100003000000
 CSRCNAME8=CURSOR OUT
 CTARGNAME8=ARRAY IN
 C9=0200020004000100
@@ -59883,22 +60104,22 @@ CTARGNAME10=INCREMENT
 C11=0500000009000000
 CSRCNAME11=VALUE
 CTARGNAME11=COUNTER
-C12=070000000B000100
+C12=070000000B000200
 CSRCNAME12=NUM OF COLS
 CTARGNAME12=NUM OF COLS
-C13=080000000B000200
+C13=080000000B000300
 CSRCNAME13=NUM OF ROWS
 CTARGNAME13=NUM OF ROWS
-C14=0A0000000B000500
+C14=0A0000000B000600
 CSRCNAME14=RANDOMIZE
 CTARGNAME14=RANDOMIZE
-C15=0A0001000B002100
+C15=0A0001000B000800
 CSRCNAME15=RANDOM COVERAGE
 CTARGNAME15=RANDOM COVERAGE
-C16=060000000B001E00
+C16=060000000B000F00
 CSRCNAME16=CURSOR
 CTARGNAME16=CURSOR POS
-C17=0B001F000C000000
+C17=0B0010000C000000
 CSRCNAME17=CURSOR OUT
 CTARGNAME17=ARRAY IN
 C18=040001000D000500
@@ -59996,17 +60217,23 @@ UID=61557255
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=2
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=31
 Vlast click col=31
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=000000000000803F0000803F0000803F0000803F00000000000000000000803F0000803F0000000000000000000000000000803F000000000000803F000000000000803F000000000000000000000000000000000000803F000000000000803F0000803F000000000000803F000000000000803F00000000000000000000803F
 TABcells outL=32
+Vcursor pos=10
+TABcursor outV=00000000
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -60023,15 +60250,9 @@ Vcell 13=1
 Vcell 14=0
 Vcell 15=1
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=31
-Vcursor pos=10
-TABcursor outV=00000000
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.046875
+Vmouse x=1
 Vmouse y=0.0500000007450581
 Vallow drop=0
 COLLAPS=1
@@ -60043,14 +60264,14 @@ UID=61558610
 [PA-5-CLONES-8-4-0num of rowsSE]
 UID=61559112
 
+[PA-5-CLONES-8-4-0random coverageSE]
+UID=61584516
+
 [PA-5-CLONES-8-4-0cells outSE]
 UID=61566483
 
 [PA-5-CLONES-8-4-0cursor posSE]
 UID=61582309
-
-[PA-5-CLONES-8-4-0random coverageSE]
-UID=61584516
 
 [PA-5-CLONES-8-4-0mouse dwnSE]
 UID=61585018
@@ -60220,8 +60441,8 @@ INDEXgroup=0
 Vat least one=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.473971545696259
-Vmouse y=0.200000002980232
+Vmouse x=0.949999988079071
+Vmouse y=0.0500000007450581
 Vallow drop=0
 
 [PA-5-CLONES-8-4-4switchSE]
@@ -60258,6 +60479,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=3
 OFF color=32
@@ -60386,6 +60608,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -60438,6 +60661,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -60683,6 +60907,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -60728,7 +60953,7 @@ Vdefault val=0.25
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.714285731315613
+Vmouse x=0.928571403026581
 Vmouse y=1
 Vauto reset=0
 Vallow drop=0
@@ -60769,6 +60994,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -60985,17 +61211,23 @@ UID=61652570
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
+Vmatrix size=32
 Vnum of cols=32
 Vnum of rows=1
 INDEXmouse mode=0
 Vcell draw val=1
+Vrandom coverage=1
+Vreset val=0
+Vlast click cell=25
 Vlast click col=25
 Vlast click row=0
-Vreset val=0
 TABcells valV=00000000
 TABcells valL=1
 TABcells outV=0000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F00000000000000000000803F000000000000803F00000000000000000000803F0000000000000000000000000000000000000000000000000000803F0000803F000000000000803F00000000
 TABcells outL=32
+Vcursor pos=10
+TABcursor outV=0000803F
+TABcursor outL=1
 Vcell 1=1
 Vcell 2=0
 Vcell 3=0
@@ -61012,16 +61244,10 @@ Vcell 13=0
 Vcell 14=0
 Vcell 15=0
 Vcell 16=0
-Vmatrix size=32
-Vlast click cell=25
-Vcursor pos=10
-TABcursor outV=0000803F
-TABcursor outL=1
-Vrandom coverage=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0656249970197678
-Vmouse y=0
+Vmouse x=0.0796874985098839
+Vmouse y=0.187213107943535
 Vallow drop=0
 COLLAPS=1
 CHUNK=4D58323020000000010000000000803F0000803F0000803F0000803F000000000000803F0000803F0000803F0000803F0000803F0000803F000000000000803F00000000000000000000803F000000000000803F00000000000000000000803F0000000000000000000000000000000000000000000000000000803F0000803F000000000000803F0000000000000000
@@ -61032,14 +61258,14 @@ UID=61653933
 [PA-5-CLONES-8-4-11num of rowsSE]
 UID=61654443
 
+[PA-5-CLONES-8-4-11random coverageSE]
+UID=61680068
+
 [PA-5-CLONES-8-4-11cells outSE]
 UID=61661810
 
 [PA-5-CLONES-8-4-11cursor posSE]
 UID=61677829
-
-[PA-5-CLONES-8-4-11random coverageSE]
-UID=61680068
 
 [PA-5-CLONES-8-4-11mouse dwnSE]
 UID=61680574
@@ -61185,7 +61411,7 @@ Vvalue=1
 UID=86699052
 INDEXchan=1
 INDEXmsg=0
-Vcode1=49
+Vcode1=7
 Vcode2=127
 
 [PA-5-CLONES-8-4-14]
@@ -61215,7 +61441,7 @@ Vout=127
 
 [PA-5-CLONES-8-4-19]
 UID=34992997
-Vout=49
+Vout=7
 
 [PA-5-CLONES-8-4-20]
 UID=64836084
@@ -61227,7 +61453,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=49
+Vfader=7
 Vmin=0
 Vmax=127
 Tcaption=note
@@ -61238,7 +61464,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.925000011920929
+Vmouse x=0.316666662693024
 Vmouse y=1
 Vauto reset=0
 Vallow drop=0
@@ -61280,6 +61506,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=71
@@ -61340,8 +61567,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.899999976158142
+Vmouse x=0.716666638851166
+Vmouse y=0.0333333350718021
 Vauto reset=0
 Vallow drop=0
 
@@ -61382,6 +61609,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=92
@@ -61484,6 +61712,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=1
 show fader=1
 fader color=3
@@ -61621,7 +61850,7 @@ INDEXprec=1
 [PA-5-CLONES-8-9]
 UID=24058050
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -61633,7 +61862,7 @@ nb polyphony=1
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 INDEXvisible=0
 Vmouse dwn=0
@@ -61822,7 +62051,7 @@ nb polyphony=9
 can be randomized=1
 saved in preset=1
 Vdata=0
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Vfader=32
 Vswitch=0
@@ -61869,6 +62098,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -61933,6 +62163,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -62222,8 +62453,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.897727251052856
-Vmouse y=0.0172413792461157
+Vmouse x=0
+Vmouse y=0
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -62264,6 +62495,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -62308,13 +62540,13 @@ UID=61765746
 
 [PA-5-CLONES-8-10-0-1]
 UID=28800076
-VA=11203
+VA=8008
 VB=32
-Vout=3
+Vout=8
 
 [PA-5-CLONES-8-10-0-2]
 UID=28800089
-Vin=3
+Vin=8
 Vout=0
 
 [PA-5-CLONES-8-10-0-3]
@@ -62384,6 +62616,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -62540,7 +62773,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -62557,7 +62790,7 @@ Vvalue=0
 [PA-5-CLONES-8-10-0-13]
 UID=28800171
 Vindex=0
-Vvalue=11203
+Vvalue=8008
 
 [PA-5-CLONES-8-10-0-14]
 UID=28800176
@@ -62817,8 +63050,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0340909101068974
-Vmouse y=0.0862068980932236
+Vmouse x=0.920454561710358
+Vmouse y=0.586206912994385
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -62859,6 +63092,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -62903,7 +63137,7 @@ UID=61813744
 
 [PA-5-CLONES-8-10-0-CLONES-2-1]
 UID=28800076
-VA=68460
+VA=77279
 VB=1
 Vout=0
 
@@ -62979,6 +63213,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -63135,7 +63370,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-2-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0040FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -63152,7 +63387,7 @@ Vvalue=0
 [PA-5-CLONES-8-10-0-CLONES-2-13]
 UID=28800171
 Vindex=1
-Vvalue=68460
+Vvalue=77279
 
 [PA-5-CLONES-8-10-0-CLONES-2-14]
 UID=28800176
@@ -63454,6 +63689,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -63498,7 +63734,7 @@ UID=61861525
 
 [PA-5-CLONES-8-10-0-CLONES-3-1]
 UID=28800076
-VA=20589
+VA=20808
 VB=3
 Vout=0
 
@@ -63574,6 +63810,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -63730,7 +63967,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-3-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -63747,7 +63984,7 @@ Vvalue=0
 [PA-5-CLONES-8-10-0-CLONES-3-13]
 UID=28800171
 Vindex=2
-Vvalue=20589
+Vvalue=20808
 
 [PA-5-CLONES-8-10-0-CLONES-3-14]
 UID=28800176
@@ -64049,6 +64286,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -64093,13 +64331,13 @@ UID=61909554
 
 [PA-5-CLONES-8-10-0-CLONES-4-1]
 UID=28800076
-VA=38701
+VA=42212
 VB=27
-Vout=10
+Vout=11
 
 [PA-5-CLONES-8-10-0-CLONES-4-2]
 UID=28800089
-Vin=10
+Vin=11
 Vout=0
 
 [PA-5-CLONES-8-10-0-CLONES-4-3]
@@ -64169,6 +64407,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -64325,7 +64564,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-4-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -64342,7 +64581,7 @@ Vvalue=0
 [PA-5-CLONES-8-10-0-CLONES-4-13]
 UID=28800171
 Vindex=3
-Vvalue=38701
+Vvalue=42212
 
 [PA-5-CLONES-8-10-0-CLONES-4-14]
 UID=28800176
@@ -64602,7 +64841,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.465909093618393
+Vmouse x=0.227272734045982
 Vmouse y=0
 Vauto reset=0
 Vallow drop=0
@@ -64644,6 +64883,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -64688,7 +64928,7 @@ UID=61957801
 
 [PA-5-CLONES-8-10-0-CLONES-5-1]
 UID=28800076
-VA=19291
+VA=20099
 VB=1
 Vout=0
 
@@ -64764,6 +65004,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -64920,7 +65161,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-5-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -64937,7 +65178,7 @@ Vvalue=0
 [PA-5-CLONES-8-10-0-CLONES-5-13]
 UID=28800171
 Vindex=4
-Vvalue=19291
+Vvalue=20099
 
 [PA-5-CLONES-8-10-0-CLONES-5-14]
 UID=28800176
@@ -65239,6 +65480,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -65359,6 +65601,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -65515,7 +65758,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-6-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -65834,6 +66077,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -65954,6 +66198,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -66110,7 +66355,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-7-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -66429,6 +66674,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -66549,6 +66795,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -66705,7 +66952,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-8-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -66982,8 +67229,8 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.302258789539337
-Vmouse y=0.078006349503994
+Vmouse x=0.693181812763214
+Vmouse y=0.344827592372894
 Vauto reset=0
 Vallow drop=0
 COLLAPS=1
@@ -67024,6 +67271,7 @@ caption font size factor=0.800000011920929
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 show value=1
 value font color=6
 value font size factor=0.5
@@ -67144,6 +67392,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=33
 OFF color=32
@@ -67300,7 +67549,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-0-CLONES-9-10]
 UID=28800148
 once in poly=1
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -67416,7 +67665,7 @@ INDEXprec=1
 [PA-5-CLONES-8-10-3]
 UID=5340735
 once in poly=0
-TABdataV=000C2F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABdataV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABdataL=9
 Tcaption=counters
 INDEXprec=1
@@ -67672,8 +67921,8 @@ INDEXparent=1
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.999365508556366
-Vmouse y=0.387499988079071
+Vmouse x=0.997461915016174
+Vmouse y=0.34375
 Vallow drop=0
 COLLAPS=1
 
@@ -67857,7 +68106,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=0
 MAX=1
-TABV=0000803F0000000000000000000000000000000000000000000000000000000000000000
+TABV=000000000000000000000000000000000000000000000000000000000000000000000000
 TABL=9
 
 [PA-7CTRLTBLOCKSE]
@@ -67944,7 +68193,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=0
 MAX=1
-TABV=0000803F0000000000000000000000000000000000000000000000000000000000000000
+TABV=000000000000000000000000000000000000000000000000000000000000000000000000
 TABL=9
 
 [PA-7ARRAYTBLOCKSE]
@@ -68065,7 +68314,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=0
 MAX=1
-TABV=00102F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABL=9
 
 [PA-8CTRLTBLOCKSE]
@@ -68152,7 +68401,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=0
 MAX=1
-TABV=00102F4600B6854700DAA046002D174700B69646000868460002894600A88B4600046A46
+TABV=0048FA4580EF96470090A24600E4244700069D46000868460002894600A88B4600046A46
 TABL=9
 
 [PA-8ARRAYTBLOCKSE]
@@ -68173,8 +68422,8 @@ osc mode=0
 
 [PA-9]
 UID=11193112
-Vin=11204
-Vout=11204
+Vin=8009
+Vout=8009
 
 [PA-10]
 UID=54466000
@@ -68189,8 +68438,8 @@ COLcolor=50
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0
+Vmouse x=0.300000011920929
+Vmouse y=0.0500000007450581
 Vallow drop=0
 TXT=main clock
 
@@ -68269,8 +68518,8 @@ COLcolor=50
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0199999995529652
-Vmouse y=0.300000011920929
+Vmouse x=0.819999992847443
+Vmouse y=0.100000001490116
 Vallow drop=0
 TXT=track 1
 
@@ -68429,8 +68678,8 @@ COLcolor=50
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.871320962905884
-Vmouse y=0.397435218095779
+Vmouse x=0.620000004768372
+Vmouse y=0.100000001490116
 Vallow drop=0
 TXT=track 3
 
@@ -68509,8 +68758,8 @@ COLcolor=50
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.842884600162506
-Vmouse y=0.0431229844689369
+Vmouse x=0.0199999995529652
+Vmouse y=0.550000011920929
 Vallow drop=0
 TXT=track 4
 
@@ -68589,8 +68838,8 @@ COLcolor=50
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0599999986588955
-Vmouse y=0.300000011920929
+Vmouse x=0.899999976158142
+Vmouse y=0.200000002980232
 Vallow drop=0
 TXT=track 5
 
@@ -68749,8 +68998,8 @@ COLcolor=50
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0399999991059303
-Vmouse y=0.899999976158142
+Vmouse x=0.620000004768372
+Vmouse y=0
 Vallow drop=0
 TXT=track 7
 
@@ -68911,12 +69160,12 @@ name=master clock
 nb polyphony=1
 can be randomized=1
 saved in preset=1
-Vdata=0
+Vdata=125
 INDEXvisible=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.118181817233562
-Vmouse y=0
+Vmouse x=1
+Vmouse y=0.660000026226044
 NBCLONES=1
 
 [PA-21mouse dwnSE]
@@ -69003,9 +69252,9 @@ osc mode=0
 [PA-21-]
 PATCHTYPE=9
 VERSION=71
-FNAM=D:\hollyhock\32\Temp\patch.tmp
+FNAM=D:\hollyhock\patches\utils\master clock.pat
 ORIGINDEVICE=
-NBPG=3
+NBPG=5
 OFFSETX=-1149
 OFFSETY=420
 UID=30672283
@@ -69018,21 +69267,37 @@ ID1=6
 L1=1665
 T1=-232
 ID2=21
-L2=1799
-T2=-183
+L2=1862
+T2=-232
+QIDX3=0
+ID3=6
+L3=1828
+T3=-191
+ID4=21
+L4=1960
+T4=-153
 C0=0000000001000000
 CSRCNAME0=STEPS
 CTARGNAME0=STEPS
-C1=0000010001000100
+C1=0000020001000100
 CSRCNAME1=CLOCKS
 CTARGNAME1=TICKS
-C2=0000020001000200
+C2=0000030001000200
 CSRCNAME2=DIVIDERS
 CTARGNAME2=DIVIDERS
 C3=0100040002000000
 CSRCNAME3=TICK
 CTARGNAME3=OUT
-NBCO=4
+C4=0000010003000000
+CSRCNAME4=TEMPO
+CTARGNAME4=TEMPO
+C5=0100050003000100
+CSRCNAME5=DIVIDER
+CTARGNAME5=DIVIDER
+C6=0300020004000000
+CSRCNAME6=NOTE LENGTH (MS)
+CTARGNAME6=OUT
+NBCO=7
 
 [PA-21-PASE]
 name=master clock
@@ -69088,6 +69353,7 @@ name=syncer
 nb polyphony=1
 can be randomized=1
 saved in preset=0
+Vdata=120
 Vfader=32
 INDEXvisible=0
 Vmouse dwn=0
@@ -69135,6 +69401,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -69253,9 +69520,9 @@ PATCHTYPE=9
 VERSION=71
 FNAM=D:\apc midi\syncer.pat
 ORIGINDEVICE=
-NBPG=23
-OFFSETX=206
-OFFSETY=-412
+NBPG=24
+OFFSETX=-192
+OFFSETY=-432
 UID=77384897
 ID0=167
 L0=1080
@@ -69330,6 +69597,9 @@ T21=673
 ID22=103
 L22=-429
 T22=634
+ID23=21
+L23=1082
+T23=1018
 C0=0A00020000000000
 CSRCNAME0=OUT
 CTARGNAME0=STEPS
@@ -69447,7 +69717,10 @@ CTARGNAME37=VAL 6
 C38=1400020015000000
 CSRCNAME38=OUT
 CTARGNAME38=OUT
-NBCO=39
+C39=0200130017000000
+CSRCNAME39=TEMPO
+CTARGNAME39=OUT
+NBCO=40
 
 [PA-21-0-PASE]
 name=syncer
@@ -69515,14 +69788,14 @@ UID=88994806
 Vcyc len=16
 Vbar len=4
 Von=1
-Vcycle ppq=44.7779388427734
+Vcycle ppq=37.6137886047363
 Tbar list=4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4,4/4
 Vactive=1
 COLLAPS=1
 
 [PA-21-0-4]
 UID=88994815
-VA=44.7779388427734
+VA=37.6137886047363
 VB=1
 
 [PA-21-0-5]
@@ -69535,7 +69808,7 @@ name=Empty SubPatch
 nb polyphony=7
 can be randomized=1
 saved in preset=1
-Vdata=7
+Vdata=13
 Vswitch=0
 INDEXvisible=0
 Vmouse dwn=0
@@ -69578,6 +69851,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -69812,28 +70086,28 @@ auto resize=1
 
 [PA-21-0-6-0]
 UID=88994841
-Vin=134.36865234375
-Vout=134
+Vin=112.841369628906
+Vout=112
 
 [PA-21-0-6-1]
 UID=88994850
-Vin=6
-Vout=7
+Vin=0
+Vout=1
 
 [PA-21-0-6-2]
 UID=88994863
-Vin=7
+Vin=1
 VOut=0
 
 [PA-21-0-6-3]
 UID=88994868
-Vin=7
-Vout=7
+Vin=1
+Vout=1
 
 [PA-21-0-6-4]
 UID=88994877
 once in poly=0
-Vdata=7
+Vdata=1
 Tcaption=step
 INDEXprec=0
 
@@ -69843,9 +70117,9 @@ Vout=16
 
 [PA-21-0-6-6]
 UID=88994887
-VA=134
+VA=112
 VB=16
-Vout=6
+Vout=0
 
 [PA-21-0-6-7]
 UID=88994896
@@ -69901,6 +70175,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -69942,13 +70217,13 @@ UID=26194153
 
 [PA-21-0-6-8]
 UID=88994905
-VA=11.1973876953125
+VA=9.40489768981934
 VB=12
 
 [PA-21-0-6-9]
 UID=88994913
 once in poly=1
-Vdata=11.1973876953125
+Vdata=9.40489768981934
 Tcaption=ppq
 INDEXprec=5
 
@@ -70149,28 +70424,28 @@ auto resize=1
 
 [PA-21-0-6-CLONES-2-0]
 UID=88994927
-Vin=89.5791015625
-Vout=89
+Vin=75.2507934570312
+Vout=75
 
 [PA-21-0-6-CLONES-2-1]
 UID=88994936
-Vin=9
-Vout=10
+Vin=11
+Vout=12
 
 [PA-21-0-6-CLONES-2-2]
 UID=88994945
-Vin=10
+Vin=12
 VOut=0
 
 [PA-21-0-6-CLONES-2-3]
 UID=88994950
-Vin=10
-Vout=10
+Vin=12
+Vout=12
 
 [PA-21-0-6-CLONES-2-4]
 UID=88994955
 once in poly=0
-Vdata=10
+Vdata=12
 Tcaption=step
 INDEXprec=0
 
@@ -70180,9 +70455,9 @@ Vout=16
 
 [PA-21-0-6-CLONES-2-6]
 UID=88994965
-VA=89
+VA=75
 VB=16
-Vout=9
+Vout=11
 
 [PA-21-0-6-CLONES-2-7]
 UID=88994970
@@ -70238,6 +70513,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -70279,13 +70555,13 @@ UID=26195099
 
 [PA-21-0-6-CLONES-2-8]
 UID=88994979
-VA=11.1973876953125
+VA=9.40634918212891
 VB=8
 
 [PA-21-0-6-CLONES-2-9]
 UID=88994984
 once in poly=1
-Vdata=11.1973876953125
+Vdata=9.40634918212891
 Tcaption=ppq
 INDEXprec=5
 
@@ -70486,28 +70762,28 @@ auto resize=1
 
 [PA-21-0-6-CLONES-3-0]
 UID=88995001
-Vin=67.2017440795898
-Vout=67
+Vin=56.4555130004883
+Vout=56
 
 [PA-21-0-6-CLONES-3-1]
 UID=88995006
-Vin=3
-Vout=4
+Vin=8
+Vout=9
 
 [PA-21-0-6-CLONES-3-2]
 UID=88995015
-Vin=4
+Vin=9
 VOut=0
 
 [PA-21-0-6-CLONES-3-3]
 UID=88995020
-Vin=4
-Vout=4
+Vin=9
+Vout=9
 
 [PA-21-0-6-CLONES-3-4]
 UID=88995025
 once in poly=0
-Vdata=4
+Vdata=9
 Tcaption=step
 INDEXprec=0
 
@@ -70517,9 +70793,9 @@ Vout=16
 
 [PA-21-0-6-CLONES-3-6]
 UID=88995039
-VA=67
+VA=56
 VB=16
-Vout=3
+Vout=8
 
 [PA-21-0-6-CLONES-3-7]
 UID=88995048
@@ -70575,6 +70851,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -70616,13 +70893,13 @@ UID=26196050
 
 [PA-21-0-6-CLONES-3-8]
 UID=88995053
-VA=11.2002906799316
+VA=9.40925216674805
 VB=6
 
 [PA-21-0-6-CLONES-3-9]
 UID=88995062
 once in poly=1
-Vdata=11.2002906799316
+Vdata=9.40925216674805
 Tcaption=ppq
 INDEXprec=5
 
@@ -70823,28 +71100,28 @@ auto resize=1
 
 [PA-21-0-6-CLONES-4-0]
 UID=88995072
-Vin=44.8069648742676
-Vout=44
+Vin=9.40925216674805
+Vout=9
 
 [PA-21-0-6-CLONES-4-1]
 UID=88995084
-Vin=12
-Vout=13
+Vin=9
+Vout=10
 
 [PA-21-0-6-CLONES-4-2]
 UID=88995089
-Vin=13
+Vin=10
 VOut=0
 
 [PA-21-0-6-CLONES-4-3]
 UID=88995094
-Vin=13
-Vout=13
+Vin=10
+Vout=10
 
 [PA-21-0-6-CLONES-4-4]
 UID=88995103
 once in poly=0
-Vdata=13
+Vdata=10
 Tcaption=step
 INDEXprec=0
 
@@ -70854,9 +71131,9 @@ Vout=16
 
 [PA-21-0-6-CLONES-4-6]
 UID=88995113
-VA=44
+VA=9
 VB=16
-Vout=12
+Vout=9
 
 [PA-21-0-6-CLONES-4-7]
 UID=88995122
@@ -70912,6 +71189,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -70953,20 +71231,20 @@ UID=26197020
 
 [PA-21-0-6-CLONES-4-8]
 UID=88995127
-VA=11.2031927108765
-VB=4
+VA=9.4107027053833
+VB=1
 
 [PA-21-0-6-CLONES-4-9]
 UID=88995136
 once in poly=1
-Vdata=11.2031927108765
+Vdata=9.4107027053833
 Tcaption=ppq
 INDEXprec=5
 
 [PA-21-0-6-CLONES-4-10]
 UID=88995141
 once in poly=0
-Vdata=4
+Vdata=1
 Tcaption=divider
 INDEXprec=0
 
@@ -71160,28 +71438,28 @@ auto resize=1
 
 [PA-21-0-6-CLONES-5-0]
 UID=88995150
-Vin=179.251083374023
-Vout=179
+Vin=150.594467163086
+Vout=150
 
 [PA-21-0-6-CLONES-5-1]
 UID=88995159
-Vin=3
-Vout=4
+Vin=6
+Vout=7
 
 [PA-21-0-6-CLONES-5-2]
 UID=88995164
-Vin=4
+Vin=7
 VOut=0
 
 [PA-21-0-6-CLONES-5-3]
 UID=88995172
-Vin=4
-Vout=4
+Vin=7
+Vout=7
 
 [PA-21-0-6-CLONES-5-4]
 UID=88995177
 once in poly=0
-Vdata=4
+Vdata=7
 Tcaption=step
 INDEXprec=0
 
@@ -71191,9 +71469,9 @@ Vout=16
 
 [PA-21-0-6-CLONES-5-6]
 UID=88995191
-VA=179
+VA=150
 VB=16
-Vout=3
+Vout=6
 
 [PA-21-0-6-CLONES-5-7]
 UID=88995196
@@ -71249,6 +71527,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -71290,13 +71569,13 @@ UID=26198014
 
 [PA-21-0-6-CLONES-5-8]
 UID=88995201
-VA=11.2031927108765
+VA=9.41215419769287
 VB=16
 
 [PA-21-0-6-CLONES-5-9]
 UID=88995210
 once in poly=1
-Vdata=11.2031927108765
+Vdata=9.41215419769287
 Tcaption=ppq
 INDEXprec=5
 
@@ -71497,28 +71776,28 @@ auto resize=1
 
 [PA-21-0-6-CLONES-6-0]
 UID=88995224
-Vin=268.9462890625
-Vout=268
+Vin=225.926544189453
+Vout=225
 
 [PA-21-0-6-CLONES-6-1]
 UID=88995229
-Vin=12
-Vout=13
+Vin=1
+Vout=2
 
 [PA-21-0-6-CLONES-6-2]
 UID=88995238
-Vin=13
+Vin=2
 VOut=0
 
 [PA-21-0-6-CLONES-6-3]
 UID=88995243
-Vin=13
-Vout=13
+Vin=2
+Vout=2
 
 [PA-21-0-6-CLONES-6-4]
 UID=88995248
 once in poly=0
-Vdata=13
+Vdata=2
 Tcaption=step
 INDEXprec=0
 
@@ -71528,9 +71807,9 @@ Vout=16
 
 [PA-21-0-6-CLONES-6-6]
 UID=88995258
-VA=268
+VA=225
 VB=16
-Vout=12
+Vout=1
 
 [PA-21-0-6-CLONES-6-7]
 UID=88995266
@@ -71586,6 +71865,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -71627,13 +71907,13 @@ UID=26199011
 
 [PA-21-0-6-CLONES-6-8]
 UID=88995275
-VA=11.2060956954956
+VA=9.41505622863769
 VB=24
 
 [PA-21-0-6-CLONES-6-9]
 UID=88995280
 once in poly=1
-Vdata=11.2060956954956
+Vdata=9.41505622863769
 Tcaption=ppq
 INDEXprec=5
 
@@ -71834,28 +72114,28 @@ auto resize=1
 
 [PA-21-0-6-CLONES-7-0]
 UID=88995294
-Vin=358.687957763672
-Vout=358
+Vin=301.281799316406
+Vout=301
 
 [PA-21-0-6-CLONES-7-1]
 UID=88995303
-Vin=6
-Vout=7
+Vin=13
+Vout=14
 
 [PA-21-0-6-CLONES-7-2]
 UID=88995308
-Vin=7
+Vin=14
 VOut=0
 
 [PA-21-0-6-CLONES-7-3]
 UID=88995313
-Vin=7
-Vout=7
+Vin=14
+Vout=14
 
 [PA-21-0-6-CLONES-7-4]
 UID=88995322
 once in poly=0
-Vdata=7
+Vdata=14
 Tcaption=step
 INDEXprec=0
 
@@ -71865,9 +72145,9 @@ Vout=16
 
 [PA-21-0-6-CLONES-7-6]
 UID=88995332
-VA=358
+VA=301
 VB=16
-Vout=6
+Vout=13
 
 [PA-21-0-6-CLONES-7-7]
 UID=88995337
@@ -71923,6 +72203,7 @@ caption font size factor=0.899999976158142
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4284186131
 OFF color=46
@@ -71964,13 +72245,13 @@ UID=26200013
 
 [PA-21-0-6-CLONES-7-8]
 UID=88995342
-VA=11.2089986801147
+VA=9.41505622863769
 VB=32
 
 [PA-21-0-6-CLONES-7-9]
 UID=88995350
 once in poly=1
-Vdata=11.2089986801147
+Vdata=9.41505622863769
 Tcaption=ppq
 INDEXprec=5
 
@@ -72048,7 +72329,7 @@ osc mode=0
 
 [PA-21-0-7]
 UID=88995364
-VA=44.835994720459
+VA=37.6660308837891
 VB=0.25
 
 [PA-21-0-8]
@@ -72162,7 +72443,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=0000E04000002041000080400000504100008040000060410000E040
+TABV=000000400000404100001041000020410000E0400000404000006041
 TABL=7
 
 [PA-21-0-10ARRAYSE]
@@ -72234,7 +72515,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=0000E04000002041000080400000504100008040000060410000E040
+TABV=000000400000404100001041000020410000E0400000404000006041
 TABL=7
 
 [PA-21-0-11]
@@ -72340,7 +72621,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00000000000000000000000000000000000000000000803F00000000
+TABV=0000803F000000000000000000000000000000000000803F00000000
 TABL=7
 
 [PA-21-0-11ARRAYSE]
@@ -72412,7 +72693,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00000000000000000000000000000000000000000000803F00000000
+TABV=0000803F000000000000000000000000000000000000803F00000000
 TABL=7
 
 [PA-21-0-12]
@@ -72422,8 +72703,8 @@ INDEXparent=7
 Tcaption=tempo config
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0
+Vmouse x=0.994475126266479
+Vmouse y=0.051020409911871
 Vallow drop=0
 
 [PA-21-0-12mouse dwnSE]
@@ -72564,6 +72845,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -72666,6 +72948,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -72768,6 +73051,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -72817,7 +73101,7 @@ saved in preset=1
 can be randomized=1
 once in poly=0
 INDEXvisible=4
-Vfader=4
+Vfader=1
 Vmin=1
 Vmax=64
 Tcaption=fader 8
@@ -72828,8 +73112,8 @@ Vdefault val=1
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.987951815128326
-Vmouse y=0
+Vmouse x=1
+Vmouse y=0.421052634716034
 Vauto reset=0
 Vallow drop=0
 
@@ -72870,6 +73154,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -72972,6 +73257,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -73074,6 +73360,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -73176,6 +73463,7 @@ caption align=1
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 text align=0
 show fader=1
 fader color=4287374080
@@ -73322,7 +73610,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00004041000000410000C04000008040000080410000C04100000042
+TABV=00004041000000410000C0400000803F000080410000C04100000042
 TABL=7
 
 [PA-21-0-20ARRAYSE]
@@ -73394,7 +73682,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00004041000000410000C04000008040000080410000C04100000042
+TABV=00004041000000410000C0400000803F000080410000C04100000042
 TABL=7
 
 [PA-21-0-21]
@@ -73406,6 +73694,13 @@ INDEXprec=1
 [PA-21-0-22]
 UID=88995466
 Vout=0
+
+[PA-21-0-23]
+UID=53713036
+once in poly=0
+Vdata=120
+Tcaption=tempo
+INDEXprec=1
 
 [PA-21-0-CPSE]
 enabled=1
@@ -73478,15 +73773,15 @@ name=page clock
 nb polyphony=1
 can be randomized=0
 saved in preset=0
-TABdataV=00004041000000410000C04000008040000080410000C04100000042
+TABdataV=00004041000000410000C0400000803F000080410000C04100000042
 TABdataL=7
-Vdata=0
+Vdata=16
 Vswitch=0
 INDEXvisible=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.899999976158142
-Vmouse y=0.915773332118988
+Vmouse x=1
+Vmouse y=0.77999997138977
 NBCLONES=1
 
 [PA-21-1switchSE]
@@ -73523,6 +73818,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -73638,9 +73934,9 @@ PATCHTYPE=9
 VERSION=71
 FNAM=D:\hollyhock\32\Temp\patch.tmp
 ORIGINDEVICE=
-NBPG=43
-OFFSETX=-549
-OFFSETY=101
+NBPG=45
+OFFSETX=-703
+OFFSETY=-151
 UID=3993288
 ID0=21
 L0=1692
@@ -73658,8 +73954,8 @@ ID4=9
 L4=1098
 T4=587
 ID5=9
-L5=1098
-T5=736
+L5=1099
+T5=735
 ID6=9
 L6=1098
 T6=436
@@ -73779,6 +74075,12 @@ T41=241
 ID42=166
 L42=1197
 T42=149
+ID43=314
+L43=1388
+T43=617
+ID44=21
+L44=1689
+T44=616
 C0=0D00110000000000
 CSRCNAME0=OUT 1
 CTARGNAME0=OUT
@@ -74037,7 +74339,31 @@ CTARGNAME84=STRING 1
 C85=1600010027000100
 CSRCNAME85=OUT
 CTARGNAME85=STRING 2
-NBCO=86
+C86=020001002B000000
+CSRCNAME86=1/12
+CTARGNAME86=IN
+C87=080001002B000000
+CSRCNAME87=1/8
+CTARGNAME87=IN
+C88=060001002B000000
+CSRCNAME88=1/6
+CTARGNAME88=IN
+C89=070001002B000000
+CSRCNAME89=1/1
+CTARGNAME89=IN
+C90=040001002B000000
+CSRCNAME90=1/16
+CTARGNAME90=IN
+C91=090001002B000000
+CSRCNAME91=1/24
+CTARGNAME91=IN
+C92=050001002B000000
+CSRCNAME92=1/32
+CTARGNAME92=IN
+C93=2B0001002C000000
+CSRCNAME93=OUT
+CTARGNAME93=OUT
+NBCO=94
 
 [PA-21-1-PASE]
 name=page clock
@@ -74091,7 +74417,7 @@ auto resize=1
 [PA-21-1-0]
 UID=8840346
 once in poly=1
-Vdata=4
+Vdata=7
 Tcaption=step
 INDEXprec=0
 
@@ -74119,8 +74445,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0199999995529652
-Vmouse y=0.766666650772095
+Vmouse x=0.959999978542328
+Vmouse y=0.366666674613953
 Vallow drop=0
 COLLAPS=1
 
@@ -74158,6 +74484,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=0
 ON color=4287365138
 OFF color=40
@@ -74305,8 +74632,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.479999989271164
-Vmouse y=0.533333361148834
+Vmouse x=0.939999997615814
+Vmouse y=0.466666668653488
 Vallow drop=0
 COLLAPS=1
 
@@ -74344,6 +74671,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=0
 ON color=4287365138
 OFF color=40
@@ -74401,8 +74729,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.933333337306976
+Vmouse x=0.680000007152557
+Vmouse y=0.0333333350718021
 Vallow drop=0
 COLLAPS=1
 
@@ -74440,6 +74768,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -74497,8 +74826,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0.466666668653488
+Vmouse x=0.9200000166893
+Vmouse y=0.0333333350718021
 Vallow drop=0
 COLLAPS=1
 
@@ -74536,6 +74865,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=0
 ON color=4287365138
 OFF color=40
@@ -74583,10 +74913,10 @@ can be randomized=0
 once in poly=1
 INDEXvisible=4
 Vswitch=0
-Tcaption=1/4
+Tcaption=1/1
 COLcolor=4287365138
-TOFF caption=1/4
-VON value=4
+TOFF caption=1/1
+VON value=1
 VOFF value=0
 Vnull evt if OFF=0
 INDEXgroup=1
@@ -74594,7 +74924,7 @@ Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
 Vmouse x=0
-Vmouse y=0.233333334326744
+Vmouse y=0.866666674613953
 Vallow drop=0
 COLLAPS=1
 
@@ -74632,6 +74962,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=0
 ON color=4287365138
 OFF color=40
@@ -74689,8 +75020,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.479999989271164
-Vmouse y=0
+Vmouse x=1
+Vmouse y=0.233333334326744
 Vallow drop=0
 COLLAPS=1
 
@@ -74728,6 +75059,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=0
 ON color=4287365138
 OFF color=40
@@ -74785,8 +75117,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.620000004768372
-Vmouse y=1
+Vmouse x=0
+Vmouse y=0.933333337306976
 Vallow drop=0
 COLLAPS=1
 
@@ -74824,6 +75156,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -74967,7 +75300,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=0000E040000020410000804000005041000080400000604100000041
+TABV=000000400000404100001041000020410000E0400000404000006041
 TABL=7
 
 [PA-21-1-10ARRAYSE]
@@ -75039,7 +75372,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=0000E040000020410000804000005041000080400000604100000041
+TABV=000000400000404100001041000020410000E0400000404000006041
 TABL=7
 
 [PA-21-1-11]
@@ -75402,13 +75735,13 @@ TABL=7
 UID=8840476
 saved in preset=1
 INDEXvisible=0
-Vin 1=7
-Vin 2=10
-Vin 3=4
-Vin 4=13
-Vin 5=4
-Vin 6=14
-Vin 7=8
+Vin 1=2
+Vin 2=12
+Vin 3=9
+Vin 4=10
+Vin 5=7
+Vin 6=3
+Vin 7=14
 Vin 8=0
 Vin 9=0
 Vin 10=0
@@ -75418,7 +75751,7 @@ Vin 13=0
 Vin 14=0
 Vin 15=0
 Vin 16=0
-Vout 1=4
+Vout 1=7
 Vout 2=0
 Vout 3=0
 Vout 4=0
@@ -75991,7 +76324,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00004041000000410000C04000008040000080410000C04100000042
+TABV=00004041000000410000C0400000803F000080410000C04100000042
 TABL=7
 
 [PA-21-1-15ARRAYSE]
@@ -76063,7 +76396,7 @@ VISIBLE=0
 MINIMIZED=0
 MIN=1
 MAX=16
-TABV=00004041000000410000C04000008040000080410000C04100000042
+TABV=00004041000000410000C0400000803F000080410000C04100000042
 TABL=7
 
 [PA-21-1-16]
@@ -76083,8 +76416,8 @@ Tout=6
 
 [PA-21-1-19]
 UID=8840534
-Vin=4
-Tout=4
+Vin=1
+Tout=1
 
 [PA-21-1-20]
 UID=8840543
@@ -76123,7 +76456,7 @@ Vout=0
 [PA-21-1-26]
 UID=8840588
 VA=0
-VB=4
+VB=1
 Vout=0
 
 [PA-21-1-27]
@@ -76336,8 +76669,8 @@ TString out=1/6
 [PA-21-1-36]
 UID=8840658
 TString 1=1/
-TString 2=4
-TString out=1/4
+TString 2=1
+TString out=1/1
 
 [PA-21-1-37]
 UID=8840662
@@ -76360,7 +76693,7 @@ TString out=1/32
 [PA-21-1-40]
 UID=66378775
 once in poly=0
-TABdataV=00004041000000410000C04000008040000080410000C04100000042
+TABdataV=00004041000000410000C0400000803F000080410000C04100000042
 TABdataL=7
 Tcaption=dividers
 INDEXprec=1
@@ -76376,10 +76709,22 @@ INDEXprec=1
 [PA-21-1-42]
 UID=49993446
 once in poly=0
-TABdataV=0000E040000020410000804000005041000080400000604100000041
+TABdataV=000000400000404100001041000020410000E0400000404000006041
 TABdataL=7
 Tcaption=steps
 INDEXprec=1
+
+[PA-21-1-43]
+UID=27297875
+Vin=16
+Vout=16
+
+[PA-21-1-44]
+UID=52337262
+once in poly=0
+Vdata=16
+Tcaption=divider
+INDEXprec=0
 
 [PA-21-1-CPSE]
 enabled=1
@@ -76453,6 +76798,325 @@ Vdata=0
 Tcaption=tick
 INDEXprec=1
 
+[PA-21-3]
+UID=71508736
+name=BPM to ms
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=125
+INDEXvisible=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.699999988079071
+NBCLONES=1
+
+[PA-21-3mouse dwnSE]
+UID=71509202
+
+[PA-21-3dbl clickSE]
+UID=71509251
+
+[PA-21-3mouse xSE]
+UID=71509301
+
+[PA-21-3mouse ySE]
+UID=71509346
+
+[PA-21-3CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=110
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+name=BPM to ms
+saved in preset=1
+
+[PA-21-3CTRL]
+UID=71416126
+VISIBLE=0
+MINIMIZED=0
+
+[PA-21-3CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-21-3-]
+PATCHTYPE=9
+VERSION=71
+FNAM=D:\hollyhock\patches\utils\BPM to ms.pat
+ORIGINDEVICE=
+NBPG=8
+OFFSETX=-134
+OFFSETY=48
+UID=75453003
+ID0=37
+L0=667
+T0=167
+ID1=29
+L1=545
+T1=154
+ID2=37
+L2=801
+T2=445
+ID3=38
+L3=881
+T3=471
+ID4=29
+L4=791
+T4=506
+ID5=20
+L5=536
+T5=104
+ID6=20
+L6=555
+T6=434
+ID7=21
+L7=963
+T7=494
+C0=0100000000000100
+CSRCNAME0=OUT
+CTARGNAME0=B
+C1=0500000000000000
+CSRCNAME1=IN
+CTARGNAME1=A
+C2=0000020002000000
+CSRCNAME2=OUT
+CTARGNAME2=A
+C3=0600000002000100
+CSRCNAME3=IN
+CTARGNAME3=B
+C4=0200020003000000
+CSRCNAME4=OUT
+CTARGNAME4=A
+C5=0400000003000100
+CSRCNAME5=OUT
+CTARGNAME5=B
+C6=0300020007000000
+CSRCNAME6=OUT
+CTARGNAME6=OUT
+NBCO=7
+
+[PA-21-3-PASE]
+name=BPM to ms
+saved in preset=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=110
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+
+[PA-21-3-0]
+UID=64315361
+VA=120
+VB=60
+Vout=2
+
+[PA-21-3-1]
+UID=64326254
+Vout=60
+
+[PA-21-3-2]
+UID=64335220
+VA=2
+VB=16
+Vout=0.125
+
+[PA-21-3-3]
+UID=64335491
+VA=0.125
+VB=1000
+
+[PA-21-3-4]
+UID=64335682
+Vout=1000
+
+[PA-21-3-5]
+UID=97406974
+once in poly=0
+Vdata=120
+Tcaption=tempo
+INDEXprec=1
+
+[PA-21-3-6]
+UID=79027711
+once in poly=0
+Vdata=16
+Tcaption=divider
+INDEXprec=1
+
+[PA-21-3-7]
+UID=67702475
+once in poly=0
+Vdata=125
+Tcaption=note length (ms)
+INDEXprec=1
+
+[PA-21-3-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=110
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+name=BPM to ms
+saved in preset=1
+
+[PA-21-3-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-21-4]
+UID=73177465
+once in poly=0
+Vdata=125
+Tcaption=note length (ms)
+INDEXprec=1
+
 [PA-21-CPSE]
 enabled=1
 on top=0
@@ -76523,8 +77187,8 @@ select by=2
 Tcaption=popup
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.984042525291443
-Vmouse y=0.0852017924189568
+Vmouse x=0.989304840564728
+Vmouse y=0.139639645814896
 Vallow drop=0
 
 [PA-22mouse dwnSE]
@@ -76547,8 +77211,8 @@ opacity=1
 blur softness=0
 vertical=0
 rotation angle=0
-left=0
-top=0
+left=100
+top=100
 width=120
 height=100
 zoom scale=1
@@ -76604,10 +77268,19 @@ VISIBLE=0
 MINIMIZED=0
 
 [PA-22CTRLFORM]
-LEFT=744
-TOP=105
+LEFT=909
+TOP=317
 CLIENTWIDTH=120
 CLIENTHEIGHT=100
+
+[PA-23]
+UID=67503990
+INDEXscale=0
+INDEXroot=0
+Vlength=125
+Vpitch=0
+Vgain=0
+INDEXchannel=0
 
 [PA-CPSE]
 enabled=1
