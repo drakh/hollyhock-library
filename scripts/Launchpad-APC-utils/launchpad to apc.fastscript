@@ -1,0 +1,81 @@
+//////////////////////////
+// 
+/////////////////////////
+// parameters declaration
+var midi_in:tParameter;
+var midi_out:tParameter;                      
+
+// initialisation : create parameters
+procedure init;
+begin  
+   midi_in := CreateParam('midi in', ptMidi);                 
+   SetIsOutput(midi_in,false);
+   midi_out := CreateParam('midi out', ptMidi);
+   SetIsInput(midi_out,false);     
+end;
+
+// Callback procedure
+Procedure Callback(N:integer); 
+begin
+
+end;
+
+// Global variables               
+                                              
+//////////////////////////////  
+// main proc
+//////////////////////////////
+Procedure Process;
+var i:integer;
+var l:integer;                        
+var arr_l:integer;           
+var tmp_midi:tMidi;
+var out_midi:tMidi;
+var a:integer;
+var b:integer;
+var n:integer;
+var l_n:integer;
+begin              
+    arr_l:=0;                                
+    l:=GetLength(midi_in);
+    out_midi.channel:=1;
+    for i:=0 to l-1 do
+    begin
+       GetMidiArrayValue(midi_in,i,tmp_midi);
+       if ((tmp_midi.msg=144) or (tmp_midi.msg=128)) then
+       begin
+           l_n:=tmp_midi.data1;
+           a:=l_n mod 16;
+           b:=l_n div 16;
+           n:=((7-b)*8) +a;  
+           out_midi.msg:=tmp_midi.msg;
+           out_midi.data2:=tmp_midi.data2;
+           if(a=8) then
+           begin
+              n:=89-(7-b);
+           end;
+           out_midi.data1:=n;
+           SetMidiArrayValue(midi_out,arr_l,out_midi);
+           arr_l:=arr_l+1;
+       end;
+       if tmp_midi.msg=176 then
+       begin
+          out_midi.msg:=144; 
+          out_midi.data2:=tmp_midi.data2;
+          l_n:=tmp_midi.data1-104;
+          n:=64+l_n;
+          if(l_n=7) then
+          begin
+            n:=98; 
+          end;
+          if(tmp_midi.data2=0) then
+          begin
+              out_midi.msg:=128;
+          end;
+          out_midi.data1:=n;
+          SetMidiArrayValue(midi_out,arr_l,out_midi);
+          arr_l:=arr_l+1;
+       end;
+    end;
+    SetLength(midi_out,arr_l);
+end;
