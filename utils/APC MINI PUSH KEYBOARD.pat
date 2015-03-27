@@ -1,12 +1,12 @@
 [PA-]
 PATCHTYPE=0
 VERSION=71
-FNAM=D:\hollyhock\patches\APC MINI PUSH KEYBOARD.pat
+FNAM=D:\hollyhock\patches\utils\APC MINI PUSH KEYBOARD.pat
 ORIGINDEVICE=
 NBPG=35
-OFFSETX=-619
-OFFSETY=172
-UID=26171940
+OFFSETX=-1057
+OFFSETY=113
+UID=27672027
 ID0=5
 L0=-123
 T0=292
@@ -196,10 +196,10 @@ CSRCNAME24=ROOT
 CTARGNAME24=A
 C25=040001000D000100
 CSRCNAME25=OUT
-CTARGNAME25=PUSH PIANO
+CTARGNAME25=RACK-7-PUSH PIANO
 C26=0F0000000D000100
 CSRCNAME26=MIDI 1
-CTARGNAME26=PUSH PIANO
+CTARGNAME26=RACK-7-PUSH PIANO
 C27=220002000D000000
 CSRCNAME27=STRING OUT
 CTARGNAME27=NAME
@@ -273,7 +273,7 @@ enabled=1
 on top=0
 opacity=1
 left=2
-top=85
+top=108
 width=320
 height=140
 zoom scale=1
@@ -308,9 +308,9 @@ auto resize=0
 
 [PA-0]
 UID=14420971
-Vmsg=128
-Vcode1=17
-Vcode2=127
+Vmsg=144
+Vcode1=2
+Vcode2=87
 INDEXmode=0
 INDEXfilter=0
 Vunpack=0
@@ -388,6 +388,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -1162,6 +1163,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -1533,8 +1535,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.975000023841858
-Vmouse y=0.800000011920929
+Vmouse x=0
+Vmouse y=0.25
 Vallow drop=0
 COLLAPS=1
 
@@ -1572,6 +1574,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -1628,8 +1631,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.699999988079071
-Vmouse y=0.150000005960464
+Vmouse x=0.25
+Vmouse y=0.949999988079071
 Vallow drop=0
 COLLAPS=1
 
@@ -1667,6 +1670,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -1723,8 +1727,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.574999988079071
-Vmouse y=0.449999988079071
+Vmouse x=0
+Vmouse y=0.349999994039536
 Vallow drop=0
 COLLAPS=1
 
@@ -1762,6 +1766,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -1818,8 +1823,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=1
+Vmouse x=0.100000001490116
+Vmouse y=0.949999988079071
 Vallow drop=0
 COLLAPS=1
 
@@ -1857,6 +1862,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -1913,8 +1919,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.25
-Vmouse y=0.0500000007450581
+Vmouse x=0
+Vmouse y=0.400000005960464
 Vallow drop=0
 COLLAPS=1
 
@@ -1952,6 +1958,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -2008,8 +2015,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.025000000372529
-Vmouse y=0.0500000007450581
+Vmouse x=0.574999988079071
+Vmouse y=0.100000001490116
 Vallow drop=0
 COLLAPS=1
 
@@ -2047,6 +2054,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -2104,7 +2112,7 @@ Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
 Vmouse x=0.975000023841858
-Vmouse y=0.699999988079071
+Vmouse y=0.200000002980232
 Vallow drop=0
 COLLAPS=1
 
@@ -2142,6 +2150,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -2198,8 +2207,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.524999976158142
-Vmouse y=1
+Vmouse x=0.949999988079071
+Vmouse y=0.850000023841858
 Vallow drop=0
 COLLAPS=1
 
@@ -2237,6 +2246,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4280519680
 OFF color=32
@@ -2466,7 +2476,7 @@ select by=2
 Tcaption=popup
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.976645410060883
+Vmouse x=0.995753705501556
 Vmouse y=0
 Vallow drop=0
 
@@ -2490,10 +2500,10 @@ opacity=1
 blur softness=0
 vertical=0
 rotation angle=0
-left=100
-top=100
-width=471
-height=261
+left=0
+top=0
+width=120
+height=100
 zoom scale=1
 floating x=1
 floating y=1
@@ -2548,10 +2558,10 @@ VISIBLE=0
 MINIMIZED=0
 
 [PA-3-6CTRLFORM]
-LEFT=1105
-TOP=534
-CLIENTWIDTH=471
-CLIENTHEIGHT=261
+LEFT=621
+TOP=213
+CLIENTWIDTH=120
+CLIENTHEIGHT=100
 
 [PA-3-7]
 UID=35696590
@@ -2571,8 +2581,8 @@ VON value=1
 Vnull evt if OFF=0
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=1
-Vmouse y=0.425000011920929
+Vmouse x=0.025000000372529
+Vmouse y=0.0750000029802322
 Vallow drop=0
 
 [PA-3-8buttonSE]
@@ -2613,6 +2623,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -2726,7 +2737,7 @@ UID=68357329
 INDEXscale=0
 INDEXroot=0
 Vlength=0
-Vpitch=34
+Vpitch=41
 Vgain=0
 INDEXchannel=0
 
@@ -2752,15 +2763,15 @@ INDEXfilter=2
 INDEXchan filter=0
 Vchan=1
 Vmsg=144
-Vcode1=17
-Vcode2=127
+Vcode1=2
+Vcode2=87
 COLLAPS=1
 
 [PA-7]
 SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,var midi_in   : Tparameter;,var midi_out  : Tparameter;,var page:Tparameter;         ,var is_shift:Tparameter;            , ,var midi_tmp:tMidi;,var has_changed:boolean;,var is_shift_p:integer;,var curr_page:integer;,var arr_l:integer;,var base:integer;   ,var l:integer;,                                ,// initialisation : create parameters,procedure init;             ,begin,"    midi_in := CreateParam('apc in',ptMidi);","    SetIsOutPut(midi_in,false);   ","    midi_out := CreateParam('apc out',ptMidi);","    SetIsInPut(midi_out,false);","    page:=CreateParam('root',ptDataField); ",,"    is_shift := CreateParam('shift',ptButton);","    SetIsoutput(is_shift,false);",                                       ,                                       ,    base:=64;  ,    midi_tmp.channel:=1;                                 ,    midi_tmp.msg:=144;       ,    has_changed:=true;,    curr_page:=round(GetValue(page));,    l:=7;,    is_shift_p:=0;    ,end;                  ,,Procedure get_current_page;,begin, curr_page:=round(GetValue(page));, has_changed:=true;,end;,,Procedure get_current_page_midi;,var m_l:integer;,var i:integer;,var c_p:integer;,begin,    m_l:=GetLength(midi_in);,    for i:=0 to m_l-1 do,    begin,       is_shift_p:=round(GetValue(is_shift));,"       GetMidiArrayValue(midi_in,i,midi_tmp);",       if ((midi_tmp.data1>=base) and (midi_tmp.data1<base+l)) then,       begin,           c_p:=(midi_tmp.data1-base);,           if c_p<=2 then,           begin           ,              curr_page:=c_p*2;,           end,           else if ((c_p<=6) and c_p>2) then,           begin,              curr_page:=c_p*2-1; ,           end;,           if is_shift_p=1 then  ,           begin,              if c_p<2 then,              begin    ,                 curr_page:=curr_page+1;,              end,              else if ((c_p<6) and (c_p>2)) then,              begin,                 curr_page:=curr_page+1;,              end;,           end;,           has_changed:=true;,"           SetValue(page,curr_page);",       end;,    end;   ,end;,procedure set_shift;,begin,   is_shift_p:=round(GetValue(is_shift));,end;,// Callback procedure,Procedure Callback(N:integer); ,begin          ,    case N of,    page: get_current_page();,    midi_in: get_current_page_midi(); ,    end;    ,end;,,// Global variables,,//////////////////////////////,// main proc,//////////////////////////////,Procedure Process;,var i:integer;,var m_l:integer;,begin,    arr_l:=0;,    if has_changed=true then,    begin,        for i:=0 to l-1 do,        begin,            midi_tmp.data1:=base+i;,            midi_tmp.data2:=0;,            if (((i=2) and (curr_page=4)) or ((i=6) and (curr_page=11))) then,            begin,               midi_tmp.data2:=1;,            end,            else if (((i=0) and (curr_page=0)) or ((i=0) and (curr_page=1))) then,            begin,               midi_tmp.data2:=1;,            end,            else if (((i=1) and (curr_page=2)) or ((i=1) and (curr_page=3))) then,            begin ,               midi_tmp.data2:=1;                       ,            end,            else if (((i=3) and (curr_page=5)) or ((i=3) and (curr_page=6))) then,            begin ,               midi_tmp.data2:=1;                       ,            end                                                         ,            else if (((i=4) and (curr_page=7)) or ((i=4) and (curr_page=8))) then,            begin ,               midi_tmp.data2:=1;                       ,            end                                                         ,            else if (((i=5) and (curr_page=9)) or ((i=5) and (curr_page=10))) then,            begin ,               midi_tmp.data2:=1;                       ,            end            ,"            SetMidiArrayValue(midi_out, i, midi_tmp);",            arr_l:=arr_l+1;,        end;,        has_changed:=false;,    end;    ,"    SetLength(midi_out,arr_l);",end;,,
 FNAME=D:\apc midi\apc_mini_sequencer\root chooser.fastscript
 UID=26165904
-Vroot=10
+Vroot=5
 
 [PA-7CTRL]
 UID=43157952
@@ -2779,7 +2790,7 @@ name=root config
 nb polyphony=1
 can be randomized=1
 saved in preset=1
-Vdata=10
+Vdata=5
 INDEXvisible=0
 Vmouse dwn=0
 Vdbl click=0
@@ -2952,7 +2963,7 @@ auto resize=1
 [PA-8-0]
 UID=89638119
 once in poly=0
-Vdata=10
+Vdata=5
 Tcaption=root index
 INDEXprec=0
 
@@ -2962,7 +2973,7 @@ name=switches
 nb polyphony=1
 can be randomized=0
 saved in preset=1
-Vdata=10
+Vdata=5
 Vswitch=0
 INDEXvisible=0
 Vmouse dwn=0
@@ -3005,6 +3016,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -3447,8 +3459,8 @@ auto resize=1
 
 [PA-8-1-0]
 UID=89638142
-Vin=11
-Vout=10
+Vin=6
+Vout=5
 
 [PA-8-1-1]
 UID=89638155
@@ -3466,8 +3478,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.824999988079071
-Vmouse y=0.200000002980232
+Vmouse x=0.899999976158142
+Vmouse y=0.25
 Vallow drop=0
 COLLAPS=1
 
@@ -3505,6 +3517,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -3561,8 +3574,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.025000000372529
-Vmouse y=0.349999994039536
+Vmouse x=0.5
+Vmouse y=0.949999988079071
 Vallow drop=0
 COLLAPS=1
 
@@ -3600,6 +3613,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -3656,8 +3670,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.850000023841858
-Vmouse y=0.25
+Vmouse x=0.174999997019768
+Vmouse y=1
 Vallow drop=0
 COLLAPS=1
 
@@ -3695,6 +3709,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -3751,8 +3766,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.899999976158142
-Vmouse y=0.949999988079071
+Vmouse x=0.324999988079071
+Vmouse y=0.0500000007450581
 Vallow drop=0
 COLLAPS=1
 
@@ -3790,6 +3805,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -3846,8 +3862,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.375
-Vmouse y=1
+Vmouse x=0.0750000029802322
+Vmouse y=0
 Vallow drop=0
 COLLAPS=1
 
@@ -3885,6 +3901,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -3931,7 +3948,7 @@ saved in preset=0
 can be randomized=0
 once in poly=0
 INDEXvisible=4
-Vswitch=0
+Vswitch=6
 Tcaption=F
 COLcolor=4287365138
 VON value=6
@@ -3941,8 +3958,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.975000023841858
-Vmouse y=0.449999988079071
+Vmouse x=0.449999988079071
+Vmouse y=0.649999976158142
 Vallow drop=0
 COLLAPS=1
 
@@ -3980,6 +3997,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -4036,8 +4054,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.349999994039536
-Vmouse y=0
+Vmouse x=0.975000023841858
+Vmouse y=0.75
 Vallow drop=0
 COLLAPS=1
 
@@ -4075,6 +4093,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -4131,8 +4150,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.875
-Vmouse y=0.0500000007450581
+Vmouse x=0
+Vmouse y=0.300000011920929
 Vallow drop=0
 COLLAPS=1
 
@@ -4170,6 +4189,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -4212,56 +4232,56 @@ UID=89644371
 
 [PA-8-1-9]
 UID=89638210
-VA=10
+VA=5
 VB=0
 Vout=0
 Vblock=0
 
 [PA-8-1-10]
 UID=89638219
-VA=10
+VA=5
 VB=1
 Vout=0
 Vblock=0
 
 [PA-8-1-11]
 UID=89638224
-VA=10
+VA=5
 VB=2
 Vout=0
 Vblock=0
 
 [PA-8-1-12]
 UID=89638229
-VA=10
+VA=5
 VB=3
 Vout=0
 Vblock=0
 
 [PA-8-1-13]
 UID=89638234
-VA=10
+VA=5
 VB=4
 Vout=0
 Vblock=0
 
 [PA-8-1-14]
 UID=89638239
-VA=10
+VA=5
 VB=5
-Vout=0
+Vout=1
 Vblock=0
 
 [PA-8-1-15]
 UID=89638244
-VA=10
+VA=5
 VB=6
 Vout=0
 Vblock=0
 
 [PA-8-1-16]
 UID=89638249
-VA=10
+VA=5
 VB=7
 Vout=0
 Vblock=0
@@ -4269,14 +4289,14 @@ Vblock=0
 [PA-8-1-17]
 UID=89638254
 once in poly=0
-Vdata=10
+Vdata=5
 Tcaption=in
 INDEXprec=0
 
 [PA-8-1-18]
 UID=89638263
 once in poly=0
-Vdata=10
+Vdata=5
 Tcaption=out
 INDEXprec=1
 
@@ -4296,7 +4316,7 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.174999997019768
+Vmouse x=0.474999994039536
 Vmouse y=0
 Vallow drop=0
 
@@ -4334,6 +4354,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -4376,7 +4397,7 @@ UID=25684200
 
 [PA-8-1-20]
 UID=25684926
-VA=10
+VA=5
 VB=8
 Vout=0
 Vblock=0
@@ -4398,8 +4419,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0
-Vmouse y=0.5
+Vmouse x=0.300000011920929
+Vmouse y=0
 Vallow drop=0
 
 [PA-8-1-21switchSE]
@@ -4436,6 +4457,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -4478,7 +4500,7 @@ UID=32240903
 
 [PA-8-1-22]
 UID=32241653
-VA=10
+VA=5
 VB=9
 Vout=0
 Vblock=0
@@ -4486,8 +4508,8 @@ COLLAPS=2
 
 [PA-8-1-23]
 UID=10311903
-Vin=10
-Vout=10
+Vin=5
+Vout=5
 
 [PA-8-1-24]
 UID=21099843
@@ -4516,8 +4538,8 @@ Vout=0
 
 [PA-8-1-29]
 UID=56372937
-Vin=0
-Vout=0
+Vin=1
+Vout=1
 
 [PA-8-1-30]
 UID=22067084
@@ -4545,7 +4567,7 @@ saved in preset=0
 can be randomized=0
 once in poly=0
 INDEXvisible=4
-Vswitch=11
+Vswitch=0
 Tcaption=#/b
 COLcolor=4287365138
 VON value=11
@@ -4555,8 +4577,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.224999994039536
-Vmouse y=1
+Vmouse x=0
+Vmouse y=0.949999988079071
 Vallow drop=0
 
 [PA-8-1-34switchSE]
@@ -4593,6 +4615,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=40
@@ -4635,16 +4658,16 @@ UID=1840101
 
 [PA-8-1-35]
 UID=1840887
-VA=10
+VA=5
 VB=10
-Vout=1
+Vout=0
 Vblock=0
 COLLAPS=2
 
 [PA-8-1-36]
 UID=1841274
-Vin=1
-Vout=1
+Vin=0
+Vout=0
 
 [PA-8-1-37]
 UID=50901696
@@ -4662,8 +4685,8 @@ INDEXgroup=1
 Vat least one=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.850000023841858
-Vmouse y=1
+Vmouse x=0.150000005960464
+Vmouse y=0
 Vallow drop=0
 
 [PA-8-1-37switchSE]
@@ -4700,6 +4723,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 fit size=1
 ON color=4287365138
 OFF color=6
@@ -4742,7 +4766,7 @@ UID=50902312
 
 [PA-8-1-38]
 UID=50903168
-VA=10
+VA=5
 VB=11
 Vout=0
 Vblock=0
@@ -4821,14 +4845,14 @@ osc mode=0
 [PA-8-2]
 UID=89638267
 once in poly=0
-Vdata=10
+Vdata=5
 Tcaption=root index
 INDEXprec=0
 
 [PA-8-3]
 UID=89638276
-Vin=10
-Vout=10
+Vin=5
+Vout=5
 
 [PA-8-CPSE]
 enabled=1
@@ -4922,18 +4946,18 @@ CLIENTHEIGHT=700
 
 [PA-11]
 UID=20190338
-VA=2
+VA=3
 VB=12
 
 [PA-12]
 UID=5085662
-VA=10
-VB=24
-Vout=34
+VA=5
+VB=36
+Vout=41
 
 [PA-13]
 UID=65943834
-Tname=rack-7-PUSH PIANO
+Tname=neuron-1-PUSH PIANO
 INDEXtarget=0
 Von=1
 COLLAPS=2
@@ -4943,7 +4967,7 @@ UID=98104978
 saved in preset=1
 can be randomized=1
 INDEXvisible=4
-Vfader=2
+Vfader=3
 Vmin=0
 Vmax=4
 Tcaption=octave
@@ -4954,7 +4978,7 @@ Vdefault val=0
 Vinc/dec val=1
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.0888888910412788
+Vmouse x=0.366666674613953
 Vmouse y=0
 Vauto reset=0
 Vallow drop=0
@@ -5087,6 +5111,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -5317,6 +5342,7 @@ caption align=0
 caption font bold=0
 caption font italic=0
 caption font underline=0
+show poly order=1
 inverse=0
 quantize=0
 mode=0
@@ -5415,13 +5441,13 @@ osc mode=0
 
 [PA-16]
 UID=46330556
-Vin=2
+Vin=3
 VOut=0
 COLLAPS=2
 
 [PA-17]
 UID=88506027
-Vin=10
+Vin=5
 VOut=0
 COLLAPS=2
 
@@ -5442,8 +5468,8 @@ INDEXparent=1
 Tcaption=Container
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.637499988079071
-Vmouse y=0.508333325386047
+Vmouse x=0.078125
+Vmouse y=0.591666638851166
 Vallow drop=0
 
 [PA-20mouse dwnSE]
@@ -5550,8 +5576,8 @@ COLcolor=40
 COLfont color=6
 Vmouse dwn=0
 Vdbl click=0
-Vmouse x=0.00320512824691832
-Vmouse y=0
+Vmouse x=0.00961538497358561
+Vmouse y=1
 Vallow drop=0
 TXT=byzantine
 
@@ -5624,10 +5650,10 @@ MINIMIZED=0
 
 [PA-26]
 UID=86919401
-Vout=7
+Vout=1
 
 [PA-27]
-SELECT=7
+SELECT=1
 
 [PA-28]
 UID=87835199
@@ -5711,20 +5737,20 @@ MINIMIZED=0
 
 [PA-29]
 UID=13967520
-Vin=7
-Tout=7
+Vin=1
+Tout=1
 
 [PA-30]
 UID=85193505
-TString 1=rack
+TString 1=neuron
 TString 2=-
-TString out=rack-
+TString out=neuron-
 
 [PA-31]
 UID=68550919
-TString 1=rack-
-TString 2=7
-TString out=rack-7
+TString 1=neuron-
+TString 2=1
+TString out=neuron-1
 
 [PA-32]
 UID=64492826
@@ -5740,19 +5766,19 @@ Vallow drop=0
 TXT=PUSH PIANO
 
 [PA-32textSE]
-UID=87835452
+UID=27671383
 
 [PA-32mouse dwnSE]
-UID=87835594
+UID=27671577
 
 [PA-32dbl clickSE]
-UID=87835636
+UID=27671641
 
 [PA-32mouse xSE]
-UID=87835661
+UID=27671702
 
 [PA-32mouse ySE]
-UID=87835691
+UID=27671758
 
 [PA-32CTRLSE]
 UID=64492774
@@ -5808,22 +5834,22 @@ MINIMIZED=0
 
 [PA-33]
 UID=3324919
-TString 1=rack-7
+TString 1=neuron-1
 TString 2=-
-TString out=rack-7-
+TString out=neuron-1-
 
 [PA-34]
 UID=2358375
-TString 1=rack-7-
+TString 1=neuron-1-
 TString 2=PUSH PIANO
-TString out=rack-7-PUSH PIANO
+TString out=neuron-1-PUSH PIANO
 
 [PA-CPSE]
 enabled=1
 on top=0
 opacity=1
 left=2
-top=85
+top=108
 width=320
 height=140
 zoom scale=1
