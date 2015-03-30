@@ -1,0 +1,162 @@
+[PA-]
+PATCHTYPE=9
+VERSION=71
+FNAM=D:\hollyhock\patches\utils\on rack activation.pat
+ORIGINDEVICE=
+NBPG=4
+OFFSETX=-134
+OFFSETY=48
+UID=66904129
+ID0=352
+L0=594
+T0=93
+ID1=88
+L1=439
+T1=89
+ID2=219
+L2=771
+T2=184
+ID3=21
+L3=938
+T3=200
+C0=0100000000000000
+CSRCNAME0=OUT
+CTARGNAME0=NUM RACK
+C1=0000070002000000
+CSRCNAME1=ON
+CTARGNAME1=IN
+C2=0200010003000000
+CSRCNAME2=OUT
+CTARGNAME2=OUT
+NBCO=3
+
+[PA-PASE]
+name=on rack activation
+saved in preset=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=118.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+
+[PA-0]
+SELECT=13
+
+[PA-1]
+UID=47038918
+Vout=13
+
+[PA-2]
+UID=47039167
+Vin=1
+Vout=0
+
+[PA-3]
+UID=6487529
+once in poly=0
+Vdata=0
+Tcaption=out
+INDEXprec=0
+
+[PA-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=118.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=23
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=6
+caption font size factor=0.600000023841858
+caption align=1
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=12
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+name=on rack activation
+saved in preset=1
+
+[PA-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
