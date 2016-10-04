@@ -1,0 +1,19911 @@
+[PA-]
+PATCHTYPE=0
+VERSION=73
+FNAM=D:\Hollyhock\Library\hollyhock-library\sequencers\circleseq-dev.pat
+ORIGINDEVICE=
+NBPG=27
+OFFSETX=486
+OFFSETY=229
+UID=74886252
+ID0=208
+L0=85
+T0=-165
+ID1=29
+L1=-196
+T1=-225
+QIDX2=0
+ID2=6
+L2=40
+T2=-83
+ID3=22
+L3=600
+T3=-83
+ID4=175
+L4=-263
+T4=-80
+ID5=175
+L5=-257
+T5=83
+ID6=175
+L6=-256
+T6=-17
+ID7=175
+L7=-264
+T7=30
+ID8=8
+L8=-256
+T8=135
+ID9=8
+L9=-251
+T9=179
+ID10=9
+L10=-249
+T10=218
+ID11=212
+L11=-267
+T11=-122
+ID12=9
+L12=-254
+T12=272
+ID13=264
+L13=11
+T13=303
+ID14=8
+L14=-254
+T14=328
+ID15=80
+L15=363
+T15=-71
+ID16=212
+L16=86
+T16=172
+ID17=250
+L17=925
+T17=-4
+ID18=29
+L18=533
+T18=239
+ID19=29
+L19=388
+T19=185
+ID20=38
+L20=439
+T20=107
+ID21=41
+L21=673
+T21=308
+ID22=53
+L22=774
+T22=326
+ID23=157
+L23=667
+T23=58
+ID24=157
+L24=695
+T24=165
+ID25=314
+L25=829
+T25=96
+ID26=35
+L26=582
+T26=13
+C0=0100000000001100
+CSRCNAME0=OUT
+CTARGNAME0=WIDTH
+C1=0100000000001200
+CSRCNAME1=OUT
+CTARGNAME1=HEIGHT
+C2=0100000002000000
+CSRCNAME2=OUT
+CTARGNAME2=CSIZE 1
+C3=0B00010002000100
+CSRCNAME3=LIST 8
+CTARGNAME3=QUANTIZE 1
+C4=0400010002000200
+CSRCNAME4=KNOB 1
+CTARGNAME4=BPC 1
+C5=0600010002000300
+CSRCNAME5=KNOB 3
+CTARGNAME5=R AFTER 1
+C6=0700010002000400
+CSRCNAME6=KNOB 4
+CTARGNAME6=R STEPS 1
+C7=0500010002000500
+CSRCNAME7=KNOB 2
+CTARGNAME7=STEPS 1
+C8=0800010002000600
+CSRCNAME8=BUTTON 5
+CTARGNAME8=GENERATE 1
+C9=0900010002000700
+CSRCNAME9=BUTTON 6
+CTARGNAME9=CLEAR 1
+C10=0A00010002000800
+CSRCNAME10=SWITCH 7
+CTARGNAME10=ROTATE 1
+C11=0C00010002000900
+CSRCNAME11=SWITCH 9
+CTARGNAME11=ON 1
+C12=0F00020003000000
+CSRCNAME12=OUT
+CTARGNAME12=MIDI 1
+C13=0E0001000D000000
+CSRCNAME13=BUTTON 10
+CTARGNAME13=SHOW POPUP
+C14=02000C000F000100
+CSRCNAME14=MIDI 1 1
+CTARGNAME14=IN
+C15=100001000F000900
+CSRCNAME15=LIST 11
+CTARGNAME15=CHANNEL
+C16=1900010011001100
+CSRCNAME16=OUT
+CTARGNAME16=WIDTH
+C17=1300000014000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=0200170014000000
+CSRCNAME18=NB POLYPHONY
+CTARGNAME18=A
+C19=1400020015000000
+CSRCNAME19=OUT
+CTARGNAME19=A
+C20=1200000015000100
+CSRCNAME20=OUT
+CTARGNAME20=B
+C21=1500020016000000
+CSRCNAME21=OUT
+CTARGNAME21=IN
+C22=1500020017000200
+CSRCNAME22=OUT
+CTARGNAME22=PASS
+C23=1A00020017000000
+CSRCNAME23=OUT
+CTARGNAME23=IN
+C24=1600010018000200
+CSRCNAME24=OUT
+CTARGNAME24=PASS
+C25=1200000018000000
+CSRCNAME25=OUT
+CTARGNAME25=IN
+C26=1700010019000000
+CSRCNAME26=OUT
+CTARGNAME26=IN
+C27=1800010019000000
+CSRCNAME27=OUT
+CTARGNAME27=IN
+C28=140002001A000000
+CSRCNAME28=OUT
+CTARGNAME28=A
+NBCO=29
+
+[PA-PASE]
+name=circleseq dev
+where=0
+saved in preset=1
+can be randomized=1
+undo enabled=1
+shared=0
+presets panel=0
+enabled=1
+on top=0
+opacity=1
+left=114
+top=22
+width=460
+height=780
+zoom scale=0.909090876579285
+transparent=0
+background color=4281419821
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=cl17
+border width=2
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=4281419821
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=780
+WidthBeforeMinimize=950
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+
+[PA-PRESETSSE]
+UID=96327376
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=22
+zoom scale=1
+transparent=0
+background color=clMoreLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=0
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=clMoreLitePanelBack
+show toolbar=1
+toolbar size=15
+minimized=1
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+show border button=0
+button color=clControlBack
+button font color=clFont
+button border color=clControlBorder
+show cmd=1
+show border cmd=0
+cmd ON color=clURed
+cmd OFF color=clControlBack
+cmd font ON color=clFont
+cmd font OFF color=clFont
+cmd border ON color=clControlBorder
+cmd border OFF color=clControlBorder
+silent edit=0
+
+[PA-PRESETS]
+UID=96327376
+VISIBLE=0
+MINIMIZED=1
+CURRENT CAPTION=
+CURRENT NUM=0
+
+[PA-PRESETSTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-PRESETSTBPREVIOUSSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-PRESETSTBNEXTSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-0]
+UID=53969898
+select by=2
+INDEXparent=1
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.531658291816711
+Vmouse y=0.471788465976715
+Vallow drop=0
+COLLAPS=1
+
+[PA-0mouse dwnSE]
+UID=53970328
+
+[PA-0dbl clickSE]
+UID=53970389
+
+[PA-0mouse xSE]
+UID=53970427
+
+[PA-0mouse ySE]
+UID=53970464
+
+[PA-0CTRLSE]
+UID=53970922
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=0
+top=20
+width=400
+height=400
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=cl1
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=cl17
+border width=1
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=0
+header height=0
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=0
+grid size=10
+auto resize=0
+auto resize margin=10
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=0
+same masses=0
+select by=2
+
+[PA-0CTRL]
+UID=53970922
+VISIBLE=1
+MINIMIZED=0
+
+[PA-1]
+UID=19455889
+Vout=400
+
+[PA-2]
+UID=35491072
+name=Empty SubPatch
+nb polyphony=2
+can be randomized=1
+saved in preset=1
+Vdata=125
+Vswitch=0
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+COLLAPS=2
+NBCLONES=2
+
+[PA-2switchSE]
+UID=1162231
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=57
+top=55
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.899999976158142
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=0
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=cl11
+border OFF color=clControlBorder
+led=1
+led size=16
+led at left=0
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2mouse dwnSE]
+UID=35491553
+
+[PA-2dbl clickSE]
+UID=35491606
+
+[PA-2mouse xSE]
+UID=35491648
+
+[PA-2mouse ySE]
+UID=35491701
+
+[PA-2CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=1109
+width=147.8271484375
+height=343
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=10
+auto resize=1
+auto resize margin=10
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2CTRL]
+UID=35487405
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2CTRLTBPRESETSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-]
+PATCHTYPE=9
+VERSION=73
+FNAM=C:\Hollyhock\Resources\Modules\All Modules\Empty SubPatch.pat
+ORIGINDEVICE=
+NBPG=119
+OFFSETX=-1170
+OFFSETY=-1186
+UID=355172
+ID0=24
+L0=419
+T0=196
+ID1=38
+L1=328
+T1=174
+ID2=38
+L2=235
+T2=210
+ID3=106
+L3=723
+T3=313
+ID4=40
+L4=574
+T4=273
+QIDX5=2
+ID5=95
+L5=802
+T5=815
+USR5=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+QIDX6=2
+ID6=95
+L6=802
+T6=908
+USR6=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+ID7=293
+L7=-677
+T7=245
+ID8=20
+L8=12
+T8=400
+ID9=37
+L9=145
+T9=377
+ID10=29
+L10=28
+T10=504
+ID11=38
+L11=263
+T11=337
+ID12=29
+L12=17
+T12=348
+ID13=36
+L13=532
+T13=413
+ID14=298
+L14=-536
+T14=245
+ID15=35
+L15=412
+T15=444
+ID16=29
+L16=286
+T16=510
+ID17=139
+L17=974
+T17=686
+ID18=139
+L18=976
+T18=758
+ID19=78
+L19=1366
+T19=659
+ID20=157
+L20=1195
+T20=783
+ID21=157
+L21=1205
+T21=852
+ID22=53
+L22=1115
+T22=882
+ID23=29
+L23=1090
+T23=741
+ID24=22
+L24=1917
+T24=593
+ID25=50
+L25=1191
+T25=611
+ID26=208
+L26=174
+T26=-29
+ID27=29
+L27=66
+T27=-51
+ID28=38
+L28=-22
+T28=-83
+ID29=29
+L29=-144
+T29=-450
+ID30=35
+L30=72
+T30=-125
+ID31=29
+L31=-19
+T31=-138
+ID32=95
+L32=-71
+T32=-5
+USR32=D:\Hollyhock\Resources\Modules\All Modules\Color\HSLAColor.usr-win64
+ID33=150
+L33=-472
+T33=311
+ID34=294
+L34=-635
+T34=379
+ID35=29
+L35=-627
+T35=333
+ID36=29
+L36=-633
+T36=426
+ID37=95
+L37=974
+T37=922
+USR37=D:\Hollyhock\Resources\Modules\All Modules\Array\RollArray.usr-win64
+ID38=95
+L38=981
+T38=1031
+USR38=D:\Hollyhock\Resources\Modules\All Modules\Array\RollArray.usr-win64
+ID39=40
+L39=569
+T39=339
+ID40=49
+L40=735
+T40=371
+ID41=219
+L41=548
+T41=1013
+ID42=298
+L42=649
+T42=493
+ID43=50
+L43=628
+T43=1067
+QIDX44=0
+ID44=355
+L44=901
+T44=1396
+ID45=335
+L45=1416
+T45=1605
+ID46=335
+L46=1407
+T46=1801
+QIDX47=0
+ID47=355
+L47=894
+T47=1484
+ID48=95
+L48=185
+T48=97
+USR48=D:\Hollyhock\Resources\Modules\All Modules\Color\HSLAColor.usr-win64
+ID49=29
+L49=20
+T49=172
+ID50=36
+L50=126
+T50=272
+ID51=38
+L51=32
+T51=440
+ID52=29
+L52=-169
+T52=464
+QIDX53=1
+ID53=277
+L53=1476
+T53=830
+ID54=37
+L54=515
+T54=556
+ID55=29
+L55=337
+T55=575
+ID56=335
+L56=1191
+T56=35
+QIDX57=1
+ID57=152
+L57=959
+T57=-184
+QIDX58=1
+ID58=152
+L58=959
+T58=-114
+ID59=16
+L59=755
+T59=-128
+ID60=38
+L60=827
+T60=-71
+ID61=290
+L61=906
+T61=-49
+ID62=35
+L62=1004
+T62=-38
+ID63=16
+L63=-288
+T63=7
+ID64=179
+L64=-1235
+T64=-21
+ID65=37
+L65=-317
+T65=-193
+ID66=29
+L66=-471
+T66=-236
+ID67=38
+L67=-203
+T67=-154
+ID68=37
+L68=76
+T68=-254
+ID69=80
+L69=1741
+T69=610
+QIDX70=0
+ID70=6
+L70=199
+T70=1421
+ID71=38
+L71=704
+T71=984
+QIDX72=0
+ID72=95
+L72=584
+T72=1365
+USR72=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix - Data Mix.usr-win64
+QIDX73=1
+ID73=260
+L73=144
+T73=1255
+ID74=29
+L74=-57
+T74=1133
+QIDX75=0
+ID75=95
+L75=588
+T75=1450
+USR75=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix - Data Mix.usr-win64
+ID76=53
+L76=-62
+T76=1175
+ID77=363
+L77=686
+T77=1257
+ID78=38
+L78=830
+T78=1144
+ID79=298
+L79=292
+T79=1144
+QIDX80=0
+ID80=6
+L80=-673
+T80=950
+QIDX81=0
+ID81=6
+L81=-666
+T81=666
+ID82=20
+L82=-1218
+T82=875
+ID83=20
+L83=-1218
+T83=917
+ID84=20
+L84=-1219
+T84=958
+ID85=20
+L85=-1223
+T85=1035
+ID86=20
+L86=-1223
+T86=1076
+ID87=20
+L87=-1222
+T87=1116
+ID88=20
+L88=-1222
+T88=996
+ID89=35
+L89=849
+T89=1057
+ID90=366
+L90=-443
+T90=1490
+ID91=20
+L91=-1218
+T91=1199
+ID92=20
+L92=-1217
+T92=832
+ID93=366
+L93=-449
+T93=1383
+ID94=365
+L94=-449
+T94=1273
+ID95=365
+L95=-449
+T95=1160
+ID96=104
+L96=-304
+T96=1270
+ID97=139
+L97=1471
+T97=951
+ID98=139
+L98=1474
+T98=1011
+ID99=139
+L99=1474
+T99=1071
+ID100=139
+L100=1473
+T100=1129
+ID101=49
+L101=1592
+T101=1258
+ID102=49
+L102=1690
+T102=1447
+ID103=29
+L103=1755
+T103=1654
+ID104=29
+L104=1239
+T104=1249
+ID105=149
+L105=1466
+T105=1235
+ID106=149
+L106=1459
+T106=1400
+ID107=298
+L107=1357
+T107=1071
+ID108=53
+L108=1786
+T108=1328
+ID109=53
+L109=1764
+T109=1480
+ID110=21
+L110=1920
+T110=544
+ID111=314
+L111=918
+T111=2124
+ID112=314
+L112=969
+T112=1944
+ID113=37
+L113=1873
+T113=1751
+ID114=29
+L114=1749
+T114=1786
+ID115=35
+L115=2027
+T115=1555
+ID116=36
+L116=2054
+T116=1867
+QIDX117=0
+ID117=6
+L117=2598
+T117=1233
+QIDX118=0
+ID118=6
+L118=2602
+T118=1326
+C0=0100020000000000
+CSRCNAME0=OUT
+CTARGNAME0=IN
+C1=0200020001000100
+CSRCNAME1=OUT
+CTARGNAME1=B
+C2=4000160001000000
+CSRCNAME2=TOTAL PPQ
+CTARGNAME2=A
+C3=3F00010002000000
+CSRCNAME3=OUT
+CTARGNAME3=A
+C4=5000060002000100
+CSRCNAME4=STEPS
+CTARGNAME4=B
+C5=0400020003000000
+CSRCNAME5=OUT
+CTARGNAME5=IN
+C6=0000010004000000
+CSRCNAME6=OUT
+CTARGNAME6=A
+C7=5000060004000100
+CSRCNAME7=STEPS
+CTARGNAME7=B
+C8=4800050005000D00
+CSRCNAME8=OUT 1
+CTARGNAME8=CELLS VAL
+C9=5000060005000200
+CSRCNAME9=STEPS
+CTARGNAME9=NUM OF COLS
+C10=5D00010005000700
+CSRCNAME10=OUT
+CTARGNAME10=RESET
+C11=4B00050006000D00
+CSRCNAME11=OUT 1
+CTARGNAME11=CELLS VAL
+C12=5000060006000200
+CSRCNAME12=STEPS
+CTARGNAME12=NUM OF COLS
+C13=5D00010006000700
+CSRCNAME13=OUT
+CTARGNAME13=RESET
+C14=0800000009000000
+CSRCNAME14=CSIZE
+CTARGNAME14=A
+C15=0A00000009000100
+CSRCNAME15=OUT
+CTARGNAME15=B
+C16=0C0000000B000100
+CSRCNAME16=OUT
+CTARGNAME16=B
+C17=0E0001000B000000
+CSRCNAME17=OUT
+CTARGNAME17=A
+C18=090002000D000000
+CSRCNAME18=OUT
+CTARGNAME18=A
+C19=0F0002000D000100
+CSRCNAME19=OUT
+CTARGNAME19=B
+C20=070000000E000000
+CSRCNAME20=OUT
+CTARGNAME20=IN
+C21=0B0002000F000000
+CSRCNAME21=OUT
+CTARGNAME21=A
+C22=100000000F000100
+CSRCNAME22=OUT
+CTARGNAME22=B
+C23=0400020011000100
+CSRCNAME23=OUT
+CTARGNAME23=INDEX
+C24=2500010011000000
+CSRCNAME24=ARRAY OUT
+CTARGNAME24=ARRAY IN
+C25=0400020012000100
+CSRCNAME25=OUT
+CTARGNAME25=INDEX
+C26=2600010012000000
+CSRCNAME26=ARRAY OUT
+CTARGNAME26=ARRAY IN
+C27=1400010013000400
+CSRCNAME27=OUT
+CTARGNAME27=CODE2
+C28=1500010013000400
+CSRCNAME28=OUT
+CTARGNAME28=CODE2
+C29=1900020013000500
+CSRCNAME29=OUT
+CTARGNAME29=CREATE
+C30=5100070013000300
+CSRCNAME30=NOTE
+CTARGNAME30=CODE1
+C31=0700000013000100
+CSRCNAME31=OUT
+CTARGNAME31=CHAN
+C32=1200020014000200
+CSRCNAME32=VALUE
+CTARGNAME32=PASS
+C33=1700000014000000
+CSRCNAME33=OUT
+CTARGNAME33=IN
+C34=1600010015000200
+CSRCNAME34=OUT
+CTARGNAME34=PASS
+C35=5100090015000000
+CSRCNAME35=BASE VEL
+CTARGNAME35=IN
+C36=1200020016000000
+CSRCNAME36=VALUE
+CTARGNAME36=IN
+C37=4500020018000000
+CSRCNAME37=OUT
+CTARGNAME37=MIDI 1
+C38=0300010019000000
+CSRCNAME38=OUT
+CTARGNAME38=A
+C39=1100020019000100
+CSRCNAME39=VALUE
+CTARGNAME39=B
+C40=1B0000001A001000
+CSRCNAME40=OUT
+CTARGNAME40=TOP
+C41=1E0002001A000F00
+CSRCNAME41=OUT
+CTARGNAME41=LEFT
+C42=1D0000001A001100
+CSRCNAME42=OUT
+CTARGNAME42=WIDTH
+C43=200004001A003300
+CSRCNAME43=COLOR
+CTARGNAME43=BACKGROUND COLOR
+C44=0E0001001C000100
+CSRCNAME44=OUT
+CTARGNAME44=B
+C45=1D0000001C000000
+CSRCNAME45=OUT
+CTARGNAME45=A
+C46=1C0002001E000100
+CSRCNAME46=OUT
+CTARGNAME46=B
+C47=1F0000001E000000
+CSRCNAME47=OUT
+CTARGNAME47=A
+C48=2100030020000000
+CSRCNAME48=OUT
+CTARGNAME48=H
+C49=2200000021000500
+CSRCNAME49=OUT
+CTARGNAME49=MAX IN
+C50=2300000021000400
+CSRCNAME50=OUT
+CTARGNAME50=MIN IN
+C51=2300000021000600
+CSRCNAME51=OUT
+CTARGNAME51=MIN OUT
+C52=2400000021000700
+CSRCNAME52=OUT
+CTARGNAME52=MAX OUT
+C53=0E00010021000200
+CSRCNAME53=OUT
+CTARGNAME53=IN
+C54=05000E0025000000
+CSRCNAME54=CELLS OUT
+CTARGNAME54=ARRAY IN
+C55=5900020025000200
+CSRCNAME55=OUT
+CTARGNAME55=ROLL
+C56=06000E0026000000
+CSRCNAME56=CELLS OUT
+CTARGNAME56=ARRAY IN
+C57=5900020026000200
+CSRCNAME57=OUT
+CTARGNAME57=ROLL
+C58=0000010027000000
+CSRCNAME58=OUT
+CTARGNAME58=A
+C59=5100080027000100
+CSRCNAME59=R AFTER
+CTARGNAME59=B
+C60=2700020028000000
+CSRCNAME60=OUT
+CTARGNAME60=A
+C61=2A00010028000100
+CSRCNAME61=OUT
+CTARGNAME61=B
+C62=2800020029000000
+CSRCNAME62=OUT
+CTARGNAME62=IN
+C63=510008002A000000
+CSRCNAME63=R AFTER
+CTARGNAME63=IN
+C64=290001002B000000
+CSRCNAME64=OUT
+CTARGNAME64=A
+C65=5E0001002B000100
+CSRCNAME65=OUT
+CTARGNAME65=B
+C66=250001002C000100
+CSRCNAME66=ARRAY OUT
+CTARGNAME66=INARR
+C67=2C0002002D000100
+CSRCNAME67=OUTX
+CTARGNAME67=POINTS X
+C68=2C0003002D000200
+CSRCNAME68=OUTY
+CTARGNAME68=POINTS Y
+C69=1A0033002D002F00
+CSRCNAME69=BACKGROUND COLOR
+CTARGNAME69=BORDER COLOR
+C70=6F0001002D001700
+CSRCNAME70=OUT
+CTARGNAME70=HEIGHT
+C71=6F0001002D001600
+CSRCNAME71=OUT
+CTARGNAME71=WIDTH
+C72=700001002D001400
+CSRCNAME72=OUT
+CTARGNAME72=LEFT
+C73=700001002D001500
+CSRCNAME73=OUT
+CTARGNAME73=TOP
+C74=2F0002002E000100
+CSRCNAME74=OUTX
+CTARGNAME74=POINTS X
+C75=2F0003002E000200
+CSRCNAME75=OUTY
+CTARGNAME75=POINTS Y
+C76=300004002E002F00
+CSRCNAME76=COLOR
+CTARGNAME76=BORDER COLOR
+C77=6F0001002E001600
+CSRCNAME77=OUT
+CTARGNAME77=WIDTH
+C78=6F0001002E001700
+CSRCNAME78=OUT
+CTARGNAME78=HEIGHT
+C79=700001002E001400
+CSRCNAME79=OUT
+CTARGNAME79=LEFT
+C80=700001002E001500
+CSRCNAME80=OUT
+CTARGNAME80=TOP
+C81=260001002F000100
+CSRCNAME81=ARRAY OUT
+CTARGNAME81=INARR
+C82=2100030030000000
+CSRCNAME82=OUT
+CTARGNAME82=H
+C83=3100000030000200
+CSRCNAME83=OUT
+CTARGNAME83=L
+C84=3300020032000100
+CSRCNAME84=OUT
+CTARGNAME84=B
+C85=0800000032000000
+CSRCNAME85=CSIZE
+CTARGNAME85=A
+C86=3400000033000100
+CSRCNAME86=OUT
+CTARGNAME86=B
+C87=0E00010033000000
+CSRCNAME87=OUT
+CTARGNAME87=A
+C88=1900020035000500
+CSRCNAME88=OUT
+CTARGNAME88=SEND
+C89=1400010035000700
+CSRCNAME89=OUT
+CTARGNAME89=DATA 2
+C90=1500010035000700
+CSRCNAME90=OUT
+CTARGNAME90=DATA 2
+C91=5100070035000600
+CSRCNAME91=NOTE
+CTARGNAME91=DATA 1
+C92=3300020036000000
+CSRCNAME92=OUT
+CTARGNAME92=A
+C93=3700000036000100
+CSRCNAME93=OUT
+CTARGNAME93=B
+C94=3900030038000100
+CSRCNAME94=ARRAY OUT
+CTARGNAME94=POINTS X
+C95=3A00030038000200
+CSRCNAME95=ARRAY OUT
+CTARGNAME95=POINTS Y
+C96=3200020038001600
+CSRCNAME96=OUT
+CTARGNAME96=WIDTH
+C97=3200020038001700
+CSRCNAME97=OUT
+CTARGNAME97=HEIGHT
+C98=3600020038001400
+CSRCNAME98=OUT
+CTARGNAME98=LEFT
+C99=3600020038001500
+CSRCNAME99=OUT
+CTARGNAME99=TOP
+C100=3E00020038001300
+CSRCNAME100=OUT
+CTARGNAME100=ROTATION ANGLE
+C101=2000040038002F00
+CSRCNAME101=COLOR
+CTARGNAME101=BORDER COLOR
+C102=500006003B000000
+CSRCNAME102=STEPS
+CTARGNAME102=IN
+C103=3B0001003C000000
+CSRCNAME103=OUT
+CTARGNAME103=A
+C104=040002003C000100
+CSRCNAME104=OUT
+CTARGNAME104=B
+C105=3C0002003D000000
+CSRCNAME105=OUT
+CTARGNAME105=IN
+C106=3D0001003E000000
+CSRCNAME106=OUT
+CTARGNAME106=A
+C107=510006003F000000
+CSRCNAME107=BPC
+CTARGNAME107=IN
+C108=4000130041000100
+CSRCNAME108=TEMPO
+CTARGNAME108=B
+C109=4200000041000000
+CSRCNAME109=OUT
+CTARGNAME109=A
+C110=4100020043000000
+CSRCNAME110=OUT
+CTARGNAME110=A
+C111=5100060043000100
+CSRCNAME111=BPC
+CTARGNAME111=B
+C112=4300020044000000
+CSRCNAME112=OUT
+CTARGNAME112=A
+C113=5000060044000100
+CSRCNAME113=STEPS
+CTARGNAME113=B
+C114=1300000045000100
+CSRCNAME114=OUT
+CTARGNAME114=IN
+C115=4400020045000500
+CSRCNAME115=OUT
+CTARGNAME115=LENGTH
+C116=5000060046000000
+CSRCNAME116=STEPS
+CTARGNAME116=STEPS
+C117=5000070046000100
+CSRCNAME117=PULSES
+CTARGNAME117=PULSES
+C118=5000080046000200
+CSRCNAME118=ACCENTS
+CTARGNAME118=ACCENTS
+C119=5A00010046000300
+CSRCNAME119=OUT
+CTARGNAME119=GENERATE
+C120=2B00020047000100
+CSRCNAME120=OUT
+CTARGNAME120=B
+C121=51000A0047000000
+CSRCNAME121=R STEPS
+CTARGNAME121=A
+C122=4900020048001B00
+CSRCNAME122=OUT
+CTARGNAME122=CELLS VAL
+C123=4600040048000200
+CSRCNAME123=CELLS OUT
+CTARGNAME123=IN 2
+C124=05000E0048000100
+CSRCNAME124=CELLS OUT
+CTARGNAME124=IN 1
+C125=4A00000049000400
+CSRCNAME125=OUT
+CTARGNAME125=SIZE
+C126=4C00010049000A00
+CSRCNAME126=OUT
+CTARGNAME126=VAL 0
+C127=5A00010049000B00
+CSRCNAME127=OUT
+CTARGNAME127=VAL 1
+C128=490002004B001B00
+CSRCNAME128=OUT
+CTARGNAME128=CELLS VAL
+C129=460005004B000200
+CSRCNAME129=ACCENTS OUT
+CTARGNAME129=IN 2
+C130=06000E004B000100
+CSRCNAME130=CELLS OUT
+CTARGNAME130=IN 1
+C131=5A0001004C000000
+CSRCNAME131=OUT
+CTARGNAME131=IN
+C132=2B0002004D000100
+CSRCNAME132=OUT
+CTARGNAME132=INCREMENT
+C133=4F0001004D000600
+CSRCNAME133=OUT
+CTARGNAME133=MAX
+C134=5A0001004D000300
+CSRCNAME134=OUT
+CTARGNAME134=RESET TO MIN
+C135=5D0001004D000300
+CSRCNAME135=OUT
+CTARGNAME135=RESET TO MIN
+C136=4D0000004E000100
+CSRCNAME136=VALUE
+CTARGNAME136=B
+C137=51000A004E000000
+CSRCNAME137=R STEPS
+CTARGNAME137=A
+C138=500006004F000000
+CSRCNAME138=STEPS
+CTARGNAME138=IN
+C139=5800000050000000
+CSRCNAME139=STEPS
+CTARGNAME139=STEPS
+C140=5500000050000300
+CSRCNAME140=GENERATE
+CTARGNAME140=GENERATE
+C141=5600000050000400
+CSRCNAME141=CLEAR
+CTARGNAME141=CLEAR
+C142=5700000050000500
+CSRCNAME142=ROTATE
+CTARGNAME142=ROTATE
+C143=5200000051000000
+CSRCNAME143=BPC
+CTARGNAME143=BPC
+C144=5300000051000300
+CSRCNAME144=R AFTER
+CTARGNAME144=R AFTER
+C145=5400000051000500
+CSRCNAME145=R STEPS
+CTARGNAME145=R STEPS
+C146=0300010051000200
+CSRCNAME146=OUT
+CTARGNAME146=GENERATE
+C147=4E00020059000100
+CSRCNAME147=OUT
+CTARGNAME147=B
+C148=5F00010059000000
+CSRCNAME148=OUT
+CTARGNAME148=A
+C149=5B0000005A000200
+CSRCNAME149=ON
+CTARGNAME149=ON
+C150=5C0000005A000300
+CSRCNAME150=QUANTIZE
+CTARGNAME150=QUANTIZE
+C151=500009005A000000
+CSRCNAME151=GENERATE
+CTARGNAME151=IN
+C152=5B0000005D000200
+CSRCNAME152=ON
+CTARGNAME152=ON
+C153=5C0000005D000300
+CSRCNAME153=QUANTIZE
+CTARGNAME153=QUANTIZE
+C154=50000A005D000000
+CSRCNAME154=CLEAR
+CTARGNAME154=IN
+C155=5B0000005E000200
+CSRCNAME155=ON
+CTARGNAME155=ON
+C156=5C0000005E000300
+CSRCNAME156=QUANTIZE
+CTARGNAME156=QUANTIZE
+C157=50000B005E000000
+CSRCNAME157=ROTATE
+CTARGNAME157=IN
+C158=50000C005F000000
+CSRCNAME158=OFFSET
+CTARGNAME158=IN
+C159=5B0000005F000200
+CSRCNAME159=ON
+CTARGNAME159=ON
+C160=5C0000005F000300
+CSRCNAME160=QUANTIZE
+CTARGNAME160=QUANTIZE
+C161=5F00050060000100
+CSRCNAME161=TRIGGER
+CTARGNAME161=TRIGGER
+C162=6B00010061000100
+CSRCNAME162=OUT
+CTARGNAME162=INDEX
+C163=2C00020061000000
+CSRCNAME163=OUTX
+CTARGNAME163=ARRAY IN
+C164=6B00010062000100
+CSRCNAME164=OUT
+CTARGNAME164=INDEX
+C165=2C00030062000000
+CSRCNAME165=OUTY
+CTARGNAME165=ARRAY IN
+C166=6B00010063000100
+CSRCNAME166=OUT
+CTARGNAME166=INDEX
+C167=2F00020063000000
+CSRCNAME167=OUTX
+CTARGNAME167=ARRAY IN
+C168=6B00010064000100
+CSRCNAME168=OUT
+CTARGNAME168=INDEX
+C169=2F00030064000000
+CSRCNAME169=OUTY
+CTARGNAME169=ARRAY IN
+C170=6900010065000000
+CSRCNAME170=SIZE
+CTARGNAME170=A
+C171=6800000065000100
+CSRCNAME171=OUT
+CTARGNAME171=B
+C172=6A00010066000000
+CSRCNAME172=SIZE
+CTARGNAME172=A
+C173=6800000066000100
+CSRCNAME173=OUT
+CTARGNAME173=B
+C174=2C00020069000000
+CSRCNAME174=OUTX
+CTARGNAME174=ARRAY IN
+C175=2F0002006A000000
+CSRCNAME175=OUTX
+CTARGNAME175=ARRAY IN
+C176=680000006B000000
+CSRCNAME176=OUT
+CTARGNAME176=IN
+C177=650002006C000000
+CSRCNAME177=OUT
+CTARGNAME177=IN
+C178=660002006D000000
+CSRCNAME178=OUT
+CTARGNAME178=IN
+C179=440002006E000000
+CSRCNAME179=OUT
+CTARGNAME179=NOTE LENGTH
+C180=320002006F000000
+CSRCNAME180=OUT
+CTARGNAME180=IN
+C181=3600020070000000
+CSRCNAME181=OUT
+CTARGNAME181=IN
+C182=6700000071000000
+CSRCNAME182=OUT
+CTARGNAME182=A
+C183=7200000071000100
+CSRCNAME183=OUT
+CTARGNAME183=B
+C184=7100020073000100
+CSRCNAME184=OUT
+CTARGNAME184=B
+C185=7000010073000000
+CSRCNAME185=OUT
+CTARGNAME185=A
+C186=6F00010074000000
+CSRCNAME186=OUT
+CTARGNAME186=A
+C187=6700000074000100
+CSRCNAME187=OUT
+CTARGNAME187=B
+C188=7400020075000300
+CSRCNAME188=OUT
+CTARGNAME188=SIZE
+C189=7300020075000200
+CSRCNAME189=OUT
+CTARGNAME189=POSITION
+C190=6100020075000000
+CSRCNAME190=VALUE
+CTARGNAME190=X
+C191=6200020075000100
+CSRCNAME191=VALUE
+CTARGNAME191=Y
+C192=2D002F0075000400
+CSRCNAME192=BORDER COLOR
+CTARGNAME192=BG C
+C193=6C00010075000500
+CSRCNAME193=OUT
+CTARGNAME193=SHOW DOT
+C194=6300020076000000
+CSRCNAME194=VALUE
+CTARGNAME194=X
+C195=6400020076000100
+CSRCNAME195=VALUE
+CTARGNAME195=Y
+C196=7300020076000200
+CSRCNAME196=OUT
+CTARGNAME196=POSITION
+C197=7400020076000300
+CSRCNAME197=OUT
+CTARGNAME197=SIZE
+C198=2E002F0076000400
+CSRCNAME198=BORDER COLOR
+CTARGNAME198=BG C
+C199=6D00010076000500
+CSRCNAME199=OUT
+CTARGNAME199=SHOW DOT
+NBCO=200
+
+[PA-2-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=1109
+width=147.8271484375
+height=343
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=10
+auto resize=1
+auto resize margin=10
+
+[PA-2-0]
+UID=39829151
+Vin=42790.35546875
+Vout=42790
+
+[PA-2-1]
+UID=39830369
+VA=10697.5888671875
+VB=4
+
+[PA-2-2]
+UID=39831441
+VA=0.125
+VB=32
+
+[PA-2-3]
+UID=39832471
+Vin=6
+Vout=0
+
+[PA-2-4]
+UID=39833677
+VA=42790
+VB=32
+Vout=6
+
+[PA-2-5]
+UID=357410
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=4
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=-1
+Vlast click col=-1
+Vlast click row=-1
+TABcells valV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=20000000
+TABcursor outL=1
+Vcell 1=0
+Vcell 2=0
+Vcell 3=0
+Vcell 4=0
+Vcell 5=0
+Vcell 6=0
+Vcell 7=0
+Vcell 8=0
+Vcell 9=0
+Vcell 10=0
+Vcell 11=0
+Vcell 12=0
+Vcell 13=0
+Vcell 14=0
+Vcell 15=0
+Vcell 16=0
+Vcell 17=0
+Vcell 18=0
+Vcell 19=0
+Vcell 20=0
+Vcell 21=0
+Vcell 22=0
+Vcell 23=0
+Vcell 24=0
+Vcell 25=0
+Vcell 26=0
+Vcell 27=0
+Vcell 28=0
+Vcell 29=0
+Vcell 30=0
+Vcell 31=0
+Vcell 32=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.22916667163372
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D5832302000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-5num of colsSE]
+UID=360469
+
+[PA-2-5num of rowsSE]
+UID=361584
+
+[PA-2-5random coverageSE]
+UID=366744
+
+[PA-2-5cells outSE]
+UID=373418
+
+[PA-2-5cursor posSE]
+UID=375406
+
+[PA-2-5mouse dwnSE]
+UID=422854
+
+[PA-2-5dbl clickSE]
+UID=423929
+
+[PA-2-5mouse xSE]
+UID=424859
+
+[PA-2-5mouse ySE]
+UID=425784
+
+[PA-2-5CTRLSE]
+UID=356251
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=903
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-5CTRL]
+UID=356251
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-5CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-5SE]
+UID=357410
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=0
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=903
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+
+[PA-2-6]
+UID=432522
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=-1
+Vlast click col=-1
+Vlast click row=-1
+TABcells valV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=20000000
+TABcursor outL=1
+Vcell 1=0
+Vcell 2=0
+Vcell 3=0
+Vcell 4=0
+Vcell 5=0
+Vcell 6=0
+Vcell 7=0
+Vcell 8=0
+Vcell 9=0
+Vcell 10=0
+Vcell 11=0
+Vcell 12=0
+Vcell 13=0
+Vcell 14=0
+Vcell 15=0
+Vcell 16=0
+Vcell 17=0
+Vcell 18=0
+Vcell 19=0
+Vcell 20=0
+Vcell 21=0
+Vcell 22=0
+Vcell 23=0
+Vcell 24=0
+Vcell 25=0
+Vcell 26=0
+Vcell 27=0
+Vcell 28=0
+Vcell 29=0
+Vcell 30=0
+Vcell 31=0
+Vcell 32=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.34375
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D5832302000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-6num of colsSE]
+UID=435229
+
+[PA-2-6num of rowsSE]
+UID=436159
+
+[PA-2-6random coverageSE]
+UID=440616
+
+[PA-2-6cells outSE]
+UID=446302
+
+[PA-2-6cursor posSE]
+UID=447231
+
+[PA-2-6mouse dwnSE]
+UID=479019
+
+[PA-2-6dbl clickSE]
+UID=480304
+
+[PA-2-6mouse xSE]
+UID=481233
+
+[PA-2-6mouse ySE]
+UID=482159
+
+[PA-2-6CTRLSE]
+UID=431589
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1109
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-6CTRL]
+UID=431589
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-6CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-6SE]
+UID=432522
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=0
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1109
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+
+[PA-2-7]
+UID=17891479
+Vout=1
+
+[PA-2-8]
+UID=3666608
+once in poly=1
+Vdata=400
+Tcaption=csize
+INDEXprec=0
+
+[PA-2-9]
+UID=3590910
+VA=400
+VB=2
+Vout=200
+
+[PA-2-10]
+UID=81451666
+Vout=2
+
+[PA-2-11]
+UID=37655082
+VA=0
+VB=30
+
+[PA-2-12]
+UID=10736157
+Vout=30
+
+[PA-2-13]
+UID=23721100
+VA=200
+VB=10
+Vout=190
+
+[PA-2-14]
+UID=21601096
+Vin=1
+Vout=0
+
+[PA-2-15]
+UID=29149932
+VA=0
+VB=10
+Vout=10
+
+[PA-2-16]
+UID=45360824
+Vout=10
+
+[PA-2-17]
+UID=23991023
+Vindex=6
+Vvalue=0
+
+[PA-2-18]
+UID=55888760
+Vindex=6
+Vvalue=0
+
+[PA-2-19]
+UID=95917071
+INDEXchan=1
+INDEXmsg=0
+Vcode1=36
+Vcode2=84
+
+[PA-2-20]
+UID=88074462
+Vin=127
+Vout=127
+Vpass=0
+
+[PA-2-21]
+UID=83817109
+Vin=84
+Vout=84
+Vpass=1
+
+[PA-2-22]
+UID=7667498
+Vin=0
+Vout=1
+
+[PA-2-23]
+UID=90365968
+Vout=127
+
+[PA-2-24]
+UID=77795093
+once in poly=1
+
+[PA-2-25]
+UID=46996633
+VA=0
+VB=0
+Vout=0
+Vblock=0
+
+[PA-2-26]
+UID=488474
+select by=2
+INDEXparent=2
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.997777998447418
+Vmouse y=0.146571546792984
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-26mouse dwnSE]
+UID=492098
+
+[PA-2-26dbl clickSE]
+UID=493027
+
+[PA-2-26mouse xSE]
+UID=493956
+
+[PA-2-26mouse ySE]
+UID=494890
+
+[PA-2-26CTRLSE]
+UID=487544
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=425
+width=135
+height=350
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=cl6
+border width=0
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=0
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=1
+same masses=1
+select by=2
+
+[PA-2-26CTRL]
+UID=487544
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-27]
+UID=56125288
+Vout=425
+COLLAPS=2
+
+[PA-2-28]
+UID=41078333
+VA=135
+VB=0
+
+[PA-2-29]
+UID=40325273
+Vout=135
+
+[PA-2-30]
+UID=29719976
+VA=5
+VB=0
+Vout=5
+
+[PA-2-31]
+UID=10836171
+Vout=5
+
+[PA-2-32]
+UID=500248
+saved in preset=1
+VH=0
+VS=0.690909087657928
+VL=0.431372553110123
+VA=1
+COLcolor=4284289297
+
+[PA-2-32SE]
+UID=500248
+saved in preset=1
+
+[PA-2-33]
+UID=510490
+saved in preset=0
+INDEXvisible=0
+Vbypass=0
+Vin=0
+Vout=0
+Vmin in=0
+Vmax in=2
+Vmin out=0
+Vmax out=12
+INDEXcurve=3
+Vcoeff=2
+Vaudio quality=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-33mouse dwnSE]
+UID=525578
+
+[PA-2-33dbl clickSE]
+UID=526484
+
+[PA-2-33mouse xSE]
+UID=527386
+
+[PA-2-33mouse ySE]
+UID=528287
+
+[PA-2-33CTRLSE]
+UID=508683
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1319
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+step color=1150510520
+big step color=clDataFlow
+big step interval=0
+show step border=1
+step border color=clDataFlow
+line color=clDataFlow
+line width=1
+mode fill=1
+fill color=1150510520
+show grid=1
+grid color=1150510520
+full grid size=1
+V divisions=2
+H divisions=4
+show cursor=1
+cursor color=clCursor
+cursor width=2
+horizotal scale=0
+vertical scale=0
+
+[PA-2-33CTRL]
+UID=508683
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=000000000402013C0402813C0683C13C0402013D8542213D0683413D87C3613D0402813D4522913D8542A13DC662B13D0683C13D47A3D13D87C3E13DC8E3F13D0402013E2412093E4522113E6532193E8542213EA552293EC662313EE672393E0683413E2693493E47A3513E67B3593E87C3613EA7D3693EC8E3713EE8F3793E0402813E140A853E2412893E341A8D3E4522913E552A953E6532993E753A9D3E8542A13E954AA53EA552A93EB55AAD3EC662B13ED66AB53EE672B93EF67ABD3E0683C13E168BC53E2693C93E369BCD3E47A3D13E57ABD53E67B3D93E77BBDD3E87C3E13E97CBE53EA7D3E93EB7DBED3EC8E3F13ED8EBF53EE8F3F93EF8FBFD3E0402013F0C06033F140A053F1C0E073F2412093F2C160B3F341A0D3F3C1E0F3F4522113F4D26133F552A153F5D2E173F6532193F6D361B3F753A1D3F7D3E1F3F8542213F8D46233F954A253F9D4E273FA552293FAD562B3FB55A2D3FBD5E2F3FC662313FCE66333FD66A353FDE6E373FE672393FEE763B3FF67A3D3FFE7E3F3F0683413F0E87433F168B453F1E8F473F2693493F2E974B3F369B4D3F3E9F4F3F47A3513F4FA7533F57AB553F5FAF573F67B3593F6FB75B3F77BB5D3F7FBF5F3F87C3613F8FC7633F97CB653F9FCF673FA7D3693FAFD76B3FB7DB6D3FBFDF6F3FC8E3713FD0E7733FD8EB753FE0EF773FE8F3793FF0F77B3FF8FB7D3F0000803F
+TABL=128
+
+[PA-2-33CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-33MAPPERCURVESE]
+UID=508683
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1319
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+step color=1150510520
+big step color=clDataFlow
+big step interval=0
+show step border=1
+step border color=clDataFlow
+line color=clDataFlow
+line width=1
+mode fill=1
+fill color=1150510520
+show grid=1
+grid color=1150510520
+full grid size=1
+V divisions=2
+H divisions=4
+show cursor=1
+cursor color=clCursor
+cursor width=2
+horizotal scale=0
+vertical scale=0
+
+[PA-2-33MAPPERCURVE]
+UID=508683
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=000000000402013C0402813C0683C13C0402013D8542213D0683413D87C3613D0402813D4522913D8542A13DC662B13D0683C13D47A3D13D87C3E13DC8E3F13D0402013E2412093E4522113E6532193E8542213EA552293EC662313EE672393E0683413E2693493E47A3513E67B3593E87C3613EA7D3693EC8E3713EE8F3793E0402813E140A853E2412893E341A8D3E4522913E552A953E6532993E753A9D3E8542A13E954AA53EA552A93EB55AAD3EC662B13ED66AB53EE672B93EF67ABD3E0683C13E168BC53E2693C93E369BCD3E47A3D13E57ABD53E67B3D93E77BBDD3E87C3E13E97CBE53EA7D3E93EB7DBED3EC8E3F13ED8EBF53EE8F3F93EF8FBFD3E0402013F0C06033F140A053F1C0E073F2412093F2C160B3F341A0D3F3C1E0F3F4522113F4D26133F552A153F5D2E173F6532193F6D361B3F753A1D3F7D3E1F3F8542213F8D46233F954A253F9D4E273FA552293FAD562B3FB55A2D3FBD5E2F3FC662313FCE66333FD66A353FDE6E373FE672393FEE763B3FF67A3D3FFE7E3F3F0683413F0E87433F168B453F1E8F473F2693493F2E974B3F369B4D3F3E9F4F3F47A3513F4FA7533F57AB553F5FAF573F67B3593F6FB75B3F77BB5D3F7FBF5F3F87C3613F8FC7633F97CB653F9FCF673FA7D3693FAFD76B3FB7DB6D3FBFDF6F3FC8E3713FD0E7733FD8EB753FE0EF773FE8F3793FF0F77B3FF8FB7D3F0000803F
+TABL=128
+
+[PA-2-33MAPPERCURVETBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-34]
+UID=52723839
+Vout=2
+
+[PA-2-35]
+UID=57281103
+Vout=0
+
+[PA-2-36]
+UID=85219858
+Vout=12
+
+[PA-2-37]
+UID=534151
+saved in preset=1
+TABarray inV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray inL=32
+TABarray outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray outL=32
+Vroll=-20
+
+[PA-2-37SE]
+UID=534151
+saved in preset=1
+
+[PA-2-38]
+UID=538190
+saved in preset=1
+TABarray inV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray inL=32
+TABarray outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray outL=32
+Vroll=-20
+
+[PA-2-38SE]
+UID=538190
+saved in preset=1
+
+[PA-2-39]
+UID=99980885
+VA=42790
+VB=8
+Vout=6
+
+[PA-2-40]
+UID=23233378
+VA=6
+VB=7
+Vout=0
+Vblock=0
+COLLAPS=2
+
+[PA-2-41]
+UID=6158210
+Vin=0
+Vout=0
+
+[PA-2-42]
+UID=30198591
+Vin=8
+Vout=7
+
+[PA-2-43]
+UID=19535201
+VA=0
+VB=1
+Vout=0
+Vblock=0
+
+[PA-2-44]
+SCRIPTPROC=var inArr : Tparameter;,var outX : Tparameter;,var outY : Tparameter;,var l : integer;,var i : integer;,var o_l : integer;,var tmp : integer;,var r:double;,var c:integer;                      ,procedure init;  ,begin, c:=360;, r:=0.5;," inArr:= CreateParam('inArr', ptArray); "," SetIsOUTput(inArr,FALSE);           "," outX:= CreateParam('outX', ptArray); "," SetIsINput(outX,FALSE);"," outY:= CreateParam('outY', ptArray); "," SetIsINput(outY,FALSE);",end;                                 ,,// Callback procedure,Procedure Callback(N:integer);,var x:double;,var y:double;,var d:double;,var a:double;,var a2:double;,begin                                   , if n=inArr then              , begin   ,   l:=GetLength(inArr);,   d:=c/l;      ,   o_l:=0;,   for i:=0 to l-1 do,   begin,"     tmp:=Round(GetDataArrayValue(inArr,i));",     if tmp=1 then begin       ,       a2:=(i*d);,       a:=a2*(Pi/180);,       x:=((round((Sin(a))*100)/100)*r)+r;        ,       y:=((round((Cos(a))*100)/100)*r)+r; ,"       SetDataArrayValue(outX, o_l, x);","       SetDataArrayValue(outY, o_l, y);",       o_l:=o_l+1;,     end;,"     SetLength(outX, o_l);","     SetLength(outY, o_l);",   end;, end;,end;
+FNAME=D:\hollyhock\patches\scripts\circle path compute.fastscript
+UID=543647
+COLLAPS=2
+
+[PA-2-44CTRL]
+UID=542738
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-44CTRLFORM]
+LEFT=163
+TOP=22
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-45]
+UID=552088
+saved in preset=0
+INDEXvisible=5
+Tcaption=10
+INDEXcalc mode=0
+Vpoint X=-1
+Vpoint Y=-1
+Vpoint in path=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.0718041285872459
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-45points xSE]
+UID=553851
+
+[PA-2-45points ySE]
+UID=555136
+
+[PA-2-45mouse dwnSE]
+UID=560703
+
+[PA-2-45dbl clickSE]
+UID=562281
+
+[PA-2-45mouse xSE]
+UID=563178
+
+[PA-2-45mouse ySE]
+UID=564080
+
+[PA-2-45CTRLSE]
+UID=550503
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=0
+top=0
+width=400
+height=400
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=cl12
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=4284289297
+border width=4
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+path type=1
+
+[PA-2-45CTRL]
+UID=550503
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-46]
+UID=572351
+saved in preset=0
+INDEXvisible=5
+Tcaption=10
+INDEXcalc mode=0
+Vpoint X=-1
+Vpoint Y=-1
+Vpoint in path=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.733838379383087
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-46points xSE]
+UID=574201
+
+[PA-2-46points ySE]
+UID=575659
+
+[PA-2-46mouse dwnSE]
+UID=583159
+
+[PA-2-46dbl clickSE]
+UID=585131
+
+[PA-2-46mouse xSE]
+UID=586558
+
+[PA-2-46mouse ySE]
+UID=587985
+
+[PA-2-46CTRLSE]
+UID=570868
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=0
+top=0
+width=400
+height=400
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=cl12
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=4288425775
+border width=2
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+path type=1
+
+[PA-2-46CTRL]
+UID=570868
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-47]
+SCRIPTPROC=var inArr : Tparameter;,var outX : Tparameter;,var outY : Tparameter;,var l : integer;,var i : integer;,var o_l : integer;,var tmp : integer;,var r:double;,var c:integer;                      ,procedure init;  ,begin, c:=360;, r:=0.5;," inArr:= CreateParam('inArr', ptArray); "," SetIsOUTput(inArr,FALSE);           "," outX:= CreateParam('outX', ptArray); "," SetIsINput(outX,FALSE);"," outY:= CreateParam('outY', ptArray); "," SetIsINput(outY,FALSE);",end;                                 ,,// Callback procedure,Procedure Callback(N:integer);,var x:double;,var y:double;,var d:double;,var a:double;,var a2:double;,begin                                   , if n=inArr then              , begin   ,   l:=GetLength(inArr);,   d:=c/l;      ,   o_l:=0;,   for i:=0 to l-1 do,   begin,"     tmp:=Round(GetDataArrayValue(inArr,i));",     if tmp=1 then begin       ,       a2:=(i*d);,       a:=a2*(Pi/180);,       x:=((round((Sin(a))*100)/100)*r)+r;        ,       y:=((round((Cos(a))*100)/100)*r)+r; ,"       SetDataArrayValue(outX, o_l, x);","       SetDataArrayValue(outY, o_l, y);",       o_l:=o_l+1;,     end;,"     SetLength(outX, o_l);","     SetLength(outY, o_l);",   end;, end;,end;
+FNAME=D:\hollyhock\patches\scripts\circle path compute.fastscript
+UID=597173
+COLLAPS=2
+
+[PA-2-47CTRL]
+UID=596259
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-47CTRLFORM]
+LEFT=163
+TOP=22
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-48]
+UID=602143
+saved in preset=1
+VH=0
+VS=0.536945819854736
+VL=0.800000011920929
+VA=1
+COLcolor=4288425775
+
+[PA-2-48SE]
+UID=602143
+saved in preset=1
+
+[PA-2-49]
+UID=2451503
+Vout=0.800000011920929
+
+[PA-2-50]
+UID=28647478
+VA=400
+VB=0
+Vout=400
+
+[PA-2-51]
+UID=96258380
+VA=0
+VB=40
+
+[PA-2-52]
+UID=41199728
+Vout=40
+
+[PA-2-53]
+UID=73127282
+Taddr=circleseq
+Tip=127.0.0.1
+Vbroadcast=0
+Vport=3333
+INDEXtype=1
+Vsend=0
+Vdata 1=36
+Vdata 2=84
+
+[PA-2-54]
+UID=95940472
+VA=0
+VB=2
+Vout=0
+
+[PA-2-55]
+UID=95014236
+Vout=2
+
+[PA-2-56]
+UID=608905
+saved in preset=0
+INDEXvisible=5
+TABpoints xV=0000003F0000003F0000003F0000003F
+TABpoints xL=4
+TABpoints yV=00000000000000000000003F0000003F
+TABpoints yL=4
+Tcaption=11
+INDEXcalc mode=0
+Vpoint X=-1
+Vpoint Y=-1
+Vpoint in path=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.281984120607376
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-56points xSE]
+UID=610735
+
+[PA-2-56points ySE]
+UID=611664
+
+[PA-2-56mouse dwnSE]
+UID=617157
+
+[PA-2-56dbl clickSE]
+UID=618090
+
+[PA-2-56mouse xSE]
+UID=619024
+
+[PA-2-56mouse ySE]
+UID=619961
+
+[PA-2-56CTRLSE]
+UID=607976
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=1
+rotation angle=1.3125
+left=0
+top=0
+width=400
+height=400
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=cl13
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=4284289297
+border width=4
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+path type=0
+
+[PA-2-56CTRL]
+UID=607976
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-57]
+UID=8418260
+Vnum=4
+LEN=4
+VALV=0000003F0000003F0000003F0000003F
+VALL=4
+
+[PA-2-57sysexpanel]
+UID=44071318
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-58]
+UID=7041603
+Vnum=4
+LEN=4
+VALV=00000000000000000000003F0000003F
+VALL=4
+
+[PA-2-58sysexpanel]
+UID=44071318
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-59]
+UID=66210820
+Vin=32
+Vout=0.03125
+
+[PA-2-60]
+UID=7316527
+VA=0.03125
+VB=6
+
+[PA-2-61]
+UID=46886987
+Vin=0.1875
+Vout=0.8125
+Vbypass=0
+
+[PA-2-62]
+UID=84300964
+VA=0.8125
+VB=0.5
+Vout=1.3125
+
+[PA-2-63]
+UID=83324672
+Vin=8
+Vout=0.125
+
+[PA-2-65]
+UID=80642971
+VA=60000
+VB=120
+Vout=500
+
+[PA-2-66]
+UID=2434052
+Vout=60000
+
+[PA-2-67]
+UID=95045551
+VA=500
+VB=8
+
+[PA-2-68]
+UID=90374011
+VA=4000
+VB=32
+Vout=125
+
+[PA-2-69]
+UID=98130053
+Vbypass=0
+INDEXscale=0
+INDEXroot=0
+Vlength=125
+Vpitch=0
+Vgain=0
+INDEXchannel=0
+
+[PA-2-70]
+UID=14184692
+name=euclidean rythm generator
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=0
+INDEXvisible=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.450464397668839
+Vmouse y=0.989348828792572
+USERNAME=euclidean rythm generator
+NBCLONES=1
+
+[PA-2-70mouse dwnSE]
+UID=85365399
+
+[PA-2-70dbl clickSE]
+UID=85365448
+
+[PA-2-70mouse xSE]
+UID=85365490
+
+[PA-2-70mouse ySE]
+UID=85365531
+
+[PA-2-70CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=414
+height=169
+zoom scale=0.466507285833359
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clLiterPanelBack
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=364
+WidthBeforeMinimize=407
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+name=euclidean rythm generator
+saved in preset=1
+can be randomized=1
+
+[PA-2-70CTRL]
+UID=14184624
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-70-]
+PATCHTYPE=9
+VERSION=73
+FNAM=euclidean rythm generator
+ORIGINDEVICE=
+NBPG=10
+OFFSETX=-100
+OFFSETY=158
+UID=625347
+QIDX0=0
+ID0=355
+L0=304
+T0=170
+QIDX1=0
+ID1=95
+L1=581
+T1=337
+USR1=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+ID2=29
+L2=391
+T2=382
+ID3=167
+L3=844
+T3=386
+ID4=20
+L4=-105
+T4=86
+ID5=20
+L5=-97
+T5=152
+ID6=20
+L6=-99
+T6=213
+ID7=20
+L7=-97
+T7=287
+QIDX8=0
+ID8=95
+L8=587
+T8=428
+USR8=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+ID9=167
+L9=856
+T9=518
+C0=0700000000000600
+CSRCNAME0=IN
+CTARGNAME0=GENERATE
+C1=0600000000000500
+CSRCNAME1=IN
+CTARGNAME1=ACCENTS
+C2=0500000000000400
+CSRCNAME2=IN
+CTARGNAME2=PULSES
+C3=0400000000000300
+CSRCNAME3=IN
+CTARGNAME3=STEPS
+C4=0200000001000300
+CSRCNAME4=OUT
+CTARGNAME4=NUM OF ROWS
+C5=0000010001000D00
+CSRCNAME5=CELLS OUT
+CTARGNAME5=CELLS VAL
+C6=0400000001000200
+CSRCNAME6=IN
+CTARGNAME6=NUM OF COLS
+C7=01000E0003000000
+CSRCNAME7=CELLS OUT
+CTARGNAME7=OUT
+C8=0200000008000300
+CSRCNAME8=OUT
+CTARGNAME8=NUM OF ROWS
+C9=0000020008000D00
+CSRCNAME9=ACCENT CELLS OUT
+CTARGNAME9=CELLS VAL
+C10=0400000008000200
+CSRCNAME10=IN
+CTARGNAME10=NUM OF COLS
+C11=08000E0009000000
+CSRCNAME11=CELLS OUT
+CTARGNAME11=OUT
+NBCO=12
+
+[PA-2-70-PASE]
+name=euclidean rythm generator
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=414
+height=169
+zoom scale=0.466507285833359
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clLiterPanelBack
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=364
+WidthBeforeMinimize=407
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+
+[PA-2-70-0]
+SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,var o_arr:tParameter;,var o_acc:tParameter;,var i_steps:tParameter;  ,var i_pulses:tParameter;,var i_generate:tParameter;           ,var i_acc:tParameter;,,var counts: array of integer;             ,var pattern_s: array of integer; ,var pattern_a: array of integer;,var remainders: array of integer;,,var c:integer;                         ,var steps:integer;      ,var pulses:integer;            ,var accents:integer;,                                      ,var has_changed:boolean;,                                ,procedure get_steps;,begin                          ,   steps:=round(GetValue(i_steps));,end;                                        ,procedure get_pulses;,begin      ,   pulses:=round(GetValue(i_pulses)); ,end;,procedure get_accents;,begin,   accents:=round(GetValue(i_acc));,end;,,procedure get_generate;,begin,   if(round(GetValue(i_generate))=1) then,   begin                                        ,      has_changed:=true;,   end;,end;,,procedure build(l:integer;a:array of integer);,var i:integer;,begin,     if((l>-1))then,     begin,          for i:=0 to (counts[l]-1) do,          begin,"               build(l-1,a);",          end;,          if(remainders[l]<>0) then,          begin,"               build(l-2,a);",          end;,     end,     else if (l=-1)then,     begin,          a[c]:=0;,          c:=c+1;,     end,     else if (l=-2) then,     begin,          a[c]:=1; ,          c:=c+1;,     end;,end;    ,                               ,procedure bjorklund(s:integer;p:integer;a:array of integer);  ,var level:integer;,var st:boolean;,var divisor:integer;,var i:integer;,begin,     if(p>0) then,     begin,     divisor:=s-p;          ,     level:=0;,     st:=true;,"     SetArrayLength(remainders,level+1);",     remainders[level]:=p;,     while(st=true) do,     begin,"          SetArrayLength(counts,level+1);",          counts[level]:= divisor div remainders[level];,"          SetArrayLength(remainders,level+2);",          remainders[level+1]:=divisor mod remainders[level];,          divisor:=remainders[level];,          level:=level+1;,,          if(remainders[level]<=1) then,          begin,               st:=false;,          end;,     end;,"     SetArrayLength(counts,level+1);",     counts[level]:=divisor;,     c:=0;,"     build(level,a);",     end,     else,     begin,     for i:=0 to s-1 do,     begin,       a[i]:=0;,     end;,     end;  ,end;         ,// initialisation : create parameters,procedure init;,begin  ," o_arr := CreateParam('cells out', ptArray);"," SetIsInput(o_arr,false);"," o_acc := CreateParam('accent cells out', ptArray);"," SetIsInput(o_acc,false);      "," i_steps:=CreateParam('steps', ptDataField);"," SetIsOutPut(i_steps,false);"," i_pulses:=CreateParam('pulses', ptDataField);"," SetIsOutPut(i_pulses,false);"," i_acc:=CreateParam('accents', ptDataField);"," SetIsOutPut(i_acc,false);"," i_generate:=CreateParam('generate',ptButton);"," SetIsOutPut(i_generate,false);", get_steps();                                   , get_pulses();, get_accents();, has_changed:=true;,end;           ,                                ,,// Callback procedure,Procedure Callback(n:integer); ,begin                   ,   CASE n OF,      i_steps:get_steps();,      i_pulses:get_pulses();,      i_acc:get_accents();,      i_generate:get_generate();,   END;,end;                    ,,                                    ,//////////////////////////////,// main proc                                      ,//////////////////////////////     ,Procedure Process;     ,var arr_l:integer;,var i:integer;,var a:integer;,begin,   arr_l:=0;               ,   if(has_changed=true) then,   begin                   ,      get_steps();    ,      get_pulses();,      a:=0;,"      SetArrayLength(pattern_s,steps);","      SetArrayLength(pattern_a,pulses);","      bjorklund(steps,pulses,pattern_s);","      bjorklund(pulses,accents,pattern_a);",      for i:=0 to steps-1 do              ,      begin                                      ,"          SetDataArrayValue(o_arr,i,pattern_s[(steps-1)-i]);     ",          if(pattern_s[(steps-1)-i]=1) then                       ,          begin,"               SetDataArrayValue(o_acc,i,pattern_a[(pulses-1)-a]);",               a:=a+1;                                     ,          end,          else,          begin,"           SetDataArrayValue(o_acc,i,0);",          end;,      end;,      arr_l:=steps;,      has_changed:=false;,   end;,"   SetLength(o_acc,arr_l);","   SetLength(o_arr,arr_l);",end;
+FNAME=D:\apc midi\apc_mini_sequencer\euclidean rhythm generator.fastscript
+UID=627221
+Vsteps=32
+Vpulses=4
+Vaccents=1
+
+[PA-2-70-0CTRL]
+UID=626288
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-70-0CTRLFORM]
+LEFT=705
+TOP=72
+CLIENTWIDTH=725
+CLIENTHEIGHT=901
+
+[PA-2-70-1]
+UID=635650
+saved in preset=1
+can be randomized=1
+INDEXvisible=1
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=12
+Vlast click col=12
+Vlast click row=0
+TABcells valV=0000803F000000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000803F000000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F00000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=00000000
+TABcursor outL=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.832592129707336
+Vmouse y=1
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D58323020000000010000000000803F000000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F000000000000000000000000000000000000000000000000000000000000803F0000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-70-1num of colsSE]
+UID=638345
+
+[PA-2-70-1num of rowsSE]
+UID=639275
+
+[PA-2-70-1random coverageSE]
+UID=643740
+
+[PA-2-70-1cells outSE]
+UID=649082
+
+[PA-2-70-1cursor posSE]
+UID=650402
+
+[PA-2-70-1mouse dwnSE]
+UID=653106
+
+[PA-2-70-1dbl clickSE]
+UID=654039
+
+[PA-2-70-1mouse xSE]
+UID=654972
+
+[PA-2-70-1mouse ySE]
+UID=655902
+
+[PA-2-70-1CTRLSE]
+UID=634337
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=28
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-70-1CTRL]
+UID=634337
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-70-1CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-70-1SE]
+UID=635650
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=1
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=28
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-70-2]
+UID=14184912
+Vout=1
+
+[PA-2-70-3]
+UID=14184921
+once in poly=0
+Tcaption=cells out
+INDEXprec=1
+
+[PA-2-70-4]
+UID=14184926
+once in poly=0
+Vdata=32
+Tcaption=steps
+INDEXprec=1
+
+[PA-2-70-5]
+UID=14184931
+once in poly=0
+Vdata=4
+Tcaption=pulses
+INDEXprec=1
+
+[PA-2-70-6]
+UID=14184936
+once in poly=0
+Vdata=1
+Tcaption=accents
+INDEXprec=1
+
+[PA-2-70-7]
+UID=14184941
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-70-8]
+UID=662568
+saved in preset=1
+can be randomized=1
+INDEXvisible=1
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=12
+Vlast click col=12
+Vlast click row=0
+TABcells valV=0000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=00000000
+TABcursor outL=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.213089317083359
+Vmouse y=1
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D58323020000000010000000000803F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-70-8num of colsSE]
+UID=665272
+
+[PA-2-70-8num of rowsSE]
+UID=666209
+
+[PA-2-70-8random coverageSE]
+UID=671113
+
+[PA-2-70-8cells outSE]
+UID=677285
+
+[PA-2-70-8cursor posSE]
+UID=678218
+
+[PA-2-70-8mouse dwnSE]
+UID=680925
+
+[PA-2-70-8dbl clickSE]
+UID=682277
+
+[PA-2-70-8mouse xSE]
+UID=683211
+
+[PA-2-70-8mouse ySE]
+UID=684144
+
+[PA-2-70-8CTRLSE]
+UID=661639
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=98
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-70-8CTRL]
+UID=661639
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-70-8CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-70-8SE]
+UID=662568
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=1
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=98
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-70-9]
+UID=14184951
+once in poly=0
+Tcaption=accents out
+INDEXprec=1
+
+[PA-2-70-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=414
+height=169
+zoom scale=0.466507285833359
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clLiterPanelBack
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=364
+WidthBeforeMinimize=407
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+name=euclidean rythm generator
+saved in preset=1
+can be randomized=1
+
+[PA-2-71]
+UID=20846204
+VA=-1
+VB=0
+
+[PA-2-72]
+UID=690439
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vin 1=0
+Vin 2=1
+Vin 3=0
+Vin 4=0
+Vout 1=0
+Vout 2=0
+Vout 3=0
+Vout 4=0
+Tcaption in 1=in 1
+Tcaption in 2=in 2
+Tcaption in 3=in 3
+Tcaption in 4=in 4
+Tcaption out 1=out 1
+Tcaption out 2=out 2
+Tcaption out 3=out 3
+Tcaption out 4=out 4
+Vnb data in=2
+Vnb data out=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vlast click cell=1
+Vlast click col=0
+Vlast click row=1
+TABcells valV=0000803F00000000
+TABcells valL=2
+TABcells outV=0000803F00000000
+TABcells outL=2
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.892857134342194
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D44323001000000020000000000803F0000000000000000
+
+[PA-2-72random coverageSE]
+UID=714100
+
+[PA-2-72cells valSE]
+UID=717957
+
+[PA-2-72cells outSE]
+UID=718867
+
+[PA-2-72mouse dwnSE]
+UID=720638
+
+[PA-2-72dbl clickSE]
+UID=722255
+
+[PA-2-72mouse xSE]
+UID=723156
+
+[PA-2-72mouse ySE]
+UID=724062
+
+[PA-2-72CTRLSE]
+UID=689498
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix Data
+
+[PA-2-72CTRL]
+UID=689498
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-72CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-72SE]
+UID=690439
+saved in preset=1
+can be randomized=1
+inputs header width=1
+outputs header height=1
+header caption size=0.5
+header caption color=clFont
+cells rounded=1
+cells round size=4
+cells gap=2
+orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+show data value=1
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-73]
+UID=731547
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vnum=2
+Vminval=0
+Vmaxval=1
+Vreset val=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.993464052677155
+Vmouse y=0.292307704687119
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-73inSE]
+UID=733673
+
+[PA-2-73outSE]
+UID=734579
+
+[PA-2-73mouse dwnSE]
+UID=759050
+
+[PA-2-73dbl clickSE]
+UID=759959
+
+[PA-2-73mouse xSE]
+UID=761434
+
+[PA-2-73mouse ySE]
+UID=762861
+
+[PA-2-73CTRLSE]
+UID=729874
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+draw mode=0
+step color=clDataFlow
+big step color=4285095796
+big step interval=0
+show step border=1
+step border color=clDarkPanelBack
+line color=clDataFlow
+line width=3
+mode fill=0
+fill color=clDataFlow
+show grid=1
+grid color=4285690482
+full grid size=1
+V divisions=0
+H divisions=0
+show cursor=1
+cursor color=clArrayFlow
+cursor width=2
+full cursor width=0
+horizotal scale=0
+vertical scale=0
+
+[PA-2-73CTRL]
+UID=729874
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=0000803F00000000
+TABL=2
+
+[PA-2-73ARRAYSE]
+UID=729874
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+draw mode=0
+step color=clDataFlow
+big step color=4285095796
+big step interval=0
+show step border=1
+step border color=clDarkPanelBack
+line color=clDataFlow
+line width=3
+mode fill=0
+fill color=clDataFlow
+show grid=1
+grid color=4285690482
+full grid size=1
+V divisions=0
+H divisions=0
+show cursor=1
+cursor color=clArrayFlow
+cursor width=2
+full cursor width=0
+horizotal scale=0
+vertical scale=0
+
+[PA-2-73ARRAY]
+UID=729874
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=0000803F00000000
+TABL=2
+
+[PA-2-74]
+UID=40622646
+Vout=2
+
+[PA-2-75]
+UID=769109
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vin 1=0
+Vin 2=1
+Vin 3=0
+Vin 4=0
+Vout 1=0
+Vout 2=0
+Vout 3=0
+Vout 4=0
+Tcaption in 1=in 1
+Tcaption in 2=in 2
+Tcaption in 3=in 3
+Tcaption in 4=in 4
+Tcaption out 1=out 1
+Tcaption out 2=out 2
+Tcaption out 3=out 3
+Tcaption out 4=out 4
+Vnb data in=2
+Vnb data out=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vlast click cell=1
+Vlast click col=0
+Vlast click row=1
+TABcells valV=0000803F00000000
+TABcells valL=2
+TABcells outV=0000803F00000000
+TABcells outL=2
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.892857134342194
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D44323001000000020000000000803F0000000000000000
+
+[PA-2-75random coverageSE]
+UID=798313
+
+[PA-2-75cells valSE]
+UID=802288
+
+[PA-2-75cells outSE]
+UID=803226
+
+[PA-2-75mouse dwnSE]
+UID=805048
+
+[PA-2-75dbl clickSE]
+UID=806432
+
+[PA-2-75mouse xSE]
+UID=807404
+
+[PA-2-75mouse ySE]
+UID=808342
+
+[PA-2-75CTRLSE]
+UID=768199
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix Data
+
+[PA-2-75CTRL]
+UID=768199
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-75CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-75SE]
+UID=769109
+saved in preset=1
+can be randomized=1
+inputs header width=1
+outputs header height=1
+header caption size=0.5
+header caption color=clFont
+cells rounded=1
+cells round size=4
+cells gap=2
+orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+show data value=1
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-76]
+UID=40689565
+Vin=0
+Vout=1
+
+[PA-2-77]
+UID=15029188
+circular=1
+no limit=0
+Vvalue=20
+Vmin=0
+Vmax=31
+Vincrement value=1
+
+[PA-2-78]
+UID=70681460
+VA=-1
+VB=20
+
+[PA-2-79]
+UID=97985088
+Vin=32
+Vout=31
+
+[PA-2-80]
+UID=14816111
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=0
+Vfader=0
+Vswitch=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-80faderSE]
+UID=985141
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=195
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=1
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl16
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-80buttonSE]
+UID=933992
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=47.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4289331200
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80switchSE]
+UID=911594
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=87.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=1
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=clControlBorder
+border OFF color=clControlBorder
+show small led=0
+small led size=8
+small led ON color=cl7
+small led OFF color=cl8
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80mouse dwnSE]
+UID=35985467
+
+[PA-2-80dbl clickSE]
+UID=35985512
+
+[PA-2-80mouse xSE]
+UID=35985546
+
+[PA-2-80mouse ySE]
+UID=35985591
+
+[PA-2-80CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=103
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-80CTRL]
+UID=14815897
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-80CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Temp\patch.tmp
+ORIGINDEVICE=
+NBPG=29
+OFFSETX=-739
+OFFSETY=-192
+UID=815896
+ID0=175
+L0=482
+T0=358
+ID1=175
+L1=842
+T1=445
+ID2=175
+L2=959
+T2=485
+ID3=8
+L3=1161
+T3=652
+ID4=106
+L4=912
+T4=637
+ID5=156
+L5=1040
+T5=646
+ID6=9
+L6=1144
+T6=769
+ID7=8
+L7=1158
+T7=712
+ID8=21
+L8=1349
+T8=185
+ID9=21
+L9=1350
+T9=223
+ID10=21
+L10=1352
+T10=262
+ID11=21
+L11=1352
+T11=303
+ID12=21
+L12=1359
+T12=348
+ID13=21
+L13=1365
+T13=401
+ID14=20
+L14=176
+T14=520
+ID15=20
+L15=172
+T15=572
+ID16=20
+L16=170
+T16=622
+ID17=156
+L17=311
+T17=334
+ID18=20
+L18=175
+T18=349
+ID19=156
+L19=314
+T19=394
+ID20=156
+L20=315
+T20=456
+ID21=156
+L21=313
+T21=509
+ID22=156
+L22=308
+T22=566
+ID23=156
+L23=312
+T23=631
+ID24=20
+L24=171
+T24=396
+ID25=20
+L25=173
+T25=458
+QIDX26=0
+ID26=6
+L26=1328
+T26=790
+ID27=175
+L27=963
+T27=548
+ID28=21
+L28=1369
+T28=449
+C0=1100010000000100
+CSRCNAME0=OUT
+CTARGNAME0=STEPS
+C1=0000010001000300
+CSRCNAME1=STEPS
+CTARGNAME1=MAX
+C2=1300010001000100
+CSRCNAME2=OUT
+CTARGNAME2=PULSES
+C3=0100010002000300
+CSRCNAME3=PULSES
+CTARGNAME3=MAX
+C4=1400010002000100
+CSRCNAME4=OUT
+CTARGNAME4=ACCENTS
+C5=0500010003000100
+CSRCNAME5=OUT
+CTARGNAME5=GEN
+C6=1500010003000100
+CSRCNAME6=OUT
+CTARGNAME6=GEN
+C7=0000010004000000
+CSRCNAME7=STEPS
+CTARGNAME7=IN
+C8=0400010005000000
+CSRCNAME8=OUT
+CTARGNAME8=IN
+C9=1700010006000100
+CSRCNAME9=OUT
+CTARGNAME9=ROT
+C10=1600010007000100
+CSRCNAME10=OUT
+CTARGNAME10=CLR
+C11=0000010008000000
+CSRCNAME11=STEPS
+CTARGNAME11=STEPS
+C12=0100010009000000
+CSRCNAME12=PULSES
+CTARGNAME12=PULSES
+C13=020001000A000000
+CSRCNAME13=ACCENTS
+CTARGNAME13=ACCENTS
+C14=030001000B000000
+CSRCNAME14=GEN
+CTARGNAME14=GENERATE
+C15=070001000C000000
+CSRCNAME15=CLR
+CTARGNAME15=CLEAR
+C16=060001000D000000
+CSRCNAME16=ROT
+CTARGNAME16=ROTATE
+C17=1200000011000000
+CSRCNAME17=STEPS
+CTARGNAME17=IN
+C18=1800000013000000
+CSRCNAME18=PULSES
+CTARGNAME18=IN
+C19=1900000014000000
+CSRCNAME19=ACCENTS
+CTARGNAME19=IN
+C20=0E00000015000000
+CSRCNAME20=GENERATE
+CTARGNAME20=IN
+C21=0F00000016000000
+CSRCNAME21=CLEAR
+CTARGNAME21=IN
+C22=1000000017000000
+CSRCNAME22=ROTATE
+CTARGNAME22=IN
+C23=060001001A000000
+CSRCNAME23=ROT
+CTARGNAME23=CURRENT VALUE
+C24=060006001A000100
+CSRCNAME24=OFF VALUE
+CTARGNAME24=OFF VALUE
+C25=060050001A000300
+CSRCNAME25=CONTROL TYPE
+CTARGNAME25=CONTROL TYPE
+C26=060051001A000400
+CSRCNAME26=CONTROL NUM
+CTARGNAME26=CONTROL NUM
+C27=06004F001A000200
+CSRCNAME27=CHANNEL
+CTARGNAME27=CHANNEL
+C28=000001001B000300
+CSRCNAME28=STEPS
+CTARGNAME28=MAX
+C29=1B0001001C000000
+CSRCNAME29=KNOB 7
+CTARGNAME29=OUT
+NBCO=30
+
+[PA-2-80-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=103
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-80-0]
+UID=817787
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=32
+Vmin=2
+Vmax=64
+Tcaption=steps
+COLcolor=cl3
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.884484052658081
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-80-0faderSE]
+UID=816849
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=65
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl3
+back knob cursor color=clDarkPanelBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-80-0mouse dwnSE]
+UID=831643
+
+[PA-2-80-0dbl clickSE]
+UID=832580
+
+[PA-2-80-0mouse xSE]
+UID=833517
+
+[PA-2-80-0mouse ySE]
+UID=834451
+
+[PA-2-80-1]
+UID=842010
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=4
+Vmin=1
+Vmax=32
+Tcaption=pulses
+COLcolor=cl6
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.758621275424957
+Vmouse y=0
+Vauto reset=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-80-1faderSE]
+UID=841073
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=130
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl6
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-80-1mouse dwnSE]
+UID=855506
+
+[PA-2-80-1dbl clickSE]
+UID=856444
+
+[PA-2-80-1mouse xSE]
+UID=857381
+
+[PA-2-80-1mouse ySE]
+UID=858314
+
+[PA-2-80-2]
+UID=865783
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=1
+Vmin=1
+Vmax=4
+Tcaption=accents
+COLcolor=4294901760
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.939656496047974
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-80-2faderSE]
+UID=864589
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=65
+top=130
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=4294901760
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-80-2mouse dwnSE]
+UID=882452
+
+[PA-2-80-2dbl clickSE]
+UID=883405
+
+[PA-2-80-2mouse xSE]
+UID=884342
+
+[PA-2-80-2mouse ySE]
+UID=885279
+
+[PA-2-80-3]
+UID=892499
+once in poly=0
+INDEXvisible=4
+Tcaption=gen
+COLcolor=cl6
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.511115372180939
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-80-3buttonSE]
+UID=891558
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=cl6
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80-3mouse dwnSE]
+UID=900129
+
+[PA-2-80-3dbl clickSE]
+UID=901418
+
+[PA-2-80-3mouse xSE]
+UID=902714
+
+[PA-2-80-3mouse ySE]
+UID=903668
+
+[PA-2-80-4]
+UID=14816168
+Vin=32
+Vout=0
+
+[PA-2-80-5]
+UID=14816173
+Vin=0
+Vout=0
+
+[PA-2-80-6]
+UID=912586
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vswitch=1
+Tcaption=rot
+COLcolor=cl11
+VON value=1
+VOFF value=0
+Vnull evt if OFF=0
+INDEXgroup=0
+Vat least one=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=8.90932597030769E-7
+Vmouse y=0.572226524353027
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-80-6switchSE]
+UID=911594
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=87.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=1
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=clControlBorder
+border OFF color=clControlBorder
+show small led=0
+small led size=8
+small led ON color=cl7
+small led OFF color=cl8
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80-6mouse dwnSE]
+UID=925442
+
+[PA-2-80-6dbl clickSE]
+UID=926727
+
+[PA-2-80-6mouse xSE]
+UID=927661
+
+[PA-2-80-6mouse ySE]
+UID=928598
+
+[PA-2-80-7]
+UID=934929
+once in poly=0
+INDEXvisible=4
+Tcaption=clr
+COLcolor=4289331200
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0
+Vallow drop=0
+
+[PA-2-80-7buttonSE]
+UID=933992
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=47.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4289331200
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80-7mouse dwnSE]
+UID=942227
+
+[PA-2-80-7dbl clickSE]
+UID=943160
+
+[PA-2-80-7mouse xSE]
+UID=944101
+
+[PA-2-80-7mouse ySE]
+UID=945039
+
+[PA-2-80-8]
+UID=14816183
+once in poly=0
+Vdata=32
+Tcaption=steps
+INDEXprec=1
+
+[PA-2-80-9]
+UID=14816188
+once in poly=0
+Vdata=4
+Tcaption=pulses
+INDEXprec=1
+
+[PA-2-80-10]
+UID=14816193
+once in poly=0
+Vdata=1
+Tcaption=accents
+INDEXprec=1
+
+[PA-2-80-11]
+UID=14816194
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-80-12]
+UID=14816199
+once in poly=0
+Vdata=0
+Tcaption=clear
+INDEXprec=1
+
+[PA-2-80-13]
+UID=14816200
+once in poly=0
+Vdata=1
+Tcaption=rotate
+INDEXprec=1
+
+[PA-2-80-14]
+UID=14816205
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-80-15]
+UID=14816206
+once in poly=0
+Vdata=0
+Tcaption=clear
+INDEXprec=1
+
+[PA-2-80-16]
+UID=14816211
+once in poly=0
+Vdata=1
+Tcaption=rotate
+INDEXprec=1
+
+[PA-2-80-17]
+UID=14816216
+Vin=32
+Vout=32
+
+[PA-2-80-18]
+UID=14816217
+once in poly=0
+Vdata=32
+Tcaption=steps
+INDEXprec=0
+
+[PA-2-80-19]
+UID=14816222
+Vin=0
+Vout=0
+
+[PA-2-80-20]
+UID=14816223
+Vin=0
+Vout=0
+
+[PA-2-80-21]
+UID=14816228
+Vin=0
+Vout=0
+
+[PA-2-80-22]
+UID=14816229
+Vin=0
+Vout=0
+
+[PA-2-80-23]
+UID=14816234
+Vin=1
+Vout=1
+
+[PA-2-80-24]
+UID=14816239
+once in poly=0
+Vdata=0
+Tcaption=pulses
+INDEXprec=0
+
+[PA-2-80-25]
+UID=14816240
+once in poly=0
+Vdata=0
+Tcaption=accents
+INDEXprec=0
+
+[PA-2-80-26]
+UID=14816245
+name=midi control led mapper
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=0
+INDEXlist=3
+SZDlist=0
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-80-26listSE]
+UID=966831
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=100
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=2
+caption font name=Arial
+show poly order=1
+show scroller=1
+scroller color=clListBoxScroll
+scroller width=10
+items font color=clFont
+select color=clSwitchOn
+text align=1
+items size=14
+display line number=0
+hide filname path=0
+hide filename ext=0
+drag mode=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80-26mouse dwnSE]
+UID=40447973
+
+[PA-2-80-26dbl clickSE]
+UID=40448014
+
+[PA-2-80-26mouse xSE]
+UID=40448056
+
+[PA-2-80-26mouse ySE]
+UID=40448105
+
+[PA-2-80-26CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=23
+width=110
+height=20
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=1
+HeightBeforeMinimize=70
+WidthBeforeMinimize=110
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=midi control led mapper
+saved in preset=1
+can be randomized=1
+
+[PA-2-80-26CTRL]
+UID=40444781
+VISIBLE=1
+MINIMIZED=1
+
+[PA-2-80-26CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80-26CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80-26-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Library\hollyhock-library\utils\midi control led mapper.pat
+ORIGINDEVICE=
+NBPG=30
+OFFSETX=-40
+OFFSETY=-340
+UID=950922
+ID0=20
+L0=124
+T0=344
+ID1=20
+L1=126
+T1=264
+ID2=20
+L2=126
+T2=304
+ID3=20
+L3=126
+T3=383
+ID4=20
+L4=120
+T4=437
+ID5=78
+L5=890
+T5=480
+ID6=29
+L6=652
+T6=507
+ID7=106
+L7=609
+T7=904
+ID8=38
+L8=608
+T8=628
+ID9=29
+L9=517
+T9=676
+ID10=118
+L10=1071
+T10=462
+ID11=165
+L11=743
+T11=369
+ID12=79
+L12=547
+T12=370
+ID13=234
+L13=551
+T13=407
+ID14=45
+L14=516
+T14=607
+ID15=29
+L15=327
+T15=265
+ID16=177
+L16=581
+T16=548
+ID17=49
+L17=326
+T17=310
+ID18=29
+L18=245
+T18=411
+ID19=157
+L19=408
+T19=302
+ID20=90
+L20=591
+T20=789
+ID21=103
+L21=602
+T21=830
+ID22=71
+L22=868
+T22=731
+ID23=352
+L23=575
+T23=1002
+ID24=88
+L24=394
+T24=1000
+ID25=219
+L25=759
+T25=936
+ID26=29
+L26=328
+T26=376
+ID27=49
+L27=330
+T27=415
+ID28=29
+L28=244
+T28=484
+ID29=157
+L29=415
+T29=392
+C0=0600000005000100
+CSRCNAME0=OUT
+CTARGNAME0=CHAN
+C1=0800020005000400
+CSRCNAME1=OUT
+CTARGNAME1=CODE2
+C2=0400000005000300
+CSRCNAME2=IN
+CTARGNAME2=CODE1
+C3=1000010005000200
+CSRCNAME3=LIST 1
+CTARGNAME3=MSG TYPE
+C4=1600010005000500
+CSRCNAME4=OUT
+CTARGNAME4=CREATE
+C5=0100000007000000
+CSRCNAME5=IN
+CTARGNAME5=IN
+C6=0900000008000100
+CSRCNAME6=OUT
+CTARGNAME6=B
+C7=0E00020008000000
+CSRCNAME7=OUT
+CTARGNAME7=A
+C8=050000000A000100
+CSRCNAME8=OUT
+CTARGNAME8=SEND BUS
+C9=0B0002000A000000
+CSRCNAME9=STRING OUT
+CTARGNAME9=NAME
+C10=0C0001000B000000
+CSRCNAME10=TEXT
+CTARGNAME10=STRING 1
+C11=0D0001000B000100
+CSRCNAME11=OUT
+CTARGNAME11=STRING 2
+C12=000000000D000000
+CSRCNAME12=IN
+CTARGNAME12=IN
+C13=020000000E000000
+CSRCNAME13=IN
+CTARGNAME13=A
+C14=010000000E000100
+CSRCNAME14=IN
+CTARGNAME14=B
+C15=1300010010000100
+CSRCNAME15=OUT
+CTARGNAME15=LIST 1
+C16=1D00010010000100
+CSRCNAME16=OUT
+CTARGNAME16=LIST 1
+C17=1200000011000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=0300000011000000
+CSRCNAME18=IN
+CTARGNAME18=A
+C19=1100020013000200
+CSRCNAME19=OUT
+CTARGNAME19=PASS
+C20=0F00000013000000
+CSRCNAME20=OUT
+CTARGNAME20=IN
+C21=0700010016000000
+CSRCNAME21=OUT
+CTARGNAME21=IN
+C22=1500000016000000
+CSRCNAME22=OUT
+CTARGNAME22=IN
+C23=1400000016000000
+CSRCNAME23=OUT
+CTARGNAME23=IN
+C24=1900010016000000
+CSRCNAME24=OUT
+CTARGNAME24=IN
+C25=1800000017000000
+CSRCNAME25=OUT
+CTARGNAME25=NUM RACK
+C26=1700070019000000
+CSRCNAME26=ON
+CTARGNAME26=IN
+C27=1C0000001B000100
+CSRCNAME27=OUT
+CTARGNAME27=B
+C28=030000001B000000
+CSRCNAME28=IN
+CTARGNAME28=A
+C29=1B0002001D000200
+CSRCNAME29=OUT
+CTARGNAME29=PASS
+C30=1A0000001D000000
+CSRCNAME30=OUT
+CTARGNAME30=IN
+NBCO=31
+
+[PA-2-80-26-PASE]
+name=midi control led mapper
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=23
+width=110
+height=20
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=1
+HeightBeforeMinimize=70
+WidthBeforeMinimize=110
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-80-26-0]
+UID=14816250
+once in poly=0
+Vdata=1
+Tcaption=channel
+INDEXprec=0
+
+[PA-2-80-26-1]
+UID=14816255
+once in poly=0
+Vdata=1
+Tcaption=current value
+INDEXprec=2
+
+[PA-2-80-26-2]
+UID=14816260
+once in poly=0
+Vdata=0
+Tcaption=off value
+INDEXprec=1
+
+[PA-2-80-26-3]
+UID=14816261
+once in poly=0
+Vdata=0
+Tcaption=control type
+INDEXprec=0
+
+[PA-2-80-26-4]
+UID=14816266
+once in poly=0
+Vdata=0
+Tcaption=control num
+INDEXprec=0
+
+[PA-2-80-26-5]
+UID=14816267
+INDEXchan=1
+INDEXmsg=3
+Vcode1=0
+Vcode2=127
+COLLAPS=2
+
+[PA-2-80-26-6]
+UID=14816272
+Vout=1
+
+[PA-2-80-26-7]
+UID=14816281
+Vin=1
+Vout=0
+
+[PA-2-80-26-8]
+UID=14816282
+VA=1
+VB=127
+
+[PA-2-80-26-9]
+UID=14816287
+Vout=127
+
+[PA-2-80-26-10]
+UID=14816292
+Tname=MAPMIDIBUS-1
+INDEXtarget=0
+Von=1
+COLLAPS=2
+
+[PA-2-80-26-11]
+UID=14816296
+TString 1=MAPMIDIBUS-
+TString 2=1
+TString out=MAPMIDIBUS-1
+
+[PA-2-80-26-12]
+UID=952824
+text=MAPMIDIBUS-
+INDEXvisible=0
+COLcolor=clControlBack
+COLfont color=clFont
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+Vallow drop=0
+TXT=MAPMIDIBUS-
+
+[PA-2-80-26-12textSE]
+UID=954654
+
+[PA-2-80-26-12mouse dwnSE]
+UID=958266
+
+[PA-2-80-26-12dbl clickSE]
+UID=959208
+
+[PA-2-80-26-12mouse xSE]
+UID=960141
+
+[PA-2-80-26-12mouse ySE]
+UID=961422
+
+[PA-2-80-26-12CTRLSE]
+UID=951887
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=56
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+auto record on click=0
+is playing record=0
+text font size=10
+text font color=clFont
+text left margin=0
+
+[PA-2-80-26-12CTRL]
+UID=951887
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-80-26-13]
+UID=14816302
+Vin=1
+Tout=1
+
+[PA-2-80-26-14]
+UID=14816311
+VA=0
+VB=1
+Vout=1
+Vblock=0
+
+[PA-2-80-26-15]
+UID=14816312
+Vout=0
+
+[PA-2-80-26-16]
+UID=967769
+saved in preset=1
+can be randomized=1
+once in poly=0
+edition=note ON,note OFF,key after touch,control change,program change,chan after touch,pitch bend,begin sysex,MTC quarter frame,song pos PTR,song select,end sysex,timing clock,start,continue,stop,active sensing,system reset
+INDEXvisible=0
+INDEXlist=3
+SZDlist=0
+Tcaption=msg type
+Ttext=control change
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.901960790157318
+Vmouse y=1
+Vallow drop=0
+LIST=note ON,note OFF,key after touch,control change,program change,chan after touch,pitch bend,begin sysex,MTC quarter frame,song pos PTR,song select,end sysex,timing clock,start,continue,stop,active sensing,system reset
+
+[PA-2-80-26-16listSE]
+UID=966831
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=100
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=2
+caption font name=Arial
+show poly order=1
+show scroller=1
+scroller color=clListBoxScroll
+scroller width=10
+items font color=clFont
+select color=clSwitchOn
+text align=1
+items size=14
+display line number=0
+hide filname path=0
+hide filename ext=0
+drag mode=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-80-26-16mouse dwnSE]
+UID=976560
+
+[PA-2-80-26-16dbl clickSE]
+UID=977829
+
+[PA-2-80-26-16mouse xSE]
+UID=978770
+
+[PA-2-80-26-16mouse ySE]
+UID=979707
+
+[PA-2-80-26-17]
+UID=14816322
+VA=0
+VB=144
+Vout=0
+Vblock=0
+
+[PA-2-80-26-18]
+UID=14816327
+Vout=144
+
+[PA-2-80-26-19]
+UID=14816332
+Vin=0
+Vout=0
+Vpass=0
+
+[PA-2-80-26-20]
+UID=14816337
+Vout=0
+COLLAPS=2
+
+[PA-2-80-26-21]
+UID=14816338
+Vout=0
+COLLAPS=1
+
+[PA-2-80-26-22]
+UID=14816343
+Vout=0
+
+[PA-2-80-26-23]
+SELECT=1
+
+[PA-2-80-26-24]
+UID=14816357
+Vout=1
+
+[PA-2-80-26-25]
+UID=14816358
+Vin=1
+Vout=0
+
+[PA-2-80-26-26]
+UID=14816363
+Vout=3
+
+[PA-2-80-26-27]
+UID=14816368
+VA=0
+VB=176
+Vout=0
+Vblock=0
+
+[PA-2-80-26-28]
+UID=14816373
+Vout=176
+
+[PA-2-80-26-29]
+UID=14816374
+Vin=3
+Vout=3
+Vpass=0
+
+[PA-2-80-26-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=23
+width=110
+height=20
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=1
+HeightBeforeMinimize=70
+WidthBeforeMinimize=110
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=midi control led mapper
+saved in preset=1
+can be randomized=1
+
+[PA-2-80-26-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80-26-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80-27]
+UID=986086
+saved in preset=1
+can be randomized=1
+once in poly=0
+INDEXvisible=4
+Vfader=0
+Vmin=-32
+Vmax=32
+Tcaption=offset
+COLcolor=cl16
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.834483325481415
+Vmouse y=0
+Vauto reset=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-80-27faderSE]
+UID=985141
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=195
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=1
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl16
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-80-27mouse dwnSE]
+UID=999645
+
+[PA-2-80-27dbl clickSE]
+UID=1000590
+
+[PA-2-80-27mouse xSE]
+UID=1001895
+
+[PA-2-80-27mouse ySE]
+UID=1002832
+
+[PA-2-80-28]
+UID=51836930
+once in poly=0
+Vdata=0
+Tcaption=offset
+INDEXprec=0
+
+[PA-2-80-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=103
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-80-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-80-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-81]
+UID=16143258
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=-1
+Vfader=-1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-81faderSE]
+UID=1114009
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=65
+top=285
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl23
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81mouse dwnSE]
+UID=56480473
+
+[PA-2-81dbl clickSE]
+UID=56480511
+
+[PA-2-81mouse xSE]
+UID=56480552
+
+[PA-2-81mouse ySE]
+UID=56480594
+
+[PA-2-81CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=183
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-81CTRL]
+UID=16143080
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-81CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-81CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-81-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Temp\patch.tmp
+ORIGINDEVICE=
+NBPG=26
+OFFSETX=-81
+OFFSETY=223
+UID=1009162
+ID0=175
+L0=692
+T0=58
+ID1=21
+L1=854
+T1=83
+ID2=175
+L2=695
+T2=184
+ID3=21
+L3=1045
+T3=183
+ID4=175
+L4=700
+T4=452
+ID5=21
+L5=915
+T5=469
+ID6=175
+L6=693
+T6=500
+ID7=21
+L7=922
+T7=516
+ID8=175
+L8=703
+T8=547
+ID9=21
+L9=920
+T9=567
+ID10=156
+L10=547
+T10=58
+ID11=20
+L11=386
+T11=87
+ID12=156
+L12=520
+T12=178
+ID13=156
+L13=484
+T13=342
+ID14=156
+L14=479
+T14=405
+ID15=156
+L15=472
+T15=472
+ID16=20
+L16=386
+T16=183
+ID17=20
+L17=317
+T17=331
+ID18=20
+L18=292
+T18=409
+ID19=20
+L19=300
+T19=485
+ID20=175
+L20=531
+T20=266
+ID21=35
+L21=961
+T21=257
+ID22=57
+L22=769
+T22=281
+ID23=19
+L23=626
+T23=243
+ID24=20
+L24=317
+T24=260
+ID25=23
+L25=882
+T25=325
+C0=0A00010000000100
+CSRCNAME0=OUT
+CTARGNAME0=KNOB 1
+C1=0000010001000000
+CSRCNAME1=KNOB 1
+CTARGNAME1=OUT
+C2=0C00010002000100
+CSRCNAME2=OUT
+CTARGNAME2=KNOB 2
+C3=1500020003000000
+CSRCNAME3=OUT
+CTARGNAME3=OUT
+C4=0D00010004000100
+CSRCNAME4=OUT
+CTARGNAME4=KNOB 3
+C5=0400010005000000
+CSRCNAME5=KNOB 3
+CTARGNAME5=OUT
+C6=0E00010006000100
+CSRCNAME6=OUT
+CTARGNAME6=KNOB 4
+C7=0600010007000000
+CSRCNAME7=KNOB 4
+CTARGNAME7=OUT
+C8=0F00010008000100
+CSRCNAME8=OUT
+CTARGNAME8=KNOB 5
+C9=0800010009000000
+CSRCNAME9=KNOB 5
+CTARGNAME9=OUT
+C10=0B0000000A000000
+CSRCNAME10=IN
+CTARGNAME10=IN
+C11=100000000C000000
+CSRCNAME11=IN
+CTARGNAME11=IN
+C12=110000000D000000
+CSRCNAME12=IN
+CTARGNAME12=IN
+C13=120000000E000000
+CSRCNAME13=IN
+CTARGNAME13=IN
+C14=130000000F000000
+CSRCNAME14=IN
+CTARGNAME14=IN
+C15=0200010015000000
+CSRCNAME15=KNOB 2
+CTARGNAME15=A
+C16=1900010015000100
+CSRCNAME16=OUT
+CTARGNAME16=B
+C17=1400010016000300
+CSRCNAME17=KNOB 6
+CTARGNAME17=MAX
+C18=1700010016000200
+CSRCNAME18=OUT
+CTARGNAME18=MIN
+C19=1800000016000800
+CSRCNAME19=IN
+CTARGNAME19=GENERATE
+C20=1400010017000000
+CSRCNAME20=KNOB 6
+CTARGNAME20=IN
+C21=1600000019000000
+CSRCNAME21=OUT
+CTARGNAME21=IN
+NBCO=22
+
+[PA-2-81-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=183
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-81-0]
+UID=1011329
+saved in preset=1
+can be randomized=1
+once in poly=0
+INDEXvisible=4
+Vfader=8
+Vmin=1
+Vmax=64
+Tcaption=bpc
+COLcolor=cl11
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=5.52884444005031E-7
+Vmouse y=0.525862812995911
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-81-0faderSE]
+UID=1010111
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=0
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl11
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81-0mouse dwnSE]
+UID=1025055
+
+[PA-2-81-0dbl clickSE]
+UID=1026379
+
+[PA-2-81-0mouse xSE]
+UID=1027320
+
+[PA-2-81-0mouse ySE]
+UID=1028258
+
+[PA-2-81-1]
+UID=16143296
+once in poly=0
+Vdata=8
+Tcaption=bpc
+INDEXprec=1
+
+[PA-2-81-2]
+UID=1035920
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=36
+Vmin=0
+Vmax=127
+Tcaption=note
+COLcolor=cl18
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.984483361244202
+Vmouse y=0.981035232543945
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-81-2faderSE]
+UID=1034975
+edit enabled=1
+on top=1
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=70
+top=0
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl18
+back knob cursor color=clDarkPanelBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81-2mouse dwnSE]
+UID=1049894
+
+[PA-2-81-2dbl clickSE]
+UID=1050836
+
+[PA-2-81-2mouse xSE]
+UID=1051777
+
+[PA-2-81-2mouse ySE]
+UID=1052718
+
+[PA-2-81-3]
+UID=16143306
+once in poly=0
+Vdata=36
+Tcaption=note
+INDEXprec=1
+
+[PA-2-81-4]
+UID=1060345
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=8
+Vmin=1
+Vmax=128
+Tcaption=r after
+COLcolor=cl11
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.410346210002899
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-81-4faderSE]
+UID=1059407
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=285
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl11
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81-4mouse dwnSE]
+UID=1075635
+
+[PA-2-81-4dbl clickSE]
+UID=1076592
+
+[PA-2-81-4mouse xSE]
+UID=1077533
+
+[PA-2-81-4mouse ySE]
+UID=1078913
+
+[PA-2-81-5]
+UID=16143312
+once in poly=0
+Vdata=8
+Tcaption=r after
+INDEXprec=1
+
+[PA-2-81-6]
+UID=1087128
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=84
+Vmin=0
+Vmax=127
+Tcaption=base vel
+COLcolor=cl8
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.81379371881485
+Vmouse y=0.012070226483047
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-81-6faderSE]
+UID=1085650
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=70
+top=65
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl8
+back knob cursor color=clDarkPanelBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81-6mouse dwnSE]
+UID=1104437
+
+[PA-2-81-6dbl clickSE]
+UID=1105386
+
+[PA-2-81-6mouse xSE]
+UID=1106552
+
+[PA-2-81-6mouse ySE]
+UID=1107691
+
+[PA-2-81-7]
+UID=16143322
+once in poly=0
+Vdata=84
+Tcaption=base vel
+INDEXprec=1
+
+[PA-2-81-8]
+UID=1114950
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=-1
+Vmin=-32
+Vmax=32
+Tcaption=r steps
+COLcolor=cl23
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.637932419776916
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-81-8faderSE]
+UID=1114009
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=65
+top=285
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl23
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81-8mouse dwnSE]
+UID=1128561
+
+[PA-2-81-8dbl clickSE]
+UID=1129502
+
+[PA-2-81-8mouse xSE]
+UID=1130444
+
+[PA-2-81-8mouse ySE]
+UID=1131389
+
+[PA-2-81-9]
+UID=16143328
+once in poly=0
+Vdata=-1
+Tcaption=r steps
+INDEXprec=1
+
+[PA-2-81-10]
+UID=16143333
+Vin=8
+Vout=8
+
+[PA-2-81-11]
+UID=16143334
+once in poly=0
+Vdata=8
+Tcaption=bpc
+INDEXprec=0
+
+[PA-2-81-12]
+UID=16143339
+Vin=0
+Vout=0
+
+[PA-2-81-13]
+UID=16143344
+Vin=19
+Vout=19
+
+[PA-2-81-14]
+UID=16143349
+Vin=0
+Vout=0
+
+[PA-2-81-15]
+UID=16143350
+Vin=-1
+Vout=-1
+
+[PA-2-81-16]
+UID=16143351
+once in poly=0
+Vdata=0
+Tcaption=note
+INDEXprec=0
+
+[PA-2-81-17]
+UID=16143355
+once in poly=0
+Vdata=19
+Tcaption=r after
+INDEXprec=0
+
+[PA-2-81-18]
+UID=16143356
+once in poly=0
+Vdata=0
+Tcaption=base vel
+INDEXprec=0
+
+[PA-2-81-19]
+UID=16143361
+once in poly=0
+Vdata=-1
+Tcaption=r steps
+INDEXprec=0
+
+[PA-2-81-20]
+UID=1138676
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=0
+Vmin=0
+Vmax=127
+Tcaption=spread
+COLcolor=cl3
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.501724421977997
+Vauto reset=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-81-20faderSE]
+UID=1137735
+edit enabled=1
+on top=1
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=70
+top=195
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl3
+back knob cursor color=clControlBorder
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-81-20mouse dwnSE]
+UID=1152662
+
+[PA-2-81-20dbl clickSE]
+UID=1153603
+
+[PA-2-81-20mouse xSE]
+UID=1154545
+
+[PA-2-81-20mouse ySE]
+UID=1155486
+
+[PA-2-81-21]
+UID=72301829
+VA=36
+VB=0
+Vout=36
+
+[PA-2-81-22]
+UID=30442797
+Vout=0
+Vmin=0
+Vmax=0
+Vinterval=100
+Vlarge=200
+INDEXcurve=1
+INDEXsync=0
+Vno repeat=1
+Vrepeat size=0
+COLLAPS=1
+
+[PA-2-81-23]
+UID=21665811
+Vin=0
+Vout=0
+
+[PA-2-81-24]
+UID=56838050
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-81-25]
+UID=41831147
+Vin=0
+Vout=0
+
+[PA-2-81-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=183
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-81-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-81-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-82]
+UID=16155163
+once in poly=1
+Vdata=8
+Tcaption=bpc
+INDEXprec=0
+
+[PA-2-83]
+UID=16156673
+once in poly=1
+Vdata=19
+Tcaption=r after
+INDEXprec=1
+
+[PA-2-84]
+UID=16157609
+once in poly=1
+Vdata=-1
+Tcaption=r steps
+INDEXprec=1
+
+[PA-2-85]
+UID=16158518
+once in poly=1
+Vdata=0
+Tcaption=generate
+INDEXprec=0
+
+[PA-2-86]
+UID=16159861
+once in poly=1
+Vdata=0
+Tcaption=clear
+INDEXprec=0
+
+[PA-2-87]
+UID=16160837
+once in poly=1
+Vdata=1
+Tcaption=rotate
+INDEXprec=0
+
+[PA-2-88]
+UID=28922825
+once in poly=1
+Vdata=32
+Tcaption=steps
+INDEXprec=0
+
+[PA-2-89]
+UID=36162674
+VA=0
+VB=-20
+Vout=-20
+
+[PA-2-90]
+UID=93625280
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-91]
+UID=92751875
+once in poly=1
+Vdata=1
+Tcaption=on
+INDEXprec=1
+
+[PA-2-92]
+UID=24643819
+once in poly=1
+Vdata=2
+Tcaption=quantize
+INDEXprec=1
+
+[PA-2-93]
+UID=37221720
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-94]
+UID=66341694
+Vin=1
+Vout=1
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-95]
+UID=68927268
+Vin=0
+Vout=0
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-96]
+UID=1163176
+saved in preset=0
+can be randomized=0
+once in poly=1
+INDEXvisible=4
+Vswitch=0
+Tcaption=trigger
+COLcolor=cl11
+VON value=1
+VOFF value=0
+Vnull evt if OFF=0
+INDEXgroup=0
+Vat least one=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.90000182390213
+Vmouse y=0.411115169525146
+Vallow drop=0
+
+[PA-2-96switchSE]
+UID=1162231
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=57
+top=55
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.899999976158142
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=0
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=cl11
+border OFF color=clControlBorder
+led=1
+led size=16
+led at left=0
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-96mouse dwnSE]
+UID=1177280
+
+[PA-2-96dbl clickSE]
+UID=1178237
+
+[PA-2-96mouse xSE]
+UID=1179187
+
+[PA-2-96mouse ySE]
+UID=1180128
+
+[PA-2-97]
+UID=46122466
+Vindex=0
+Vvalue=0
+
+[PA-2-98]
+UID=46123491
+Vindex=0
+Vvalue=0
+
+[PA-2-99]
+UID=46124268
+Vindex=0
+Vvalue=0
+
+[PA-2-100]
+UID=46124839
+Vindex=0
+Vvalue=0
+
+[PA-2-101]
+UID=46125743
+VA=0
+VB=1
+Vout=0
+Vblock=0
+
+[PA-2-102]
+UID=46126380
+VA=0
+VB=1
+Vout=0
+Vblock=0
+
+[PA-2-103]
+UID=46126875
+Vout=20
+
+[PA-2-104]
+UID=46127332
+Vout=1
+
+[PA-2-105]
+UID=46127842
+Vsize=0
+
+[PA-2-106]
+UID=46128336
+Vsize=0
+
+[PA-2-107]
+UID=46128881
+Vin=1
+Vout=0
+
+[PA-2-108]
+UID=46129450
+Vin=0
+Vout=1
+
+[PA-2-109]
+UID=46129975
+Vin=0
+Vout=1
+
+[PA-2-110]
+UID=59615098
+once in poly=0
+Vdata=125
+Tcaption=note length
+INDEXprec=1
+
+[PA-2-111]
+UID=88470047
+Vin=400
+Vout=400
+
+[PA-2-112]
+UID=11882224
+Vin=0
+Vout=0
+
+[PA-2-113]
+UID=1697576
+VA=20
+VB=2
+Vout=10
+
+[PA-2-114]
+UID=64876502
+Vout=2
+
+[PA-2-115]
+UID=39501537
+VA=0
+VB=10
+Vout=10
+
+[PA-2-116]
+UID=82922786
+VA=400
+VB=20
+Vout=380
+
+[PA-2-117]
+UID=88274154
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-117mouse dwnSE]
+UID=88274549
+
+[PA-2-117dbl clickSE]
+UID=88274590
+
+[PA-2-117mouse xSE]
+UID=88274628
+
+[PA-2-117mouse ySE]
+UID=88274669
+
+[PA-2-117CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=-1920
+top=-1077
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-117CTRL]
+UID=88271480
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-117-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Resources\Modules\All Modules\Empty SubPatch.pat
+ORIGINDEVICE=
+NBPG=23
+OFFSETX=199
+OFFSETY=123
+UID=72539394
+ID0=208
+L0=1295
+T0=294
+ID1=20
+L1=157
+T1=253
+ID2=20
+L2=158
+T2=205
+ID3=334
+L3=1034
+T3=-143
+ID4=37
+L4=552
+T4=231
+ID5=29
+L5=188
+T5=426
+ID6=37
+L6=548
+T6=370
+ID7=29
+L7=321
+T7=540
+ID8=29
+L8=136
+T8=-48
+ID9=36
+L9=755
+T9=200
+ID10=36
+L10=562
+T10=152
+ID11=20
+L11=138
+T11=314
+ID12=20
+L12=-92
+T12=1
+ID13=20
+L13=-163
+T13=143
+QIDX14=0
+ID14=355
+L14=135
+T14=101
+ID15=36
+L15=64
+T15=3
+ID16=29
+L16=-34
+T16=95
+ID17=36
+L17=-40
+T17=343
+ID18=19
+L18=35
+T18=196
+ID19=35
+L19=348
+T19=175
+ID20=29
+L20=181
+T20=172
+ID21=19
+L21=258
+T21=119
+ID22=20
+L22=143
+T22=361
+C0=0100000000001100
+CSRCNAME0=IN
+CTARGNAME0=WIDTH
+C1=0100000000001200
+CSRCNAME1=IN
+CTARGNAME1=HEIGHT
+C2=0200000000000F00
+CSRCNAME2=IN
+CTARGNAME2=LEFT
+C3=0200000000001000
+CSRCNAME3=IN
+CTARGNAME3=TOP
+C4=1300020000000E00
+CSRCNAME4=OUT
+CTARGNAME4=ROTATION ANGLE
+C5=0800000003001200
+CSRCNAME5=OUT
+CTARGNAME5=WIDTH
+C6=0800000003001300
+CSRCNAME6=OUT
+CTARGNAME6=HEIGHT
+C7=0A00020003001100
+CSRCNAME7=OUT
+CTARGNAME7=TOP
+C8=0900020003001000
+CSRCNAME8=OUT
+CTARGNAME8=LEFT
+C9=0B00000003002500
+CSRCNAME9=IN
+CTARGNAME9=BACKGROUND COLOR
+C10=0B00000003002B00
+CSRCNAME10=IN
+CTARGNAME10=BORDER COLOR
+C11=1600000003002400
+CSRCNAME11=IN
+CTARGNAME11=TRANSPARENT
+C12=0100000004000000
+CSRCNAME12=IN
+CTARGNAME12=A
+C13=0500000004000100
+CSRCNAME13=OUT
+CTARGNAME13=B
+C14=0700000006000100
+CSRCNAME14=OUT
+CTARGNAME14=B
+C15=0800000006000000
+CSRCNAME15=OUT
+CTARGNAME15=A
+C16=0400020009000000
+CSRCNAME16=OUT
+CTARGNAME16=A
+C17=0600020009000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=010000000A000000
+CSRCNAME18=IN
+CTARGNAME18=A
+C19=080000000A000100
+CSRCNAME19=OUT
+CTARGNAME19=B
+C20=120001000E000200
+CSRCNAME20=OUT
+CTARGNAME20=Y
+C21=0F0002000E000100
+CSRCNAME21=OUT
+CTARGNAME21=X
+C22=100000000F000100
+CSRCNAME22=OUT
+CTARGNAME22=B
+C23=0C0000000F000000
+CSRCNAME23=IN
+CTARGNAME23=A
+C24=1000000011000100
+CSRCNAME24=OUT
+CTARGNAME24=B
+C25=0D00000011000000
+CSRCNAME25=IN
+CTARGNAME25=A
+C26=1100020012000000
+CSRCNAME26=OUT
+CTARGNAME26=IN
+C27=1400000013000100
+CSRCNAME27=OUT
+CTARGNAME27=B
+C28=1500010013000000
+CSRCNAME28=OUT
+CTARGNAME28=A
+C29=0E00030015000000
+CSRCNAME29=ANGLE
+CTARGNAME29=IN
+NBCO=30
+
+[PA-2-117-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=-1920
+top=-1077
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-117-0]
+UID=1187562
+select by=2
+INDEXparent=6
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.0472655780613422
+Vmouse y=0.247860744595528
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-117-0mouse dwnSE]
+UID=72539784
+
+[PA-2-117-0dbl clickSE]
+UID=72539808
+
+[PA-2-117-0mouse xSE]
+UID=72539829
+
+[PA-2-117-0mouse ySE]
+UID=72539846
+
+[PA-2-117-0CTRLSE]
+UID=72539660
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=1
+rotation angle=-0.625
+left=10
+top=10
+width=380
+height=380
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4291174432
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=clControlBorder
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=0
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=0
+same masses=0
+select by=2
+
+[PA-2-117-0CTRL]
+UID=72539660
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-117-1]
+UID=70477936
+once in poly=0
+Vdata=380
+Tcaption=size
+INDEXprec=0
+
+[PA-2-117-2]
+UID=11044909
+once in poly=0
+Vdata=10
+Tcaption=position
+INDEXprec=0
+
+[PA-2-117-3]
+UID=1200392
+saved in preset=0
+INDEXvisible=4
+Tcaption=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.131252348423004
+Vmouse y=0
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-117-3mouse dwnSE]
+UID=72540120
+
+[PA-2-117-3dbl clickSE]
+UID=72540141
+
+[PA-2-117-3mouse xSE]
+UID=72540486
+
+[PA-2-117-3mouse ySE]
+UID=72540515
+
+[PA-2-117-3CTRLSE]
+UID=72539977
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=180
+top=360
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=4284289297
+border width=2
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+shape type=1
+
+[PA-2-117-3CTRL]
+UID=72539977
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-117-4]
+UID=3669969
+VA=380
+VB=2
+Vout=190
+
+[PA-2-117-5]
+UID=18910132
+Vout=2
+
+[PA-2-117-6]
+UID=19120238
+VA=20
+VB=2
+Vout=10
+
+[PA-2-117-7]
+UID=19120505
+Vout=2
+
+[PA-2-117-8]
+UID=34575655
+Vout=20
+
+[PA-2-117-9]
+UID=27459573
+VA=190
+VB=10
+Vout=180
+
+[PA-2-117-10]
+UID=70467730
+VA=380
+VB=20
+Vout=360
+
+[PA-2-117-11]
+UID=92712896
+once in poly=0
+Vdata=-2.93848000916025E38
+Tcaption=bg c
+INDEXprec=1
+
+[PA-2-117-12]
+UID=58811754
+once in poly=0
+Vdata=0
+Tcaption=x
+INDEXprec=1
+
+[PA-2-117-13]
+UID=85954130
+once in poly=0
+Vdata=0
+Tcaption=y
+INDEXprec=1
+
+[PA-2-117-14]
+SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,Var InX : tParameter;  ,Var InY : tParameter;,Var Output : tParameter;,var x:double;,var y:double;       ,var o:double;,,// initialisation : create parameters,procedure init;,begin        ,"   InX:= CreateParam('X',PtDataField); ","   SetIsOUTput(InX,FALSE);","   InY:= CreateParam('Y',PtDataField); ","   SetIsOUTput(InY,FALSE);              ","   Output:= CreateParam('Angle',PtDataField); ","   SetIsINput(Output,FALSE);",end;                        ,                 ,// Callback procedure,Procedure Callback(N:integer); ,begin              ,  if (n = InX) OR (n = InY) then begin,    x:=GetValue(InX);,    y:=GetValue(InY);,    o:=0;,    if(x<>0) then begin,      o:=arctan(y/x);,      if(x<0) then begin,        o:=o+PI;,      end;,    end                 ,    else begin,      if(y>=0) then begin,      o:=PI/2; ,      end,      else begin,      o:=-1*(PI/2);,      end;,    end;,    o:=o/(2*PI);,"    SetValue(Output,o);",  end;                                      ,end;,,// Global variables,,//////////////////////////////,// main proc,//////////////////////////////,Procedure Process;,begin,,end;,
+FNAME=D:\Hollyhock\Library\hollyhock-library\scripts\cartesian to polar.fastscript
+UID=40776178
+VX=-0.5
+VY=0.5
+VAngle=0.375
+
+[PA-2-117-14CTRL]
+UID=72540662
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-117-14CTRLFORM]
+LEFT=774
+TOP=205
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-117-15]
+UID=19320368
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-117-16]
+UID=72547438
+Vout=0.5
+
+[PA-2-117-17]
+UID=52084676
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-117-18]
+UID=13866386
+Vin=-0.5
+Vout=0.5
+
+[PA-2-117-19]
+UID=8200248
+VA=-0.375
+VB=-0.25
+Vout=-0.625
+
+[PA-2-117-20]
+UID=91053883
+Vout=-0.25
+
+[PA-2-117-21]
+UID=7760528
+Vin=0.375
+Vout=-0.375
+
+[PA-2-117-22]
+UID=5774019
+once in poly=0
+Vdata=1
+Tcaption=show dot
+INDEXprec=0
+
+[PA-2-117-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=-1920
+top=-1077
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-118]
+UID=10674361
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+COLLAPS=1
+NBCLONES=1
+
+[PA-2-118mouse dwnSE]
+UID=88274549
+
+[PA-2-118dbl clickSE]
+UID=88274590
+
+[PA-2-118mouse xSE]
+UID=88274628
+
+[PA-2-118mouse ySE]
+UID=88274669
+
+[PA-2-118CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=263
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-118CTRL]
+UID=10674147
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-118-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Temp\patch.tmp
+ORIGINDEVICE=
+NBPG=23
+OFFSETX=199
+OFFSETY=123
+UID=72541852
+ID0=208
+L0=1295
+T0=294
+ID1=20
+L1=157
+T1=253
+ID2=20
+L2=158
+T2=205
+ID3=334
+L3=1034
+T3=-143
+ID4=37
+L4=552
+T4=231
+ID5=29
+L5=188
+T5=426
+ID6=37
+L6=548
+T6=370
+ID7=29
+L7=321
+T7=540
+ID8=29
+L8=136
+T8=-48
+ID9=36
+L9=755
+T9=200
+ID10=36
+L10=562
+T10=152
+ID11=20
+L11=138
+T11=314
+ID12=20
+L12=-92
+T12=1
+ID13=20
+L13=-163
+T13=143
+QIDX14=0
+ID14=355
+L14=135
+T14=101
+ID15=36
+L15=64
+T15=3
+ID16=29
+L16=-34
+T16=95
+ID17=36
+L17=-40
+T17=343
+ID18=19
+L18=35
+T18=196
+ID19=35
+L19=348
+T19=175
+ID20=29
+L20=181
+T20=172
+ID21=19
+L21=258
+T21=119
+ID22=20
+L22=143
+T22=361
+C0=0100000000001100
+CSRCNAME0=IN
+CTARGNAME0=WIDTH
+C1=0100000000001200
+CSRCNAME1=IN
+CTARGNAME1=HEIGHT
+C2=0200000000000F00
+CSRCNAME2=IN
+CTARGNAME2=LEFT
+C3=0200000000001000
+CSRCNAME3=IN
+CTARGNAME3=TOP
+C4=1300020000000E00
+CSRCNAME4=OUT
+CTARGNAME4=ROTATION ANGLE
+C5=0800000003001200
+CSRCNAME5=OUT
+CTARGNAME5=WIDTH
+C6=0800000003001300
+CSRCNAME6=OUT
+CTARGNAME6=HEIGHT
+C7=0A00020003001100
+CSRCNAME7=OUT
+CTARGNAME7=TOP
+C8=0900020003001000
+CSRCNAME8=OUT
+CTARGNAME8=LEFT
+C9=0B00000003002500
+CSRCNAME9=IN
+CTARGNAME9=BACKGROUND COLOR
+C10=0B00000003002B00
+CSRCNAME10=IN
+CTARGNAME10=BORDER COLOR
+C11=1600000003002400
+CSRCNAME11=IN
+CTARGNAME11=TRANSPARENT
+C12=0100000004000000
+CSRCNAME12=IN
+CTARGNAME12=A
+C13=0500000004000100
+CSRCNAME13=OUT
+CTARGNAME13=B
+C14=0700000006000100
+CSRCNAME14=OUT
+CTARGNAME14=B
+C15=0800000006000000
+CSRCNAME15=OUT
+CTARGNAME15=A
+C16=0400020009000000
+CSRCNAME16=OUT
+CTARGNAME16=A
+C17=0600020009000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=010000000A000000
+CSRCNAME18=IN
+CTARGNAME18=A
+C19=080000000A000100
+CSRCNAME19=OUT
+CTARGNAME19=B
+C20=120001000E000200
+CSRCNAME20=OUT
+CTARGNAME20=Y
+C21=0F0002000E000100
+CSRCNAME21=OUT
+CTARGNAME21=X
+C22=100000000F000100
+CSRCNAME22=OUT
+CTARGNAME22=B
+C23=0C0000000F000000
+CSRCNAME23=IN
+CTARGNAME23=A
+C24=1000000011000100
+CSRCNAME24=OUT
+CTARGNAME24=B
+C25=0D00000011000000
+CSRCNAME25=IN
+CTARGNAME25=A
+C26=1100020012000000
+CSRCNAME26=OUT
+CTARGNAME26=IN
+C27=1400000013000100
+CSRCNAME27=OUT
+CTARGNAME27=B
+C28=1500010013000000
+CSRCNAME28=OUT
+CTARGNAME28=A
+C29=0E00030015000000
+CSRCNAME29=ANGLE
+CTARGNAME29=IN
+NBCO=30
+
+[PA-2-118-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=263
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-118-0]
+UID=72541964
+select by=2
+INDEXparent=6
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.780051708221436
+Vmouse y=0.964271545410156
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-118-0mouse dwnSE]
+UID=72542100
+
+[PA-2-118-0dbl clickSE]
+UID=72542121
+
+[PA-2-118-0mouse xSE]
+UID=72542141
+
+[PA-2-118-0mouse ySE]
+UID=72542170
+
+[PA-2-118-0CTRLSE]
+UID=72541920
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=1
+rotation angle=-0.625
+left=10
+top=10
+width=380
+height=380
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4291174432
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=clControlBorder
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=0
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=0
+same masses=0
+select by=2
+
+[PA-2-118-0CTRL]
+UID=72541920
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-118-1]
+UID=10674399
+once in poly=0
+Vdata=380
+Tcaption=size
+INDEXprec=0
+
+[PA-2-118-2]
+UID=10674408
+once in poly=0
+Vdata=10
+Tcaption=position
+INDEXprec=0
+
+[PA-2-118-3]
+UID=72542330
+saved in preset=0
+INDEXvisible=4
+Tcaption=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.131252348423004
+Vmouse y=0
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-118-3mouse dwnSE]
+UID=72542679
+
+[PA-2-118-3dbl clickSE]
+UID=72542695
+
+[PA-2-118-3mouse xSE]
+UID=72542716
+
+[PA-2-118-3mouse ySE]
+UID=72542737
+
+[PA-2-118-3CTRLSE]
+UID=72542309
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=180
+top=360
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4288425775
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=4288425775
+border width=2
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+shape type=1
+
+[PA-2-118-3CTRL]
+UID=72542309
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-118-4]
+UID=10674417
+VA=380
+VB=2
+Vout=190
+
+[PA-2-118-5]
+UID=10674418
+Vout=2
+
+[PA-2-118-6]
+UID=10674427
+VA=20
+VB=2
+Vout=10
+
+[PA-2-118-7]
+UID=10674432
+Vout=2
+
+[PA-2-118-8]
+UID=10674437
+Vout=20
+
+[PA-2-118-9]
+UID=10674438
+VA=190
+VB=10
+Vout=180
+
+[PA-2-118-10]
+UID=10674443
+VA=380
+VB=20
+Vout=360
+
+[PA-2-118-11]
+UID=10674448
+once in poly=0
+Vdata=NAN
+Tcaption=bg c
+INDEXprec=1
+
+[PA-2-118-12]
+UID=10674453
+once in poly=0
+Vdata=0
+Tcaption=x
+INDEXprec=1
+
+[PA-2-118-13]
+UID=10674454
+once in poly=0
+Vdata=0
+Tcaption=y
+INDEXprec=1
+
+[PA-2-118-14]
+SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,Var InX : tParameter;  ,Var InY : tParameter;,Var Output : tParameter;,var x:double;,var y:double;       ,var o:double;,,// initialisation : create parameters,procedure init;,begin        ,"   InX:= CreateParam('X',PtDataField); ","   SetIsOUTput(InX,FALSE);","   InY:= CreateParam('Y',PtDataField); ","   SetIsOUTput(InY,FALSE);              ","   Output:= CreateParam('Angle',PtDataField); ","   SetIsINput(Output,FALSE);",end;                        ,                 ,// Callback procedure,Procedure Callback(N:integer); ,begin              ,  if (n = InX) OR (n = InY) then begin,    x:=GetValue(InX);,    y:=GetValue(InY);,    o:=0;,    if(x<>0) then begin,      o:=arctan(y/x);,      if(x<0) then begin,        o:=o+PI;,      end;,    end                 ,    else begin,      if(y>=0) then begin,      o:=PI/2; ,      end,      else begin,      o:=-1*(PI/2);,      end;,    end;,    o:=o/(2*PI);,"    SetValue(Output,o);",  end;                                      ,end;,,// Global variables,,//////////////////////////////,// main proc,//////////////////////////////,Procedure Process;,begin,,end;,
+FNAME=D:\Hollyhock\Library\hollyhock-library\scripts\cartesian to polar.fastscript
+UID=72542909
+VX=-0.5
+VY=0.5
+VAngle=0.375
+
+[PA-2-118-14CTRL]
+UID=72542884
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-118-14CTRLFORM]
+LEFT=774
+TOP=205
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-118-15]
+UID=10674464
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-118-16]
+UID=10674469
+Vout=0.5
+
+[PA-2-118-17]
+UID=10674470
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-118-18]
+UID=10674475
+Vin=-0.5
+Vout=0.5
+
+[PA-2-118-19]
+UID=10674476
+VA=-0.375
+VB=-0.25
+Vout=-0.625
+
+[PA-2-118-20]
+UID=10674481
+Vout=-0.25
+
+[PA-2-118-21]
+UID=10674486
+Vin=0.375
+Vout=-0.375
+
+[PA-2-118-22]
+UID=10674491
+once in poly=0
+Vdata=1
+Tcaption=show dot
+INDEXprec=0
+
+[PA-2-118-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=263
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=1109
+width=147.8271484375
+height=343
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=10
+auto resize=1
+auto resize margin=10
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CPTOOLBARTBPRESETSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-]
+PATCHTYPE=9
+VERSION=73
+FNAM=C:\Hollyhock\Resources\Modules\All Modules\Empty SubPatch.pat
+ORIGINDEVICE=
+NBPG=119
+OFFSETX=-1170
+OFFSETY=-1186
+UID=72543044
+ID0=24
+L0=419
+T0=196
+ID1=38
+L1=328
+T1=174
+ID2=38
+L2=235
+T2=210
+ID3=106
+L3=723
+T3=313
+ID4=40
+L4=574
+T4=273
+QIDX5=2
+ID5=95
+L5=802
+T5=815
+USR5=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+QIDX6=2
+ID6=95
+L6=802
+T6=908
+USR6=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+ID7=293
+L7=-677
+T7=245
+ID8=20
+L8=12
+T8=400
+ID9=37
+L9=145
+T9=377
+ID10=29
+L10=28
+T10=504
+ID11=38
+L11=263
+T11=337
+ID12=29
+L12=17
+T12=348
+ID13=36
+L13=532
+T13=413
+ID14=298
+L14=-536
+T14=245
+ID15=35
+L15=412
+T15=444
+ID16=29
+L16=286
+T16=510
+ID17=139
+L17=974
+T17=686
+ID18=139
+L18=976
+T18=758
+ID19=78
+L19=1366
+T19=659
+ID20=157
+L20=1195
+T20=783
+ID21=157
+L21=1205
+T21=852
+ID22=53
+L22=1115
+T22=882
+ID23=29
+L23=1090
+T23=741
+ID24=22
+L24=1917
+T24=593
+ID25=50
+L25=1191
+T25=611
+ID26=208
+L26=174
+T26=-29
+ID27=29
+L27=66
+T27=-51
+ID28=38
+L28=-22
+T28=-83
+ID29=29
+L29=-144
+T29=-450
+ID30=35
+L30=72
+T30=-125
+ID31=29
+L31=-19
+T31=-138
+ID32=95
+L32=-71
+T32=-5
+USR32=D:\Hollyhock\Resources\Modules\All Modules\Color\HSLAColor.usr-win64
+ID33=150
+L33=-472
+T33=311
+ID34=294
+L34=-635
+T34=379
+ID35=29
+L35=-627
+T35=333
+ID36=29
+L36=-633
+T36=426
+ID37=95
+L37=974
+T37=922
+USR37=D:\Hollyhock\Resources\Modules\All Modules\Array\RollArray.usr-win64
+ID38=95
+L38=981
+T38=1031
+USR38=D:\Hollyhock\Resources\Modules\All Modules\Array\RollArray.usr-win64
+ID39=40
+L39=569
+T39=339
+ID40=49
+L40=735
+T40=371
+ID41=219
+L41=548
+T41=1013
+ID42=298
+L42=649
+T42=493
+ID43=50
+L43=628
+T43=1067
+QIDX44=0
+ID44=355
+L44=901
+T44=1396
+ID45=335
+L45=1416
+T45=1605
+ID46=335
+L46=1407
+T46=1801
+QIDX47=0
+ID47=355
+L47=894
+T47=1484
+ID48=95
+L48=185
+T48=97
+USR48=D:\Hollyhock\Resources\Modules\All Modules\Color\HSLAColor.usr-win64
+ID49=29
+L49=20
+T49=172
+ID50=36
+L50=126
+T50=272
+ID51=38
+L51=32
+T51=440
+ID52=29
+L52=-169
+T52=464
+QIDX53=1
+ID53=277
+L53=1476
+T53=830
+ID54=37
+L54=515
+T54=556
+ID55=29
+L55=337
+T55=575
+ID56=335
+L56=1191
+T56=35
+QIDX57=1
+ID57=152
+L57=959
+T57=-184
+QIDX58=1
+ID58=152
+L58=959
+T58=-114
+ID59=16
+L59=755
+T59=-128
+ID60=38
+L60=827
+T60=-71
+ID61=290
+L61=906
+T61=-49
+ID62=35
+L62=1004
+T62=-38
+ID63=16
+L63=-288
+T63=7
+ID64=179
+L64=-1235
+T64=-21
+ID65=37
+L65=-317
+T65=-193
+ID66=29
+L66=-471
+T66=-236
+ID67=38
+L67=-203
+T67=-154
+ID68=37
+L68=76
+T68=-254
+ID69=80
+L69=1741
+T69=610
+QIDX70=0
+ID70=6
+L70=199
+T70=1421
+ID71=38
+L71=704
+T71=984
+QIDX72=0
+ID72=95
+L72=584
+T72=1365
+USR72=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix - Data Mix.usr-win64
+QIDX73=1
+ID73=260
+L73=144
+T73=1255
+ID74=29
+L74=-57
+T74=1133
+QIDX75=0
+ID75=95
+L75=588
+T75=1450
+USR75=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix - Data Mix.usr-win64
+ID76=53
+L76=-62
+T76=1175
+ID77=363
+L77=686
+T77=1257
+ID78=38
+L78=830
+T78=1144
+ID79=298
+L79=292
+T79=1144
+QIDX80=0
+ID80=6
+L80=-673
+T80=950
+QIDX81=0
+ID81=6
+L81=-666
+T81=666
+ID82=20
+L82=-1218
+T82=875
+ID83=20
+L83=-1218
+T83=917
+ID84=20
+L84=-1219
+T84=958
+ID85=20
+L85=-1223
+T85=1035
+ID86=20
+L86=-1223
+T86=1076
+ID87=20
+L87=-1222
+T87=1116
+ID88=20
+L88=-1222
+T88=996
+ID89=35
+L89=849
+T89=1057
+ID90=366
+L90=-443
+T90=1490
+ID91=20
+L91=-1218
+T91=1199
+ID92=20
+L92=-1217
+T92=832
+ID93=366
+L93=-449
+T93=1383
+ID94=365
+L94=-449
+T94=1273
+ID95=365
+L95=-449
+T95=1160
+ID96=104
+L96=-304
+T96=1270
+ID97=139
+L97=1471
+T97=951
+ID98=139
+L98=1474
+T98=1011
+ID99=139
+L99=1474
+T99=1071
+ID100=139
+L100=1473
+T100=1129
+ID101=49
+L101=1592
+T101=1258
+ID102=49
+L102=1690
+T102=1447
+ID103=29
+L103=1755
+T103=1654
+ID104=29
+L104=1239
+T104=1249
+ID105=149
+L105=1466
+T105=1235
+ID106=149
+L106=1459
+T106=1400
+ID107=298
+L107=1357
+T107=1071
+ID108=53
+L108=1786
+T108=1328
+ID109=53
+L109=1764
+T109=1480
+ID110=21
+L110=1920
+T110=544
+ID111=314
+L111=918
+T111=2124
+ID112=314
+L112=969
+T112=1944
+ID113=37
+L113=1873
+T113=1751
+ID114=29
+L114=1749
+T114=1786
+ID115=35
+L115=2027
+T115=1555
+ID116=36
+L116=2054
+T116=1867
+QIDX117=0
+ID117=6
+L117=2598
+T117=1233
+QIDX118=0
+ID118=6
+L118=2602
+T118=1326
+C0=0100020000000000
+CSRCNAME0=OUT
+CTARGNAME0=IN
+C1=0200020001000100
+CSRCNAME1=OUT
+CTARGNAME1=B
+C2=4000160001000000
+CSRCNAME2=TOTAL PPQ
+CTARGNAME2=A
+C3=3F00010002000000
+CSRCNAME3=OUT
+CTARGNAME3=A
+C4=5000060002000100
+CSRCNAME4=STEPS
+CTARGNAME4=B
+C5=0400020003000000
+CSRCNAME5=OUT
+CTARGNAME5=IN
+C6=0000010004000000
+CSRCNAME6=OUT
+CTARGNAME6=A
+C7=5000060004000100
+CSRCNAME7=STEPS
+CTARGNAME7=B
+C8=4800050005000D00
+CSRCNAME8=OUT 1
+CTARGNAME8=CELLS VAL
+C9=5000060005000200
+CSRCNAME9=STEPS
+CTARGNAME9=NUM OF COLS
+C10=5D00010005000700
+CSRCNAME10=OUT
+CTARGNAME10=RESET
+C11=4B00050006000D00
+CSRCNAME11=OUT 1
+CTARGNAME11=CELLS VAL
+C12=5000060006000200
+CSRCNAME12=STEPS
+CTARGNAME12=NUM OF COLS
+C13=5D00010006000700
+CSRCNAME13=OUT
+CTARGNAME13=RESET
+C14=0800000009000000
+CSRCNAME14=CSIZE
+CTARGNAME14=A
+C15=0A00000009000100
+CSRCNAME15=OUT
+CTARGNAME15=B
+C16=0C0000000B000100
+CSRCNAME16=OUT
+CTARGNAME16=B
+C17=0E0001000B000000
+CSRCNAME17=OUT
+CTARGNAME17=A
+C18=090002000D000000
+CSRCNAME18=OUT
+CTARGNAME18=A
+C19=0F0002000D000100
+CSRCNAME19=OUT
+CTARGNAME19=B
+C20=070000000E000000
+CSRCNAME20=OUT
+CTARGNAME20=IN
+C21=0B0002000F000000
+CSRCNAME21=OUT
+CTARGNAME21=A
+C22=100000000F000100
+CSRCNAME22=OUT
+CTARGNAME22=B
+C23=0400020011000100
+CSRCNAME23=OUT
+CTARGNAME23=INDEX
+C24=2500010011000000
+CSRCNAME24=ARRAY OUT
+CTARGNAME24=ARRAY IN
+C25=0400020012000100
+CSRCNAME25=OUT
+CTARGNAME25=INDEX
+C26=2600010012000000
+CSRCNAME26=ARRAY OUT
+CTARGNAME26=ARRAY IN
+C27=1400010013000400
+CSRCNAME27=OUT
+CTARGNAME27=CODE2
+C28=1500010013000400
+CSRCNAME28=OUT
+CTARGNAME28=CODE2
+C29=1900020013000500
+CSRCNAME29=OUT
+CTARGNAME29=CREATE
+C30=5100070013000300
+CSRCNAME30=NOTE
+CTARGNAME30=CODE1
+C31=0700000013000100
+CSRCNAME31=OUT
+CTARGNAME31=CHAN
+C32=1200020014000200
+CSRCNAME32=VALUE
+CTARGNAME32=PASS
+C33=1700000014000000
+CSRCNAME33=OUT
+CTARGNAME33=IN
+C34=1600010015000200
+CSRCNAME34=OUT
+CTARGNAME34=PASS
+C35=5100090015000000
+CSRCNAME35=BASE VEL
+CTARGNAME35=IN
+C36=1200020016000000
+CSRCNAME36=VALUE
+CTARGNAME36=IN
+C37=4500020018000000
+CSRCNAME37=OUT
+CTARGNAME37=MIDI 1
+C38=0300010019000000
+CSRCNAME38=OUT
+CTARGNAME38=A
+C39=1100020019000100
+CSRCNAME39=VALUE
+CTARGNAME39=B
+C40=1B0000001A001000
+CSRCNAME40=OUT
+CTARGNAME40=TOP
+C41=1E0002001A000F00
+CSRCNAME41=OUT
+CTARGNAME41=LEFT
+C42=1D0000001A001100
+CSRCNAME42=OUT
+CTARGNAME42=WIDTH
+C43=200004001A003300
+CSRCNAME43=COLOR
+CTARGNAME43=BACKGROUND COLOR
+C44=0E0001001C000100
+CSRCNAME44=OUT
+CTARGNAME44=B
+C45=1D0000001C000000
+CSRCNAME45=OUT
+CTARGNAME45=A
+C46=1C0002001E000100
+CSRCNAME46=OUT
+CTARGNAME46=B
+C47=1F0000001E000000
+CSRCNAME47=OUT
+CTARGNAME47=A
+C48=2100030020000000
+CSRCNAME48=OUT
+CTARGNAME48=H
+C49=2200000021000500
+CSRCNAME49=OUT
+CTARGNAME49=MAX IN
+C50=2300000021000400
+CSRCNAME50=OUT
+CTARGNAME50=MIN IN
+C51=2300000021000600
+CSRCNAME51=OUT
+CTARGNAME51=MIN OUT
+C52=2400000021000700
+CSRCNAME52=OUT
+CTARGNAME52=MAX OUT
+C53=0E00010021000200
+CSRCNAME53=OUT
+CTARGNAME53=IN
+C54=05000E0025000000
+CSRCNAME54=CELLS OUT
+CTARGNAME54=ARRAY IN
+C55=5900020025000200
+CSRCNAME55=OUT
+CTARGNAME55=ROLL
+C56=06000E0026000000
+CSRCNAME56=CELLS OUT
+CTARGNAME56=ARRAY IN
+C57=5900020026000200
+CSRCNAME57=OUT
+CTARGNAME57=ROLL
+C58=0000010027000000
+CSRCNAME58=OUT
+CTARGNAME58=A
+C59=5100080027000100
+CSRCNAME59=R AFTER
+CTARGNAME59=B
+C60=2700020028000000
+CSRCNAME60=OUT
+CTARGNAME60=A
+C61=2A00010028000100
+CSRCNAME61=OUT
+CTARGNAME61=B
+C62=2800020029000000
+CSRCNAME62=OUT
+CTARGNAME62=IN
+C63=510008002A000000
+CSRCNAME63=R AFTER
+CTARGNAME63=IN
+C64=290001002B000000
+CSRCNAME64=OUT
+CTARGNAME64=A
+C65=5E0001002B000100
+CSRCNAME65=OUT
+CTARGNAME65=B
+C66=250001002C000100
+CSRCNAME66=ARRAY OUT
+CTARGNAME66=INARR
+C67=2C0002002D000100
+CSRCNAME67=OUTX
+CTARGNAME67=POINTS X
+C68=2C0003002D000200
+CSRCNAME68=OUTY
+CTARGNAME68=POINTS Y
+C69=1A0033002D002F00
+CSRCNAME69=BACKGROUND COLOR
+CTARGNAME69=BORDER COLOR
+C70=6F0001002D001700
+CSRCNAME70=OUT
+CTARGNAME70=HEIGHT
+C71=6F0001002D001600
+CSRCNAME71=OUT
+CTARGNAME71=WIDTH
+C72=700001002D001400
+CSRCNAME72=OUT
+CTARGNAME72=LEFT
+C73=700001002D001500
+CSRCNAME73=OUT
+CTARGNAME73=TOP
+C74=2F0002002E000100
+CSRCNAME74=OUTX
+CTARGNAME74=POINTS X
+C75=2F0003002E000200
+CSRCNAME75=OUTY
+CTARGNAME75=POINTS Y
+C76=300004002E002F00
+CSRCNAME76=COLOR
+CTARGNAME76=BORDER COLOR
+C77=6F0001002E001600
+CSRCNAME77=OUT
+CTARGNAME77=WIDTH
+C78=6F0001002E001700
+CSRCNAME78=OUT
+CTARGNAME78=HEIGHT
+C79=700001002E001400
+CSRCNAME79=OUT
+CTARGNAME79=LEFT
+C80=700001002E001500
+CSRCNAME80=OUT
+CTARGNAME80=TOP
+C81=260001002F000100
+CSRCNAME81=ARRAY OUT
+CTARGNAME81=INARR
+C82=2100030030000000
+CSRCNAME82=OUT
+CTARGNAME82=H
+C83=3100000030000200
+CSRCNAME83=OUT
+CTARGNAME83=L
+C84=3300020032000100
+CSRCNAME84=OUT
+CTARGNAME84=B
+C85=0800000032000000
+CSRCNAME85=CSIZE
+CTARGNAME85=A
+C86=3400000033000100
+CSRCNAME86=OUT
+CTARGNAME86=B
+C87=0E00010033000000
+CSRCNAME87=OUT
+CTARGNAME87=A
+C88=1900020035000500
+CSRCNAME88=OUT
+CTARGNAME88=SEND
+C89=1400010035000700
+CSRCNAME89=OUT
+CTARGNAME89=DATA 2
+C90=1500010035000700
+CSRCNAME90=OUT
+CTARGNAME90=DATA 2
+C91=5100070035000600
+CSRCNAME91=NOTE
+CTARGNAME91=DATA 1
+C92=3300020036000000
+CSRCNAME92=OUT
+CTARGNAME92=A
+C93=3700000036000100
+CSRCNAME93=OUT
+CTARGNAME93=B
+C94=3900030038000100
+CSRCNAME94=ARRAY OUT
+CTARGNAME94=POINTS X
+C95=3A00030038000200
+CSRCNAME95=ARRAY OUT
+CTARGNAME95=POINTS Y
+C96=3200020038001600
+CSRCNAME96=OUT
+CTARGNAME96=WIDTH
+C97=3200020038001700
+CSRCNAME97=OUT
+CTARGNAME97=HEIGHT
+C98=3600020038001400
+CSRCNAME98=OUT
+CTARGNAME98=LEFT
+C99=3600020038001500
+CSRCNAME99=OUT
+CTARGNAME99=TOP
+C100=3E00020038001300
+CSRCNAME100=OUT
+CTARGNAME100=ROTATION ANGLE
+C101=2000040038002F00
+CSRCNAME101=COLOR
+CTARGNAME101=BORDER COLOR
+C102=500006003B000000
+CSRCNAME102=STEPS
+CTARGNAME102=IN
+C103=3B0001003C000000
+CSRCNAME103=OUT
+CTARGNAME103=A
+C104=040002003C000100
+CSRCNAME104=OUT
+CTARGNAME104=B
+C105=3C0002003D000000
+CSRCNAME105=OUT
+CTARGNAME105=IN
+C106=3D0001003E000000
+CSRCNAME106=OUT
+CTARGNAME106=A
+C107=510006003F000000
+CSRCNAME107=BPC
+CTARGNAME107=IN
+C108=4000130041000100
+CSRCNAME108=TEMPO
+CTARGNAME108=B
+C109=4200000041000000
+CSRCNAME109=OUT
+CTARGNAME109=A
+C110=4100020043000000
+CSRCNAME110=OUT
+CTARGNAME110=A
+C111=5100060043000100
+CSRCNAME111=BPC
+CTARGNAME111=B
+C112=4300020044000000
+CSRCNAME112=OUT
+CTARGNAME112=A
+C113=5000060044000100
+CSRCNAME113=STEPS
+CTARGNAME113=B
+C114=1300000045000100
+CSRCNAME114=OUT
+CTARGNAME114=IN
+C115=4400020045000500
+CSRCNAME115=OUT
+CTARGNAME115=LENGTH
+C116=5000060046000000
+CSRCNAME116=STEPS
+CTARGNAME116=STEPS
+C117=5000070046000100
+CSRCNAME117=PULSES
+CTARGNAME117=PULSES
+C118=5000080046000200
+CSRCNAME118=ACCENTS
+CTARGNAME118=ACCENTS
+C119=5A00010046000300
+CSRCNAME119=OUT
+CTARGNAME119=GENERATE
+C120=2B00020047000100
+CSRCNAME120=OUT
+CTARGNAME120=B
+C121=51000A0047000000
+CSRCNAME121=R STEPS
+CTARGNAME121=A
+C122=4900020048001B00
+CSRCNAME122=OUT
+CTARGNAME122=CELLS VAL
+C123=4600040048000200
+CSRCNAME123=CELLS OUT
+CTARGNAME123=IN 2
+C124=05000E0048000100
+CSRCNAME124=CELLS OUT
+CTARGNAME124=IN 1
+C125=4A00000049000400
+CSRCNAME125=OUT
+CTARGNAME125=SIZE
+C126=4C00010049000A00
+CSRCNAME126=OUT
+CTARGNAME126=VAL 0
+C127=5A00010049000B00
+CSRCNAME127=OUT
+CTARGNAME127=VAL 1
+C128=490002004B001B00
+CSRCNAME128=OUT
+CTARGNAME128=CELLS VAL
+C129=460005004B000200
+CSRCNAME129=ACCENTS OUT
+CTARGNAME129=IN 2
+C130=06000E004B000100
+CSRCNAME130=CELLS OUT
+CTARGNAME130=IN 1
+C131=5A0001004C000000
+CSRCNAME131=OUT
+CTARGNAME131=IN
+C132=2B0002004D000100
+CSRCNAME132=OUT
+CTARGNAME132=INCREMENT
+C133=4F0001004D000600
+CSRCNAME133=OUT
+CTARGNAME133=MAX
+C134=5A0001004D000300
+CSRCNAME134=OUT
+CTARGNAME134=RESET TO MIN
+C135=5D0001004D000300
+CSRCNAME135=OUT
+CTARGNAME135=RESET TO MIN
+C136=4D0000004E000100
+CSRCNAME136=VALUE
+CTARGNAME136=B
+C137=51000A004E000000
+CSRCNAME137=R STEPS
+CTARGNAME137=A
+C138=500006004F000000
+CSRCNAME138=STEPS
+CTARGNAME138=IN
+C139=5800000050000000
+CSRCNAME139=STEPS
+CTARGNAME139=STEPS
+C140=5500000050000300
+CSRCNAME140=GENERATE
+CTARGNAME140=GENERATE
+C141=5600000050000400
+CSRCNAME141=CLEAR
+CTARGNAME141=CLEAR
+C142=5700000050000500
+CSRCNAME142=ROTATE
+CTARGNAME142=ROTATE
+C143=5200000051000000
+CSRCNAME143=BPC
+CTARGNAME143=BPC
+C144=5300000051000300
+CSRCNAME144=R AFTER
+CTARGNAME144=R AFTER
+C145=5400000051000500
+CSRCNAME145=R STEPS
+CTARGNAME145=R STEPS
+C146=0300010051000200
+CSRCNAME146=OUT
+CTARGNAME146=GENERATE
+C147=4E00020059000100
+CSRCNAME147=OUT
+CTARGNAME147=B
+C148=5F00010059000000
+CSRCNAME148=OUT
+CTARGNAME148=A
+C149=5B0000005A000200
+CSRCNAME149=ON
+CTARGNAME149=ON
+C150=5C0000005A000300
+CSRCNAME150=QUANTIZE
+CTARGNAME150=QUANTIZE
+C151=500009005A000000
+CSRCNAME151=GENERATE
+CTARGNAME151=IN
+C152=5B0000005D000200
+CSRCNAME152=ON
+CTARGNAME152=ON
+C153=5C0000005D000300
+CSRCNAME153=QUANTIZE
+CTARGNAME153=QUANTIZE
+C154=50000A005D000000
+CSRCNAME154=CLEAR
+CTARGNAME154=IN
+C155=5B0000005E000200
+CSRCNAME155=ON
+CTARGNAME155=ON
+C156=5C0000005E000300
+CSRCNAME156=QUANTIZE
+CTARGNAME156=QUANTIZE
+C157=50000B005E000000
+CSRCNAME157=ROTATE
+CTARGNAME157=IN
+C158=50000C005F000000
+CSRCNAME158=OFFSET
+CTARGNAME158=IN
+C159=5B0000005F000200
+CSRCNAME159=ON
+CTARGNAME159=ON
+C160=5C0000005F000300
+CSRCNAME160=QUANTIZE
+CTARGNAME160=QUANTIZE
+C161=5F00050060000100
+CSRCNAME161=TRIGGER
+CTARGNAME161=TRIGGER
+C162=6B00010061000100
+CSRCNAME162=OUT
+CTARGNAME162=INDEX
+C163=2C00020061000000
+CSRCNAME163=OUTX
+CTARGNAME163=ARRAY IN
+C164=6B00010062000100
+CSRCNAME164=OUT
+CTARGNAME164=INDEX
+C165=2C00030062000000
+CSRCNAME165=OUTY
+CTARGNAME165=ARRAY IN
+C166=6B00010063000100
+CSRCNAME166=OUT
+CTARGNAME166=INDEX
+C167=2F00020063000000
+CSRCNAME167=OUTX
+CTARGNAME167=ARRAY IN
+C168=6B00010064000100
+CSRCNAME168=OUT
+CTARGNAME168=INDEX
+C169=2F00030064000000
+CSRCNAME169=OUTY
+CTARGNAME169=ARRAY IN
+C170=6900010065000000
+CSRCNAME170=SIZE
+CTARGNAME170=A
+C171=6800000065000100
+CSRCNAME171=OUT
+CTARGNAME171=B
+C172=6A00010066000000
+CSRCNAME172=SIZE
+CTARGNAME172=A
+C173=6800000066000100
+CSRCNAME173=OUT
+CTARGNAME173=B
+C174=2C00020069000000
+CSRCNAME174=OUTX
+CTARGNAME174=ARRAY IN
+C175=2F0002006A000000
+CSRCNAME175=OUTX
+CTARGNAME175=ARRAY IN
+C176=680000006B000000
+CSRCNAME176=OUT
+CTARGNAME176=IN
+C177=650002006C000000
+CSRCNAME177=OUT
+CTARGNAME177=IN
+C178=660002006D000000
+CSRCNAME178=OUT
+CTARGNAME178=IN
+C179=440002006E000000
+CSRCNAME179=OUT
+CTARGNAME179=NOTE LENGTH
+C180=320002006F000000
+CSRCNAME180=OUT
+CTARGNAME180=IN
+C181=3600020070000000
+CSRCNAME181=OUT
+CTARGNAME181=IN
+C182=6700000071000000
+CSRCNAME182=OUT
+CTARGNAME182=A
+C183=7200000071000100
+CSRCNAME183=OUT
+CTARGNAME183=B
+C184=7100020073000100
+CSRCNAME184=OUT
+CTARGNAME184=B
+C185=7000010073000000
+CSRCNAME185=OUT
+CTARGNAME185=A
+C186=6F00010074000000
+CSRCNAME186=OUT
+CTARGNAME186=A
+C187=6700000074000100
+CSRCNAME187=OUT
+CTARGNAME187=B
+C188=7400020075000300
+CSRCNAME188=OUT
+CTARGNAME188=SIZE
+C189=7300020075000200
+CSRCNAME189=OUT
+CTARGNAME189=POSITION
+C190=6100020075000000
+CSRCNAME190=VALUE
+CTARGNAME190=X
+C191=6200020075000100
+CSRCNAME191=VALUE
+CTARGNAME191=Y
+C192=2D002F0075000400
+CSRCNAME192=BORDER COLOR
+CTARGNAME192=BG C
+C193=6C00010075000500
+CSRCNAME193=OUT
+CTARGNAME193=SHOW DOT
+C194=6300020076000000
+CSRCNAME194=VALUE
+CTARGNAME194=X
+C195=6400020076000100
+CSRCNAME195=VALUE
+CTARGNAME195=Y
+C196=7300020076000200
+CSRCNAME196=OUT
+CTARGNAME196=POSITION
+C197=7400020076000300
+CSRCNAME197=OUT
+CTARGNAME197=SIZE
+C198=2E002F0076000400
+CSRCNAME198=BORDER COLOR
+CTARGNAME198=BG C
+C199=6D00010076000500
+CSRCNAME199=OUT
+CTARGNAME199=SHOW DOT
+NBCO=200
+
+[PA-2-CLONES-2-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=1109
+width=147.8271484375
+height=343
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=10
+auto resize=1
+auto resize margin=10
+
+[PA-2-CLONES-2-0]
+UID=39829151
+Vin=42790.52734375
+Vout=42790
+
+[PA-2-CLONES-2-1]
+UID=39830369
+VA=10697.6318359375
+VB=4
+
+[PA-2-CLONES-2-2]
+UID=39831441
+VA=0.125
+VB=32
+
+[PA-2-CLONES-2-3]
+UID=39832471
+Vin=6
+Vout=0
+
+[PA-2-CLONES-2-4]
+UID=39833677
+VA=42790
+VB=32
+Vout=6
+
+[PA-2-CLONES-2-5]
+UID=72543101
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=4
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=-1
+Vlast click col=-1
+Vlast click row=-1
+TABcells valV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=20000000
+TABcursor outL=1
+Vcell 1=0
+Vcell 2=0
+Vcell 3=0
+Vcell 4=0
+Vcell 5=0
+Vcell 6=0
+Vcell 7=0
+Vcell 8=0
+Vcell 9=0
+Vcell 10=0
+Vcell 11=0
+Vcell 12=0
+Vcell 13=0
+Vcell 14=0
+Vcell 15=0
+Vcell 16=0
+Vcell 17=0
+Vcell 18=0
+Vcell 19=0
+Vcell 20=0
+Vcell 21=0
+Vcell 22=0
+Vcell 23=0
+Vcell 24=0
+Vcell 25=0
+Vcell 26=0
+Vcell 27=0
+Vcell 28=0
+Vcell 29=0
+Vcell 30=0
+Vcell 31=0
+Vcell 32=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.22916667163372
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D5832302000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-CLONES-2-5num of colsSE]
+UID=72543170
+
+[PA-2-CLONES-2-5num of rowsSE]
+UID=72543190
+
+[PA-2-CLONES-2-5random coverageSE]
+UID=72543499
+
+[PA-2-CLONES-2-5cells outSE]
+UID=72543639
+
+[PA-2-CLONES-2-5cursor posSE]
+UID=72543671
+
+[PA-2-CLONES-2-5mouse dwnSE]
+UID=72544506
+
+[PA-2-CLONES-2-5dbl clickSE]
+UID=72544527
+
+[PA-2-CLONES-2-5mouse xSE]
+UID=72544547
+
+[PA-2-CLONES-2-5mouse ySE]
+UID=72544568
+
+[PA-2-CLONES-2-5CTRLSE]
+UID=72543077
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=903
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-CLONES-2-5CTRL]
+UID=72543077
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-5CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-5SE]
+UID=72543101
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=0
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=903
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+
+[PA-2-CLONES-2-6]
+UID=72544815
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=-1
+Vlast click col=-1
+Vlast click row=-1
+TABcells valV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=20000000
+TABcursor outL=1
+Vcell 1=0
+Vcell 2=0
+Vcell 3=0
+Vcell 4=0
+Vcell 5=0
+Vcell 6=0
+Vcell 7=0
+Vcell 8=0
+Vcell 9=0
+Vcell 10=0
+Vcell 11=0
+Vcell 12=0
+Vcell 13=0
+Vcell 14=0
+Vcell 15=0
+Vcell 16=0
+Vcell 17=0
+Vcell 18=0
+Vcell 19=0
+Vcell 20=0
+Vcell 21=0
+Vcell 22=0
+Vcell 23=0
+Vcell 24=0
+Vcell 25=0
+Vcell 26=0
+Vcell 27=0
+Vcell 28=0
+Vcell 29=0
+Vcell 30=0
+Vcell 31=0
+Vcell 32=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.34375
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D5832302000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-CLONES-2-6num of colsSE]
+UID=72544887
+
+[PA-2-CLONES-2-6num of rowsSE]
+UID=72544908
+
+[PA-2-CLONES-2-6random coverageSE]
+UID=72545031
+
+[PA-2-CLONES-2-6cells outSE]
+UID=72545179
+
+[PA-2-CLONES-2-6cursor posSE]
+UID=72545203
+
+[PA-2-CLONES-2-6mouse dwnSE]
+UID=72546117
+
+[PA-2-CLONES-2-6dbl clickSE]
+UID=72546138
+
+[PA-2-CLONES-2-6mouse xSE]
+UID=72546162
+
+[PA-2-CLONES-2-6mouse ySE]
+UID=72546183
+
+[PA-2-CLONES-2-6CTRLSE]
+UID=72544786
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1109
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-CLONES-2-6CTRL]
+UID=72544786
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-6CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-6SE]
+UID=72544815
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=0
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1109
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+
+[PA-2-CLONES-2-7]
+UID=17891479
+Vout=2
+
+[PA-2-CLONES-2-8]
+UID=3666608
+once in poly=1
+Vdata=400
+Tcaption=csize
+INDEXprec=0
+
+[PA-2-CLONES-2-9]
+UID=3590910
+VA=400
+VB=2
+Vout=200
+
+[PA-2-CLONES-2-10]
+UID=81451666
+Vout=2
+
+[PA-2-CLONES-2-11]
+UID=37655082
+VA=1
+VB=30
+
+[PA-2-CLONES-2-12]
+UID=10736157
+Vout=30
+
+[PA-2-CLONES-2-13]
+UID=23721100
+VA=200
+VB=40
+Vout=160
+
+[PA-2-CLONES-2-14]
+UID=21601096
+Vin=2
+Vout=1
+
+[PA-2-CLONES-2-15]
+UID=29149932
+VA=30
+VB=10
+Vout=40
+
+[PA-2-CLONES-2-16]
+UID=45360824
+Vout=10
+
+[PA-2-CLONES-2-17]
+UID=23991023
+Vindex=6
+Vvalue=0
+
+[PA-2-CLONES-2-18]
+UID=55888760
+Vindex=6
+Vvalue=0
+
+[PA-2-CLONES-2-19]
+UID=95917071
+INDEXchan=2
+INDEXmsg=0
+Vcode1=36
+Vcode2=84
+
+[PA-2-CLONES-2-20]
+UID=88074462
+Vin=127
+Vout=127
+Vpass=0
+
+[PA-2-CLONES-2-21]
+UID=83817109
+Vin=84
+Vout=84
+Vpass=1
+
+[PA-2-CLONES-2-22]
+UID=7667498
+Vin=0
+Vout=1
+
+[PA-2-CLONES-2-23]
+UID=90365968
+Vout=127
+
+[PA-2-CLONES-2-24]
+UID=77795093
+once in poly=1
+
+[PA-2-CLONES-2-25]
+UID=46996633
+VA=0
+VB=0
+Vout=0
+Vblock=0
+
+[PA-2-CLONES-2-26]
+UID=72546391
+select by=2
+INDEXparent=2
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.0222222544252872
+Vmouse y=0.137142971158028
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-26mouse dwnSE]
+UID=72546498
+
+[PA-2-CLONES-2-26dbl clickSE]
+UID=72546519
+
+[PA-2-CLONES-2-26mouse xSE]
+UID=72546544
+
+[PA-2-CLONES-2-26mouse ySE]
+UID=72546568
+
+[PA-2-CLONES-2-26CTRLSE]
+UID=72546366
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=140
+top=425
+width=135
+height=350
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4279327581
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=cl6
+border width=0
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=0
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=1
+same masses=1
+select by=2
+
+[PA-2-CLONES-2-26CTRL]
+UID=72546366
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-27]
+UID=56125288
+Vout=425
+COLLAPS=2
+
+[PA-2-CLONES-2-28]
+UID=41078333
+VA=135
+VB=1
+
+[PA-2-CLONES-2-29]
+UID=40325273
+Vout=135
+
+[PA-2-CLONES-2-30]
+UID=29719976
+VA=5
+VB=135
+Vout=140
+
+[PA-2-CLONES-2-31]
+UID=10836171
+Vout=5
+
+[PA-2-CLONES-2-32]
+UID=72546739
+saved in preset=1
+VH=6.04724407196045
+VS=0.690909087657928
+VL=0.431372553110123
+VA=1
+COLcolor=4279327581
+
+[PA-2-CLONES-2-32SE]
+UID=72546739
+saved in preset=1
+
+[PA-2-CLONES-2-33]
+UID=72546927
+saved in preset=0
+INDEXvisible=0
+Vbypass=0
+Vin=1
+Vout=6.04724407196045
+Vmin in=0
+Vmax in=2
+Vmin out=0
+Vmax out=12
+INDEXcurve=3
+Vcoeff=2
+Vaudio quality=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-33mouse dwnSE]
+UID=72547311
+
+[PA-2-CLONES-2-33dbl clickSE]
+UID=72547340
+
+[PA-2-CLONES-2-33mouse xSE]
+UID=72547365
+
+[PA-2-CLONES-2-33mouse ySE]
+UID=72547389
+
+[PA-2-CLONES-2-33CTRLSE]
+UID=72546902
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1319
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+step color=1150510520
+big step color=clDataFlow
+big step interval=0
+show step border=1
+step border color=clDataFlow
+line color=clDataFlow
+line width=1
+mode fill=1
+fill color=1150510520
+show grid=1
+grid color=1150510520
+full grid size=1
+V divisions=2
+H divisions=4
+show cursor=1
+cursor color=clCursor
+cursor width=2
+horizotal scale=0
+vertical scale=0
+
+[PA-2-CLONES-2-33CTRL]
+UID=72546902
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=000000000402013C0402813C0683C13C0402013D8542213D0683413D87C3613D0402813D4522913D8542A13DC662B13D0683C13D47A3D13D87C3E13DC8E3F13D0402013E2412093E4522113E6532193E8542213EA552293EC662313EE672393E0683413E2693493E47A3513E67B3593E87C3613EA7D3693EC8E3713EE8F3793E0402813E140A853E2412893E341A8D3E4522913E552A953E6532993E753A9D3E8542A13E954AA53EA552A93EB55AAD3EC662B13ED66AB53EE672B93EF67ABD3E0683C13E168BC53E2693C93E369BCD3E47A3D13E57ABD53E67B3D93E77BBDD3E87C3E13E97CBE53EA7D3E93EB7DBED3EC8E3F13ED8EBF53EE8F3F93EF8FBFD3E0402013F0C06033F140A053F1C0E073F2412093F2C160B3F341A0D3F3C1E0F3F4522113F4D26133F552A153F5D2E173F6532193F6D361B3F753A1D3F7D3E1F3F8542213F8D46233F954A253F9D4E273FA552293FAD562B3FB55A2D3FBD5E2F3FC662313FCE66333FD66A353FDE6E373FE672393FEE763B3FF67A3D3FFE7E3F3F0683413F0E87433F168B453F1E8F473F2693493F2E974B3F369B4D3F3E9F4F3F47A3513F4FA7533F57AB553F5FAF573F67B3593F6FB75B3F77BB5D3F7FBF5F3F87C3613F8FC7633F97CB653F9FCF673FA7D3693FAFD76B3FB7DB6D3FBFDF6F3FC8E3713FD0E7733FD8EB753FE0EF773FE8F3793FF0F77B3FF8FB7D3F0000803F
+TABL=128
+
+[PA-2-CLONES-2-33CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-33MAPPERCURVESE]
+UID=72546902
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1319
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+step color=1150510520
+big step color=clDataFlow
+big step interval=0
+show step border=1
+step border color=clDataFlow
+line color=clDataFlow
+line width=1
+mode fill=1
+fill color=1150510520
+show grid=1
+grid color=1150510520
+full grid size=1
+V divisions=2
+H divisions=4
+show cursor=1
+cursor color=clCursor
+cursor width=2
+horizotal scale=0
+vertical scale=0
+
+[PA-2-CLONES-2-33MAPPERCURVE]
+UID=72546902
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=000000000402013C0402813C0683C13C0402013D8542213D0683413D87C3613D0402813D4522913D8542A13DC662B13D0683C13D47A3D13D87C3E13DC8E3F13D0402013E2412093E4522113E6532193E8542213EA552293EC662313EE672393E0683413E2693493E47A3513E67B3593E87C3613EA7D3693EC8E3713EE8F3793E0402813E140A853E2412893E341A8D3E4522913E552A953E6532993E753A9D3E8542A13E954AA53EA552A93EB55AAD3EC662B13ED66AB53EE672B93EF67ABD3E0683C13E168BC53E2693C93E369BCD3E47A3D13E57ABD53E67B3D93E77BBDD3E87C3E13E97CBE53EA7D3E93EB7DBED3EC8E3F13ED8EBF53EE8F3F93EF8FBFD3E0402013F0C06033F140A053F1C0E073F2412093F2C160B3F341A0D3F3C1E0F3F4522113F4D26133F552A153F5D2E173F6532193F6D361B3F753A1D3F7D3E1F3F8542213F8D46233F954A253F9D4E273FA552293FAD562B3FB55A2D3FBD5E2F3FC662313FCE66333FD66A353FDE6E373FE672393FEE763B3FF67A3D3FFE7E3F3F0683413F0E87433F168B453F1E8F473F2693493F2E974B3F369B4D3F3E9F4F3F47A3513F4FA7533F57AB553F5FAF573F67B3593F6FB75B3F77BB5D3F7FBF5F3F87C3613F8FC7633F97CB653F9FCF673FA7D3693FAFD76B3FB7DB6D3FBFDF6F3FC8E3713FD0E7733FD8EB753FE0EF773FE8F3793FF0F77B3FF8FB7D3F0000803F
+TABL=128
+
+[PA-2-CLONES-2-33MAPPERCURVETBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-34]
+UID=52723839
+Vout=2
+
+[PA-2-CLONES-2-35]
+UID=57281103
+Vout=0
+
+[PA-2-CLONES-2-36]
+UID=85219858
+Vout=12
+
+[PA-2-CLONES-2-37]
+UID=72547785
+saved in preset=1
+TABarray inV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray inL=32
+TABarray outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray outL=32
+Vroll=20
+
+[PA-2-CLONES-2-37SE]
+UID=72547785
+saved in preset=1
+
+[PA-2-CLONES-2-38]
+UID=72547901
+saved in preset=1
+TABarray inV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray inL=32
+TABarray outV=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABarray outL=32
+Vroll=20
+
+[PA-2-CLONES-2-38SE]
+UID=72547901
+saved in preset=1
+
+[PA-2-CLONES-2-39]
+UID=99980885
+VA=42790
+VB=8
+Vout=6
+
+[PA-2-CLONES-2-40]
+UID=23233378
+VA=6
+VB=7
+Vout=0
+Vblock=0
+COLLAPS=2
+
+[PA-2-CLONES-2-41]
+UID=6158210
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-42]
+UID=30198591
+Vin=8
+Vout=7
+
+[PA-2-CLONES-2-43]
+UID=19535201
+VA=0
+VB=1
+Vout=0
+Vblock=0
+
+[PA-2-CLONES-2-44]
+SCRIPTPROC=var inArr : Tparameter;,var outX : Tparameter;,var outY : Tparameter;,var l : integer;,var i : integer;,var o_l : integer;,var tmp : integer;,var r:double;,var c:integer;                      ,procedure init;  ,begin, c:=360;, r:=0.5;," inArr:= CreateParam('inArr', ptArray); "," SetIsOUTput(inArr,FALSE);           "," outX:= CreateParam('outX', ptArray); "," SetIsINput(outX,FALSE);"," outY:= CreateParam('outY', ptArray); "," SetIsINput(outY,FALSE);",end;                                 ,,// Callback procedure,Procedure Callback(N:integer);,var x:double;,var y:double;,var d:double;,var a:double;,var a2:double;,begin                                   , if n=inArr then              , begin   ,   l:=GetLength(inArr);,   d:=c/l;      ,   o_l:=0;,   for i:=0 to l-1 do,   begin,"     tmp:=Round(GetDataArrayValue(inArr,i));",     if tmp=1 then begin       ,       a2:=(i*d);,       a:=a2*(Pi/180);,       x:=((round((Sin(a))*100)/100)*r)+r;        ,       y:=((round((Cos(a))*100)/100)*r)+r; ,"       SetDataArrayValue(outX, o_l, x);","       SetDataArrayValue(outY, o_l, y);",       o_l:=o_l+1;,     end;,"     SetLength(outX, o_l);","     SetLength(outY, o_l);",   end;, end;,end;
+FNAME=D:\hollyhock\patches\scripts\circle path compute.fastscript
+UID=72548057
+COLLAPS=2
+
+[PA-2-CLONES-2-44CTRL]
+UID=72548020
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-44CTRLFORM]
+LEFT=163
+TOP=22
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-CLONES-2-45]
+UID=72548233
+saved in preset=0
+INDEXvisible=5
+Tcaption=10
+INDEXcalc mode=0
+Vpoint X=-1
+Vpoint Y=-1
+Vpoint in path=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.0718041285872459
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-45points xSE]
+UID=72548293
+
+[PA-2-CLONES-2-45points ySE]
+UID=72548322
+
+[PA-2-CLONES-2-45mouse dwnSE]
+UID=72548722
+
+[PA-2-CLONES-2-45dbl clickSE]
+UID=72548750
+
+[PA-2-CLONES-2-45mouse xSE]
+UID=72548779
+
+[PA-2-CLONES-2-45mouse ySE]
+UID=72548804
+
+[PA-2-CLONES-2-45CTRLSE]
+UID=72548208
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=20
+top=20
+width=360
+height=360
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=cl12
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=4279327581
+border width=4
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+path type=1
+
+[PA-2-CLONES-2-45CTRL]
+UID=72548208
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-46]
+UID=72549268
+saved in preset=0
+INDEXvisible=5
+Tcaption=10
+INDEXcalc mode=0
+Vpoint X=-1
+Vpoint Y=-1
+Vpoint in path=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.323163837194443
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-46points xSE]
+UID=72549324
+
+[PA-2-CLONES-2-46points ySE]
+UID=72549353
+
+[PA-2-CLONES-2-46mouse dwnSE]
+UID=72549540
+
+[PA-2-CLONES-2-46dbl clickSE]
+UID=72549568
+
+[PA-2-CLONES-2-46mouse xSE]
+UID=72549597
+
+[PA-2-CLONES-2-46mouse ySE]
+UID=72549626
+
+[PA-2-CLONES-2-46CTRLSE]
+UID=72549239
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=20
+top=20
+width=360
+height=360
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=cl12
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=4281309852
+border width=2
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+path type=1
+
+[PA-2-CLONES-2-46CTRL]
+UID=72549239
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-47]
+SCRIPTPROC=var inArr : Tparameter;,var outX : Tparameter;,var outY : Tparameter;,var l : integer;,var i : integer;,var o_l : integer;,var tmp : integer;,var r:double;,var c:integer;                      ,procedure init;  ,begin, c:=360;, r:=0.5;," inArr:= CreateParam('inArr', ptArray); "," SetIsOUTput(inArr,FALSE);           "," outX:= CreateParam('outX', ptArray); "," SetIsINput(outX,FALSE);"," outY:= CreateParam('outY', ptArray); "," SetIsINput(outY,FALSE);",end;                                 ,,// Callback procedure,Procedure Callback(N:integer);,var x:double;,var y:double;,var d:double;,var a:double;,var a2:double;,begin                                   , if n=inArr then              , begin   ,   l:=GetLength(inArr);,   d:=c/l;      ,   o_l:=0;,   for i:=0 to l-1 do,   begin,"     tmp:=Round(GetDataArrayValue(inArr,i));",     if tmp=1 then begin       ,       a2:=(i*d);,       a:=a2*(Pi/180);,       x:=((round((Sin(a))*100)/100)*r)+r;        ,       y:=((round((Cos(a))*100)/100)*r)+r; ,"       SetDataArrayValue(outX, o_l, x);","       SetDataArrayValue(outY, o_l, y);",       o_l:=o_l+1;,     end;,"     SetLength(outX, o_l);","     SetLength(outY, o_l);",   end;, end;,end;
+FNAME=D:\hollyhock\patches\scripts\circle path compute.fastscript
+UID=72549869
+COLLAPS=2
+
+[PA-2-CLONES-2-47CTRL]
+UID=72549832
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-47CTRLFORM]
+LEFT=163
+TOP=22
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-CLONES-2-48]
+UID=72550043
+saved in preset=1
+VH=6.04724407196045
+VS=0.536945819854736
+VL=0.800000011920929
+VA=1
+COLcolor=4281309852
+
+[PA-2-CLONES-2-48SE]
+UID=72550043
+saved in preset=1
+
+[PA-2-CLONES-2-49]
+UID=2451503
+Vout=0.800000011920929
+
+[PA-2-CLONES-2-50]
+UID=28647478
+VA=400
+VB=40
+Vout=360
+
+[PA-2-CLONES-2-51]
+UID=96258380
+VA=1
+VB=40
+
+[PA-2-CLONES-2-52]
+UID=41199728
+Vout=40
+
+[PA-2-CLONES-2-53]
+UID=73127282
+Taddr=circleseq
+Tip=127.0.0.1
+Vbroadcast=0
+Vport=3333
+INDEXtype=1
+Vsend=0
+Vdata 1=36
+Vdata 2=84
+
+[PA-2-CLONES-2-54]
+UID=95940472
+VA=40
+VB=2
+Vout=20
+
+[PA-2-CLONES-2-55]
+UID=95014236
+Vout=2
+
+[PA-2-CLONES-2-56]
+UID=72550286
+saved in preset=0
+INDEXvisible=5
+TABpoints xV=0000003F0000003F0000003F0000003F
+TABpoints xL=4
+TABpoints yV=00000000000000000000003F0000003F
+TABpoints yL=4
+Tcaption=11
+INDEXcalc mode=0
+Vpoint X=-1
+Vpoint Y=-1
+Vpoint in path=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.219768777489662
+Vmouse y=0.00435783388093114
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-56points xSE]
+UID=72550351
+
+[PA-2-CLONES-2-56points ySE]
+UID=72550383
+
+[PA-2-CLONES-2-56mouse dwnSE]
+UID=72550582
+
+[PA-2-CLONES-2-56dbl clickSE]
+UID=72550622
+
+[PA-2-CLONES-2-56mouse xSE]
+UID=72550655
+
+[PA-2-CLONES-2-56mouse ySE]
+UID=72550683
+
+[PA-2-CLONES-2-56CTRLSE]
+UID=72550254
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=1
+rotation angle=1.3125
+left=20
+top=20
+width=360
+height=360
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=cl13
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=4279327581
+border width=4
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+path type=0
+
+[PA-2-CLONES-2-56CTRL]
+UID=72550254
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-57]
+UID=8418260
+Vnum=4
+LEN=4
+VALV=0000003F0000003F0000003F0000003F
+VALL=4
+
+[PA-2-CLONES-2-57sysexpanel]
+UID=44071318
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-58]
+UID=7041603
+Vnum=4
+LEN=4
+VALV=00000000000000000000003F0000003F
+VALL=4
+
+[PA-2-CLONES-2-58sysexpanel]
+UID=44071318
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-59]
+UID=66210820
+Vin=32
+Vout=0.03125
+
+[PA-2-CLONES-2-60]
+UID=7316527
+VA=0.03125
+VB=6
+
+[PA-2-CLONES-2-61]
+UID=46886987
+Vin=0.1875
+Vout=0.8125
+Vbypass=0
+
+[PA-2-CLONES-2-62]
+UID=84300964
+VA=0.8125
+VB=0.5
+Vout=1.3125
+
+[PA-2-CLONES-2-63]
+UID=83324672
+Vin=8
+Vout=0.125
+
+[PA-2-CLONES-2-65]
+UID=80642971
+VA=60000
+VB=120
+Vout=500
+
+[PA-2-CLONES-2-66]
+UID=2434052
+Vout=60000
+
+[PA-2-CLONES-2-67]
+UID=95045551
+VA=500
+VB=8
+
+[PA-2-CLONES-2-68]
+UID=90374011
+VA=4000
+VB=32
+Vout=125
+
+[PA-2-CLONES-2-69]
+UID=98130053
+Vbypass=0
+INDEXscale=0
+INDEXroot=0
+Vlength=125
+Vpitch=0
+Vgain=0
+INDEXchannel=0
+
+[PA-2-CLONES-2-70]
+UID=14184692
+name=euclidean rythm generator
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=0
+INDEXvisible=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.450464397668839
+Vmouse y=0.989348828792572
+USERNAME=euclidean rythm generator
+NBCLONES=1
+
+[PA-2-CLONES-2-70mouse dwnSE]
+UID=85365399
+
+[PA-2-CLONES-2-70dbl clickSE]
+UID=85365448
+
+[PA-2-CLONES-2-70mouse xSE]
+UID=85365490
+
+[PA-2-CLONES-2-70mouse ySE]
+UID=85365531
+
+[PA-2-CLONES-2-70CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=414
+height=169
+zoom scale=0.466507285833359
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clLiterPanelBack
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=364
+WidthBeforeMinimize=407
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+name=euclidean rythm generator
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-70CTRL]
+UID=14184624
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-70-]
+PATCHTYPE=9
+VERSION=73
+FNAM=euclidean rythm generator
+ORIGINDEVICE=
+NBPG=10
+OFFSETX=-100
+OFFSETY=158
+UID=72550953
+QIDX0=0
+ID0=355
+L0=304
+T0=170
+QIDX1=0
+ID1=95
+L1=581
+T1=337
+USR1=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+ID2=29
+L2=391
+T2=382
+ID3=167
+L3=844
+T3=386
+ID4=20
+L4=-105
+T4=86
+ID5=20
+L5=-97
+T5=152
+ID6=20
+L6=-99
+T6=213
+ID7=20
+L7=-97
+T7=287
+QIDX8=0
+ID8=95
+L8=587
+T8=428
+USR8=D:\Hollyhock\Resources\Modules\All Modules\Matrix\Matrix.usr-win64
+ID9=167
+L9=856
+T9=518
+C0=0700000000000600
+CSRCNAME0=IN
+CTARGNAME0=GENERATE
+C1=0600000000000500
+CSRCNAME1=IN
+CTARGNAME1=ACCENTS
+C2=0500000000000400
+CSRCNAME2=IN
+CTARGNAME2=PULSES
+C3=0400000000000300
+CSRCNAME3=IN
+CTARGNAME3=STEPS
+C4=0200000001000300
+CSRCNAME4=OUT
+CTARGNAME4=NUM OF ROWS
+C5=0000010001000D00
+CSRCNAME5=CELLS OUT
+CTARGNAME5=CELLS VAL
+C6=0400000001000200
+CSRCNAME6=IN
+CTARGNAME6=NUM OF COLS
+C7=01000E0003000000
+CSRCNAME7=CELLS OUT
+CTARGNAME7=OUT
+C8=0200000008000300
+CSRCNAME8=OUT
+CTARGNAME8=NUM OF ROWS
+C9=0000020008000D00
+CSRCNAME9=ACCENT CELLS OUT
+CTARGNAME9=CELLS VAL
+C10=0400000008000200
+CSRCNAME10=IN
+CTARGNAME10=NUM OF COLS
+C11=08000E0009000000
+CSRCNAME11=CELLS OUT
+CTARGNAME11=OUT
+NBCO=12
+
+[PA-2-CLONES-2-70-PASE]
+name=euclidean rythm generator
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=414
+height=169
+zoom scale=0.466507285833359
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clLiterPanelBack
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=364
+WidthBeforeMinimize=407
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+
+[PA-2-CLONES-2-70-0]
+SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,var o_arr:tParameter;,var o_acc:tParameter;,var i_steps:tParameter;  ,var i_pulses:tParameter;,var i_generate:tParameter;           ,var i_acc:tParameter;,,var counts: array of integer;             ,var pattern_s: array of integer; ,var pattern_a: array of integer;,var remainders: array of integer;,,var c:integer;                         ,var steps:integer;      ,var pulses:integer;            ,var accents:integer;,                                      ,var has_changed:boolean;,                                ,procedure get_steps;,begin                          ,   steps:=round(GetValue(i_steps));,end;                                        ,procedure get_pulses;,begin      ,   pulses:=round(GetValue(i_pulses)); ,end;,procedure get_accents;,begin,   accents:=round(GetValue(i_acc));,end;,,procedure get_generate;,begin,   if(round(GetValue(i_generate))=1) then,   begin                                        ,      has_changed:=true;,   end;,end;,,procedure build(l:integer;a:array of integer);,var i:integer;,begin,     if((l>-1))then,     begin,          for i:=0 to (counts[l]-1) do,          begin,"               build(l-1,a);",          end;,          if(remainders[l]<>0) then,          begin,"               build(l-2,a);",          end;,     end,     else if (l=-1)then,     begin,          a[c]:=0;,          c:=c+1;,     end,     else if (l=-2) then,     begin,          a[c]:=1; ,          c:=c+1;,     end;,end;    ,                               ,procedure bjorklund(s:integer;p:integer;a:array of integer);  ,var level:integer;,var st:boolean;,var divisor:integer;,var i:integer;,begin,     if(p>0) then,     begin,     divisor:=s-p;          ,     level:=0;,     st:=true;,"     SetArrayLength(remainders,level+1);",     remainders[level]:=p;,     while(st=true) do,     begin,"          SetArrayLength(counts,level+1);",          counts[level]:= divisor div remainders[level];,"          SetArrayLength(remainders,level+2);",          remainders[level+1]:=divisor mod remainders[level];,          divisor:=remainders[level];,          level:=level+1;,,          if(remainders[level]<=1) then,          begin,               st:=false;,          end;,     end;,"     SetArrayLength(counts,level+1);",     counts[level]:=divisor;,     c:=0;,"     build(level,a);",     end,     else,     begin,     for i:=0 to s-1 do,     begin,       a[i]:=0;,     end;,     end;  ,end;         ,// initialisation : create parameters,procedure init;,begin  ," o_arr := CreateParam('cells out', ptArray);"," SetIsInput(o_arr,false);"," o_acc := CreateParam('accent cells out', ptArray);"," SetIsInput(o_acc,false);      "," i_steps:=CreateParam('steps', ptDataField);"," SetIsOutPut(i_steps,false);"," i_pulses:=CreateParam('pulses', ptDataField);"," SetIsOutPut(i_pulses,false);"," i_acc:=CreateParam('accents', ptDataField);"," SetIsOutPut(i_acc,false);"," i_generate:=CreateParam('generate',ptButton);"," SetIsOutPut(i_generate,false);", get_steps();                                   , get_pulses();, get_accents();, has_changed:=true;,end;           ,                                ,,// Callback procedure,Procedure Callback(n:integer); ,begin                   ,   CASE n OF,      i_steps:get_steps();,      i_pulses:get_pulses();,      i_acc:get_accents();,      i_generate:get_generate();,   END;,end;                    ,,                                    ,//////////////////////////////,// main proc                                      ,//////////////////////////////     ,Procedure Process;     ,var arr_l:integer;,var i:integer;,var a:integer;,begin,   arr_l:=0;               ,   if(has_changed=true) then,   begin                   ,      get_steps();    ,      get_pulses();,      a:=0;,"      SetArrayLength(pattern_s,steps);","      SetArrayLength(pattern_a,pulses);","      bjorklund(steps,pulses,pattern_s);","      bjorklund(pulses,accents,pattern_a);",      for i:=0 to steps-1 do              ,      begin                                      ,"          SetDataArrayValue(o_arr,i,pattern_s[(steps-1)-i]);     ",          if(pattern_s[(steps-1)-i]=1) then                       ,          begin,"               SetDataArrayValue(o_acc,i,pattern_a[(pulses-1)-a]);",               a:=a+1;                                     ,          end,          else,          begin,"           SetDataArrayValue(o_acc,i,0);",          end;,      end;,      arr_l:=steps;,      has_changed:=false;,   end;,"   SetLength(o_acc,arr_l);","   SetLength(o_arr,arr_l);",end;
+FNAME=D:\apc midi\apc_mini_sequencer\euclidean rhythm generator.fastscript
+UID=72551113
+Vsteps=32
+Vpulses=1
+Vaccents=1
+
+[PA-2-CLONES-2-70-0CTRL]
+UID=72551029
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-70-0CTRLFORM]
+LEFT=705
+TOP=72
+CLIENTWIDTH=725
+CLIENTHEIGHT=901
+
+[PA-2-CLONES-2-70-1]
+UID=72551451
+saved in preset=1
+can be randomized=1
+INDEXvisible=1
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=12
+Vlast click col=12
+Vlast click row=0
+TABcells valV=0000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=00000000
+TABcursor outL=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.832592129707336
+Vmouse y=1
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D58323020000000010000000000803F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-CLONES-2-70-1num of colsSE]
+UID=72551563
+
+[PA-2-CLONES-2-70-1num of rowsSE]
+UID=72551599
+
+[PA-2-CLONES-2-70-1random coverageSE]
+UID=72551817
+
+[PA-2-CLONES-2-70-1cells outSE]
+UID=72552059
+
+[PA-2-CLONES-2-70-1cursor posSE]
+UID=72552124
+
+[PA-2-CLONES-2-70-1mouse dwnSE]
+UID=72552267
+
+[PA-2-CLONES-2-70-1dbl clickSE]
+UID=72552311
+
+[PA-2-CLONES-2-70-1mouse xSE]
+UID=72552348
+
+[PA-2-CLONES-2-70-1mouse ySE]
+UID=72552384
+
+[PA-2-CLONES-2-70-1CTRLSE]
+UID=72551410
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=28
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-CLONES-2-70-1CTRL]
+UID=72551410
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-70-1CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-70-1SE]
+UID=72551451
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=1
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=28
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-CLONES-2-70-2]
+UID=14184912
+Vout=1
+
+[PA-2-CLONES-2-70-3]
+UID=14184921
+once in poly=0
+Tcaption=cells out
+INDEXprec=1
+
+[PA-2-CLONES-2-70-4]
+UID=14184926
+once in poly=0
+Vdata=32
+Tcaption=steps
+INDEXprec=1
+
+[PA-2-CLONES-2-70-5]
+UID=14184931
+once in poly=0
+Vdata=1
+Tcaption=pulses
+INDEXprec=1
+
+[PA-2-CLONES-2-70-6]
+UID=14184936
+once in poly=0
+Vdata=1
+Tcaption=accents
+INDEXprec=1
+
+[PA-2-CLONES-2-70-7]
+UID=14184941
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-CLONES-2-70-8]
+UID=72552726
+saved in preset=1
+can be randomized=1
+INDEXvisible=1
+Vmatrix size=32
+Vnum of cols=32
+Vnum of rows=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vreset val=0
+Vlast click cell=12
+Vlast click col=12
+Vlast click row=0
+TABcells valV=0000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells valL=32
+TABcells outV=0000803F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+TABcells outL=32
+Vcursor pos=0
+TABcursor outV=00000000
+TABcursor outL=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.213089317083359
+Vmouse y=1
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D58323020000000010000000000803F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[PA-2-CLONES-2-70-8num of colsSE]
+UID=72552838
+
+[PA-2-CLONES-2-70-8num of rowsSE]
+UID=72552878
+
+[PA-2-CLONES-2-70-8random coverageSE]
+UID=72553243
+
+[PA-2-CLONES-2-70-8cells outSE]
+UID=72553694
+
+[PA-2-CLONES-2-70-8cursor posSE]
+UID=72553739
+
+[PA-2-CLONES-2-70-8mouse dwnSE]
+UID=72554222
+
+[PA-2-CLONES-2-70-8dbl clickSE]
+UID=72554258
+
+[PA-2-CLONES-2-70-8mouse xSE]
+UID=72554291
+
+[PA-2-CLONES-2-70-8mouse ySE]
+UID=72554319
+
+[PA-2-CLONES-2-70-8CTRLSE]
+UID=72552670
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=98
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix
+
+[PA-2-CLONES-2-70-8CTRL]
+UID=72552670
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-70-8CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-70-8SE]
+UID=72552726
+saved in preset=1
+can be randomized=1
+cursor orientation=0
+cursor color=clSelected
+cells rounded=1
+cells round size=4
+cells gap=2
+colors orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+vertical align=0
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7
+top=98
+width=399
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-CLONES-2-70-9]
+UID=14184951
+once in poly=0
+Tcaption=accents out
+INDEXprec=1
+
+[PA-2-CLONES-2-70-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=80
+width=414
+height=169
+zoom scale=0.466507285833359
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clLiterPanelBack
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=364
+WidthBeforeMinimize=407
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+name=euclidean rythm generator
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-71]
+UID=20846204
+VA=1
+VB=0
+
+[PA-2-CLONES-2-72]
+UID=72554578
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vin 1=0
+Vin 2=1
+Vin 3=0
+Vin 4=0
+Vout 1=0
+Vout 2=0
+Vout 3=0
+Vout 4=0
+Tcaption in 1=in 1
+Tcaption in 2=in 2
+Tcaption in 3=in 3
+Tcaption in 4=in 4
+Tcaption out 1=out 1
+Tcaption out 2=out 2
+Tcaption out 3=out 3
+Tcaption out 4=out 4
+Vnb data in=2
+Vnb data out=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vlast click cell=1
+Vlast click col=0
+Vlast click row=1
+TABcells valV=0000803F00000000
+TABcells valL=2
+TABcells outV=0000803F00000000
+TABcells outL=2
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.892857134342194
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D44323001000000020000000000803F0000000000000000
+
+[PA-2-CLONES-2-72random coverageSE]
+UID=72555571
+
+[PA-2-CLONES-2-72cells valSE]
+UID=72555706
+
+[PA-2-CLONES-2-72cells outSE]
+UID=72555739
+
+[PA-2-CLONES-2-72mouse dwnSE]
+UID=72555807
+
+[PA-2-CLONES-2-72dbl clickSE]
+UID=72555835
+
+[PA-2-CLONES-2-72mouse xSE]
+UID=72555868
+
+[PA-2-CLONES-2-72mouse ySE]
+UID=72555901
+
+[PA-2-CLONES-2-72CTRLSE]
+UID=72554546
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix Data
+
+[PA-2-CLONES-2-72CTRL]
+UID=72554546
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-72CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-72SE]
+UID=72554578
+saved in preset=1
+can be randomized=1
+inputs header width=1
+outputs header height=1
+header caption size=0.5
+header caption color=clFont
+cells rounded=1
+cells round size=4
+cells gap=2
+orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+show data value=1
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-CLONES-2-73]
+UID=72556140
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vnum=2
+Vminval=0
+Vmaxval=1
+Vreset val=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.993464052677155
+Vmouse y=0.292307704687119
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-73inSE]
+UID=72556208
+
+[PA-2-CLONES-2-73outSE]
+UID=72556240
+
+[PA-2-CLONES-2-73mouse dwnSE]
+UID=72557075
+
+[PA-2-CLONES-2-73dbl clickSE]
+UID=72557108
+
+[PA-2-CLONES-2-73mouse xSE]
+UID=72557140
+
+[PA-2-CLONES-2-73mouse ySE]
+UID=72557173
+
+[PA-2-CLONES-2-73CTRLSE]
+UID=72556107
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+draw mode=0
+step color=clDataFlow
+big step color=4285095796
+big step interval=0
+show step border=1
+step border color=clDarkPanelBack
+line color=clDataFlow
+line width=3
+mode fill=0
+fill color=clDataFlow
+show grid=1
+grid color=4285690482
+full grid size=1
+V divisions=0
+H divisions=0
+show cursor=1
+cursor color=clArrayFlow
+cursor width=2
+full cursor width=0
+horizotal scale=0
+vertical scale=0
+
+[PA-2-CLONES-2-73CTRL]
+UID=72556107
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=0000803F00000000
+TABL=2
+
+[PA-2-CLONES-2-73ARRAYSE]
+UID=72556107
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=161
+height=77
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+draw mode=0
+step color=clDataFlow
+big step color=4285095796
+big step interval=0
+show step border=1
+step border color=clDarkPanelBack
+line color=clDataFlow
+line width=3
+mode fill=0
+fill color=clDataFlow
+show grid=1
+grid color=4285690482
+full grid size=1
+V divisions=0
+H divisions=0
+show cursor=1
+cursor color=clArrayFlow
+cursor width=2
+full cursor width=0
+horizotal scale=0
+vertical scale=0
+
+[PA-2-CLONES-2-73ARRAY]
+UID=72556107
+VISIBLE=0
+MINIMIZED=0
+MIN=0
+MAX=1
+TABV=0000803F00000000
+TABL=2
+
+[PA-2-CLONES-2-74]
+UID=40622646
+Vout=2
+
+[PA-2-CLONES-2-75]
+UID=72557428
+saved in preset=1
+can be randomized=1
+INDEXvisible=0
+Vin 1=0
+Vin 2=1
+Vin 3=0
+Vin 4=0
+Vout 1=0
+Vout 2=0
+Vout 3=0
+Vout 4=0
+Tcaption in 1=in 1
+Tcaption in 2=in 2
+Tcaption in 3=in 3
+Tcaption in 4=in 4
+Tcaption out 1=out 1
+Tcaption out 2=out 2
+Tcaption out 3=out 3
+Tcaption out 4=out 4
+Vnb data in=2
+Vnb data out=1
+INDEXmouse mode=0
+Vcell draw val=1
+Vrandom coverage=0.25
+Vlast click cell=1
+Vlast click col=0
+Vlast click row=1
+TABcells valV=0000803F00000000
+TABcells valL=2
+TABcells outV=0000803F00000000
+TABcells outL=2
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.892857134342194
+Vallow drop=0
+COLLAPS=1
+CHUNK=4D44323001000000020000000000803F0000000000000000
+
+[PA-2-CLONES-2-75random coverageSE]
+UID=72558294
+
+[PA-2-CLONES-2-75cells valSE]
+UID=72558437
+
+[PA-2-CLONES-2-75cells outSE]
+UID=72558470
+
+[PA-2-CLONES-2-75mouse dwnSE]
+UID=72558542
+
+[PA-2-CLONES-2-75dbl clickSE]
+UID=72558574
+
+[PA-2-CLONES-2-75mouse xSE]
+UID=72558607
+
+[PA-2-CLONES-2-75mouse ySE]
+UID=72558640
+
+[PA-2-CLONES-2-75CTRLSE]
+UID=72557395
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+caption=Matrix Data
+
+[PA-2-CLONES-2-75CTRL]
+UID=72557395
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-75CTRLTBLOCKSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-75SE]
+UID=72557428
+saved in preset=1
+can be randomized=1
+inputs header width=1
+outputs header height=1
+header caption size=0.5
+header caption color=clFont
+cells rounded=1
+cells round size=4
+cells gap=2
+orientation=1
+color on 1=clDataFlow
+color on 2=clDataFlow
+color on 3=clDataFlow
+color on 4=clDataFlow
+color on 5=clDataFlow
+color on 6=clDataFlow
+color on 7=clDataFlow
+color on 8=clDataFlow
+color off 1=clMainBack
+color off 2=clMainBack
+color off 3=clMainBack
+color off 4=clMainBack
+color off 5=clMainBack
+color off 6=clMainBack
+color off 7=clMainBack
+color off 8=clMainBack
+show data value=1
+cells caption size=0.5
+cells caption color=clFont
+fade distance=50
+SHIFT fade factor=7
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=1529
+width=200
+height=200
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=4
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+
+[PA-2-CLONES-2-76]
+UID=40689565
+Vin=0
+Vout=1
+
+[PA-2-CLONES-2-77]
+UID=15029188
+circular=1
+no limit=0
+Vvalue=20
+Vmin=0
+Vmax=31
+Vincrement value=1
+
+[PA-2-CLONES-2-78]
+UID=70681460
+VA=1
+VB=20
+
+[PA-2-CLONES-2-79]
+UID=97985088
+Vin=32
+Vout=31
+
+[PA-2-CLONES-2-80]
+UID=14816111
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=0
+Vfader=0
+Vswitch=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-CLONES-2-80faderSE]
+UID=72566459
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=195
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=1
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl16
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80buttonSE]
+UID=72564187
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=47.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4289331200
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80switchSE]
+UID=72563185
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=87.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=1
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=clControlBorder
+border OFF color=clControlBorder
+show small led=0
+small led size=8
+small led ON color=cl7
+small led OFF color=cl8
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80mouse dwnSE]
+UID=35985467
+
+[PA-2-CLONES-2-80dbl clickSE]
+UID=35985512
+
+[PA-2-CLONES-2-80mouse xSE]
+UID=35985546
+
+[PA-2-CLONES-2-80mouse ySE]
+UID=35985591
+
+[PA-2-CLONES-2-80CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=103
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-80CTRL]
+UID=14815897
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-80CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Temp\patch.tmp
+ORIGINDEVICE=
+NBPG=29
+OFFSETX=-739
+OFFSETY=-192
+UID=72559265
+ID0=175
+L0=482
+T0=358
+ID1=175
+L1=842
+T1=445
+ID2=175
+L2=959
+T2=485
+ID3=8
+L3=1161
+T3=652
+ID4=106
+L4=912
+T4=637
+ID5=156
+L5=1040
+T5=646
+ID6=9
+L6=1144
+T6=769
+ID7=8
+L7=1158
+T7=712
+ID8=21
+L8=1349
+T8=185
+ID9=21
+L9=1350
+T9=223
+ID10=21
+L10=1352
+T10=262
+ID11=21
+L11=1352
+T11=303
+ID12=21
+L12=1359
+T12=348
+ID13=21
+L13=1365
+T13=401
+ID14=20
+L14=176
+T14=520
+ID15=20
+L15=172
+T15=572
+ID16=20
+L16=170
+T16=622
+ID17=156
+L17=311
+T17=334
+ID18=20
+L18=175
+T18=349
+ID19=156
+L19=314
+T19=394
+ID20=156
+L20=315
+T20=456
+ID21=156
+L21=313
+T21=509
+ID22=156
+L22=308
+T22=566
+ID23=156
+L23=312
+T23=631
+ID24=20
+L24=171
+T24=396
+ID25=20
+L25=173
+T25=458
+QIDX26=0
+ID26=6
+L26=1328
+T26=790
+ID27=175
+L27=963
+T27=548
+ID28=21
+L28=1369
+T28=449
+C0=1100010000000100
+CSRCNAME0=OUT
+CTARGNAME0=STEPS
+C1=0000010001000300
+CSRCNAME1=STEPS
+CTARGNAME1=MAX
+C2=1300010001000100
+CSRCNAME2=OUT
+CTARGNAME2=PULSES
+C3=0100010002000300
+CSRCNAME3=PULSES
+CTARGNAME3=MAX
+C4=1400010002000100
+CSRCNAME4=OUT
+CTARGNAME4=ACCENTS
+C5=0500010003000100
+CSRCNAME5=OUT
+CTARGNAME5=GEN
+C6=1500010003000100
+CSRCNAME6=OUT
+CTARGNAME6=GEN
+C7=0000010004000000
+CSRCNAME7=STEPS
+CTARGNAME7=IN
+C8=0400010005000000
+CSRCNAME8=OUT
+CTARGNAME8=IN
+C9=1700010006000100
+CSRCNAME9=OUT
+CTARGNAME9=ROT
+C10=1600010007000100
+CSRCNAME10=OUT
+CTARGNAME10=CLR
+C11=0000010008000000
+CSRCNAME11=STEPS
+CTARGNAME11=STEPS
+C12=0100010009000000
+CSRCNAME12=PULSES
+CTARGNAME12=PULSES
+C13=020001000A000000
+CSRCNAME13=ACCENTS
+CTARGNAME13=ACCENTS
+C14=030001000B000000
+CSRCNAME14=GEN
+CTARGNAME14=GENERATE
+C15=070001000C000000
+CSRCNAME15=CLR
+CTARGNAME15=CLEAR
+C16=060001000D000000
+CSRCNAME16=ROT
+CTARGNAME16=ROTATE
+C17=1200000011000000
+CSRCNAME17=STEPS
+CTARGNAME17=IN
+C18=1800000013000000
+CSRCNAME18=PULSES
+CTARGNAME18=IN
+C19=1900000014000000
+CSRCNAME19=ACCENTS
+CTARGNAME19=IN
+C20=0E00000015000000
+CSRCNAME20=GENERATE
+CTARGNAME20=IN
+C21=0F00000016000000
+CSRCNAME21=CLEAR
+CTARGNAME21=IN
+C22=1000000017000000
+CSRCNAME22=ROTATE
+CTARGNAME22=IN
+C23=060001001A000000
+CSRCNAME23=ROT
+CTARGNAME23=CURRENT VALUE
+C24=060006001A000100
+CSRCNAME24=OFF VALUE
+CTARGNAME24=OFF VALUE
+C25=060050001A000300
+CSRCNAME25=CONTROL TYPE
+CTARGNAME25=CONTROL TYPE
+C26=060051001A000400
+CSRCNAME26=CONTROL NUM
+CTARGNAME26=CONTROL NUM
+C27=06004F001A000200
+CSRCNAME27=CHANNEL
+CTARGNAME27=CHANNEL
+C28=000001001B000300
+CSRCNAME28=STEPS
+CTARGNAME28=MAX
+C29=1B0001001C000000
+CSRCNAME29=KNOB 7
+CTARGNAME29=OUT
+NBCO=30
+
+[PA-2-CLONES-2-80-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=103
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-CLONES-2-80-0]
+UID=72559354
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=32
+Vmin=2
+Vmax=64
+Tcaption=steps
+COLcolor=cl3
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.213793709874153
+Vmouse y=0.960346102714539
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-80-0faderSE]
+UID=72559313
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=65
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl3
+back knob cursor color=clDarkPanelBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-0mouse dwnSE]
+UID=72560105
+
+[PA-2-CLONES-2-80-0dbl clickSE]
+UID=72560142
+
+[PA-2-CLONES-2-80-0mouse xSE]
+UID=72560175
+
+[PA-2-CLONES-2-80-0mouse ySE]
+UID=72560211
+
+[PA-2-CLONES-2-80-1]
+UID=72560513
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=1
+Vmin=1
+Vmax=32
+Tcaption=pulses
+COLcolor=cl6
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.768966794013977
+Vauto reset=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-80-1faderSE]
+UID=72560477
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=130
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl6
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-1mouse dwnSE]
+UID=72561075
+
+[PA-2-CLONES-2-80-1dbl clickSE]
+UID=72561112
+
+[PA-2-CLONES-2-80-1mouse xSE]
+UID=72561144
+
+[PA-2-CLONES-2-80-1mouse ySE]
+UID=72561181
+
+[PA-2-CLONES-2-80-2]
+UID=72561491
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=1
+Vmin=1
+Vmax=1
+Tcaption=accents
+COLcolor=4294901760
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.696552336215973
+Vmouse y=0.996553003787994
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-80-2faderSE]
+UID=72561455
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=65
+top=130
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=4294901760
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-2mouse dwnSE]
+UID=72562069
+
+[PA-2-CLONES-2-80-2dbl clickSE]
+UID=72562106
+
+[PA-2-CLONES-2-80-2mouse xSE]
+UID=72562138
+
+[PA-2-CLONES-2-80-2mouse ySE]
+UID=72562175
+
+[PA-2-CLONES-2-80-3]
+UID=72562493
+once in poly=0
+INDEXvisible=4
+Tcaption=gen
+COLcolor=cl6
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.266670972108841
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-80-3buttonSE]
+UID=72562456
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=7.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=cl6
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-3mouse dwnSE]
+UID=72562802
+
+[PA-2-CLONES-2-80-3dbl clickSE]
+UID=72562842
+
+[PA-2-CLONES-2-80-3mouse xSE]
+UID=72562875
+
+[PA-2-CLONES-2-80-3mouse ySE]
+UID=72562912
+
+[PA-2-CLONES-2-80-4]
+UID=14816168
+Vin=32
+Vout=0
+
+[PA-2-CLONES-2-80-5]
+UID=14816173
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-80-6]
+UID=72563238
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vswitch=1
+Tcaption=rot
+COLcolor=cl11
+VON value=1
+VOFF value=0
+Vnull evt if OFF=0
+INDEXgroup=0
+Vat least one=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.789474666118622
+Vmouse y=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-80-6switchSE]
+UID=72563185
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=87.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=1
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=clControlBorder
+border OFF color=clControlBorder
+show small led=0
+small led size=8
+small led ON color=cl7
+small led OFF color=cl8
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-6mouse dwnSE]
+UID=72563823
+
+[PA-2-CLONES-2-80-6dbl clickSE]
+UID=72563864
+
+[PA-2-CLONES-2-80-6mouse xSE]
+UID=72563900
+
+[PA-2-CLONES-2-80-6mouse ySE]
+UID=72563937
+
+[PA-2-CLONES-2-80-7]
+UID=72564227
+once in poly=0
+INDEXvisible=4
+Tcaption=clr
+COLcolor=4289331200
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.444736927747726
+Vmouse y=0
+Vallow drop=0
+
+[PA-2-CLONES-2-80-7buttonSE]
+UID=72564187
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=47.5
+top=260
+width=40
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4289331200
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-7mouse dwnSE]
+UID=72564540
+
+[PA-2-CLONES-2-80-7dbl clickSE]
+UID=72564581
+
+[PA-2-CLONES-2-80-7mouse xSE]
+UID=72564617
+
+[PA-2-CLONES-2-80-7mouse ySE]
+UID=72564658
+
+[PA-2-CLONES-2-80-8]
+UID=14816183
+once in poly=0
+Vdata=32
+Tcaption=steps
+INDEXprec=1
+
+[PA-2-CLONES-2-80-9]
+UID=14816188
+once in poly=0
+Vdata=1
+Tcaption=pulses
+INDEXprec=1
+
+[PA-2-CLONES-2-80-10]
+UID=14816193
+once in poly=0
+Vdata=1
+Tcaption=accents
+INDEXprec=1
+
+[PA-2-CLONES-2-80-11]
+UID=14816194
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-CLONES-2-80-12]
+UID=14816199
+once in poly=0
+Vdata=0
+Tcaption=clear
+INDEXprec=1
+
+[PA-2-CLONES-2-80-13]
+UID=14816200
+once in poly=0
+Vdata=1
+Tcaption=rotate
+INDEXprec=1
+
+[PA-2-CLONES-2-80-14]
+UID=14816205
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-CLONES-2-80-15]
+UID=14816206
+once in poly=0
+Vdata=0
+Tcaption=clear
+INDEXprec=1
+
+[PA-2-CLONES-2-80-16]
+UID=14816211
+once in poly=0
+Vdata=1
+Tcaption=rotate
+INDEXprec=1
+
+[PA-2-CLONES-2-80-17]
+UID=14816216
+Vin=32
+Vout=32
+
+[PA-2-CLONES-2-80-18]
+UID=14816217
+once in poly=0
+Vdata=32
+Tcaption=steps
+INDEXprec=0
+
+[PA-2-CLONES-2-80-19]
+UID=14816222
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-80-20]
+UID=14816223
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-80-21]
+UID=14816228
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-80-22]
+UID=14816229
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-80-23]
+UID=14816234
+Vin=1
+Vout=1
+
+[PA-2-CLONES-2-80-24]
+UID=14816239
+once in poly=0
+Vdata=0
+Tcaption=pulses
+INDEXprec=0
+
+[PA-2-CLONES-2-80-25]
+UID=14816240
+once in poly=0
+Vdata=0
+Tcaption=accents
+INDEXprec=0
+
+[PA-2-CLONES-2-80-26]
+UID=14816245
+name=midi control led mapper
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=0
+INDEXlist=3
+SZDlist=0
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-CLONES-2-80-26listSE]
+UID=72565659
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=100
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=2
+caption font name=Arial
+show poly order=1
+show scroller=1
+scroller color=clListBoxScroll
+scroller width=10
+items font color=clFont
+select color=clSwitchOn
+text align=1
+items size=14
+display line number=0
+hide filname path=0
+hide filename ext=0
+drag mode=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-26mouse dwnSE]
+UID=40447973
+
+[PA-2-CLONES-2-80-26dbl clickSE]
+UID=40448014
+
+[PA-2-CLONES-2-80-26mouse xSE]
+UID=40448056
+
+[PA-2-CLONES-2-80-26mouse ySE]
+UID=40448105
+
+[PA-2-CLONES-2-80-26CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=23
+width=110
+height=20
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=1
+HeightBeforeMinimize=70
+WidthBeforeMinimize=110
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=midi control led mapper
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-80-26CTRL]
+UID=40444781
+VISIBLE=1
+MINIMIZED=1
+
+[PA-2-CLONES-2-80-26CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80-26CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80-26-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Library\hollyhock-library\utils\midi control led mapper.pat
+ORIGINDEVICE=
+NBPG=30
+OFFSETX=-40
+OFFSETY=-340
+UID=72564920
+ID0=20
+L0=124
+T0=344
+ID1=20
+L1=126
+T1=264
+ID2=20
+L2=126
+T2=304
+ID3=20
+L3=126
+T3=383
+ID4=20
+L4=120
+T4=437
+ID5=78
+L5=890
+T5=480
+ID6=29
+L6=652
+T6=507
+ID7=106
+L7=609
+T7=904
+ID8=38
+L8=608
+T8=628
+ID9=29
+L9=517
+T9=676
+ID10=118
+L10=1071
+T10=462
+ID11=165
+L11=743
+T11=369
+ID12=79
+L12=547
+T12=370
+ID13=234
+L13=551
+T13=407
+ID14=45
+L14=516
+T14=607
+ID15=29
+L15=327
+T15=265
+ID16=177
+L16=581
+T16=548
+ID17=49
+L17=326
+T17=310
+ID18=29
+L18=245
+T18=411
+ID19=157
+L19=408
+T19=302
+ID20=90
+L20=591
+T20=789
+ID21=103
+L21=602
+T21=830
+ID22=71
+L22=868
+T22=731
+ID23=352
+L23=575
+T23=1002
+ID24=88
+L24=394
+T24=1000
+ID25=219
+L25=759
+T25=936
+ID26=29
+L26=328
+T26=376
+ID27=49
+L27=330
+T27=415
+ID28=29
+L28=244
+T28=484
+ID29=157
+L29=415
+T29=392
+C0=0600000005000100
+CSRCNAME0=OUT
+CTARGNAME0=CHAN
+C1=0800020005000400
+CSRCNAME1=OUT
+CTARGNAME1=CODE2
+C2=0400000005000300
+CSRCNAME2=IN
+CTARGNAME2=CODE1
+C3=1000010005000200
+CSRCNAME3=LIST 1
+CTARGNAME3=MSG TYPE
+C4=1600010005000500
+CSRCNAME4=OUT
+CTARGNAME4=CREATE
+C5=0100000007000000
+CSRCNAME5=IN
+CTARGNAME5=IN
+C6=0900000008000100
+CSRCNAME6=OUT
+CTARGNAME6=B
+C7=0E00020008000000
+CSRCNAME7=OUT
+CTARGNAME7=A
+C8=050000000A000100
+CSRCNAME8=OUT
+CTARGNAME8=SEND BUS
+C9=0B0002000A000000
+CSRCNAME9=STRING OUT
+CTARGNAME9=NAME
+C10=0C0001000B000000
+CSRCNAME10=TEXT
+CTARGNAME10=STRING 1
+C11=0D0001000B000100
+CSRCNAME11=OUT
+CTARGNAME11=STRING 2
+C12=000000000D000000
+CSRCNAME12=IN
+CTARGNAME12=IN
+C13=020000000E000000
+CSRCNAME13=IN
+CTARGNAME13=A
+C14=010000000E000100
+CSRCNAME14=IN
+CTARGNAME14=B
+C15=1300010010000100
+CSRCNAME15=OUT
+CTARGNAME15=LIST 1
+C16=1D00010010000100
+CSRCNAME16=OUT
+CTARGNAME16=LIST 1
+C17=1200000011000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=0300000011000000
+CSRCNAME18=IN
+CTARGNAME18=A
+C19=1100020013000200
+CSRCNAME19=OUT
+CTARGNAME19=PASS
+C20=0F00000013000000
+CSRCNAME20=OUT
+CTARGNAME20=IN
+C21=0700010016000000
+CSRCNAME21=OUT
+CTARGNAME21=IN
+C22=1500000016000000
+CSRCNAME22=OUT
+CTARGNAME22=IN
+C23=1400000016000000
+CSRCNAME23=OUT
+CTARGNAME23=IN
+C24=1900010016000000
+CSRCNAME24=OUT
+CTARGNAME24=IN
+C25=1800000017000000
+CSRCNAME25=OUT
+CTARGNAME25=NUM RACK
+C26=1700070019000000
+CSRCNAME26=ON
+CTARGNAME26=IN
+C27=1C0000001B000100
+CSRCNAME27=OUT
+CTARGNAME27=B
+C28=030000001B000000
+CSRCNAME28=IN
+CTARGNAME28=A
+C29=1B0002001D000200
+CSRCNAME29=OUT
+CTARGNAME29=PASS
+C30=1A0000001D000000
+CSRCNAME30=OUT
+CTARGNAME30=IN
+NBCO=31
+
+[PA-2-CLONES-2-80-26-PASE]
+name=midi control led mapper
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=23
+width=110
+height=20
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=1
+HeightBeforeMinimize=70
+WidthBeforeMinimize=110
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-CLONES-2-80-26-0]
+UID=14816250
+once in poly=0
+Vdata=1
+Tcaption=channel
+INDEXprec=0
+
+[PA-2-CLONES-2-80-26-1]
+UID=14816255
+once in poly=0
+Vdata=1
+Tcaption=current value
+INDEXprec=2
+
+[PA-2-CLONES-2-80-26-2]
+UID=14816260
+once in poly=0
+Vdata=0
+Tcaption=off value
+INDEXprec=1
+
+[PA-2-CLONES-2-80-26-3]
+UID=14816261
+once in poly=0
+Vdata=0
+Tcaption=control type
+INDEXprec=0
+
+[PA-2-CLONES-2-80-26-4]
+UID=14816266
+once in poly=0
+Vdata=0
+Tcaption=control num
+INDEXprec=0
+
+[PA-2-CLONES-2-80-26-5]
+UID=14816267
+INDEXchan=1
+INDEXmsg=3
+Vcode1=0
+Vcode2=127
+COLLAPS=2
+
+[PA-2-CLONES-2-80-26-6]
+UID=14816272
+Vout=1
+
+[PA-2-CLONES-2-80-26-7]
+UID=14816281
+Vin=1
+Vout=0
+
+[PA-2-CLONES-2-80-26-8]
+UID=14816282
+VA=1
+VB=127
+
+[PA-2-CLONES-2-80-26-9]
+UID=14816287
+Vout=127
+
+[PA-2-CLONES-2-80-26-10]
+UID=14816292
+Tname=MAPMIDIBUS-1
+INDEXtarget=0
+Von=1
+COLLAPS=2
+
+[PA-2-CLONES-2-80-26-11]
+UID=14816296
+TString 1=MAPMIDIBUS-
+TString 2=1
+TString out=MAPMIDIBUS-1
+
+[PA-2-CLONES-2-80-26-12]
+UID=72565024
+text=MAPMIDIBUS-
+INDEXvisible=0
+COLcolor=clControlBack
+COLfont color=clFont
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+Vallow drop=0
+TXT=MAPMIDIBUS-
+
+[PA-2-CLONES-2-80-26-12textSE]
+UID=72565108
+
+[PA-2-CLONES-2-80-26-12mouse dwnSE]
+UID=72565275
+
+[PA-2-CLONES-2-80-26-12dbl clickSE]
+UID=72565312
+
+[PA-2-CLONES-2-80-26-12mouse xSE]
+UID=72565352
+
+[PA-2-CLONES-2-80-26-12mouse ySE]
+UID=72565393
+
+[PA-2-CLONES-2-80-26-12CTRLSE]
+UID=72564980
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=56
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=4
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clControlBorder
+show toolbar=1
+toolbar size=16
+auto record on click=0
+is playing record=0
+text font size=10
+text font color=clFont
+text left margin=0
+
+[PA-2-CLONES-2-80-26-12CTRL]
+UID=72564980
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-80-26-13]
+UID=14816302
+Vin=1
+Tout=1
+
+[PA-2-CLONES-2-80-26-14]
+UID=14816311
+VA=0
+VB=1
+Vout=1
+Vblock=0
+
+[PA-2-CLONES-2-80-26-15]
+UID=14816312
+Vout=0
+
+[PA-2-CLONES-2-80-26-16]
+UID=72565699
+saved in preset=1
+can be randomized=1
+once in poly=0
+edition=note ON,note OFF,key after touch,control change,program change,chan after touch,pitch bend,begin sysex,MTC quarter frame,song pos PTR,song select,end sysex,timing clock,start,continue,stop,active sensing,system reset
+INDEXvisible=0
+INDEXlist=3
+SZDlist=0
+Tcaption=msg type
+Ttext=control change
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.901960790157318
+Vmouse y=1
+Vallow drop=0
+LIST=note ON,note OFF,key after touch,control change,program change,chan after touch,pitch bend,begin sysex,MTC quarter frame,song pos PTR,song select,end sysex,timing clock,start,continue,stop,active sensing,system reset
+
+[PA-2-CLONES-2-80-26-16listSE]
+UID=72565659
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=3
+top=23
+width=161
+height=100
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=2
+caption font name=Arial
+show poly order=1
+show scroller=1
+scroller color=clListBoxScroll
+scroller width=10
+items font color=clFont
+select color=clSwitchOn
+text align=1
+items size=14
+display line number=0
+hide filname path=0
+hide filename ext=0
+drag mode=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-26-16mouse dwnSE]
+UID=72566075
+
+[PA-2-CLONES-2-80-26-16dbl clickSE]
+UID=72566112
+
+[PA-2-CLONES-2-80-26-16mouse xSE]
+UID=72566152
+
+[PA-2-CLONES-2-80-26-16mouse ySE]
+UID=72566193
+
+[PA-2-CLONES-2-80-26-17]
+UID=14816322
+VA=0
+VB=144
+Vout=0
+Vblock=0
+
+[PA-2-CLONES-2-80-26-18]
+UID=14816327
+Vout=144
+
+[PA-2-CLONES-2-80-26-19]
+UID=14816332
+Vin=0
+Vout=0
+Vpass=0
+
+[PA-2-CLONES-2-80-26-20]
+UID=14816337
+Vout=0
+COLLAPS=2
+
+[PA-2-CLONES-2-80-26-21]
+UID=14816338
+Vout=0
+COLLAPS=1
+
+[PA-2-CLONES-2-80-26-22]
+UID=14816343
+Vout=0
+
+[PA-2-CLONES-2-80-26-23]
+SELECT=1
+
+[PA-2-CLONES-2-80-26-24]
+UID=14816357
+Vout=1
+
+[PA-2-CLONES-2-80-26-25]
+UID=14816358
+Vin=1
+Vout=0
+
+[PA-2-CLONES-2-80-26-26]
+UID=14816363
+Vout=3
+
+[PA-2-CLONES-2-80-26-27]
+UID=14816368
+VA=0
+VB=176
+Vout=0
+Vblock=0
+
+[PA-2-CLONES-2-80-26-28]
+UID=14816373
+Vout=176
+
+[PA-2-CLONES-2-80-26-29]
+UID=14816374
+Vin=3
+Vout=3
+Vpass=0
+
+[PA-2-CLONES-2-80-26-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=23
+width=110
+height=20
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=1
+HeightBeforeMinimize=70
+WidthBeforeMinimize=110
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=midi control led mapper
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-80-26-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80-26-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80-27]
+UID=72566503
+saved in preset=1
+can be randomized=1
+once in poly=0
+INDEXvisible=4
+Vfader=0
+Vmin=-32
+Vmax=32
+Tcaption=offset
+COLcolor=cl16
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.748276174068451
+Vauto reset=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-80-27faderSE]
+UID=72566459
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=195
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=1
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl16
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-80-27mouse dwnSE]
+UID=72567140
+
+[PA-2-CLONES-2-80-27dbl clickSE]
+UID=72567181
+
+[PA-2-CLONES-2-80-27mouse xSE]
+UID=72567221
+
+[PA-2-CLONES-2-80-27mouse ySE]
+UID=72567262
+
+[PA-2-CLONES-2-80-28]
+UID=51836930
+once in poly=0
+Vdata=0
+Tcaption=offset
+INDEXprec=0
+
+[PA-2-CLONES-2-80-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=103
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-80-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-80-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-81]
+UID=16143258
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=1
+Vfader=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-CLONES-2-81faderSE]
+UID=72573336
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=65
+top=285
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl23
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81mouse dwnSE]
+UID=56480473
+
+[PA-2-CLONES-2-81dbl clickSE]
+UID=56480511
+
+[PA-2-CLONES-2-81mouse xSE]
+UID=56480552
+
+[PA-2-CLONES-2-81mouse ySE]
+UID=56480594
+
+[PA-2-CLONES-2-81CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=183
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-81CTRL]
+UID=16143080
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-81CTRLTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-81CTRLTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-81-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Temp\patch.tmp
+ORIGINDEVICE=
+NBPG=26
+OFFSETX=-81
+OFFSETY=223
+UID=72567571
+ID0=175
+L0=692
+T0=58
+ID1=21
+L1=854
+T1=83
+ID2=175
+L2=695
+T2=184
+ID3=21
+L3=1045
+T3=183
+ID4=175
+L4=700
+T4=452
+ID5=21
+L5=915
+T5=469
+ID6=175
+L6=693
+T6=500
+ID7=21
+L7=922
+T7=516
+ID8=175
+L8=703
+T8=547
+ID9=21
+L9=920
+T9=567
+ID10=156
+L10=547
+T10=58
+ID11=20
+L11=386
+T11=87
+ID12=156
+L12=520
+T12=178
+ID13=156
+L13=484
+T13=342
+ID14=156
+L14=479
+T14=405
+ID15=156
+L15=472
+T15=472
+ID16=20
+L16=386
+T16=183
+ID17=20
+L17=317
+T17=331
+ID18=20
+L18=292
+T18=409
+ID19=20
+L19=300
+T19=485
+ID20=175
+L20=531
+T20=266
+ID21=35
+L21=961
+T21=257
+ID22=57
+L22=769
+T22=281
+ID23=19
+L23=626
+T23=243
+ID24=20
+L24=317
+T24=260
+ID25=23
+L25=882
+T25=325
+C0=0A00010000000100
+CSRCNAME0=OUT
+CTARGNAME0=KNOB 1
+C1=0000010001000000
+CSRCNAME1=KNOB 1
+CTARGNAME1=OUT
+C2=0C00010002000100
+CSRCNAME2=OUT
+CTARGNAME2=KNOB 2
+C3=1500020003000000
+CSRCNAME3=OUT
+CTARGNAME3=OUT
+C4=0D00010004000100
+CSRCNAME4=OUT
+CTARGNAME4=KNOB 3
+C5=0400010005000000
+CSRCNAME5=KNOB 3
+CTARGNAME5=OUT
+C6=0E00010006000100
+CSRCNAME6=OUT
+CTARGNAME6=KNOB 4
+C7=0600010007000000
+CSRCNAME7=KNOB 4
+CTARGNAME7=OUT
+C8=0F00010008000100
+CSRCNAME8=OUT
+CTARGNAME8=KNOB 5
+C9=0800010009000000
+CSRCNAME9=KNOB 5
+CTARGNAME9=OUT
+C10=0B0000000A000000
+CSRCNAME10=IN
+CTARGNAME10=IN
+C11=100000000C000000
+CSRCNAME11=IN
+CTARGNAME11=IN
+C12=110000000D000000
+CSRCNAME12=IN
+CTARGNAME12=IN
+C13=120000000E000000
+CSRCNAME13=IN
+CTARGNAME13=IN
+C14=130000000F000000
+CSRCNAME14=IN
+CTARGNAME14=IN
+C15=0200010015000000
+CSRCNAME15=KNOB 2
+CTARGNAME15=A
+C16=1900010015000100
+CSRCNAME16=OUT
+CTARGNAME16=B
+C17=1400010016000300
+CSRCNAME17=KNOB 6
+CTARGNAME17=MAX
+C18=1700010016000200
+CSRCNAME18=OUT
+CTARGNAME18=MIN
+C19=1800000016000800
+CSRCNAME19=IN
+CTARGNAME19=GENERATE
+C20=1400010017000000
+CSRCNAME20=KNOB 6
+CTARGNAME20=IN
+C21=1600000019000000
+CSRCNAME21=OUT
+CTARGNAME21=IN
+NBCO=22
+
+[PA-2-CLONES-2-81-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=183
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-CLONES-2-81-0]
+UID=72567660
+saved in preset=1
+can be randomized=1
+once in poly=0
+INDEXvisible=4
+Vfader=8
+Vmin=1
+Vmax=64
+Tcaption=bpc
+COLcolor=cl11
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.85862135887146
+Vmouse y=0.013793813996017
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-81-0faderSE]
+UID=72567619
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=0
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl11
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81-0mouse dwnSE]
+UID=72568320
+
+[PA-2-CLONES-2-81-0dbl clickSE]
+UID=72568365
+
+[PA-2-CLONES-2-81-0mouse xSE]
+UID=72568405
+
+[PA-2-CLONES-2-81-0mouse ySE]
+UID=72568454
+
+[PA-2-CLONES-2-81-1]
+UID=16143296
+once in poly=0
+Vdata=8
+Tcaption=bpc
+INDEXprec=1
+
+[PA-2-CLONES-2-81-2]
+UID=72569202
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=36
+Vmin=0
+Vmax=127
+Tcaption=note
+COLcolor=cl18
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.00344890356063843
+Vmouse y=0.146552428603172
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-81-2faderSE]
+UID=72569000
+edit enabled=1
+on top=1
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=70
+top=0
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl18
+back knob cursor color=clDarkPanelBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81-2mouse dwnSE]
+UID=72570073
+
+[PA-2-CLONES-2-81-2dbl clickSE]
+UID=72570117
+
+[PA-2-CLONES-2-81-2mouse xSE]
+UID=72570162
+
+[PA-2-CLONES-2-81-2mouse ySE]
+UID=72570202
+
+[PA-2-CLONES-2-81-3]
+UID=16143306
+once in poly=0
+Vdata=36
+Tcaption=note
+INDEXprec=1
+
+[PA-2-CLONES-2-81-4]
+UID=72570571
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=8
+Vmin=1
+Vmax=128
+Tcaption=r after
+COLcolor=cl11
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.391380667686462
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-81-4faderSE]
+UID=72570531
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=5
+top=285
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl11
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81-4mouse dwnSE]
+UID=72571469
+
+[PA-2-CLONES-2-81-4dbl clickSE]
+UID=72571518
+
+[PA-2-CLONES-2-81-4mouse xSE]
+UID=72571562
+
+[PA-2-CLONES-2-81-4mouse ySE]
+UID=72571808
+
+[PA-2-CLONES-2-81-5]
+UID=16143312
+once in poly=0
+Vdata=8
+Tcaption=r after
+INDEXprec=1
+
+[PA-2-CLONES-2-81-6]
+UID=72572181
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=84
+Vmin=0
+Vmax=127
+Tcaption=base vel
+COLcolor=cl8
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.894828200340271
+Vmouse y=0.922415018081665
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-81-6faderSE]
+UID=72572137
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=70
+top=65
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl8
+back knob cursor color=clDarkPanelBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81-6mouse dwnSE]
+UID=72572866
+
+[PA-2-CLONES-2-81-6dbl clickSE]
+UID=72572914
+
+[PA-2-CLONES-2-81-6mouse xSE]
+UID=72572955
+
+[PA-2-CLONES-2-81-6mouse ySE]
+UID=72572999
+
+[PA-2-CLONES-2-81-7]
+UID=16143322
+once in poly=0
+Vdata=84
+Tcaption=base vel
+INDEXprec=1
+
+[PA-2-CLONES-2-81-8]
+UID=72573380
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=1
+Vmin=-32
+Vmax=32
+Tcaption=r steps
+COLcolor=cl23
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.734483361244202
+Vmouse y=0
+Vauto reset=0
+Vallow drop=0
+
+[PA-2-CLONES-2-81-8faderSE]
+UID=72573336
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=65
+top=285
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=1
+knob color=cl23
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81-8mouse dwnSE]
+UID=72574472
+
+[PA-2-CLONES-2-81-8dbl clickSE]
+UID=72574520
+
+[PA-2-CLONES-2-81-8mouse xSE]
+UID=72574565
+
+[PA-2-CLONES-2-81-8mouse ySE]
+UID=72574609
+
+[PA-2-CLONES-2-81-9]
+UID=16143328
+once in poly=0
+Vdata=1
+Tcaption=r steps
+INDEXprec=1
+
+[PA-2-CLONES-2-81-10]
+UID=16143333
+Vin=8
+Vout=8
+
+[PA-2-CLONES-2-81-11]
+UID=16143334
+once in poly=0
+Vdata=8
+Tcaption=bpc
+INDEXprec=0
+
+[PA-2-CLONES-2-81-12]
+UID=16143339
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-81-13]
+UID=16143344
+Vin=19
+Vout=19
+
+[PA-2-CLONES-2-81-14]
+UID=16143349
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-81-15]
+UID=16143350
+Vin=-1
+Vout=-1
+
+[PA-2-CLONES-2-81-16]
+UID=16143351
+once in poly=0
+Vdata=0
+Tcaption=note
+INDEXprec=0
+
+[PA-2-CLONES-2-81-17]
+UID=16143355
+once in poly=0
+Vdata=19
+Tcaption=r after
+INDEXprec=0
+
+[PA-2-CLONES-2-81-18]
+UID=16143356
+once in poly=0
+Vdata=0
+Tcaption=base vel
+INDEXprec=0
+
+[PA-2-CLONES-2-81-19]
+UID=16143361
+once in poly=0
+Vdata=-1
+Tcaption=r steps
+INDEXprec=0
+
+[PA-2-CLONES-2-81-20]
+UID=72574998
+saved in preset=0
+can be randomized=0
+once in poly=0
+INDEXvisible=4
+Vfader=0
+Vmin=0
+Vmax=127
+Tcaption=spread
+COLcolor=cl3
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.767241656780243
+Vauto reset=0
+Vallow drop=0
+COLLAPS=1
+
+[PA-2-CLONES-2-81-20faderSE]
+UID=72574954
+edit enabled=1
+on top=1
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=70
+top=195
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show value=1
+value font color=clFont
+value font size factor=1.5
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl3
+back knob cursor color=clControlBorder
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-81-20mouse dwnSE]
+UID=72575706
+
+[PA-2-CLONES-2-81-20dbl clickSE]
+UID=72575751
+
+[PA-2-CLONES-2-81-20mouse xSE]
+UID=72575799
+
+[PA-2-CLONES-2-81-20mouse ySE]
+UID=72575844
+
+[PA-2-CLONES-2-81-21]
+UID=72301829
+VA=36
+VB=0
+Vout=36
+
+[PA-2-CLONES-2-81-22]
+UID=30442797
+Vout=0
+Vmin=0
+Vmax=0
+Vinterval=100
+Vlarge=200
+INDEXcurve=1
+INDEXsync=0
+Vno repeat=1
+Vrepeat size=0
+COLLAPS=1
+
+[PA-2-CLONES-2-81-23]
+UID=21665811
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-81-24]
+UID=56838050
+once in poly=0
+Vdata=0
+Tcaption=generate
+INDEXprec=1
+
+[PA-2-CLONES-2-81-25]
+UID=41831147
+Vin=0
+Vout=0
+
+[PA-2-CLONES-2-81-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=183
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-81-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-81-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-82]
+UID=16155163
+once in poly=1
+Vdata=8
+Tcaption=bpc
+INDEXprec=0
+
+[PA-2-CLONES-2-83]
+UID=16156673
+once in poly=1
+Vdata=19
+Tcaption=r after
+INDEXprec=1
+
+[PA-2-CLONES-2-84]
+UID=16157609
+once in poly=1
+Vdata=-1
+Tcaption=r steps
+INDEXprec=1
+
+[PA-2-CLONES-2-85]
+UID=16158518
+once in poly=1
+Vdata=0
+Tcaption=generate
+INDEXprec=0
+
+[PA-2-CLONES-2-86]
+UID=16159861
+once in poly=1
+Vdata=0
+Tcaption=clear
+INDEXprec=0
+
+[PA-2-CLONES-2-87]
+UID=16160837
+once in poly=1
+Vdata=1
+Tcaption=rotate
+INDEXprec=0
+
+[PA-2-CLONES-2-88]
+UID=28922825
+once in poly=1
+Vdata=32
+Tcaption=steps
+INDEXprec=0
+
+[PA-2-CLONES-2-89]
+UID=36162674
+VA=0
+VB=20
+Vout=20
+
+[PA-2-CLONES-2-90]
+UID=93625280
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-CLONES-2-91]
+UID=92751875
+once in poly=1
+Vdata=1
+Tcaption=on
+INDEXprec=1
+
+[PA-2-CLONES-2-92]
+UID=24643819
+once in poly=1
+Vdata=2
+Tcaption=quantize
+INDEXprec=1
+
+[PA-2-CLONES-2-93]
+UID=37221720
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-CLONES-2-94]
+UID=66341694
+Vin=1
+Vout=1
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-CLONES-2-95]
+UID=68927268
+Vin=0
+Vout=0
+Von=1
+INDEXsync=2
+Vinterval=2000
+
+[PA-2-CLONES-2-96]
+UID=72576253
+saved in preset=0
+can be randomized=0
+once in poly=1
+INDEXvisible=4
+Vswitch=0
+Tcaption=trigger
+COLcolor=cl11
+VON value=1
+VOFF value=0
+Vnull evt if OFF=0
+INDEXgroup=0
+Vat least one=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.977779805660248
+Vmouse y=0.288892954587936
+Vallow drop=0
+
+[PA-2-CLONES-2-96switchSE]
+UID=72576204
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=57
+top=55
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.899999976158142
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+fit size=0
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=cl11
+border OFF color=clControlBorder
+led=1
+led size=16
+led at left=0
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-2-CLONES-2-96mouse dwnSE]
+UID=72576902
+
+[PA-2-CLONES-2-96dbl clickSE]
+UID=72576950
+
+[PA-2-CLONES-2-96mouse xSE]
+UID=72576994
+
+[PA-2-CLONES-2-96mouse ySE]
+UID=72577039
+
+[PA-2-CLONES-2-97]
+UID=46122466
+Vindex=0
+Vvalue=0
+
+[PA-2-CLONES-2-98]
+UID=46123491
+Vindex=0
+Vvalue=0
+
+[PA-2-CLONES-2-99]
+UID=46124268
+Vindex=0
+Vvalue=0
+
+[PA-2-CLONES-2-100]
+UID=46124839
+Vindex=0
+Vvalue=0
+
+[PA-2-CLONES-2-101]
+UID=46125743
+VA=0
+VB=1
+Vout=0
+Vblock=0
+
+[PA-2-CLONES-2-102]
+UID=46126380
+VA=0
+VB=1
+Vout=0
+Vblock=0
+
+[PA-2-CLONES-2-103]
+UID=46126875
+Vout=20
+
+[PA-2-CLONES-2-104]
+UID=46127332
+Vout=1
+
+[PA-2-CLONES-2-105]
+UID=46127842
+Vsize=0
+
+[PA-2-CLONES-2-106]
+UID=46128336
+Vsize=0
+
+[PA-2-CLONES-2-107]
+UID=46128881
+Vin=1
+Vout=0
+
+[PA-2-CLONES-2-108]
+UID=46129450
+Vin=0
+Vout=1
+
+[PA-2-CLONES-2-109]
+UID=46129975
+Vin=0
+Vout=1
+
+[PA-2-CLONES-2-110]
+UID=59615098
+once in poly=0
+Vdata=125
+Tcaption=note length
+INDEXprec=1
+
+[PA-2-CLONES-2-111]
+UID=88470047
+Vin=360
+Vout=360
+
+[PA-2-CLONES-2-112]
+UID=11882224
+Vin=20
+Vout=20
+
+[PA-2-CLONES-2-113]
+UID=1697576
+VA=20
+VB=2
+Vout=10
+
+[PA-2-CLONES-2-114]
+UID=64876502
+Vout=2
+
+[PA-2-CLONES-2-115]
+UID=39501537
+VA=20
+VB=10
+Vout=30
+
+[PA-2-CLONES-2-116]
+UID=82922786
+VA=360
+VB=20
+Vout=340
+
+[PA-2-CLONES-2-117]
+UID=88274154
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+NBCLONES=1
+
+[PA-2-CLONES-2-117mouse dwnSE]
+UID=88274549
+
+[PA-2-CLONES-2-117dbl clickSE]
+UID=88274590
+
+[PA-2-CLONES-2-117mouse xSE]
+UID=88274628
+
+[PA-2-CLONES-2-117mouse ySE]
+UID=88274669
+
+[PA-2-CLONES-2-117CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=-1920
+top=-1077
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-117CTRL]
+UID=88271480
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-117-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Resources\Modules\All Modules\Empty SubPatch.pat
+ORIGINDEVICE=
+NBPG=23
+OFFSETX=199
+OFFSETY=123
+UID=72577313
+ID0=208
+L0=1295
+T0=294
+ID1=20
+L1=157
+T1=253
+ID2=20
+L2=158
+T2=205
+ID3=334
+L3=1034
+T3=-143
+ID4=37
+L4=552
+T4=231
+ID5=29
+L5=188
+T5=426
+ID6=37
+L6=548
+T6=370
+ID7=29
+L7=321
+T7=540
+ID8=29
+L8=136
+T8=-48
+ID9=36
+L9=755
+T9=200
+ID10=36
+L10=562
+T10=152
+ID11=20
+L11=138
+T11=314
+ID12=20
+L12=-92
+T12=1
+ID13=20
+L13=-163
+T13=143
+QIDX14=0
+ID14=355
+L14=135
+T14=101
+ID15=36
+L15=64
+T15=3
+ID16=29
+L16=-34
+T16=95
+ID17=36
+L17=-40
+T17=343
+ID18=19
+L18=35
+T18=196
+ID19=35
+L19=348
+T19=175
+ID20=29
+L20=181
+T20=172
+ID21=19
+L21=258
+T21=119
+ID22=20
+L22=143
+T22=361
+C0=0100000000001100
+CSRCNAME0=IN
+CTARGNAME0=WIDTH
+C1=0100000000001200
+CSRCNAME1=IN
+CTARGNAME1=HEIGHT
+C2=0200000000000F00
+CSRCNAME2=IN
+CTARGNAME2=LEFT
+C3=0200000000001000
+CSRCNAME3=IN
+CTARGNAME3=TOP
+C4=1300020000000E00
+CSRCNAME4=OUT
+CTARGNAME4=ROTATION ANGLE
+C5=0800000003001200
+CSRCNAME5=OUT
+CTARGNAME5=WIDTH
+C6=0800000003001300
+CSRCNAME6=OUT
+CTARGNAME6=HEIGHT
+C7=0A00020003001100
+CSRCNAME7=OUT
+CTARGNAME7=TOP
+C8=0900020003001000
+CSRCNAME8=OUT
+CTARGNAME8=LEFT
+C9=0B00000003002500
+CSRCNAME9=IN
+CTARGNAME9=BACKGROUND COLOR
+C10=0B00000003002B00
+CSRCNAME10=IN
+CTARGNAME10=BORDER COLOR
+C11=1600000003002400
+CSRCNAME11=IN
+CTARGNAME11=TRANSPARENT
+C12=0100000004000000
+CSRCNAME12=IN
+CTARGNAME12=A
+C13=0500000004000100
+CSRCNAME13=OUT
+CTARGNAME13=B
+C14=0700000006000100
+CSRCNAME14=OUT
+CTARGNAME14=B
+C15=0800000006000000
+CSRCNAME15=OUT
+CTARGNAME15=A
+C16=0400020009000000
+CSRCNAME16=OUT
+CTARGNAME16=A
+C17=0600020009000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=010000000A000000
+CSRCNAME18=IN
+CTARGNAME18=A
+C19=080000000A000100
+CSRCNAME19=OUT
+CTARGNAME19=B
+C20=120001000E000200
+CSRCNAME20=OUT
+CTARGNAME20=Y
+C21=0F0002000E000100
+CSRCNAME21=OUT
+CTARGNAME21=X
+C22=100000000F000100
+CSRCNAME22=OUT
+CTARGNAME22=B
+C23=0C0000000F000000
+CSRCNAME23=IN
+CTARGNAME23=A
+C24=1000000011000100
+CSRCNAME24=OUT
+CTARGNAME24=B
+C25=0D00000011000000
+CSRCNAME25=IN
+CTARGNAME25=A
+C26=1100020012000000
+CSRCNAME26=OUT
+CTARGNAME26=IN
+C27=1400000013000100
+CSRCNAME27=OUT
+CTARGNAME27=B
+C28=1500010013000000
+CSRCNAME28=OUT
+CTARGNAME28=A
+C29=0E00030015000000
+CSRCNAME29=ANGLE
+CTARGNAME29=IN
+NBCO=30
+
+[PA-2-CLONES-2-117-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=-1920
+top=-1077
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-CLONES-2-117-0]
+UID=72577382
+select by=2
+INDEXparent=6
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.889533996582031
+Vmouse y=0.944301009178162
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-CLONES-2-117-0mouse dwnSE]
+UID=72577553
+
+[PA-2-CLONES-2-117-0dbl clickSE]
+UID=72577569
+
+[PA-2-CLONES-2-117-0mouse xSE]
+UID=72577586
+
+[PA-2-CLONES-2-117-0mouse ySE]
+UID=72577603
+
+[PA-2-CLONES-2-117-0CTRLSE]
+UID=72577337
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=1
+rotation angle=-0.625
+left=30
+top=30
+width=340
+height=340
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4291174432
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=clControlBorder
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=0
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=0
+same masses=0
+select by=2
+
+[PA-2-CLONES-2-117-0CTRL]
+UID=72577337
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-117-1]
+UID=70477936
+once in poly=0
+Vdata=340
+Tcaption=size
+INDEXprec=0
+
+[PA-2-CLONES-2-117-2]
+UID=11044909
+once in poly=0
+Vdata=30
+Tcaption=position
+INDEXprec=0
+
+[PA-2-CLONES-2-117-3]
+UID=72577929
+saved in preset=0
+INDEXvisible=4
+Tcaption=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.131252348423004
+Vmouse y=0
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-CLONES-2-117-3mouse dwnSE]
+UID=72578143
+
+[PA-2-CLONES-2-117-3dbl clickSE]
+UID=72578160
+
+[PA-2-CLONES-2-117-3mouse xSE]
+UID=72578177
+
+[PA-2-CLONES-2-117-3mouse ySE]
+UID=72578194
+
+[PA-2-CLONES-2-117-3CTRLSE]
+UID=72577877
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=160
+top=320
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4279327581
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=4279327581
+border width=2
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+shape type=1
+
+[PA-2-CLONES-2-117-3CTRL]
+UID=72577877
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-117-4]
+UID=3669969
+VA=340
+VB=2
+Vout=170
+
+[PA-2-CLONES-2-117-5]
+UID=18910132
+Vout=2
+
+[PA-2-CLONES-2-117-6]
+UID=19120238
+VA=20
+VB=2
+Vout=10
+
+[PA-2-CLONES-2-117-7]
+UID=19120505
+Vout=2
+
+[PA-2-CLONES-2-117-8]
+UID=34575655
+Vout=20
+
+[PA-2-CLONES-2-117-9]
+UID=27459573
+VA=170
+VB=10
+Vout=160
+
+[PA-2-CLONES-2-117-10]
+UID=70467730
+VA=340
+VB=20
+Vout=320
+
+[PA-2-CLONES-2-117-11]
+UID=92712896
+once in poly=0
+Vdata=-1.93212444667033E38
+Tcaption=bg c
+INDEXprec=1
+
+[PA-2-CLONES-2-117-12]
+UID=58811754
+once in poly=0
+Vdata=0
+Tcaption=x
+INDEXprec=1
+
+[PA-2-CLONES-2-117-13]
+UID=85954130
+once in poly=0
+Vdata=0
+Tcaption=y
+INDEXprec=1
+
+[PA-2-CLONES-2-117-14]
+SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,Var InX : tParameter;  ,Var InY : tParameter;,Var Output : tParameter;,var x:double;,var y:double;       ,var o:double;,,// initialisation : create parameters,procedure init;,begin        ,"   InX:= CreateParam('X',PtDataField); ","   SetIsOUTput(InX,FALSE);","   InY:= CreateParam('Y',PtDataField); ","   SetIsOUTput(InY,FALSE);              ","   Output:= CreateParam('Angle',PtDataField); ","   SetIsINput(Output,FALSE);",end;                        ,                 ,// Callback procedure,Procedure Callback(N:integer); ,begin              ,  if (n = InX) OR (n = InY) then begin,    x:=GetValue(InX);,    y:=GetValue(InY);,    o:=0;,    if(x<>0) then begin,      o:=arctan(y/x);,      if(x<0) then begin,        o:=o+PI;,      end;,    end                 ,    else begin,      if(y>=0) then begin,      o:=PI/2; ,      end,      else begin,      o:=-1*(PI/2);,      end;,    end;,    o:=o/(2*PI);,"    SetValue(Output,o);",  end;                                      ,end;,,// Global variables,,//////////////////////////////,// main proc,//////////////////////////////,Procedure Process;,begin,,end;,
+FNAME=D:\Hollyhock\Library\hollyhock-library\scripts\cartesian to polar.fastscript
+UID=72578528
+VX=-0.5
+VY=0.5
+VAngle=0.375
+
+[PA-2-CLONES-2-117-14CTRL]
+UID=72578471
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-117-14CTRLFORM]
+LEFT=774
+TOP=205
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-CLONES-2-117-15]
+UID=19320368
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-CLONES-2-117-16]
+UID=72547438
+Vout=0.5
+
+[PA-2-CLONES-2-117-17]
+UID=52084676
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-CLONES-2-117-18]
+UID=13866386
+Vin=-0.5
+Vout=0.5
+
+[PA-2-CLONES-2-117-19]
+UID=8200248
+VA=-0.375
+VB=-0.25
+Vout=-0.625
+
+[PA-2-CLONES-2-117-20]
+UID=91053883
+Vout=-0.25
+
+[PA-2-CLONES-2-117-21]
+UID=7760528
+Vin=0.375
+Vout=-0.375
+
+[PA-2-CLONES-2-117-22]
+UID=5774019
+once in poly=0
+Vdata=1
+Tcaption=show dot
+INDEXprec=0
+
+[PA-2-CLONES-2-117-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=-1920
+top=-1077
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-118]
+UID=10674361
+name=Empty SubPatch
+nb polyphony=1
+can be randomized=1
+saved in preset=1
+Vdata=1
+INDEXvisible=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0
+COLLAPS=1
+NBCLONES=1
+
+[PA-2-CLONES-2-118mouse dwnSE]
+UID=88274549
+
+[PA-2-CLONES-2-118dbl clickSE]
+UID=88274590
+
+[PA-2-CLONES-2-118mouse xSE]
+UID=88274628
+
+[PA-2-CLONES-2-118mouse ySE]
+UID=88274669
+
+[PA-2-CLONES-2-118CTRLSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=263
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-118CTRL]
+UID=10674147
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-118-]
+PATCHTYPE=9
+VERSION=73
+FNAM=D:\Hollyhock\Temp\patch.tmp
+ORIGINDEVICE=
+NBPG=23
+OFFSETX=199
+OFFSETY=123
+UID=72578754
+ID0=208
+L0=1295
+T0=294
+ID1=20
+L1=157
+T1=253
+ID2=20
+L2=158
+T2=205
+ID3=334
+L3=1034
+T3=-143
+ID4=37
+L4=552
+T4=231
+ID5=29
+L5=188
+T5=426
+ID6=37
+L6=548
+T6=370
+ID7=29
+L7=321
+T7=540
+ID8=29
+L8=136
+T8=-48
+ID9=36
+L9=755
+T9=200
+ID10=36
+L10=562
+T10=152
+ID11=20
+L11=138
+T11=314
+ID12=20
+L12=-92
+T12=1
+ID13=20
+L13=-163
+T13=143
+QIDX14=0
+ID14=355
+L14=135
+T14=101
+ID15=36
+L15=64
+T15=3
+ID16=29
+L16=-34
+T16=95
+ID17=36
+L17=-40
+T17=343
+ID18=19
+L18=35
+T18=196
+ID19=35
+L19=348
+T19=175
+ID20=29
+L20=181
+T20=172
+ID21=19
+L21=258
+T21=119
+ID22=20
+L22=143
+T22=361
+C0=0100000000001100
+CSRCNAME0=IN
+CTARGNAME0=WIDTH
+C1=0100000000001200
+CSRCNAME1=IN
+CTARGNAME1=HEIGHT
+C2=0200000000000F00
+CSRCNAME2=IN
+CTARGNAME2=LEFT
+C3=0200000000001000
+CSRCNAME3=IN
+CTARGNAME3=TOP
+C4=1300020000000E00
+CSRCNAME4=OUT
+CTARGNAME4=ROTATION ANGLE
+C5=0800000003001200
+CSRCNAME5=OUT
+CTARGNAME5=WIDTH
+C6=0800000003001300
+CSRCNAME6=OUT
+CTARGNAME6=HEIGHT
+C7=0A00020003001100
+CSRCNAME7=OUT
+CTARGNAME7=TOP
+C8=0900020003001000
+CSRCNAME8=OUT
+CTARGNAME8=LEFT
+C9=0B00000003002500
+CSRCNAME9=IN
+CTARGNAME9=BACKGROUND COLOR
+C10=0B00000003002B00
+CSRCNAME10=IN
+CTARGNAME10=BORDER COLOR
+C11=1600000003002400
+CSRCNAME11=IN
+CTARGNAME11=TRANSPARENT
+C12=0100000004000000
+CSRCNAME12=IN
+CTARGNAME12=A
+C13=0500000004000100
+CSRCNAME13=OUT
+CTARGNAME13=B
+C14=0700000006000100
+CSRCNAME14=OUT
+CTARGNAME14=B
+C15=0800000006000000
+CSRCNAME15=OUT
+CTARGNAME15=A
+C16=0400020009000000
+CSRCNAME16=OUT
+CTARGNAME16=A
+C17=0600020009000100
+CSRCNAME17=OUT
+CTARGNAME17=B
+C18=010000000A000000
+CSRCNAME18=IN
+CTARGNAME18=A
+C19=080000000A000100
+CSRCNAME19=OUT
+CTARGNAME19=B
+C20=120001000E000200
+CSRCNAME20=OUT
+CTARGNAME20=Y
+C21=0F0002000E000100
+CSRCNAME21=OUT
+CTARGNAME21=X
+C22=100000000F000100
+CSRCNAME22=OUT
+CTARGNAME22=B
+C23=0C0000000F000000
+CSRCNAME23=IN
+CTARGNAME23=A
+C24=1000000011000100
+CSRCNAME24=OUT
+CTARGNAME24=B
+C25=0D00000011000000
+CSRCNAME25=IN
+CTARGNAME25=A
+C26=1100020012000000
+CSRCNAME26=OUT
+CTARGNAME26=IN
+C27=1400000013000100
+CSRCNAME27=OUT
+CTARGNAME27=B
+C28=1500010013000000
+CSRCNAME28=OUT
+CTARGNAME28=A
+C29=0E00030015000000
+CSRCNAME29=ANGLE
+CTARGNAME29=IN
+NBCO=30
+
+[PA-2-CLONES-2-118-PASE]
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+enabled=1
+on top=0
+opacity=1
+left=3
+top=263
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+
+[PA-2-CLONES-2-118-0]
+UID=72578795
+select by=2
+INDEXparent=6
+Tcaption=Container
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.735217094421387
+Vmouse y=0.996014595031738
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-CLONES-2-118-0mouse dwnSE]
+UID=72578974
+
+[PA-2-CLONES-2-118-0dbl clickSE]
+UID=72578991
+
+[PA-2-CLONES-2-118-0mouse xSE]
+UID=72579008
+
+[PA-2-CLONES-2-118-0mouse ySE]
+UID=72579028
+
+[PA-2-CLONES-2-118-0CTRLSE]
+UID=72578778
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=1
+rotation angle=-0.625
+left=30
+top=30
+width=340
+height=340
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4291174432
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=clControlBorder
+border width=0
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=0
+header color=clVeryLitePanelBack
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=0
+same masses=0
+select by=2
+
+[PA-2-CLONES-2-118-0CTRL]
+UID=72578778
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-118-1]
+UID=10674399
+once in poly=0
+Vdata=340
+Tcaption=size
+INDEXprec=0
+
+[PA-2-CLONES-2-118-2]
+UID=10674408
+once in poly=0
+Vdata=30
+Tcaption=position
+INDEXprec=0
+
+[PA-2-CLONES-2-118-3]
+UID=72579323
+saved in preset=0
+INDEXvisible=4
+Tcaption=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0
+Vallow drop=0
+COLLAPS=2
+
+[PA-2-CLONES-2-118-3mouse dwnSE]
+UID=72579545
+
+[PA-2-CLONES-2-118-3dbl clickSE]
+UID=72579562
+
+[PA-2-CLONES-2-118-3mouse xSE]
+UID=72579582
+
+[PA-2-CLONES-2-118-3mouse ySE]
+UID=72579599
+
+[PA-2-CLONES-2-118-3CTRLSE]
+UID=72579302
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=160
+top=320
+width=20
+height=20
+floating x=0
+floating y=0
+ignored in physical engine=1
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=4281309852
+frames count=1
+frames alignment=0
+fit size=0
+show border=0
+border color=4281309852
+border width=2
+rounded=0
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+auto record on click=0
+is playing record=0
+shape type=1
+
+[PA-2-CLONES-2-118-3CTRL]
+UID=72579302
+VISIBLE=1
+MINIMIZED=0
+
+[PA-2-CLONES-2-118-4]
+UID=10674417
+VA=340
+VB=2
+Vout=170
+
+[PA-2-CLONES-2-118-5]
+UID=10674418
+Vout=2
+
+[PA-2-CLONES-2-118-6]
+UID=10674427
+VA=20
+VB=2
+Vout=10
+
+[PA-2-CLONES-2-118-7]
+UID=10674432
+Vout=2
+
+[PA-2-CLONES-2-118-8]
+UID=10674437
+Vout=20
+
+[PA-2-CLONES-2-118-9]
+UID=10674438
+VA=170
+VB=10
+Vout=160
+
+[PA-2-CLONES-2-118-10]
+UID=10674443
+VA=340
+VB=20
+Vout=320
+
+[PA-2-CLONES-2-118-11]
+UID=10674448
+once in poly=0
+Vdata=-2.33417677034473E38
+Tcaption=bg c
+INDEXprec=1
+
+[PA-2-CLONES-2-118-12]
+UID=10674453
+once in poly=0
+Vdata=0
+Tcaption=x
+INDEXprec=1
+
+[PA-2-CLONES-2-118-13]
+UID=10674454
+once in poly=0
+Vdata=0
+Tcaption=y
+INDEXprec=1
+
+[PA-2-CLONES-2-118-14]
+SCRIPTPROC=//////////////////////////,// ,/////////////////////////,// parameters declaration,Var InX : tParameter;  ,Var InY : tParameter;,Var Output : tParameter;,var x:double;,var y:double;       ,var o:double;,,// initialisation : create parameters,procedure init;,begin        ,"   InX:= CreateParam('X',PtDataField); ","   SetIsOUTput(InX,FALSE);","   InY:= CreateParam('Y',PtDataField); ","   SetIsOUTput(InY,FALSE);              ","   Output:= CreateParam('Angle',PtDataField); ","   SetIsINput(Output,FALSE);",end;                        ,                 ,// Callback procedure,Procedure Callback(N:integer); ,begin              ,  if (n = InX) OR (n = InY) then begin,    x:=GetValue(InX);,    y:=GetValue(InY);,    o:=0;,    if(x<>0) then begin,      o:=arctan(y/x);,      if(x<0) then begin,        o:=o+PI;,      end;,    end                 ,    else begin,      if(y>=0) then begin,      o:=PI/2; ,      end,      else begin,      o:=-1*(PI/2);,      end;,    end;,    o:=o/(2*PI);,"    SetValue(Output,o);",  end;                                      ,end;,,// Global variables,,//////////////////////////////,// main proc,//////////////////////////////,Procedure Process;,begin,,end;,
+FNAME=D:\Hollyhock\Library\hollyhock-library\scripts\cartesian to polar.fastscript
+UID=72579905
+VX=-0.5
+VY=0.5
+VAngle=0.375
+
+[PA-2-CLONES-2-118-14CTRL]
+UID=72579881
+VISIBLE=0
+MINIMIZED=0
+
+[PA-2-CLONES-2-118-14CTRLFORM]
+LEFT=774
+TOP=205
+CLIENTWIDTH=600
+CLIENTHEIGHT=700
+
+[PA-2-CLONES-2-118-15]
+UID=10674464
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-CLONES-2-118-16]
+UID=10674469
+Vout=0.5
+
+[PA-2-CLONES-2-118-17]
+UID=10674470
+VA=0
+VB=0.5
+Vout=-0.5
+
+[PA-2-CLONES-2-118-18]
+UID=10674475
+Vin=-0.5
+Vout=0.5
+
+[PA-2-CLONES-2-118-19]
+UID=10674476
+VA=-0.375
+VB=-0.25
+Vout=-0.625
+
+[PA-2-CLONES-2-118-20]
+UID=10674481
+Vout=-0.25
+
+[PA-2-CLONES-2-118-21]
+UID=10674486
+Vin=0.375
+Vout=-0.375
+
+[PA-2-CLONES-2-118-22]
+UID=10674491
+once in poly=0
+Vdata=1
+Tcaption=show dot
+INDEXprec=0
+
+[PA-2-CLONES-2-118-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=263
+width=134.8271484375
+height=70
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4284289297
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show poly order=0
+show header=0
+header height=20
+header color=clDataFlow
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=3
+top=1109
+width=147.8271484375
+height=343
+zoom scale=1
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clVeryLitePanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=4279308561
+border width=0
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=clDataFlow
+show toolbar=1
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=0
+WidthBeforeMinimize=0
+snap to grid=1
+grid size=10
+auto resize=1
+auto resize margin=10
+name=Empty SubPatch
+saved in preset=1
+can be randomized=1
+
+[PA-2-CLONES-2-CPTOOLBARTBENABLESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-CPTOOLBARTBMINIMIZESE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-2-CLONES-2-CPTOOLBARTBPRESETSE]
+inverse=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+
+[PA-3]
+UID=45717590
+INDEXchan=0
+
+[PA-4]
+UID=19400683
+saved in preset=1
+can be randomized=1
+INDEXvisible=7
+Vfader=8
+Vmin=1
+Vmax=64
+Tcaption=bpc
+COLcolor=cl11
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0
+Vmouse y=0.5573770403862
+Vauto reset=0
+Vallow drop=0
+
+[PA-4faderSE]
+UID=19400975
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=210
+top=0
+width=63
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show value=1
+value font color=clFont
+value font size factor=0.800000011920929
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl11
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-4mouse dwnSE]
+UID=19401716
+
+[PA-4dbl clickSE]
+UID=19401746
+
+[PA-4mouse xSE]
+UID=19401776
+
+[PA-4mouse ySE]
+UID=19401801
+
+[PA-5]
+UID=18216685
+saved in preset=1
+can be randomized=1
+INDEXvisible=7
+Vfader=32
+Vmin=2
+Vmax=64
+Tcaption=steps
+COLcolor=cl3
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.984483480453491
+Vmouse y=0.613793134689331
+Vauto reset=0
+Vallow drop=0
+
+[PA-5faderSE]
+UID=18216684
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=210
+top=77
+width=63
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show value=1
+value font color=clFont
+value font size factor=0.800000011920929
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl3
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-5mouse dwnSE]
+UID=91427758
+
+[PA-5dbl clickSE]
+UID=91427988
+
+[PA-5mouse xSE]
+UID=91428147
+
+[PA-5mouse ySE]
+UID=91428310
+
+[PA-6]
+UID=91056021
+saved in preset=1
+can be randomized=1
+INDEXvisible=7
+Vfader=19
+Vmin=1
+Vmax=128
+Tcaption=r after
+COLcolor=cl11
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.163934424519539
+Vauto reset=0
+Vallow drop=0
+
+[PA-6faderSE]
+UID=91056016
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=210
+top=154
+width=63
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show value=1
+value font color=clFont
+value font size factor=0.800000011920929
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl11
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-6mouse dwnSE]
+UID=91057330
+
+[PA-6dbl clickSE]
+UID=91057441
+
+[PA-6mouse xSE]
+UID=91057537
+
+[PA-6mouse ySE]
+UID=91057633
+
+[PA-7]
+UID=12919176
+saved in preset=1
+can be randomized=1
+INDEXvisible=7
+Vfader=-1
+Vmin=-32
+Vmax=32
+Tcaption=r steps
+COLcolor=cl23
+INDEXprec=0
+INDEXlogscale=0
+Vdefault val=0
+Vinc/dec val=1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.688524603843689
+Vmouse y=0
+Vauto reset=0
+Vallow drop=0
+
+[PA-7faderSE]
+UID=12919171
+edit enabled=1
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=210
+top=231
+width=63
+height=63
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=1
+background color=clControlBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.800000011920929
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show value=1
+value font color=clFont
+value font size factor=0.800000011920929
+touch hi precision=0
+precision factor=8
+show knob=1
+draw center circle=1
+design=0
+knob color=cl23
+back knob cursor color=clKnobCursorBack
+text align=2
+vertical mouse=1
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+range min=0
+range max=1
+curve=2
+coeff=1
+auto record on click=0
+is playing record=0
+
+[PA-7mouse dwnSE]
+UID=12921152
+
+[PA-7dbl clickSE]
+UID=12921264
+
+[PA-7mouse xSE]
+UID=12921359
+
+[PA-7mouse ySE]
+UID=12921455
+
+[PA-8]
+UID=99211388
+INDEXvisible=1
+Tcaption=gen
+COLcolor=cl6
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.634483456611633
+Vmouse y=0.996428668498993
+Vallow drop=0
+
+[PA-8buttonSE]
+UID=99211842
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=400
+top=80
+width=60
+height=30
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=cl6
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-8mouse dwnSE]
+UID=99212107
+
+[PA-8dbl clickSE]
+UID=99212145
+
+[PA-8mouse xSE]
+UID=99212178
+
+[PA-8mouse ySE]
+UID=99212212
+
+[PA-9]
+UID=21035435
+INDEXvisible=1
+Tcaption=clr
+COLcolor=4289331200
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.615517973899841
+Vmouse y=1
+Vallow drop=0
+
+[PA-9buttonSE]
+UID=21035430
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=400
+top=110
+width=60
+height=30
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=4289331200
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=1
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-9mouse dwnSE]
+UID=91444469
+
+[PA-9dbl clickSE]
+UID=91444624
+
+[PA-9mouse xSE]
+UID=91444760
+
+[PA-9mouse ySE]
+UID=91444895
+
+[PA-10]
+UID=15641649
+saved in preset=1
+can be randomized=1
+INDEXvisible=1
+Vswitch=1
+Tcaption=rot
+COLcolor=cl11
+VON value=1
+VOFF value=0
+Vnull evt if OFF=0
+INDEXgroup=0
+Vat least one=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.558621346950531
+Vmouse y=0.975000202655792
+Vallow drop=0
+
+[PA-10switchSE]
+UID=15641989
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=400
+top=140
+width=60
+height=30
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.699999988079071
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+fit size=1
+ON color=cl11
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=clControlBorder
+border OFF color=clControlBorder
+show small led=0
+small led size=8
+small led ON color=cl7
+small led OFF color=cl8
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-10mouse dwnSE]
+UID=15643036
+
+[PA-10dbl clickSE]
+UID=15643073
+
+[PA-10mouse xSE]
+UID=15643107
+
+[PA-10mouse ySE]
+UID=15643144
+
+[PA-11]
+UID=5434835
+saved in preset=1
+can be randomized=1
+edition=interval,cycle,bar,beat,8th,triplet,16th,24th,32th,48th,64th,128th
+INDEXvisible=7
+INDEXlist=2
+SZDlist=0
+Tcaption=quantize
+Ttext=bar
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.61752986907959
+Vallow drop=0
+LIST=interval,cycle,bar,beat,8th,triplet,16th,24th,32th,48th,64th,128th
+
+[PA-11listSE]
+UID=5434830
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=0
+top=35
+width=203
+height=259
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=2
+caption font name=Arial
+show scroller=1
+scroller color=clListBoxScroll
+scroller width=10
+items font color=clFont
+select color=clSwitchOn
+text align=1
+items size=20
+display line number=0
+hide filname path=0
+hide filename ext=0
+drag mode=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-11mouse dwnSE]
+UID=37360726
+
+[PA-11dbl clickSE]
+UID=37360764
+
+[PA-11mouse xSE]
+UID=37360797
+
+[PA-11mouse ySE]
+UID=37360831
+
+[PA-12]
+UID=3621778
+saved in preset=1
+can be randomized=1
+INDEXvisible=7
+Vswitch=1
+Tcaption=quantize
+COLcolor=clSwitchOn
+VON value=1
+VOFF value=0
+Vnull evt if OFF=0
+INDEXgroup=0
+Vat least one=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.213930353522301
+Vmouse y=0
+Vallow drop=0
+
+[PA-12switchSE]
+UID=3622086
+edit enabled=0
+on top=1
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=0
+top=0
+width=203
+height=21
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+frames count=1
+frames alignment=0
+show border=0
+border width=1
+rounded=1
+round size=2
+show caption=1
+caption font color=clFont
+caption font size factor=0.899999976158142
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+fit size=1
+ON color=clSwitchOn
+OFF color=clControlBack
+font ON color=clFont
+font OFF color=clFont
+border ON color=clControlBorder
+border OFF color=clControlBorder
+show small led=1
+small led size=8
+small led ON color=cl7
+small led OFF color=cl8
+inverse=0
+quantize=0
+mode=2
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+key mode=1
+mouse mode=1
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-12mouse dwnSE]
+UID=3622955
+
+[PA-12dbl clickSE]
+UID=3622985
+
+[PA-12mouse xSE]
+UID=3623011
+
+[PA-12mouse ySE]
+UID=3623044
+
+[PA-13]
+UID=48748436
+select by=2
+can be randomized=0
+Tcaption=global settings
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.987684726715088
+Vmouse y=0.0599999986588955
+Vallow drop=0
+
+[PA-13mouse dwnSE]
+UID=48748689
+
+[PA-13dbl clickSE]
+UID=48748742
+
+[PA-13mouse xSE]
+UID=48748776
+
+[PA-13mouse ySE]
+UID=48748813
+
+[PA-13CTRLSE]
+UID=48753795
+edit enabled=1
+on top=1
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=100
+top=100
+width=120
+height=100
+zoom scale=1
+floating x=1
+floating y=1
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clControlBorder
+border width=0
+rounded=1
+round size=0
+show caption=0
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=0
+header height=20
+header color=clDarkPanelBack
+show toolbar=1
+toolbar size=16
+snap to grid=1
+grid size=7
+auto resize=1
+auto resize margin=6
+auto record on click=0
+is playing record=0
+physics enabled=0
+physics speed=1
+gravity x=0
+gravity y=0
+friction=0
+elasticity=1
+reset pos x=0
+reset pos y=0
+init with random speed=1
+same masses=1
+select by=2
+can be randomized=0
+
+[PA-13CTRL]
+UID=48753795
+VISIBLE=0
+MINIMIZED=0
+
+[PA-13CTRLFORM]
+LEFT=502
+TOP=173
+CLIENTWIDTH=120
+CLIENTHEIGHT=100
+
+[PA-14]
+UID=35440046
+INDEXvisible=1
+Tcaption=show popup
+COLcolor=clDarkPanelBack
+VOFF value=0
+VON value=1
+Vnull evt if OFF=0
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=1
+Vmouse y=0.965517282485962
+Vallow drop=0
+
+[PA-14buttonSE]
+UID=35440343
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=400
+top=20
+width=60
+height=60
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clDarkPanelBack
+image file=C:\Users\yan\Dropbox\works\icon_sampler\list.png
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=clDarkPanelBack
+border width=1
+rounded=0
+round size=0
+show caption=0
+caption font color=clBitmapFlow
+caption font size factor=0.899999976158142
+caption align=0
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+time code=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-14mouse dwnSE]
+UID=35440766
+
+[PA-14dbl clickSE]
+UID=35440803
+
+[PA-14mouse xSE]
+UID=35440837
+
+[PA-14mouse ySE]
+UID=35440866
+
+[PA-15]
+UID=96727389
+Vbypass=0
+INDEXscale=0
+INDEXroot=0
+Vlength=0
+Vpitch=0
+Vgain=0
+INDEXchannel=1
+
+[PA-16]
+UID=4735169
+saved in preset=1
+can be randomized=1
+edition=no change,chan 1,chan 2,chan 3,chan 4,chan 5,chan 6,chan 7,chan 8,chan 9,chan 10,chan 11,chan 12,chan 13,chan 14,chan 15,chan 16
+INDEXvisible=7
+INDEXlist=1
+SZDlist=0
+Tcaption=channel
+Ttext=chan 1
+Vmouse dwn=0
+Vdbl click=0
+Vmouse x=0.741071403026581
+Vmouse y=0
+Vallow drop=0
+LIST=no change,chan 1,chan 2,chan 3,chan 4,chan 5,chan 6,chan 7,chan 8,chan 9,chan 10,chan 11,chan 12,chan 13,chan 14,chan 15,chan 16
+
+[PA-16listSE]
+UID=4735738
+edit enabled=0
+on top=0
+opacity=1
+blur softness=0
+vertical=0
+rotation angle=0
+left=280
+top=0
+width=120
+height=100
+floating x=0
+floating y=0
+ignored in physical engine=0
+collide=0
+collide info=0
+speed x=0
+speed y=0
+angular speed=0
+transparent=0
+background color=clControlBack
+fit size=1
+show border=1
+border color=clControlBorder
+border width=4
+rounded=1
+round size=0
+caption font name=Arial
+show scroller=1
+scroller color=clListBoxScroll
+scroller width=10
+items font color=clFont
+select color=clSwitchOn
+text align=1
+items size=14
+display line number=0
+hide filname path=0
+hide filename ext=0
+drag mode=0
+inverse=0
+quantize=0
+mode=0
+channel=1
+control type=0
+control num=0
+motorized=0
+mackie mode=0
+only if rack is on=0
+soft take over=0
+short cut=0
+osc tag order=1
+osc mode=0
+auto record on click=0
+is playing record=0
+
+[PA-16mouse dwnSE]
+UID=4736179
+
+[PA-16dbl clickSE]
+UID=4736228
+
+[PA-16mouse xSE]
+UID=4736270
+
+[PA-16mouse ySE]
+UID=4736315
+
+[PA-18]
+UID=74698278
+Vout=460
+
+[PA-19]
+UID=66447609
+Vout=135
+
+[PA-20]
+UID=80048572
+VA=2
+VB=135
+
+[PA-21]
+UID=7513961
+VA=270
+VB=460
+Vout=0
+Vblock=0
+
+[PA-22]
+UID=80833039
+Vin=0
+Vout=1
+
+[PA-23]
+UID=46904757
+Vin=280
+Vout=550
+Vpass=0
+
+[PA-24]
+UID=43952639
+Vin=460
+Vout=460
+Vpass=1
+
+[PA-25]
+UID=69993905
+Vin=460
+Vout=460
+
+[PA-26]
+UID=73128534
+VA=270
+VB=10
+Vout=280
+
+[PA-CPSE]
+enabled=1
+on top=0
+opacity=1
+left=114
+top=22
+width=460
+height=780
+zoom scale=0.909090876579285
+transparent=0
+background color=4281419821
+frames count=1
+frames alignment=0
+fit size=1
+show border=0
+border color=cl17
+border width=2
+rounded=0
+round size=0
+show caption=1
+caption font color=clFont
+caption font size factor=0.600000023841858
+caption align=1
+caption font name=Arial
+caption font bold=0
+caption font italic=0
+caption font underline=0
+show header=1
+header height=20
+header color=4281419821
+show toolbar=0
+toolbar size=16
+minimized=0
+HeightBeforeMinimize=780
+WidthBeforeMinimize=950
+snap to grid=0
+grid size=7
+auto resize=0
+auto resize margin=6
+name=circleseq dev
+where=0
+saved in preset=1
+can be randomized=1
+undo enabled=1
+shared=0
+presets panel=0
