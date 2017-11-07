@@ -1,0 +1,36 @@
+//////////////////////////
+// Array values (INTEGERS) to commaText
+/////////////////////////
+var CommaOut: Tparameter;
+var CommaIn: Tparameter;
+var SL1: TstringList;
+var SL2: TstringList;
+/////////////////////////////
+procedure init;
+var i: integer;
+begin                                     
+  SetModuleColor($FFA9EB93);  
+  CommaIn:= CreateParam('comma text in',PtTextField);
+  setisOutput(commaIn,false);
+
+  CommaOut:= CreateParam('comma text out', PtTextField);
+  SetIsInput(CommaOut,False);                   
+  SL1.create;
+  SL2.create;
+END;//INIT
+///////////////////////////////////////////
+Procedure Callback(N:integer); 
+var i, L: integer;                           
+begin
+  SL2.clear;
+  SL1.SetCommaText(GetStringValue(CommaIn));
+  L := SL1.Count;
+  SL2.GetCommaText;
+  setStringValue(CommaOut,SL2.GetCommatext);
+END;//CB                                                 
+////////////////////////////////////////
+Procedure Destroy;
+begin
+SL1.free;
+end;
+///////////////////////////////
